@@ -1,0 +1,6 @@
+C:\Users\82106\source\repos\KWU_Splendor\CardDB\bin\Debug\CardDB.dll
+C:\Users\82106\source\repos\KWU_Splendor\CardDB\bin\Debug\CardDB.pdb
+C:\Users\82106\source\repos\KWU_Splendor\CardDB\obj\Debug\CardDB.csproj.AssemblyReference.cache
+C:\Users\82106\source\repos\KWU_Splendor\CardDB\obj\Debug\CardDB.csproj.CoreCompileInputs.cache
+C:\Users\82106\source\repos\KWU_Splendor\CardDB\obj\Debug\CardDB.dll
+C:\Users\82106\source\repos\KWU_Splendor\CardDB\obj\Debug\CardDB.pdb

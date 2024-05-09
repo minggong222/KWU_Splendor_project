@@ -1,0 +1,15 @@
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Debug\KWU_Splendor.csproj.AssemblyReference.cache
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Debug\KWU_Splendor.Properties.Resources.resources
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Debug\KWU_Splendor.csproj.GenerateResource.cache
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Debug\KWU_Splendor.csproj.CoreCompileInputs.cache
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Debug\KWU_Splendor.Form1.resources
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\bin\Debug\KWU_Splendor.pdb
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\bin\Debug\CardDB.dll
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\bin\Debug\GameRule.dll
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\bin\Debug\CardDB.pdb
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\bin\Debug\GameRule.pdb
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Debug\KWU_Sple.643A9A70.Up2Date
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Debug\KWU_Splendor.pdb
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\bin\Debug\KWU_Splendor.exe.config
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\bin\Debug\KWU_Splendor.exe
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Debug\KWU_Splendor.exe

@@ -1,0 +1,6 @@
+C:\Users\82106\source\repos\KWU_Splendor\GameRule\bin\Debug\GameRule.dll
+C:\Users\82106\source\repos\KWU_Splendor\GameRule\bin\Debug\GameRule.pdb
+C:\Users\82106\source\repos\KWU_Splendor\GameRule\obj\Debug\GameRule.csproj.AssemblyReference.cache
+C:\Users\82106\source\repos\KWU_Splendor\GameRule\obj\Debug\GameRule.csproj.CoreCompileInputs.cache
+C:\Users\82106\source\repos\KWU_Splendor\GameRule\obj\Debug\GameRule.dll
+C:\Users\82106\source\repos\KWU_Splendor\GameRule\obj\Debug\GameRule.pdb
