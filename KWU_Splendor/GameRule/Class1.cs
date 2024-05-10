@@ -6,4 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameRule
 {
+    public class Game
+    {
+    }
 }
