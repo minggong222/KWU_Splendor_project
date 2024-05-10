@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using CardDB;
-//using GameRule;
+using GameDefine;
 
 namespace KWU_Splendor
 {

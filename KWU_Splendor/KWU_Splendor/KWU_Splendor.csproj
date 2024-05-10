@@ -103,9 +103,9 @@
       <Project>{5b668231-e1ce-4f40-b455-4ab0a9314580}</Project>
       <Name>CardDB</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GameRule\GameRule.csproj">
+    <ProjectReference Include="..\GameRule\GameDefine.csproj">
       <Project>{4d87d7f5-539c-4bfe-9960-59dee4e67619}</Project>
-      <Name>GameRule</Name>
+      <Name>GameDefine</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

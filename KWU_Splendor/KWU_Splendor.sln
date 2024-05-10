@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWU_Splendor", "KWU_Splendo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardDB", "CardDB\CardDB.csproj", "{5B668231-E1CE-4F40-B455-4AB0A9314580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameRule", "GameRule\GameRule.csproj", "{4D87D7F5-539C-4BFE-9960-59DEE4E67619}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameDefine", "GameRule\GameDefine.csproj", "{4D87D7F5-539C-4BFE-9960-59DEE4E67619}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
