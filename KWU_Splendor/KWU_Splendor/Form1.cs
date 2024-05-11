@@ -9,13 +9,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using CardDB;
+using static GameDefine.Game;
 //using GameRule;
 
 namespace KWU_Splendor
 {
     public partial class Form1 : Form
     {
-        int[] gamCnt = new int[6];
+        int[] gemCnt = new int[6];
+        Player[] Players = new Player[4];
         public Form1()
         {
             InitializeComponent();
@@ -26,24 +28,79 @@ namespace KWU_Splendor
         {
 
         }
+        public void InitializeGame()
+        {
+            // 공동 보석 토큰 준비
+            InitializeGemTokens();
 
-        // 게임 보드 관리 함수
-        public void InitializeGameBoard() { }//게임 보드를 초기화하는 함수
-        public void UpdateGameBoard() { }//게임 보드 상태를 업데이트하는 함수
-        public void RenderGameBoard() { }//게임 보드를 화면에 렌더링하는 함수
-        // 플레이어 관리 함수
-        public void CreatePlayer() { }//플레이어를 생성하고 초기화하는 함수
-        public void UpdatePlayerInfo() { }//플레이어의 점수, 토큰 등의 정보를 업데이트하는 함수
-        public void ProcessPlayerAction() { }//플레이어의 행동(토큰 획득, 카드 구매 등)을 처리하는 함수
-        // 게임 로직 함수
-        public void StartGame() { }// 게임을 시작하는 함수
-        public void EndGame() { }// 게임을 종료하는 함수
-        public void ManageTurnOrder() { }// 플레이어의 턴 순서를 관리하는 함수
-        public void CheckWinCondition() { }//승리 조건을 확인하는 함수
-        public void CalculateGameResult() { }//게임 결과를 계산하는 함수
-        // 사용자 인터페이스 함수
-        public void RenderGameScreen() { } //게임 화면을 렌더링하는 함수
-        public void ProcessUserInput() { } //사용자의 입력을 처리하는 함수
-        public void DisplayGameInfo() { }//게임 정보를 화면에 표시하는 함수
+            // 귀족 카드 준비
+            InitializeNobilityCards();
+
+            // 개발 카드 준비
+            InitializeDevelopmentCards();
+
+            // 플레이어 생성
+            CreatePlayers();
+        }
+
+        private void InitializeGemTokens()
+        {
+            gemCnt[0] = 7;
+            gemCnt[1] = 7;
+            gemCnt[2] = 7;
+            gemCnt[3] = 7;
+            gemCnt[4] = 7;
+            gemCnt[5] = 5;
+        }
+
+        private void InitializeNobilityCards()
+        {
+            // 귀족 카드 초기화 로직 구현
+            // 귀족 카드 정보(비용, 점수) 설정
+        }
+
+        private void InitializeDevelopmentCards()
+        {
+            // 개발 카드 초기화 로직 구현
+            // 개발 카드 정보(비용, 점수) 설정
+        }
+        private void CreatePlayers()
+        {
+            // 플레이어 생성 로직 구현
+            // 플레이어 객체 생성 및 초기화
+        }
+        public void TakeTurn(Player player)
+        {
+            // 플레이어 행동 처리
+            ProcessPlayerAction(player);
+
+            // 게임 상태 업데이트
+            UpdateGameState();
+        }
+
+        private void ProcessPlayerAction(Player player)
+        {
+            // 플레이어 행동 처리 로직 구현
+            // 보석 토큰 획득, 카드 구매 등의 처리
+        }
+
+        private void UpdateGameState()
+        {
+            // 게임 상태 업데이트 로직 구현
+            // 점수 계산, 승리 조건 확인 등
+        }
+        public bool CheckWinCondition()
+        {
+            // 플레이어 점수 확인 로직 구현
+            foreach (Player player in Players)
+            {
+                if (player.playerScore >= 15)
+                {
+                    return true; // 승리 조건 충족
+                }
+            }
+            return false; // 승리 조건 미충족
+        }
+
     }
 }
