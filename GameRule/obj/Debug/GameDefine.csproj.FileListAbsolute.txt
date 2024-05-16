@@ -4,3 +4,9 @@ C:\Users\mingg\Desktop\KWU_Splendor_project\GameRule\obj\Debug\GameDefine.csproj
 C:\Users\mingg\Desktop\KWU_Splendor_project\GameRule\obj\Debug\GameDefine.csproj.CoreCompileInputs.cache
 C:\Users\mingg\Desktop\KWU_Splendor_project\GameRule\obj\Debug\GameRule.dll
 C:\Users\mingg\Desktop\KWU_Splendor_project\GameRule\obj\Debug\GameRule.pdb
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameRule\bin\Debug\GameRule.dll
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameRule\bin\Debug\GameRule.pdb
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameRule\obj\Debug\GameDefine.csproj.AssemblyReference.cache
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameRule\obj\Debug\GameDefine.csproj.CoreCompileInputs.cache
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameRule\obj\Debug\GameRule.dll
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameRule\obj\Debug\GameRule.pdb

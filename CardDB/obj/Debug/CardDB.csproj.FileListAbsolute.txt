@@ -16,3 +16,9 @@ C:\Users\mingg\Desktop\KWU_Splendor_project\CardDB\obj\Debug\CardDB.csproj.Assem
 C:\Users\mingg\Desktop\KWU_Splendor_project\CardDB\obj\Debug\CardDB.csproj.CoreCompileInputs.cache
 C:\Users\mingg\Desktop\KWU_Splendor_project\CardDB\obj\Debug\CardDB.dll
 C:\Users\mingg\Desktop\KWU_Splendor_project\CardDB\obj\Debug\CardDB.pdb
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\CardDB\bin\Debug\CardDB.dll
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\CardDB\bin\Debug\CardDB.pdb
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\CardDB\obj\Debug\CardDB.csproj.AssemblyReference.cache
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\CardDB\obj\Debug\CardDB.csproj.CoreCompileInputs.cache
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\CardDB\obj\Debug\CardDB.dll
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\CardDB\obj\Debug\CardDB.pdb
