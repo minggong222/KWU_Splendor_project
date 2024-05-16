@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D87D7F5-539C-4BFE-9960-59DEE4E67619}|GameRule\\GameDefine.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\gamerule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D87D7F5-539C-4BFE-9960-59DEE4E67619}|GameRule\\GameDefine.csproj|solutionrelative:gamerule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor\\kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D87D7F5-539C-4BFE-9960-59DEE4E67619}|GameRule\\GameRule.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\gamerule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D87D7F5-539C-4BFE-9960-59DEE4E67619}|GameRule\\GameRule.csproj|solutionrelative:gamerule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\kwu_splendor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\GameRule\\Class1.cs",
+              "RelativeDocumentMoniker": "GameRule\\Class1.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\GameRule\\Class1.cs",
+              "RelativeToolTip": "GameRule\\Class1.cs",
+              "ViewState": "AQIAAPcAAAAAAAAAAAAmwB0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:00:26.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\KWU_Splendor\\Program.cs",
+              "RelativeDocumentMoniker": "KWU_Splendor\\Program.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\KWU_Splendor\\Program.cs",
+              "RelativeToolTip": "KWU_Splendor\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T01:01:46.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\GameRule\\Class1.cs",
+              "RelativeDocumentMoniker": "GameRule\\Class1.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\GameRule\\Class1.cs",
+              "RelativeToolTip": "GameRule\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T01:01:43.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\KWU_Splendor\\Form1.cs",
+              "RelativeDocumentMoniker": "KWU_Splendor\\Form1.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\KWU_Splendor\\Form1.cs",
+              "RelativeToolTip": "KWU_Splendor\\Form1.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAxwCsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T01:05:58.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\KWU_Splendor\\Form1.cs",
+              "RelativeDocumentMoniker": "KWU_Splendor\\Form1.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\KWU_Splendor\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "KWU_Splendor\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T01:03:10.671Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
