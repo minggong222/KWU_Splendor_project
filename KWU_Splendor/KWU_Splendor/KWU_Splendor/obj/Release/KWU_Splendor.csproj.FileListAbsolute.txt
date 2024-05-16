@@ -1,0 +1,5 @@
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Release\KWU_Splendor.csproj.AssemblyReference.cache
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Release\KWU_Splendor.Form1.resources
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Release\KWU_Splendor.Properties.Resources.resources
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Release\KWU_Splendor.csproj.GenerateResource.cache
+C:\Users\82106\source\repos\KWU_Splendor\KWU_Splendor\obj\Release\KWU_Splendor.csproj.CoreCompileInputs.cache
