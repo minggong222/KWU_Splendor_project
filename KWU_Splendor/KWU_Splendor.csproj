@@ -117,13 +117,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CardDB\CardDB.csproj">
-      <Project>{5b668231-e1ce-4f40-b455-4ab0a9314580}</Project>
-      <Name>CardDB</Name>
-    </ProjectReference>
     <ProjectReference Include="..\GameRule\GameDefine.csproj">
       <Project>{4d87d7f5-539c-4bfe-9960-59dee4e67619}</Project>
       <Name>GameDefine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServerLib\ServerLib.csproj">
+      <Project>{2a6c279b-113f-4e5d-81be-c0523c4d161d}</Project>
+      <Name>ServerLib</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,15 @@
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\bin\Debug\GameServer.exe.config
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\bin\Debug\GameServer.exe
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\bin\Debug\GameServer.pdb
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\bin\Debug\GameRule.dll
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\bin\Debug\ServerLib.dll
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\bin\Debug\GameRule.pdb
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\bin\Debug\ServerLib.pdb
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\obj\Debug\GameServer.csproj.AssemblyReference.cache
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\obj\Debug\GameServer.Form1.resources
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\obj\Debug\GameServer.Properties.Resources.resources
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\obj\Debug\GameServer.csproj.GenerateResource.cache
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\obj\Debug\GameServer.csproj.CoreCompileInputs.cache
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\obj\Debug\GameServer.csproj.Up2Date
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\obj\Debug\GameServer.exe
+C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor_project\GameServer\obj\Debug\GameServer.pdb

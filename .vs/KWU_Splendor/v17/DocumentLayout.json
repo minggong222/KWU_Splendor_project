@@ -1,12 +1,291 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor_project\\serverlib\\models\\serverhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|solutionrelative:serverlib\\models\\serverhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D87D7F5-539C-4BFE-9960-59DEE4E67619}|GameRule\\GameDefine.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\gamerule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D87D7F5-539C-4BFE-9960-59DEE4E67619}|GameRule\\GameDefine.csproj|solutionrelative:gamerule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F969F1F0-073D-4DEE-9277-CC967016D881}|GameServer\\GameServer.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\gameserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969F1F0-073D-4DEE-9277-CC967016D881}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor_project\\serverlib\\events\\servereventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|solutionrelative:serverlib\\events\\servereventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor_project\\serverlib\\events\\servereventbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|solutionrelative:serverlib\\events\\servereventbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor_project\\serverlib\\handlers\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|solutionrelative:serverlib\\handlers\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\serverlib\\handlers\\clientroommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|solutionrelative:serverlib\\handlers\\clientroommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor_project\\serverlib\\models\\serverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|solutionrelative:serverlib\\models\\serverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor_project\\serverlib\\sockets\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|solutionrelative:serverlib\\sockets\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor_project\\serverlib\\sockets\\serverbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|solutionrelative:serverlib\\sockets\\serverbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor_project\\serverlib\\sockets\\serverclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|solutionrelative:serverlib\\sockets\\serverclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\kwu_splendor\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\serverlib\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6C279B-113F-4E5D-81BE-C0523C4D161D}|ServerLib\\ServerLib.csproj|solutionrelative:serverlib\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F969F1F0-073D-4DEE-9277-CC967016D881}|GameServer\\GameServer.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\gameserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F969F1F0-073D-4DEE-9277-CC967016D881}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\GameServer\\Form1.cs",
+              "RelativeDocumentMoniker": "GameServer\\Form1.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\GameServer\\Form1.cs",
+              "RelativeToolTip": "GameServer\\Form1.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAvwDIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:13:23.25Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form1.cs",
+              "RelativeDocumentMoniker": "KWU_Splendor\\Form1.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form1.cs",
+              "RelativeToolTip": "KWU_Splendor\\Form1.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAUwD8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:20:15.331Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServerEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Events\\ServerEventArgs.cs",
+              "RelativeDocumentMoniker": "ServerLib\\Events\\ServerEventArgs.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Events\\ServerEventArgs.cs",
+              "RelativeToolTip": "ServerLib\\Events\\ServerEventArgs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:29:05.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form1.cs",
+              "RelativeDocumentMoniker": "KWU_Splendor\\Form1.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "KWU_Splendor\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:12:49.305Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\GameRule\\Class1.cs",
+              "RelativeDocumentMoniker": "GameRule\\Class1.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\GameRule\\Class1.cs",
+              "RelativeToolTip": "GameRule\\Class1.cs",
+              "ViewState": "AQIAAP0AAAAAAAAAAAAmwGgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:07:29.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServerHub.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Models\\ServerHub.cs",
+              "RelativeDocumentMoniker": "ServerLib\\Models\\ServerHub.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Models\\ServerHub.cs",
+              "RelativeToolTip": "ServerLib\\Models\\ServerHub.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwDYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:28:23.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServerEventBase.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Events\\ServerEventBase.cs",
+              "RelativeDocumentMoniker": "ServerLib\\Events\\ServerEventBase.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Events\\ServerEventBase.cs",
+              "RelativeToolTip": "ServerLib\\Events\\ServerEventBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:29:12.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientHandler.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Handlers\\ClientHandler.cs",
+              "RelativeDocumentMoniker": "ServerLib\\Handlers\\ClientHandler.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Handlers\\ClientHandler.cs",
+              "RelativeToolTip": "ServerLib\\Handlers\\ClientHandler.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAuwEcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:28:45.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientRoomManager.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Handlers\\ClientRoomManager.cs",
+              "RelativeDocumentMoniker": "ServerLib\\Handlers\\ClientRoomManager.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Handlers\\ClientRoomManager.cs",
+              "RelativeToolTip": "ServerLib\\Handlers\\ClientRoomManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:28:58.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServerState.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Models\\ServerState.cs",
+              "RelativeDocumentMoniker": "ServerLib\\Models\\ServerState.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Models\\ServerState.cs",
+              "RelativeToolTip": "ServerLib\\Models\\ServerState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:28:30.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Sockets\\Server.cs",
+              "RelativeDocumentMoniker": "ServerLib\\Sockets\\Server.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Sockets\\Server.cs",
+              "RelativeToolTip": "ServerLib\\Sockets\\Server.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:28:13.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServerBase.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Sockets\\ServerBase.cs",
+              "RelativeDocumentMoniker": "ServerLib\\Sockets\\ServerBase.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Sockets\\ServerBase.cs",
+              "RelativeToolTip": "ServerLib\\Sockets\\ServerBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:27:55.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServerClient.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Sockets\\ServerClient.cs",
+              "RelativeDocumentMoniker": "ServerLib\\Sockets\\ServerClient.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Sockets\\ServerClient.cs",
+              "RelativeToolTip": "ServerLib\\Sockets\\ServerClient.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwEIAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:28:04.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "KWU_Splendor\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form1.Designer.cs",
+              "RelativeToolTip": "KWU_Splendor\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:24:35.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "ServerLib\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\ServerLib\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "ServerLib\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:35:22.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\GameServer\\Form1.cs",
+              "RelativeDocumentMoniker": "GameServer\\Form1.cs",
+              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\GameServer\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "GameServer\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:12:30.875Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
