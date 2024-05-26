@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace GameDefine
 {
     /*
-     * 0 : 초콜렛(검)
+     * 0 : 오닉스(검)
      * 1 : 사파이어(파)
      * 2 : 에메랄드(초)
      * 3 : 루비(빨)

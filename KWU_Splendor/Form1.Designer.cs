@@ -30,9 +30,9 @@
         {
             this.P1_GB = new System.Windows.Forms.GroupBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.P1_resered3 = new System.Windows.Forms.TextBox();
+            this.P1_resered2 = new System.Windows.Forms.TextBox();
+            this.P1_resered1 = new System.Windows.Forms.TextBox();
             this.P1_card = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.P1_score = new System.Windows.Forms.Label();
@@ -55,65 +55,65 @@
             this.P1_dia = new System.Windows.Forms.Label();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.P3_GB = new System.Windows.Forms.GroupBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.P2_resered3 = new System.Windows.Forms.TextBox();
+            this.P2_resered2 = new System.Windows.Forms.TextBox();
+            this.P2_resered1 = new System.Windows.Forms.TextBox();
             this.P3_card = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.P3_score = new System.Windows.Forms.Label();
-            this.P2_onyCard = new System.Windows.Forms.Label();
+            this.P3_onyCard = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.P3_emeCard = new System.Windows.Forms.Label();
+            this.P3_rubCard = new System.Windows.Forms.Label();
+            this.P3_diaCard = new System.Windows.Forms.Label();
+            this.P3_gol = new System.Windows.Forms.Label();
+            this.P3_safCard = new System.Windows.Forms.Label();
+            this.P3_ony = new System.Windows.Forms.Label();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.P3_rub = new System.Windows.Forms.Label();
+            this.P3_eme = new System.Windows.Forms.Label();
+            this.P3_saf = new System.Windows.Forms.Label();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.P3_dia = new System.Windows.Forms.Label();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.P3_resered3 = new System.Windows.Forms.TextBox();
+            this.P3_resered2 = new System.Windows.Forms.TextBox();
+            this.P3_resered1 = new System.Windows.Forms.TextBox();
+            this.P2_onyCard = new System.Windows.Forms.Label();
             this.P2_diaCard = new System.Windows.Forms.Label();
             this.P2_rubCard = new System.Windows.Forms.Label();
             this.P2_emeCard = new System.Windows.Forms.Label();
             this.P2_safCard = new System.Windows.Forms.Label();
             this.P2_gol = new System.Windows.Forms.Label();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.P2_ony = new System.Windows.Forms.Label();
             this.P2_dia = new System.Windows.Forms.Label();
             this.P2_rub = new System.Windows.Forms.Label();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.P2_eme = new System.Windows.Forms.Label();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.P2_saf = new System.Windows.Forms.Label();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.P2_GB = new System.Windows.Forms.GroupBox();
             this.P2_card = new System.Windows.Forms.Label();
             this.P2_score = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.P3_onyCard = new System.Windows.Forms.Label();
-            this.P3_rubCard = new System.Windows.Forms.Label();
-            this.P3_emeCard = new System.Windows.Forms.Label();
-            this.P3_safCard = new System.Windows.Forms.Label();
-            this.P3_diaCard = new System.Windows.Forms.Label();
-            this.P3_gol = new System.Windows.Forms.Label();
-            this.P3_ony = new System.Windows.Forms.Label();
-            this.P3_rub = new System.Windows.Forms.Label();
-            this.P3_eme = new System.Windows.Forms.Label();
-            this.P3_saf = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.P3_dia = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.P4_GB = new System.Windows.Forms.GroupBox();
             this.P4_card = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.P4_score = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.P4_resered3 = new System.Windows.Forms.TextBox();
+            this.P4_resered2 = new System.Windows.Forms.TextBox();
+            this.P4_resered1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.P4_gol = new System.Windows.Forms.Label();
             this.P4_onyCard = new System.Windows.Forms.Label();
@@ -137,26 +137,26 @@
             this.btn_reservation = new System.Windows.Forms.Button();
             this.btn_sendRes = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Level1Card4 = new System.Windows.Forms.TextBox();
+            this.Level1Card3 = new System.Windows.Forms.TextBox();
+            this.Level1Card2 = new System.Windows.Forms.TextBox();
+            this.Level1Card1 = new System.Windows.Forms.TextBox();
+            this.Level1Card_Count = new System.Windows.Forms.TextBox();
+            this.Level2Card4 = new System.Windows.Forms.TextBox();
+            this.Level2Card3 = new System.Windows.Forms.TextBox();
+            this.Level2Card2 = new System.Windows.Forms.TextBox();
+            this.Level2Card1 = new System.Windows.Forms.TextBox();
+            this.Level2Card_Count = new System.Windows.Forms.TextBox();
+            this.Level3Card4 = new System.Windows.Forms.TextBox();
+            this.Level3Card3 = new System.Windows.Forms.TextBox();
+            this.Level3Card2 = new System.Windows.Forms.TextBox();
+            this.Level3Card1 = new System.Windows.Forms.TextBox();
+            this.Level3Card_Count = new System.Windows.Forms.TextBox();
+            this.NobleCard5 = new System.Windows.Forms.TextBox();
+            this.NobleCard4 = new System.Windows.Forms.TextBox();
+            this.NobleCard3 = new System.Windows.Forms.TextBox();
+            this.NobleCard2 = new System.Windows.Forms.TextBox();
+            this.NobleCard1 = new System.Windows.Forms.TextBox();
             this.gol = new System.Windows.Forms.Label();
             this.ony = new System.Windows.Forms.Label();
             this.rub = new System.Windows.Forms.Label();
@@ -172,6 +172,18 @@
             this.round = new System.Windows.Forms.Label();
             this.turn = new System.Windows.Forms.Label();
             this.BtnConnect = new System.Windows.Forms.Button();
+            this.L3C1_ptb = new System.Windows.Forms.PictureBox();
+            this.L2C1_ptb = new System.Windows.Forms.PictureBox();
+            this.L1C1_ptb = new System.Windows.Forms.PictureBox();
+            this.L3C2_ptb = new System.Windows.Forms.PictureBox();
+            this.L2C2_ptb = new System.Windows.Forms.PictureBox();
+            this.L1C2_ptb = new System.Windows.Forms.PictureBox();
+            this.L3C3_ptb = new System.Windows.Forms.PictureBox();
+            this.L3C4_ptb = new System.Windows.Forms.PictureBox();
+            this.L1C4_ptb = new System.Windows.Forms.PictureBox();
+            this.L2C3_ptb = new System.Windows.Forms.PictureBox();
+            this.L2C4_ptb = new System.Windows.Forms.PictureBox();
+            this.L1C3_ptb = new System.Windows.Forms.PictureBox();
             this.P1_GB.SuspendLayout();
             this.groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
@@ -181,15 +193,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.P3_GB.SuspendLayout();
-            this.groupBox9.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            this.groupBox9.SuspendLayout();
             this.P2_GB.SuspendLayout();
-            this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -211,6 +223,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L3C1_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C1_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C1_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L3C2_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C2_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C2_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L3C3_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L3C4_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C4_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C3_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C4_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C3_ptb)).BeginInit();
             this.SuspendLayout();
             // 
             // P1_GB
@@ -237,215 +261,190 @@
             this.P1_GB.Controls.Add(this.pictureBox14);
             this.P1_GB.Controls.Add(this.P1_dia);
             this.P1_GB.Controls.Add(this.pictureBox13);
-            this.P1_GB.Location = new System.Drawing.Point(366, 1042);
-            this.P1_GB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.P1_GB.Location = new System.Drawing.Point(256, 695);
             this.P1_GB.Name = "P1_GB";
-            this.P1_GB.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.P1_GB.Size = new System.Drawing.Size(1409, 180);
+            this.P1_GB.Size = new System.Drawing.Size(986, 120);
             this.P1_GB.TabIndex = 0;
             this.P1_GB.TabStop = false;
             this.P1_GB.Text = "Player1";
             // 
             // groupBox8
             // 
-            this.groupBox8.Controls.Add(this.textBox35);
-            this.groupBox8.Controls.Add(this.textBox34);
-            this.groupBox8.Controls.Add(this.textBox33);
-            this.groupBox8.Location = new System.Drawing.Point(862, 30);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox8.Controls.Add(this.P1_resered3);
+            this.groupBox8.Controls.Add(this.P1_resered2);
+            this.groupBox8.Controls.Add(this.P1_resered1);
+            this.groupBox8.Location = new System.Drawing.Point(603, 20);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox8.Size = new System.Drawing.Size(539, 142);
+            this.groupBox8.Size = new System.Drawing.Size(377, 95);
             this.groupBox8.TabIndex = 53;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "예약된 카드";
             // 
-            // textBox35
+            // P1_resered3
             // 
-            this.textBox35.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox35.Location = new System.Drawing.Point(408, 24);
-            this.textBox35.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox35.Multiline = true;
-            this.textBox35.Name = "textBox35";
-            this.textBox35.ReadOnly = true;
-            this.textBox35.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox35.Size = new System.Drawing.Size(70, 102);
-            this.textBox35.TabIndex = 41;
-            this.textBox35.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.P1_resered3.BackColor = System.Drawing.SystemColors.Window;
+            this.P1_resered3.Location = new System.Drawing.Point(286, 16);
+            this.P1_resered3.Multiline = true;
+            this.P1_resered3.Name = "P1_resered3";
+            this.P1_resered3.ReadOnly = true;
+            this.P1_resered3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P1_resered3.Size = new System.Drawing.Size(50, 69);
+            this.P1_resered3.TabIndex = 41;
             // 
-            // textBox34
+            // P1_resered2
             // 
-            this.textBox34.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox34.Location = new System.Drawing.Point(246, 28);
-            this.textBox34.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox34.Multiline = true;
-            this.textBox34.Name = "textBox34";
-            this.textBox34.ReadOnly = true;
-            this.textBox34.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox34.Size = new System.Drawing.Size(70, 102);
-            this.textBox34.TabIndex = 40;
-            this.textBox34.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.P1_resered2.BackColor = System.Drawing.SystemColors.Window;
+            this.P1_resered2.Location = new System.Drawing.Point(172, 19);
+            this.P1_resered2.Multiline = true;
+            this.P1_resered2.Name = "P1_resered2";
+            this.P1_resered2.ReadOnly = true;
+            this.P1_resered2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P1_resered2.Size = new System.Drawing.Size(50, 69);
+            this.P1_resered2.TabIndex = 40;
             // 
-            // textBox33
+            // P1_resered1
             // 
-            this.textBox33.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox33.Location = new System.Drawing.Point(92, 24);
-            this.textBox33.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox33.Multiline = true;
-            this.textBox33.Name = "textBox33";
-            this.textBox33.ReadOnly = true;
-            this.textBox33.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox33.Size = new System.Drawing.Size(70, 102);
-            this.textBox33.TabIndex = 39;
-            this.textBox33.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.P1_resered1.BackColor = System.Drawing.SystemColors.Window;
+            this.P1_resered1.Location = new System.Drawing.Point(64, 16);
+            this.P1_resered1.Multiline = true;
+            this.P1_resered1.Name = "P1_resered1";
+            this.P1_resered1.ReadOnly = true;
+            this.P1_resered1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P1_resered1.Size = new System.Drawing.Size(50, 69);
+            this.P1_resered1.TabIndex = 39;
             // 
             // P1_card
             // 
             this.P1_card.AutoSize = true;
-            this.P1_card.Location = new System.Drawing.Point(766, 85);
-            this.P1_card.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_card.Location = new System.Drawing.Point(536, 57);
             this.P1_card.Name = "P1_card";
-            this.P1_card.Size = new System.Drawing.Size(18, 18);
+            this.P1_card.Size = new System.Drawing.Size(11, 12);
             this.P1_card.TabIndex = 52;
             this.P1_card.Text = "0";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(638, 85);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(447, 57);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(116, 18);
+            this.label7.Size = new System.Drawing.Size(77, 12);
             this.label7.TabIndex = 52;
             this.label7.Text = "구매한 카드 :";
             // 
             // P1_score
             // 
             this.P1_score.AutoSize = true;
-            this.P1_score.Location = new System.Drawing.Point(766, 58);
-            this.P1_score.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_score.Location = new System.Drawing.Point(536, 39);
             this.P1_score.Name = "P1_score";
-            this.P1_score.Size = new System.Drawing.Size(18, 18);
+            this.P1_score.Size = new System.Drawing.Size(11, 12);
             this.P1_score.TabIndex = 51;
             this.P1_score.Text = "0";
             // 
             // P1_onyCard
             // 
             this.P1_onyCard.AutoSize = true;
-            this.P1_onyCard.Location = new System.Drawing.Point(444, 137);
-            this.P1_onyCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_onyCard.Location = new System.Drawing.Point(311, 91);
             this.P1_onyCard.Name = "P1_onyCard";
-            this.P1_onyCard.Size = new System.Drawing.Size(27, 18);
+            this.P1_onyCard.Size = new System.Drawing.Size(17, 12);
             this.P1_onyCard.TabIndex = 36;
             this.P1_onyCard.Text = "+0";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(700, 58);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(490, 39);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 18);
+            this.label8.Size = new System.Drawing.Size(37, 12);
             this.label8.TabIndex = 51;
             this.label8.Text = "점수 :";
             // 
             // P1_rubCard
             // 
             this.P1_rubCard.AutoSize = true;
-            this.P1_rubCard.Location = new System.Drawing.Point(346, 137);
-            this.P1_rubCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_rubCard.Location = new System.Drawing.Point(242, 91);
             this.P1_rubCard.Name = "P1_rubCard";
-            this.P1_rubCard.Size = new System.Drawing.Size(27, 18);
+            this.P1_rubCard.Size = new System.Drawing.Size(17, 12);
             this.P1_rubCard.TabIndex = 35;
             this.P1_rubCard.Text = "+0";
             // 
             // P1_emeCard
             // 
             this.P1_emeCard.AutoSize = true;
-            this.P1_emeCard.Location = new System.Drawing.Point(240, 137);
-            this.P1_emeCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_emeCard.Location = new System.Drawing.Point(168, 91);
             this.P1_emeCard.Name = "P1_emeCard";
-            this.P1_emeCard.Size = new System.Drawing.Size(27, 18);
+            this.P1_emeCard.Size = new System.Drawing.Size(17, 12);
             this.P1_emeCard.TabIndex = 34;
             this.P1_emeCard.Text = "+0";
             // 
             // P1_safCard
             // 
             this.P1_safCard.AutoSize = true;
-            this.P1_safCard.Location = new System.Drawing.Point(138, 137);
-            this.P1_safCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_safCard.Location = new System.Drawing.Point(97, 91);
             this.P1_safCard.Name = "P1_safCard";
-            this.P1_safCard.Size = new System.Drawing.Size(27, 18);
+            this.P1_safCard.Size = new System.Drawing.Size(17, 12);
             this.P1_safCard.TabIndex = 33;
             this.P1_safCard.Text = "+0";
             // 
             // P1_diaCard
             // 
             this.P1_diaCard.AutoSize = true;
-            this.P1_diaCard.Location = new System.Drawing.Point(36, 137);
-            this.P1_diaCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_diaCard.Location = new System.Drawing.Point(25, 91);
             this.P1_diaCard.Name = "P1_diaCard";
-            this.P1_diaCard.Size = new System.Drawing.Size(27, 18);
+            this.P1_diaCard.Size = new System.Drawing.Size(17, 12);
             this.P1_diaCard.TabIndex = 32;
             this.P1_diaCard.Text = "+0";
             // 
             // P1_gol
             // 
             this.P1_gol.AutoSize = true;
-            this.P1_gol.Location = new System.Drawing.Point(544, 114);
-            this.P1_gol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_gol.Location = new System.Drawing.Point(381, 76);
             this.P1_gol.Name = "P1_gol";
-            this.P1_gol.Size = new System.Drawing.Size(64, 18);
+            this.P1_gol.Size = new System.Drawing.Size(11, 12);
             this.P1_gol.TabIndex = 31;
-            this.P1_gol.Text = "label18";
+            this.P1_gol.Text = "0";
             // 
             // P1_ony
             // 
             this.P1_ony.AutoSize = true;
-            this.P1_ony.Location = new System.Drawing.Point(444, 114);
-            this.P1_ony.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_ony.Location = new System.Drawing.Point(311, 76);
             this.P1_ony.Name = "P1_ony";
-            this.P1_ony.Size = new System.Drawing.Size(64, 18);
+            this.P1_ony.Size = new System.Drawing.Size(11, 12);
             this.P1_ony.TabIndex = 30;
-            this.P1_ony.Text = "label17";
+            this.P1_ony.Text = "0";
             // 
             // P1_rub
             // 
             this.P1_rub.AutoSize = true;
-            this.P1_rub.Location = new System.Drawing.Point(346, 114);
-            this.P1_rub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_rub.Location = new System.Drawing.Point(242, 76);
             this.P1_rub.Name = "P1_rub";
-            this.P1_rub.Size = new System.Drawing.Size(64, 18);
+            this.P1_rub.Size = new System.Drawing.Size(11, 12);
             this.P1_rub.TabIndex = 29;
-            this.P1_rub.Text = "label16";
+            this.P1_rub.Text = "0";
             // 
             // P1_eme
             // 
             this.P1_eme.AutoSize = true;
-            this.P1_eme.Location = new System.Drawing.Point(240, 114);
-            this.P1_eme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_eme.Location = new System.Drawing.Point(168, 76);
             this.P1_eme.Name = "P1_eme";
-            this.P1_eme.Size = new System.Drawing.Size(64, 18);
+            this.P1_eme.Size = new System.Drawing.Size(11, 12);
             this.P1_eme.TabIndex = 28;
-            this.P1_eme.Text = "label15";
+            this.P1_eme.Text = "0";
             // 
             // P1_saf
             // 
             this.P1_saf.AutoSize = true;
-            this.P1_saf.Location = new System.Drawing.Point(138, 114);
-            this.P1_saf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_saf.Location = new System.Drawing.Point(97, 76);
             this.P1_saf.Name = "P1_saf";
-            this.P1_saf.Size = new System.Drawing.Size(64, 18);
+            this.P1_saf.Size = new System.Drawing.Size(11, 12);
             this.P1_saf.TabIndex = 27;
-            this.P1_saf.Text = "label14";
+            this.P1_saf.Text = "0";
             // 
             // pictureBox18
             // 
             this.pictureBox18.Image = global::KWU_Splendor.Properties.Resources.gold;
-            this.pictureBox18.Location = new System.Drawing.Point(536, 30);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox18.Location = new System.Drawing.Point(375, 20);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox18.Size = new System.Drawing.Size(50, 49);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.TabIndex = 26;
             this.pictureBox18.TabStop = false;
@@ -453,10 +452,9 @@
             // pictureBox17
             // 
             this.pictureBox17.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox17.Location = new System.Drawing.Point(436, 30);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox17.Location = new System.Drawing.Point(305, 20);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox17.Size = new System.Drawing.Size(50, 49);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 26;
             this.pictureBox17.TabStop = false;
@@ -464,10 +462,9 @@
             // pictureBox16
             // 
             this.pictureBox16.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox16.Location = new System.Drawing.Point(338, 30);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox16.Location = new System.Drawing.Point(237, 20);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox16.Size = new System.Drawing.Size(50, 49);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 26;
             this.pictureBox16.TabStop = false;
@@ -475,10 +472,9 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox15.Location = new System.Drawing.Point(231, 30);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox15.Location = new System.Drawing.Point(162, 20);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox15.Size = new System.Drawing.Size(50, 49);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 26;
             this.pictureBox15.TabStop = false;
@@ -486,10 +482,9 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox14.Location = new System.Drawing.Point(129, 30);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox14.Location = new System.Drawing.Point(90, 20);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox14.Size = new System.Drawing.Size(50, 49);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 26;
             this.pictureBox14.TabStop = false;
@@ -497,20 +492,18 @@
             // P1_dia
             // 
             this.P1_dia.AutoSize = true;
-            this.P1_dia.Location = new System.Drawing.Point(36, 114);
-            this.P1_dia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_dia.Location = new System.Drawing.Point(25, 76);
             this.P1_dia.Name = "P1_dia";
-            this.P1_dia.Size = new System.Drawing.Size(64, 18);
+            this.P1_dia.Size = new System.Drawing.Size(11, 12);
             this.P1_dia.TabIndex = 26;
-            this.P1_dia.Text = "label13";
+            this.P1_dia.Text = "0";
             // 
             // pictureBox13
             // 
             this.pictureBox13.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox13.Location = new System.Drawing.Point(28, 30);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox13.Location = new System.Drawing.Point(20, 20);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox13.Size = new System.Drawing.Size(50, 49);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 16;
             this.pictureBox13.TabStop = false;
@@ -539,269 +532,239 @@
             this.P3_GB.Controls.Add(this.P3_dia);
             this.P3_GB.Controls.Add(this.pictureBox19);
             this.P3_GB.Controls.Add(this.pictureBox20);
-            this.P3_GB.Location = new System.Drawing.Point(366, 36);
-            this.P3_GB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.P3_GB.Location = new System.Drawing.Point(256, 24);
             this.P3_GB.Name = "P3_GB";
-            this.P3_GB.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.P3_GB.Size = new System.Drawing.Size(1409, 180);
+            this.P3_GB.Size = new System.Drawing.Size(986, 120);
             this.P3_GB.TabIndex = 1;
             this.P3_GB.TabStop = false;
             this.P3_GB.Text = "Player2";
             // 
-            // groupBox9
+            // groupBox6
             // 
-            this.groupBox9.Controls.Add(this.textBox44);
-            this.groupBox9.Controls.Add(this.textBox45);
-            this.groupBox9.Controls.Add(this.textBox46);
-            this.groupBox9.Location = new System.Drawing.Point(28, 621);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox9.Size = new System.Drawing.Size(191, 416);
-            this.groupBox9.TabIndex = 54;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "예약된 카드";
+            this.groupBox6.Controls.Add(this.P2_resered3);
+            this.groupBox6.Controls.Add(this.P2_resered2);
+            this.groupBox6.Controls.Add(this.P2_resered1);
+            this.groupBox6.Location = new System.Drawing.Point(603, 13);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(377, 95);
+            this.groupBox6.TabIndex = 33;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "예약된 카드";
             // 
-            // textBox44
+            // P2_resered3
             // 
-            this.textBox44.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox44.Location = new System.Drawing.Point(70, 300);
-            this.textBox44.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox44.Multiline = true;
-            this.textBox44.Name = "textBox44";
-            this.textBox44.ReadOnly = true;
-            this.textBox44.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox44.Size = new System.Drawing.Size(70, 102);
-            this.textBox44.TabIndex = 41;
-            this.textBox44.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.P2_resered3.BackColor = System.Drawing.SystemColors.Window;
+            this.P2_resered3.Location = new System.Drawing.Point(286, 16);
+            this.P2_resered3.Multiline = true;
+            this.P2_resered3.Name = "P2_resered3";
+            this.P2_resered3.ReadOnly = true;
+            this.P2_resered3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P2_resered3.Size = new System.Drawing.Size(50, 69);
+            this.P2_resered3.TabIndex = 37;
             // 
-            // textBox45
+            // P2_resered2
             // 
-            this.textBox45.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox45.Location = new System.Drawing.Point(70, 173);
-            this.textBox45.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox45.Multiline = true;
-            this.textBox45.Name = "textBox45";
-            this.textBox45.ReadOnly = true;
-            this.textBox45.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox45.Size = new System.Drawing.Size(70, 102);
-            this.textBox45.TabIndex = 40;
-            this.textBox45.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.P2_resered2.BackColor = System.Drawing.SystemColors.Window;
+            this.P2_resered2.Location = new System.Drawing.Point(172, 16);
+            this.P2_resered2.Multiline = true;
+            this.P2_resered2.Name = "P2_resered2";
+            this.P2_resered2.ReadOnly = true;
+            this.P2_resered2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P2_resered2.Size = new System.Drawing.Size(50, 69);
+            this.P2_resered2.TabIndex = 34;
             // 
-            // textBox46
+            // P2_resered1
             // 
-            this.textBox46.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox46.Location = new System.Drawing.Point(70, 45);
-            this.textBox46.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox46.Multiline = true;
-            this.textBox46.Name = "textBox46";
-            this.textBox46.ReadOnly = true;
-            this.textBox46.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox46.Size = new System.Drawing.Size(70, 102);
-            this.textBox46.TabIndex = 39;
-            this.textBox46.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.P2_resered1.BackColor = System.Drawing.SystemColors.Window;
+            this.P2_resered1.Location = new System.Drawing.Point(67, 16);
+            this.P2_resered1.Multiline = true;
+            this.P2_resered1.Name = "P2_resered1";
+            this.P2_resered1.ReadOnly = true;
+            this.P2_resered1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P2_resered1.Size = new System.Drawing.Size(50, 69);
+            this.P2_resered1.TabIndex = 33;
             // 
             // P3_card
             // 
             this.P3_card.AutoSize = true;
-            this.P3_card.Location = new System.Drawing.Point(742, 90);
-            this.P3_card.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_card.Location = new System.Drawing.Point(533, 57);
             this.P3_card.Name = "P3_card";
-            this.P3_card.Size = new System.Drawing.Size(18, 18);
+            this.P3_card.Size = new System.Drawing.Size(11, 12);
             this.P3_card.TabIndex = 37;
             this.P3_card.Text = "0";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(618, 90);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(447, 57);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 18);
+            this.label3.Size = new System.Drawing.Size(77, 12);
             this.label3.TabIndex = 36;
             this.label3.Text = "구매한 카드 :";
             // 
             // P3_score
             // 
             this.P3_score.AutoSize = true;
-            this.P3_score.Location = new System.Drawing.Point(742, 62);
-            this.P3_score.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_score.Location = new System.Drawing.Point(533, 38);
             this.P3_score.Name = "P3_score";
-            this.P3_score.Size = new System.Drawing.Size(18, 18);
+            this.P3_score.Size = new System.Drawing.Size(11, 12);
             this.P3_score.TabIndex = 36;
             this.P3_score.Text = "0";
             // 
-            // P2_onyCard
+            // P3_onyCard
             // 
-            this.P2_onyCard.AutoSize = true;
-            this.P2_onyCard.Location = new System.Drawing.Point(128, 411);
-            this.P2_onyCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_onyCard.Name = "P2_onyCard";
-            this.P2_onyCard.Size = new System.Drawing.Size(27, 18);
-            this.P2_onyCard.TabIndex = 48;
-            this.P2_onyCard.Text = "+0";
+            this.P3_onyCard.AutoSize = true;
+            this.P3_onyCard.Location = new System.Drawing.Point(303, 87);
+            this.P3_onyCard.Name = "P3_onyCard";
+            this.P3_onyCard.Size = new System.Drawing.Size(17, 12);
+            this.P3_onyCard.TabIndex = 18;
+            this.P3_onyCard.Text = "+0";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(679, 62);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(489, 38);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 18);
+            this.label4.Size = new System.Drawing.Size(37, 12);
             this.label4.TabIndex = 35;
             this.label4.Text = "점수 :";
             // 
-            // P2_diaCard
+            // P3_emeCard
             // 
-            this.P2_diaCard.AutoSize = true;
-            this.P2_diaCard.Location = new System.Drawing.Point(128, 75);
-            this.P2_diaCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_diaCard.Name = "P2_diaCard";
-            this.P2_diaCard.Size = new System.Drawing.Size(27, 18);
-            this.P2_diaCard.TabIndex = 44;
-            this.P2_diaCard.Text = "+0";
+            this.P3_emeCard.AutoSize = true;
+            this.P3_emeCard.Location = new System.Drawing.Point(160, 86);
+            this.P3_emeCard.Name = "P3_emeCard";
+            this.P3_emeCard.Size = new System.Drawing.Size(17, 12);
+            this.P3_emeCard.TabIndex = 16;
+            this.P3_emeCard.Text = "+0";
             // 
-            // P2_rubCard
+            // P3_rubCard
             // 
-            this.P2_rubCard.AutoSize = true;
-            this.P2_rubCard.Location = new System.Drawing.Point(128, 327);
-            this.P2_rubCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_rubCard.Name = "P2_rubCard";
-            this.P2_rubCard.Size = new System.Drawing.Size(27, 18);
-            this.P2_rubCard.TabIndex = 47;
-            this.P2_rubCard.Text = "+0";
+            this.P3_rubCard.AutoSize = true;
+            this.P3_rubCard.Location = new System.Drawing.Point(234, 86);
+            this.P3_rubCard.Name = "P3_rubCard";
+            this.P3_rubCard.Size = new System.Drawing.Size(17, 12);
+            this.P3_rubCard.TabIndex = 17;
+            this.P3_rubCard.Text = "+0";
             // 
-            // P2_emeCard
+            // P3_diaCard
             // 
-            this.P2_emeCard.AutoSize = true;
-            this.P2_emeCard.Location = new System.Drawing.Point(128, 243);
-            this.P2_emeCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_emeCard.Name = "P2_emeCard";
-            this.P2_emeCard.Size = new System.Drawing.Size(27, 18);
-            this.P2_emeCard.TabIndex = 46;
-            this.P2_emeCard.Text = "+0";
+            this.P3_diaCard.AutoSize = true;
+            this.P3_diaCard.Location = new System.Drawing.Point(18, 87);
+            this.P3_diaCard.Name = "P3_diaCard";
+            this.P3_diaCard.Size = new System.Drawing.Size(17, 12);
+            this.P3_diaCard.TabIndex = 14;
+            this.P3_diaCard.Text = "+0";
             // 
-            // P2_safCard
+            // P3_gol
             // 
-            this.P2_safCard.AutoSize = true;
-            this.P2_safCard.Location = new System.Drawing.Point(128, 159);
-            this.P2_safCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_safCard.Name = "P2_safCard";
-            this.P2_safCard.Size = new System.Drawing.Size(27, 18);
-            this.P2_safCard.TabIndex = 45;
-            this.P2_safCard.Text = "+0";
+            this.P3_gol.AutoSize = true;
+            this.P3_gol.Location = new System.Drawing.Point(373, 75);
+            this.P3_gol.Name = "P3_gol";
+            this.P3_gol.Size = new System.Drawing.Size(11, 12);
+            this.P3_gol.TabIndex = 13;
+            this.P3_gol.Text = "0";
             // 
-            // P2_gol
+            // P3_safCard
             // 
-            this.P2_gol.AutoSize = true;
-            this.P2_gol.Location = new System.Drawing.Point(128, 473);
-            this.P2_gol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_gol.Name = "P2_gol";
-            this.P2_gol.Size = new System.Drawing.Size(64, 18);
-            this.P2_gol.TabIndex = 43;
-            this.P2_gol.Text = "label19";
+            this.P3_safCard.AutoSize = true;
+            this.P3_safCard.Location = new System.Drawing.Point(88, 87);
+            this.P3_safCard.Name = "P3_safCard";
+            this.P3_safCard.Size = new System.Drawing.Size(17, 12);
+            this.P3_safCard.TabIndex = 15;
+            this.P3_safCard.Text = "+0";
+            // 
+            // P3_ony
+            // 
+            this.P3_ony.AutoSize = true;
+            this.P3_ony.Location = new System.Drawing.Point(303, 73);
+            this.P3_ony.Name = "P3_ony";
+            this.P3_ony.Size = new System.Drawing.Size(11, 12);
+            this.P3_ony.TabIndex = 12;
+            this.P3_ony.Text = "0";
             // 
             // pictureBox24
             // 
             this.pictureBox24.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox24.Location = new System.Drawing.Point(9, 30);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox24.Location = new System.Drawing.Point(6, 20);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox24.Size = new System.Drawing.Size(50, 49);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox24.TabIndex = 32;
             this.pictureBox24.TabStop = false;
             // 
-            // P2_ony
+            // P3_rub
             // 
-            this.P2_ony.AutoSize = true;
-            this.P2_ony.Location = new System.Drawing.Point(128, 389);
-            this.P2_ony.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_ony.Name = "P2_ony";
-            this.P2_ony.Size = new System.Drawing.Size(64, 18);
-            this.P2_ony.TabIndex = 42;
-            this.P2_ony.Text = "label20";
+            this.P3_rub.AutoSize = true;
+            this.P3_rub.Location = new System.Drawing.Point(234, 73);
+            this.P3_rub.Name = "P3_rub";
+            this.P3_rub.Size = new System.Drawing.Size(11, 12);
+            this.P3_rub.TabIndex = 11;
+            this.P3_rub.Text = "0";
             // 
-            // P2_dia
+            // P3_eme
             // 
-            this.P2_dia.AutoSize = true;
-            this.P2_dia.Location = new System.Drawing.Point(128, 53);
-            this.P2_dia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_dia.Name = "P2_dia";
-            this.P2_dia.Size = new System.Drawing.Size(64, 18);
-            this.P2_dia.TabIndex = 38;
-            this.P2_dia.Text = "label24";
+            this.P3_eme.AutoSize = true;
+            this.P3_eme.Location = new System.Drawing.Point(160, 73);
+            this.P3_eme.Name = "P3_eme";
+            this.P3_eme.Size = new System.Drawing.Size(11, 12);
+            this.P3_eme.TabIndex = 10;
+            this.P3_eme.Text = "0";
             // 
-            // P2_rub
+            // P3_saf
             // 
-            this.P2_rub.AutoSize = true;
-            this.P2_rub.Location = new System.Drawing.Point(128, 305);
-            this.P2_rub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_rub.Name = "P2_rub";
-            this.P2_rub.Size = new System.Drawing.Size(64, 18);
-            this.P2_rub.TabIndex = 41;
-            this.P2_rub.Text = "label21";
+            this.P3_saf.AutoSize = true;
+            this.P3_saf.Location = new System.Drawing.Point(88, 73);
+            this.P3_saf.Name = "P3_saf";
+            this.P3_saf.Size = new System.Drawing.Size(11, 12);
+            this.P3_saf.TabIndex = 9;
+            this.P3_saf.Text = "0";
             // 
             // pictureBox23
             // 
             this.pictureBox23.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox23.Location = new System.Drawing.Point(110, 30);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox23.Location = new System.Drawing.Point(77, 20);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox23.Size = new System.Drawing.Size(50, 49);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox23.TabIndex = 37;
             this.pictureBox23.TabStop = false;
             // 
-            // P2_eme
-            // 
-            this.P2_eme.AutoSize = true;
-            this.P2_eme.Location = new System.Drawing.Point(128, 221);
-            this.P2_eme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_eme.Name = "P2_eme";
-            this.P2_eme.Size = new System.Drawing.Size(64, 18);
-            this.P2_eme.TabIndex = 40;
-            this.P2_eme.Text = "label22";
-            // 
             // pictureBox22
             // 
             this.pictureBox22.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox22.Location = new System.Drawing.Point(212, 30);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox22.Location = new System.Drawing.Point(148, 20);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox22.Size = new System.Drawing.Size(50, 49);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 36;
             this.pictureBox22.TabStop = false;
             // 
-            // P2_saf
-            // 
-            this.P2_saf.AutoSize = true;
-            this.P2_saf.Location = new System.Drawing.Point(128, 137);
-            this.P2_saf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P2_saf.Name = "P2_saf";
-            this.P2_saf.Size = new System.Drawing.Size(64, 18);
-            this.P2_saf.TabIndex = 39;
-            this.P2_saf.Text = "label23";
-            // 
             // pictureBox21
             // 
             this.pictureBox21.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox21.Location = new System.Drawing.Point(319, 30);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox21.Location = new System.Drawing.Point(223, 20);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox21.Size = new System.Drawing.Size(50, 49);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 35;
             this.pictureBox21.TabStop = false;
             // 
+            // P3_dia
+            // 
+            this.P3_dia.AutoSize = true;
+            this.P3_dia.Location = new System.Drawing.Point(18, 73);
+            this.P3_dia.Name = "P3_dia";
+            this.P3_dia.Size = new System.Drawing.Size(11, 12);
+            this.P3_dia.TabIndex = 3;
+            this.P3_dia.Text = "0";
+            // 
             // pictureBox19
             // 
             this.pictureBox19.Image = global::KWU_Splendor.Properties.Resources.gold;
-            this.pictureBox19.Location = new System.Drawing.Point(518, 30);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox19.Location = new System.Drawing.Point(363, 20);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox19.Size = new System.Drawing.Size(50, 49);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.TabIndex = 33;
             this.pictureBox19.TabStop = false;
@@ -809,13 +772,156 @@
             // pictureBox20
             // 
             this.pictureBox20.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox20.Location = new System.Drawing.Point(418, 30);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox20.Location = new System.Drawing.Point(293, 20);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox20.Size = new System.Drawing.Size(50, 49);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox20.TabIndex = 34;
             this.pictureBox20.TabStop = false;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.P3_resered3);
+            this.groupBox9.Controls.Add(this.P3_resered2);
+            this.groupBox9.Controls.Add(this.P3_resered1);
+            this.groupBox9.Location = new System.Drawing.Point(20, 414);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(134, 277);
+            this.groupBox9.TabIndex = 54;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "예약된 카드";
+            // 
+            // P3_resered3
+            // 
+            this.P3_resered3.BackColor = System.Drawing.SystemColors.Window;
+            this.P3_resered3.Location = new System.Drawing.Point(49, 200);
+            this.P3_resered3.Multiline = true;
+            this.P3_resered3.Name = "P3_resered3";
+            this.P3_resered3.ReadOnly = true;
+            this.P3_resered3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P3_resered3.Size = new System.Drawing.Size(50, 69);
+            this.P3_resered3.TabIndex = 41;
+            // 
+            // P3_resered2
+            // 
+            this.P3_resered2.BackColor = System.Drawing.SystemColors.Window;
+            this.P3_resered2.Location = new System.Drawing.Point(49, 115);
+            this.P3_resered2.Multiline = true;
+            this.P3_resered2.Name = "P3_resered2";
+            this.P3_resered2.ReadOnly = true;
+            this.P3_resered2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P3_resered2.Size = new System.Drawing.Size(50, 69);
+            this.P3_resered2.TabIndex = 40;
+            // 
+            // P3_resered1
+            // 
+            this.P3_resered1.BackColor = System.Drawing.SystemColors.Window;
+            this.P3_resered1.Location = new System.Drawing.Point(49, 30);
+            this.P3_resered1.Multiline = true;
+            this.P3_resered1.Name = "P3_resered1";
+            this.P3_resered1.ReadOnly = true;
+            this.P3_resered1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P3_resered1.Size = new System.Drawing.Size(50, 69);
+            this.P3_resered1.TabIndex = 39;
+            // 
+            // P2_onyCard
+            // 
+            this.P2_onyCard.AutoSize = true;
+            this.P2_onyCard.Location = new System.Drawing.Point(90, 274);
+            this.P2_onyCard.Name = "P2_onyCard";
+            this.P2_onyCard.Size = new System.Drawing.Size(17, 12);
+            this.P2_onyCard.TabIndex = 48;
+            this.P2_onyCard.Text = "+0";
+            // 
+            // P2_diaCard
+            // 
+            this.P2_diaCard.AutoSize = true;
+            this.P2_diaCard.Location = new System.Drawing.Point(90, 50);
+            this.P2_diaCard.Name = "P2_diaCard";
+            this.P2_diaCard.Size = new System.Drawing.Size(17, 12);
+            this.P2_diaCard.TabIndex = 44;
+            this.P2_diaCard.Text = "+0";
+            // 
+            // P2_rubCard
+            // 
+            this.P2_rubCard.AutoSize = true;
+            this.P2_rubCard.Location = new System.Drawing.Point(90, 218);
+            this.P2_rubCard.Name = "P2_rubCard";
+            this.P2_rubCard.Size = new System.Drawing.Size(17, 12);
+            this.P2_rubCard.TabIndex = 47;
+            this.P2_rubCard.Text = "+0";
+            // 
+            // P2_emeCard
+            // 
+            this.P2_emeCard.AutoSize = true;
+            this.P2_emeCard.Location = new System.Drawing.Point(90, 162);
+            this.P2_emeCard.Name = "P2_emeCard";
+            this.P2_emeCard.Size = new System.Drawing.Size(17, 12);
+            this.P2_emeCard.TabIndex = 46;
+            this.P2_emeCard.Text = "+0";
+            // 
+            // P2_safCard
+            // 
+            this.P2_safCard.AutoSize = true;
+            this.P2_safCard.Location = new System.Drawing.Point(90, 106);
+            this.P2_safCard.Name = "P2_safCard";
+            this.P2_safCard.Size = new System.Drawing.Size(17, 12);
+            this.P2_safCard.TabIndex = 45;
+            this.P2_safCard.Text = "+0";
+            // 
+            // P2_gol
+            // 
+            this.P2_gol.AutoSize = true;
+            this.P2_gol.Location = new System.Drawing.Point(90, 315);
+            this.P2_gol.Name = "P2_gol";
+            this.P2_gol.Size = new System.Drawing.Size(11, 12);
+            this.P2_gol.TabIndex = 43;
+            this.P2_gol.Text = "0";
+            // 
+            // P2_ony
+            // 
+            this.P2_ony.AutoSize = true;
+            this.P2_ony.Location = new System.Drawing.Point(90, 259);
+            this.P2_ony.Name = "P2_ony";
+            this.P2_ony.Size = new System.Drawing.Size(11, 12);
+            this.P2_ony.TabIndex = 42;
+            this.P2_ony.Text = "0";
+            // 
+            // P2_dia
+            // 
+            this.P2_dia.AutoSize = true;
+            this.P2_dia.Location = new System.Drawing.Point(90, 35);
+            this.P2_dia.Name = "P2_dia";
+            this.P2_dia.Size = new System.Drawing.Size(11, 12);
+            this.P2_dia.TabIndex = 38;
+            this.P2_dia.Text = "0";
+            // 
+            // P2_rub
+            // 
+            this.P2_rub.AutoSize = true;
+            this.P2_rub.Location = new System.Drawing.Point(90, 203);
+            this.P2_rub.Name = "P2_rub";
+            this.P2_rub.Size = new System.Drawing.Size(11, 12);
+            this.P2_rub.TabIndex = 41;
+            this.P2_rub.Text = "0";
+            // 
+            // P2_eme
+            // 
+            this.P2_eme.AutoSize = true;
+            this.P2_eme.Location = new System.Drawing.Point(90, 147);
+            this.P2_eme.Name = "P2_eme";
+            this.P2_eme.Size = new System.Drawing.Size(11, 12);
+            this.P2_eme.TabIndex = 40;
+            this.P2_eme.Text = "0";
+            // 
+            // P2_saf
+            // 
+            this.P2_saf.AutoSize = true;
+            this.P2_saf.Location = new System.Drawing.Point(90, 91);
+            this.P2_saf.Name = "P2_saf";
+            this.P2_saf.Size = new System.Drawing.Size(11, 12);
+            this.P2_saf.TabIndex = 39;
+            this.P2_saf.Text = "0";
             // 
             // P2_GB
             // 
@@ -841,11 +947,9 @@
             this.P2_GB.Controls.Add(this.P2_eme);
             this.P2_GB.Controls.Add(this.P2_saf);
             this.P2_GB.Controls.Add(this.pictureBox1);
-            this.P2_GB.Location = new System.Drawing.Point(1794, 44);
-            this.P2_GB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.P2_GB.Location = new System.Drawing.Point(1256, 29);
             this.P2_GB.Name = "P2_GB";
-            this.P2_GB.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.P2_GB.Size = new System.Drawing.Size(220, 1046);
+            this.P2_GB.Size = new System.Drawing.Size(154, 697);
             this.P2_GB.TabIndex = 1;
             this.P2_GB.TabStop = false;
             this.P2_GB.Text = "Player3";
@@ -853,203 +957,45 @@
             // P2_card
             // 
             this.P2_card.AutoSize = true;
-            this.P2_card.Location = new System.Drawing.Point(154, 581);
-            this.P2_card.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_card.Location = new System.Drawing.Point(108, 387);
             this.P2_card.Name = "P2_card";
-            this.P2_card.Size = new System.Drawing.Size(18, 18);
+            this.P2_card.Size = new System.Drawing.Size(11, 12);
             this.P2_card.TabIndex = 35;
             this.P2_card.Text = "0";
             // 
             // P2_score
             // 
             this.P2_score.AutoSize = true;
-            this.P2_score.Location = new System.Drawing.Point(154, 553);
-            this.P2_score.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_score.Location = new System.Drawing.Point(108, 369);
             this.P2_score.Name = "P2_score";
-            this.P2_score.Size = new System.Drawing.Size(18, 18);
+            this.P2_score.Size = new System.Drawing.Size(11, 12);
             this.P2_score.TabIndex = 33;
             this.P2_score.Text = "0";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 581);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(18, 387);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 18);
+            this.label2.Size = new System.Drawing.Size(77, 12);
             this.label2.TabIndex = 34;
             this.label2.Text = "구매한 카드 :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(88, 553);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(62, 369);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 18);
+            this.label1.Size = new System.Drawing.Size(37, 12);
             this.label1.TabIndex = 33;
             this.label1.Text = "점수 :";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.textBox25);
-            this.groupBox6.Controls.Add(this.textBox22);
-            this.groupBox6.Controls.Add(this.textBox21);
-            this.groupBox6.Location = new System.Drawing.Point(769, 28);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox6.Size = new System.Drawing.Size(470, 143);
-            this.groupBox6.TabIndex = 33;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "예약된 카드";
-            // 
-            // textBox25
-            // 
-            this.textBox25.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox25.Location = new System.Drawing.Point(225, 30);
-            this.textBox25.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox25.Multiline = true;
-            this.textBox25.Name = "textBox25";
-            this.textBox25.ReadOnly = true;
-            this.textBox25.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox25.Size = new System.Drawing.Size(70, 102);
-            this.textBox25.TabIndex = 37;
-            this.textBox25.Text = "1\r\n2\r\n3\r\n4\r\n5";
-            // 
-            // textBox22
-            // 
-            this.textBox22.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox22.Location = new System.Drawing.Point(124, 30);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox22.Multiline = true;
-            this.textBox22.Name = "textBox22";
-            this.textBox22.ReadOnly = true;
-            this.textBox22.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox22.Size = new System.Drawing.Size(70, 102);
-            this.textBox22.TabIndex = 34;
-            this.textBox22.Text = "1\r\n2\r\n3\r\n4\r\n5";
-            // 
-            // textBox21
-            // 
-            this.textBox21.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox21.Location = new System.Drawing.Point(25, 30);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox21.Multiline = true;
-            this.textBox21.Name = "textBox21";
-            this.textBox21.ReadOnly = true;
-            this.textBox21.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox21.Size = new System.Drawing.Size(70, 102);
-            this.textBox21.TabIndex = 33;
-            this.textBox21.Text = "1\r\n2\r\n3\r\n4\r\n5";
-            // 
-            // P3_onyCard
-            // 
-            this.P3_onyCard.AutoSize = true;
-            this.P3_onyCard.Location = new System.Drawing.Point(433, 131);
-            this.P3_onyCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_onyCard.Name = "P3_onyCard";
-            this.P3_onyCard.Size = new System.Drawing.Size(27, 18);
-            this.P3_onyCard.TabIndex = 18;
-            this.P3_onyCard.Text = "+0";
-            // 
-            // P3_rubCard
-            // 
-            this.P3_rubCard.AutoSize = true;
-            this.P3_rubCard.Location = new System.Drawing.Point(335, 129);
-            this.P3_rubCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_rubCard.Name = "P3_rubCard";
-            this.P3_rubCard.Size = new System.Drawing.Size(27, 18);
-            this.P3_rubCard.TabIndex = 17;
-            this.P3_rubCard.Text = "+0";
-            // 
-            // P3_emeCard
-            // 
-            this.P3_emeCard.AutoSize = true;
-            this.P3_emeCard.Location = new System.Drawing.Point(229, 129);
-            this.P3_emeCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_emeCard.Name = "P3_emeCard";
-            this.P3_emeCard.Size = new System.Drawing.Size(27, 18);
-            this.P3_emeCard.TabIndex = 16;
-            this.P3_emeCard.Text = "+0";
-            // 
-            // P3_safCard
-            // 
-            this.P3_safCard.AutoSize = true;
-            this.P3_safCard.Location = new System.Drawing.Point(126, 131);
-            this.P3_safCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_safCard.Name = "P3_safCard";
-            this.P3_safCard.Size = new System.Drawing.Size(27, 18);
-            this.P3_safCard.TabIndex = 15;
-            this.P3_safCard.Text = "+0";
-            // 
-            // P3_diaCard
-            // 
-            this.P3_diaCard.AutoSize = true;
-            this.P3_diaCard.Location = new System.Drawing.Point(25, 130);
-            this.P3_diaCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_diaCard.Name = "P3_diaCard";
-            this.P3_diaCard.Size = new System.Drawing.Size(27, 18);
-            this.P3_diaCard.TabIndex = 14;
-            this.P3_diaCard.Text = "+0";
-            // 
-            // P3_gol
-            // 
-            this.P3_gol.AutoSize = true;
-            this.P3_gol.Location = new System.Drawing.Point(533, 112);
-            this.P3_gol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_gol.Name = "P3_gol";
-            this.P3_gol.Size = new System.Drawing.Size(54, 18);
-            this.P3_gol.TabIndex = 13;
-            this.P3_gol.Text = "label6";
-            // 
-            // P3_ony
-            // 
-            this.P3_ony.AutoSize = true;
-            this.P3_ony.Location = new System.Drawing.Point(433, 109);
-            this.P3_ony.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_ony.Name = "P3_ony";
-            this.P3_ony.Size = new System.Drawing.Size(54, 18);
-            this.P3_ony.TabIndex = 12;
-            this.P3_ony.Text = "label5";
-            // 
-            // P3_rub
-            // 
-            this.P3_rub.AutoSize = true;
-            this.P3_rub.Location = new System.Drawing.Point(335, 109);
-            this.P3_rub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_rub.Name = "P3_rub";
-            this.P3_rub.Size = new System.Drawing.Size(54, 18);
-            this.P3_rub.TabIndex = 11;
-            this.P3_rub.Text = "label4";
-            // 
-            // P3_eme
-            // 
-            this.P3_eme.AutoSize = true;
-            this.P3_eme.Location = new System.Drawing.Point(229, 109);
-            this.P3_eme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_eme.Name = "P3_eme";
-            this.P3_eme.Size = new System.Drawing.Size(54, 18);
-            this.P3_eme.TabIndex = 10;
-            this.P3_eme.Text = "label3";
-            // 
-            // P3_saf
-            // 
-            this.P3_saf.AutoSize = true;
-            this.P3_saf.Location = new System.Drawing.Point(126, 110);
-            this.P3_saf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_saf.Name = "P3_saf";
-            this.P3_saf.Size = new System.Drawing.Size(54, 18);
-            this.P3_saf.TabIndex = 9;
-            this.P3_saf.Text = "label2";
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::KWU_Splendor.Properties.Resources.gold;
-            this.pictureBox6.Location = new System.Drawing.Point(32, 468);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox6.Location = new System.Drawing.Point(22, 312);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox6.Size = new System.Drawing.Size(50, 49);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 8;
             this.pictureBox6.TabStop = false;
@@ -1057,10 +1003,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox5.Location = new System.Drawing.Point(32, 384);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox5.Location = new System.Drawing.Point(22, 256);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox5.Size = new System.Drawing.Size(50, 49);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 7;
             this.pictureBox5.TabStop = false;
@@ -1068,10 +1013,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox4.Location = new System.Drawing.Point(32, 300);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox4.Location = new System.Drawing.Point(22, 200);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox4.Size = new System.Drawing.Size(50, 49);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
@@ -1079,10 +1023,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox3.Location = new System.Drawing.Point(32, 216);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox3.Location = new System.Drawing.Point(22, 144);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox3.Size = new System.Drawing.Size(50, 49);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
@@ -1090,31 +1033,19 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox2.Location = new System.Drawing.Point(32, 132);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(22, 88);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox2.Size = new System.Drawing.Size(50, 49);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
-            // P3_dia
-            // 
-            this.P3_dia.AutoSize = true;
-            this.P3_dia.Location = new System.Drawing.Point(25, 110);
-            this.P3_dia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.P3_dia.Name = "P3_dia";
-            this.P3_dia.Size = new System.Drawing.Size(54, 18);
-            this.P3_dia.TabIndex = 3;
-            this.P3_dia.Text = "label1";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox1.Location = new System.Drawing.Point(32, 48);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(22, 32);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox1.Size = new System.Drawing.Size(50, 49);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -1143,11 +1074,9 @@
             this.P4_GB.Controls.Add(this.pictureBox9);
             this.P4_GB.Controls.Add(this.pictureBox7);
             this.P4_GB.Controls.Add(this.pictureBox8);
-            this.P4_GB.Location = new System.Drawing.Point(124, 49);
-            this.P4_GB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.P4_GB.Location = new System.Drawing.Point(87, 33);
             this.P4_GB.Name = "P4_GB";
-            this.P4_GB.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.P4_GB.Size = new System.Drawing.Size(234, 1046);
+            this.P4_GB.Size = new System.Drawing.Size(164, 697);
             this.P4_GB.TabIndex = 2;
             this.P4_GB.TabStop = false;
             this.P4_GB.Text = "Player4";
@@ -1155,123 +1084,108 @@
             // P4_card
             // 
             this.P4_card.AutoSize = true;
-            this.P4_card.Location = new System.Drawing.Point(164, 581);
-            this.P4_card.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_card.Location = new System.Drawing.Point(115, 387);
             this.P4_card.Name = "P4_card";
-            this.P4_card.Size = new System.Drawing.Size(18, 18);
+            this.P4_card.Size = new System.Drawing.Size(11, 12);
             this.P4_card.TabIndex = 37;
             this.P4_card.Text = "0";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(36, 581);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(25, 387);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 18);
+            this.label5.Size = new System.Drawing.Size(77, 12);
             this.label5.TabIndex = 50;
             this.label5.Text = "구매한 카드 :";
             // 
             // P4_score
             // 
             this.P4_score.AutoSize = true;
-            this.P4_score.Location = new System.Drawing.Point(164, 553);
-            this.P4_score.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_score.Location = new System.Drawing.Point(115, 369);
             this.P4_score.Name = "P4_score";
-            this.P4_score.Size = new System.Drawing.Size(18, 18);
+            this.P4_score.Size = new System.Drawing.Size(11, 12);
             this.P4_score.TabIndex = 36;
             this.P4_score.Text = "0";
             // 
             // groupBox7
             // 
-            this.groupBox7.Controls.Add(this.textBox28);
-            this.groupBox7.Controls.Add(this.textBox31);
-            this.groupBox7.Controls.Add(this.textBox32);
-            this.groupBox7.Location = new System.Drawing.Point(16, 618);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox7.Controls.Add(this.P4_resered3);
+            this.groupBox7.Controls.Add(this.P4_resered2);
+            this.groupBox7.Controls.Add(this.P4_resered1);
+            this.groupBox7.Location = new System.Drawing.Point(11, 412);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox7.Size = new System.Drawing.Size(205, 420);
+            this.groupBox7.Size = new System.Drawing.Size(144, 280);
             this.groupBox7.TabIndex = 39;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "예약된 카드";
             // 
-            // textBox28
+            // P4_resered3
             // 
-            this.textBox28.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox28.Location = new System.Drawing.Point(70, 298);
-            this.textBox28.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox28.Multiline = true;
-            this.textBox28.Name = "textBox28";
-            this.textBox28.ReadOnly = true;
-            this.textBox28.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox28.Size = new System.Drawing.Size(70, 102);
-            this.textBox28.TabIndex = 37;
-            this.textBox28.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.P4_resered3.BackColor = System.Drawing.SystemColors.Window;
+            this.P4_resered3.Location = new System.Drawing.Point(49, 199);
+            this.P4_resered3.Multiline = true;
+            this.P4_resered3.Name = "P4_resered3";
+            this.P4_resered3.ReadOnly = true;
+            this.P4_resered3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P4_resered3.Size = new System.Drawing.Size(50, 69);
+            this.P4_resered3.TabIndex = 37;
             // 
-            // textBox31
+            // P4_resered2
             // 
-            this.textBox31.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox31.Location = new System.Drawing.Point(70, 173);
-            this.textBox31.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox31.Multiline = true;
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox31.Size = new System.Drawing.Size(70, 102);
-            this.textBox31.TabIndex = 34;
-            this.textBox31.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.P4_resered2.BackColor = System.Drawing.SystemColors.Window;
+            this.P4_resered2.Location = new System.Drawing.Point(49, 115);
+            this.P4_resered2.Multiline = true;
+            this.P4_resered2.Name = "P4_resered2";
+            this.P4_resered2.ReadOnly = true;
+            this.P4_resered2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P4_resered2.Size = new System.Drawing.Size(50, 69);
+            this.P4_resered2.TabIndex = 34;
             // 
-            // textBox32
+            // P4_resered1
             // 
-            this.textBox32.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox32.Location = new System.Drawing.Point(70, 46);
-            this.textBox32.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox32.Multiline = true;
-            this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
-            this.textBox32.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox32.Size = new System.Drawing.Size(70, 102);
-            this.textBox32.TabIndex = 33;
-            this.textBox32.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.P4_resered1.BackColor = System.Drawing.SystemColors.Window;
+            this.P4_resered1.Location = new System.Drawing.Point(49, 31);
+            this.P4_resered1.Multiline = true;
+            this.P4_resered1.Name = "P4_resered1";
+            this.P4_resered1.ReadOnly = true;
+            this.P4_resered1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P4_resered1.Size = new System.Drawing.Size(50, 69);
+            this.P4_resered1.TabIndex = 33;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(98, 553);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(69, 369);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 18);
+            this.label6.Size = new System.Drawing.Size(37, 12);
             this.label6.TabIndex = 49;
             this.label6.Text = "점수 :";
             // 
             // P4_gol
             // 
             this.P4_gol.AutoSize = true;
-            this.P4_gol.Location = new System.Drawing.Point(130, 491);
-            this.P4_gol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_gol.Location = new System.Drawing.Point(91, 327);
             this.P4_gol.Name = "P4_gol";
-            this.P4_gol.Size = new System.Drawing.Size(54, 18);
+            this.P4_gol.Size = new System.Drawing.Size(11, 12);
             this.P4_gol.TabIndex = 25;
-            this.P4_gol.Text = "label7";
+            this.P4_gol.Text = "0";
             // 
             // P4_onyCard
             // 
             this.P4_onyCard.AutoSize = true;
-            this.P4_onyCard.Location = new System.Drawing.Point(130, 430);
-            this.P4_onyCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_onyCard.Location = new System.Drawing.Point(91, 287);
             this.P4_onyCard.Name = "P4_onyCard";
-            this.P4_onyCard.Size = new System.Drawing.Size(27, 18);
+            this.P4_onyCard.Size = new System.Drawing.Size(17, 12);
             this.P4_onyCard.TabIndex = 24;
             this.P4_onyCard.Text = "+0";
             // 
             // pictureBox12
             // 
             this.pictureBox12.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox12.Location = new System.Drawing.Point(36, 48);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox12.Location = new System.Drawing.Point(25, 32);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox12.Size = new System.Drawing.Size(50, 49);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 15;
             this.pictureBox12.TabStop = false;
@@ -1279,80 +1193,72 @@
             // P4_rubCard
             // 
             this.P4_rubCard.AutoSize = true;
-            this.P4_rubCard.Location = new System.Drawing.Point(130, 344);
-            this.P4_rubCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_rubCard.Location = new System.Drawing.Point(91, 229);
             this.P4_rubCard.Name = "P4_rubCard";
-            this.P4_rubCard.Size = new System.Drawing.Size(27, 18);
+            this.P4_rubCard.Size = new System.Drawing.Size(17, 12);
             this.P4_rubCard.TabIndex = 23;
             this.P4_rubCard.Text = "+0";
             // 
             // P4_ony
             // 
             this.P4_ony.AutoSize = true;
-            this.P4_ony.Location = new System.Drawing.Point(130, 408);
-            this.P4_ony.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_ony.Location = new System.Drawing.Point(91, 272);
             this.P4_ony.Name = "P4_ony";
-            this.P4_ony.Size = new System.Drawing.Size(54, 18);
+            this.P4_ony.Size = new System.Drawing.Size(11, 12);
             this.P4_ony.TabIndex = 24;
-            this.P4_ony.Text = "label8";
+            this.P4_ony.Text = "0";
             // 
             // P4_emeCard
             // 
             this.P4_emeCard.AutoSize = true;
-            this.P4_emeCard.Location = new System.Drawing.Point(130, 260);
-            this.P4_emeCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_emeCard.Location = new System.Drawing.Point(91, 173);
             this.P4_emeCard.Name = "P4_emeCard";
-            this.P4_emeCard.Size = new System.Drawing.Size(27, 18);
+            this.P4_emeCard.Size = new System.Drawing.Size(17, 12);
             this.P4_emeCard.TabIndex = 22;
             this.P4_emeCard.Text = "+0";
             // 
             // P4_dia
             // 
             this.P4_dia.AutoSize = true;
-            this.P4_dia.Location = new System.Drawing.Point(130, 64);
-            this.P4_dia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_dia.Location = new System.Drawing.Point(91, 43);
             this.P4_dia.Name = "P4_dia";
-            this.P4_dia.Size = new System.Drawing.Size(64, 18);
+            this.P4_dia.Size = new System.Drawing.Size(11, 12);
             this.P4_dia.TabIndex = 14;
-            this.P4_dia.Text = "label12";
+            this.P4_dia.Text = "0";
             // 
             // P4_safCard
             // 
             this.P4_safCard.AutoSize = true;
-            this.P4_safCard.Location = new System.Drawing.Point(130, 170);
-            this.P4_safCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_safCard.Location = new System.Drawing.Point(91, 113);
             this.P4_safCard.Name = "P4_safCard";
-            this.P4_safCard.Size = new System.Drawing.Size(27, 18);
+            this.P4_safCard.Size = new System.Drawing.Size(17, 12);
             this.P4_safCard.TabIndex = 21;
             this.P4_safCard.Text = "+0";
             // 
             // P4_diaCard
             // 
             this.P4_diaCard.AutoSize = true;
-            this.P4_diaCard.Location = new System.Drawing.Point(130, 84);
-            this.P4_diaCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_diaCard.Location = new System.Drawing.Point(91, 56);
             this.P4_diaCard.Name = "P4_diaCard";
-            this.P4_diaCard.Size = new System.Drawing.Size(27, 18);
+            this.P4_diaCard.Size = new System.Drawing.Size(17, 12);
             this.P4_diaCard.TabIndex = 20;
             this.P4_diaCard.Text = "+0";
             // 
             // P4_rub
             // 
             this.P4_rub.AutoSize = true;
-            this.P4_rub.Location = new System.Drawing.Point(130, 324);
-            this.P4_rub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_rub.Location = new System.Drawing.Point(91, 216);
             this.P4_rub.Name = "P4_rub";
-            this.P4_rub.Size = new System.Drawing.Size(54, 18);
+            this.P4_rub.Size = new System.Drawing.Size(11, 12);
             this.P4_rub.TabIndex = 23;
-            this.P4_rub.Text = "label9";
+            this.P4_rub.Text = "0";
             // 
             // pictureBox11
             // 
             this.pictureBox11.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox11.Location = new System.Drawing.Point(36, 132);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox11.Location = new System.Drawing.Point(25, 88);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox11.Size = new System.Drawing.Size(50, 49);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 16;
             this.pictureBox11.TabStop = false;
@@ -1360,20 +1266,18 @@
             // P4_eme
             // 
             this.P4_eme.AutoSize = true;
-            this.P4_eme.Location = new System.Drawing.Point(130, 240);
-            this.P4_eme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_eme.Location = new System.Drawing.Point(91, 160);
             this.P4_eme.Name = "P4_eme";
-            this.P4_eme.Size = new System.Drawing.Size(64, 18);
+            this.P4_eme.Size = new System.Drawing.Size(11, 12);
             this.P4_eme.TabIndex = 22;
-            this.P4_eme.Text = "label10";
+            this.P4_eme.Text = "0";
             // 
             // pictureBox10
             // 
             this.pictureBox10.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox10.Location = new System.Drawing.Point(36, 216);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox10.Location = new System.Drawing.Point(25, 144);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox10.Size = new System.Drawing.Size(50, 49);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 17;
             this.pictureBox10.TabStop = false;
@@ -1381,20 +1285,18 @@
             // P4_saf
             // 
             this.P4_saf.AutoSize = true;
-            this.P4_saf.Location = new System.Drawing.Point(130, 142);
-            this.P4_saf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_saf.Location = new System.Drawing.Point(91, 95);
             this.P4_saf.Name = "P4_saf";
-            this.P4_saf.Size = new System.Drawing.Size(64, 18);
+            this.P4_saf.Size = new System.Drawing.Size(11, 12);
             this.P4_saf.TabIndex = 21;
-            this.P4_saf.Text = "label11";
+            this.P4_saf.Text = "0";
             // 
             // pictureBox9
             // 
             this.pictureBox9.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox9.Location = new System.Drawing.Point(36, 300);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox9.Location = new System.Drawing.Point(25, 200);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox9.Size = new System.Drawing.Size(50, 49);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 18;
             this.pictureBox9.TabStop = false;
@@ -1402,10 +1304,9 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::KWU_Splendor.Properties.Resources.gold;
-            this.pictureBox7.Location = new System.Drawing.Point(36, 468);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox7.Location = new System.Drawing.Point(25, 312);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox7.Size = new System.Drawing.Size(50, 49);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 20;
             this.pictureBox7.TabStop = false;
@@ -1413,20 +1314,18 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox8.Location = new System.Drawing.Point(36, 384);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox8.Location = new System.Drawing.Point(25, 256);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox8.Size = new System.Drawing.Size(50, 49);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 19;
             this.pictureBox8.TabStop = false;
             // 
             // btn_coin
             // 
-            this.btn_coin.Location = new System.Drawing.Point(679, 983);
-            this.btn_coin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_coin.Location = new System.Drawing.Point(475, 655);
             this.btn_coin.Name = "btn_coin";
-            this.btn_coin.Size = new System.Drawing.Size(149, 35);
+            this.btn_coin.Size = new System.Drawing.Size(104, 23);
             this.btn_coin.TabIndex = 3;
             this.btn_coin.Text = "보석 가져오기";
             this.btn_coin.UseVisualStyleBackColor = true;
@@ -1434,10 +1333,9 @@
             // 
             // btn_card
             // 
-            this.btn_card.Location = new System.Drawing.Point(970, 983);
-            this.btn_card.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_card.Location = new System.Drawing.Point(679, 655);
             this.btn_card.Name = "btn_card";
-            this.btn_card.Size = new System.Drawing.Size(158, 35);
+            this.btn_card.Size = new System.Drawing.Size(111, 23);
             this.btn_card.TabIndex = 4;
             this.btn_card.Text = "개발 카드 구매";
             this.btn_card.UseVisualStyleBackColor = true;
@@ -1445,46 +1343,57 @@
             // 
             // btn_reservation
             // 
-            this.btn_reservation.Location = new System.Drawing.Point(1229, 983);
-            this.btn_reservation.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_reservation.Location = new System.Drawing.Point(860, 655);
             this.btn_reservation.Name = "btn_reservation";
-            this.btn_reservation.Size = new System.Drawing.Size(162, 35);
+            this.btn_reservation.Size = new System.Drawing.Size(113, 23);
             this.btn_reservation.TabIndex = 5;
             this.btn_reservation.Text = "예약";
             this.btn_reservation.UseVisualStyleBackColor = true;
+            this.btn_reservation.Click += new System.EventHandler(this.btn_reservation_Click);
             // 
             // btn_sendRes
             // 
-            this.btn_sendRes.Location = new System.Drawing.Point(1668, 983);
-            this.btn_sendRes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_sendRes.Location = new System.Drawing.Point(1168, 655);
             this.btn_sendRes.Name = "btn_sendRes";
-            this.btn_sendRes.Size = new System.Drawing.Size(108, 35);
+            this.btn_sendRes.Size = new System.Drawing.Size(76, 23);
             this.btn_sendRes.TabIndex = 6;
             this.btn_sendRes.Text = "턴 마치기";
             this.btn_sendRes.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.textBox16);
-            this.groupBox5.Controls.Add(this.textBox17);
-            this.groupBox5.Controls.Add(this.textBox18);
-            this.groupBox5.Controls.Add(this.textBox19);
-            this.groupBox5.Controls.Add(this.textBox20);
-            this.groupBox5.Controls.Add(this.textBox11);
-            this.groupBox5.Controls.Add(this.textBox12);
-            this.groupBox5.Controls.Add(this.textBox13);
-            this.groupBox5.Controls.Add(this.textBox14);
-            this.groupBox5.Controls.Add(this.textBox15);
-            this.groupBox5.Controls.Add(this.textBox6);
-            this.groupBox5.Controls.Add(this.textBox7);
-            this.groupBox5.Controls.Add(this.textBox8);
-            this.groupBox5.Controls.Add(this.textBox9);
-            this.groupBox5.Controls.Add(this.textBox10);
-            this.groupBox5.Controls.Add(this.textBox5);
-            this.groupBox5.Controls.Add(this.textBox4);
-            this.groupBox5.Controls.Add(this.textBox3);
-            this.groupBox5.Controls.Add(this.textBox2);
-            this.groupBox5.Controls.Add(this.textBox1);
+            this.groupBox5.Controls.Add(this.L1C3_ptb);
+            this.groupBox5.Controls.Add(this.L2C4_ptb);
+            this.groupBox5.Controls.Add(this.L2C3_ptb);
+            this.groupBox5.Controls.Add(this.L1C4_ptb);
+            this.groupBox5.Controls.Add(this.L3C4_ptb);
+            this.groupBox5.Controls.Add(this.L3C3_ptb);
+            this.groupBox5.Controls.Add(this.L1C2_ptb);
+            this.groupBox5.Controls.Add(this.L2C2_ptb);
+            this.groupBox5.Controls.Add(this.L3C2_ptb);
+            this.groupBox5.Controls.Add(this.L1C1_ptb);
+            this.groupBox5.Controls.Add(this.L2C1_ptb);
+            this.groupBox5.Controls.Add(this.L3C1_ptb);
+            this.groupBox5.Controls.Add(this.Level1Card4);
+            this.groupBox5.Controls.Add(this.Level1Card3);
+            this.groupBox5.Controls.Add(this.Level1Card2);
+            this.groupBox5.Controls.Add(this.Level1Card1);
+            this.groupBox5.Controls.Add(this.Level1Card_Count);
+            this.groupBox5.Controls.Add(this.Level2Card4);
+            this.groupBox5.Controls.Add(this.Level2Card3);
+            this.groupBox5.Controls.Add(this.Level2Card2);
+            this.groupBox5.Controls.Add(this.Level2Card1);
+            this.groupBox5.Controls.Add(this.Level2Card_Count);
+            this.groupBox5.Controls.Add(this.Level3Card4);
+            this.groupBox5.Controls.Add(this.Level3Card3);
+            this.groupBox5.Controls.Add(this.Level3Card2);
+            this.groupBox5.Controls.Add(this.Level3Card1);
+            this.groupBox5.Controls.Add(this.Level3Card_Count);
+            this.groupBox5.Controls.Add(this.NobleCard5);
+            this.groupBox5.Controls.Add(this.NobleCard4);
+            this.groupBox5.Controls.Add(this.NobleCard3);
+            this.groupBox5.Controls.Add(this.NobleCard2);
+            this.groupBox5.Controls.Add(this.NobleCard1);
             this.groupBox5.Controls.Add(this.gol);
             this.groupBox5.Controls.Add(this.ony);
             this.groupBox5.Controls.Add(this.rub);
@@ -1497,336 +1406,290 @@
             this.groupBox5.Controls.Add(this.pictureBox29);
             this.groupBox5.Controls.Add(this.dia);
             this.groupBox5.Controls.Add(this.pictureBox30);
-            this.groupBox5.Location = new System.Drawing.Point(374, 239);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox5.Location = new System.Drawing.Point(262, 159);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox5.Size = new System.Drawing.Size(1400, 714);
+            this.groupBox5.Size = new System.Drawing.Size(980, 476);
             this.groupBox5.TabIndex = 14;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Board";
             // 
-            // textBox16
+            // Level1Card4
             // 
-            this.textBox16.BackColor = System.Drawing.Color.Lime;
-            this.textBox16.Location = new System.Drawing.Point(1161, 528);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox16.Multiline = true;
-            this.textBox16.Name = "textBox16";
-            this.textBox16.ReadOnly = true;
-            this.textBox16.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox16.Size = new System.Drawing.Size(70, 102);
-            this.textBox16.TabIndex = 33;
-            this.textBox16.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level1Card4.BackColor = System.Drawing.Color.Lime;
+            this.Level1Card4.Location = new System.Drawing.Point(840, 360);
+            this.Level1Card4.Multiline = true;
+            this.Level1Card4.Name = "Level1Card4";
+            this.Level1Card4.ReadOnly = true;
+            this.Level1Card4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level1Card4.Size = new System.Drawing.Size(80, 100);
+            this.Level1Card4.TabIndex = 33;
             // 
-            // textBox17
+            // Level1Card3
             // 
-            this.textBox17.BackColor = System.Drawing.Color.Lime;
-            this.textBox17.Location = new System.Drawing.Point(948, 528);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox17.Multiline = true;
-            this.textBox17.Name = "textBox17";
-            this.textBox17.ReadOnly = true;
-            this.textBox17.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox17.Size = new System.Drawing.Size(70, 102);
-            this.textBox17.TabIndex = 32;
-            this.textBox17.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level1Card3.BackColor = System.Drawing.Color.Lime;
+            this.Level1Card3.Location = new System.Drawing.Point(680, 360);
+            this.Level1Card3.Multiline = true;
+            this.Level1Card3.Name = "Level1Card3";
+            this.Level1Card3.ReadOnly = true;
+            this.Level1Card3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level1Card3.Size = new System.Drawing.Size(80, 100);
+            this.Level1Card3.TabIndex = 32;
             // 
-            // textBox18
+            // Level1Card2
             // 
-            this.textBox18.BackColor = System.Drawing.Color.Lime;
-            this.textBox18.Location = new System.Drawing.Point(732, 528);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox18.Multiline = true;
-            this.textBox18.Name = "textBox18";
-            this.textBox18.ReadOnly = true;
-            this.textBox18.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox18.Size = new System.Drawing.Size(70, 102);
-            this.textBox18.TabIndex = 31;
-            this.textBox18.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level1Card2.BackColor = System.Drawing.Color.Lime;
+            this.Level1Card2.Location = new System.Drawing.Point(520, 360);
+            this.Level1Card2.Multiline = true;
+            this.Level1Card2.Name = "Level1Card2";
+            this.Level1Card2.ReadOnly = true;
+            this.Level1Card2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level1Card2.Size = new System.Drawing.Size(80, 100);
+            this.Level1Card2.TabIndex = 31;
             // 
-            // textBox19
+            // Level1Card1
             // 
-            this.textBox19.BackColor = System.Drawing.Color.Lime;
-            this.textBox19.Location = new System.Drawing.Point(519, 528);
-            this.textBox19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox19.Multiline = true;
-            this.textBox19.Name = "textBox19";
-            this.textBox19.ReadOnly = true;
-            this.textBox19.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox19.Size = new System.Drawing.Size(70, 102);
-            this.textBox19.TabIndex = 30;
-            this.textBox19.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level1Card1.BackColor = System.Drawing.Color.Lime;
+            this.Level1Card1.Location = new System.Drawing.Point(360, 360);
+            this.Level1Card1.Multiline = true;
+            this.Level1Card1.Name = "Level1Card1";
+            this.Level1Card1.ReadOnly = true;
+            this.Level1Card1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level1Card1.Size = new System.Drawing.Size(80, 100);
+            this.Level1Card1.TabIndex = 30;
             // 
-            // textBox20
+            // Level1Card_Count
             // 
-            this.textBox20.BackColor = System.Drawing.Color.Lime;
-            this.textBox20.Location = new System.Drawing.Point(304, 528);
-            this.textBox20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox20.Multiline = true;
-            this.textBox20.Name = "textBox20";
-            this.textBox20.ReadOnly = true;
-            this.textBox20.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox20.Size = new System.Drawing.Size(70, 102);
-            this.textBox20.TabIndex = 29;
-            this.textBox20.Text = "\r\n\r\n40";
-            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Level1Card_Count.BackColor = System.Drawing.Color.Lime;
+            this.Level1Card_Count.Location = new System.Drawing.Point(200, 360);
+            this.Level1Card_Count.Multiline = true;
+            this.Level1Card_Count.Name = "Level1Card_Count";
+            this.Level1Card_Count.ReadOnly = true;
+            this.Level1Card_Count.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level1Card_Count.Size = new System.Drawing.Size(80, 100);
+            this.Level1Card_Count.TabIndex = 29;
+            this.Level1Card_Count.Text = "\r\n\r\n\r\n40";
+            this.Level1Card_Count.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox11
+            // Level2Card4
             // 
-            this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox11.Location = new System.Drawing.Point(1161, 384);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.ReadOnly = true;
-            this.textBox11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox11.Size = new System.Drawing.Size(70, 102);
-            this.textBox11.TabIndex = 28;
-            this.textBox11.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level2Card4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Level2Card4.Location = new System.Drawing.Point(840, 250);
+            this.Level2Card4.Multiline = true;
+            this.Level2Card4.Name = "Level2Card4";
+            this.Level2Card4.ReadOnly = true;
+            this.Level2Card4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level2Card4.Size = new System.Drawing.Size(80, 100);
+            this.Level2Card4.TabIndex = 28;
             // 
-            // textBox12
+            // Level2Card3
             // 
-            this.textBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox12.Location = new System.Drawing.Point(948, 384);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.ReadOnly = true;
-            this.textBox12.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox12.Size = new System.Drawing.Size(70, 102);
-            this.textBox12.TabIndex = 27;
-            this.textBox12.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level2Card3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Level2Card3.Location = new System.Drawing.Point(680, 250);
+            this.Level2Card3.Multiline = true;
+            this.Level2Card3.Name = "Level2Card3";
+            this.Level2Card3.ReadOnly = true;
+            this.Level2Card3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level2Card3.Size = new System.Drawing.Size(80, 100);
+            this.Level2Card3.TabIndex = 27;
             // 
-            // textBox13
+            // Level2Card2
             // 
-            this.textBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox13.Location = new System.Drawing.Point(732, 384);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ReadOnly = true;
-            this.textBox13.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox13.Size = new System.Drawing.Size(70, 102);
-            this.textBox13.TabIndex = 26;
-            this.textBox13.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level2Card2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Level2Card2.Location = new System.Drawing.Point(520, 250);
+            this.Level2Card2.Multiline = true;
+            this.Level2Card2.Name = "Level2Card2";
+            this.Level2Card2.ReadOnly = true;
+            this.Level2Card2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level2Card2.Size = new System.Drawing.Size(80, 100);
+            this.Level2Card2.TabIndex = 26;
             // 
-            // textBox14
+            // Level2Card1
             // 
-            this.textBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox14.Location = new System.Drawing.Point(519, 384);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox14.Multiline = true;
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox14.Size = new System.Drawing.Size(70, 102);
-            this.textBox14.TabIndex = 25;
-            this.textBox14.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level2Card1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Level2Card1.Location = new System.Drawing.Point(360, 250);
+            this.Level2Card1.Multiline = true;
+            this.Level2Card1.Name = "Level2Card1";
+            this.Level2Card1.ReadOnly = true;
+            this.Level2Card1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level2Card1.Size = new System.Drawing.Size(80, 100);
+            this.Level2Card1.TabIndex = 25;
             // 
-            // textBox15
+            // Level2Card_Count
             // 
-            this.textBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox15.Location = new System.Drawing.Point(304, 384);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox15.Multiline = true;
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox15.Size = new System.Drawing.Size(70, 102);
-            this.textBox15.TabIndex = 24;
-            this.textBox15.Text = "\r\n\r\n30";
-            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Level2Card_Count.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Level2Card_Count.Location = new System.Drawing.Point(200, 250);
+            this.Level2Card_Count.Multiline = true;
+            this.Level2Card_Count.Name = "Level2Card_Count";
+            this.Level2Card_Count.ReadOnly = true;
+            this.Level2Card_Count.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level2Card_Count.Size = new System.Drawing.Size(80, 100);
+            this.Level2Card_Count.TabIndex = 24;
+            this.Level2Card_Count.Text = "\r\n\r\n\r\n30";
+            this.Level2Card_Count.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox6
+            // Level3Card4
             // 
-            this.textBox6.BackColor = System.Drawing.Color.Cyan;
-            this.textBox6.Location = new System.Drawing.Point(1161, 241);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox6.Size = new System.Drawing.Size(70, 102);
-            this.textBox6.TabIndex = 23;
-            this.textBox6.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level3Card4.BackColor = System.Drawing.Color.Cyan;
+            this.Level3Card4.Location = new System.Drawing.Point(840, 140);
+            this.Level3Card4.Multiline = true;
+            this.Level3Card4.Name = "Level3Card4";
+            this.Level3Card4.ReadOnly = true;
+            this.Level3Card4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level3Card4.Size = new System.Drawing.Size(80, 100);
+            this.Level3Card4.TabIndex = 23;
             // 
-            // textBox7
+            // Level3Card3
             // 
-            this.textBox7.BackColor = System.Drawing.Color.Cyan;
-            this.textBox7.Location = new System.Drawing.Point(948, 241);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
-            this.textBox7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox7.Size = new System.Drawing.Size(70, 102);
-            this.textBox7.TabIndex = 22;
-            this.textBox7.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level3Card3.BackColor = System.Drawing.Color.Cyan;
+            this.Level3Card3.Location = new System.Drawing.Point(680, 140);
+            this.Level3Card3.Multiline = true;
+            this.Level3Card3.Name = "Level3Card3";
+            this.Level3Card3.ReadOnly = true;
+            this.Level3Card3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level3Card3.Size = new System.Drawing.Size(80, 100);
+            this.Level3Card3.TabIndex = 22;
             // 
-            // textBox8
+            // Level3Card2
             // 
-            this.textBox8.BackColor = System.Drawing.Color.Cyan;
-            this.textBox8.Location = new System.Drawing.Point(732, 241);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            this.textBox8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox8.Size = new System.Drawing.Size(70, 102);
-            this.textBox8.TabIndex = 21;
-            this.textBox8.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level3Card2.BackColor = System.Drawing.Color.Cyan;
+            this.Level3Card2.Location = new System.Drawing.Point(520, 140);
+            this.Level3Card2.Multiline = true;
+            this.Level3Card2.Name = "Level3Card2";
+            this.Level3Card2.ReadOnly = true;
+            this.Level3Card2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level3Card2.Size = new System.Drawing.Size(80, 100);
+            this.Level3Card2.TabIndex = 21;
             // 
-            // textBox9
+            // Level3Card1
             // 
-            this.textBox9.BackColor = System.Drawing.Color.Cyan;
-            this.textBox9.Location = new System.Drawing.Point(519, 241);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox9.Size = new System.Drawing.Size(70, 102);
-            this.textBox9.TabIndex = 20;
-            this.textBox9.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.Level3Card1.BackColor = System.Drawing.Color.Cyan;
+            this.Level3Card1.Location = new System.Drawing.Point(360, 140);
+            this.Level3Card1.Multiline = true;
+            this.Level3Card1.Name = "Level3Card1";
+            this.Level3Card1.ReadOnly = true;
+            this.Level3Card1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level3Card1.Size = new System.Drawing.Size(80, 100);
+            this.Level3Card1.TabIndex = 20;
             // 
-            // textBox10
+            // Level3Card_Count
             // 
-            this.textBox10.BackColor = System.Drawing.Color.Cyan;
-            this.textBox10.Location = new System.Drawing.Point(304, 241);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox10.Size = new System.Drawing.Size(70, 102);
-            this.textBox10.TabIndex = 19;
-            this.textBox10.Text = "\r\n\r\n20";
-            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Level3Card_Count.BackColor = System.Drawing.Color.Cyan;
+            this.Level3Card_Count.Location = new System.Drawing.Point(200, 140);
+            this.Level3Card_Count.Multiline = true;
+            this.Level3Card_Count.Name = "Level3Card_Count";
+            this.Level3Card_Count.ReadOnly = true;
+            this.Level3Card_Count.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level3Card_Count.Size = new System.Drawing.Size(80, 100);
+            this.Level3Card_Count.TabIndex = 19;
+            this.Level3Card_Count.Text = "\r\n\r\n\r\n20";
+            this.Level3Card_Count.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox5
+            // NobleCard5
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox5.Location = new System.Drawing.Point(1161, 90);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox5.Size = new System.Drawing.Size(70, 102);
-            this.textBox5.TabIndex = 18;
-            this.textBox5.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.NobleCard5.BackColor = System.Drawing.SystemColors.Window;
+            this.NobleCard5.Location = new System.Drawing.Point(840, 20);
+            this.NobleCard5.Multiline = true;
+            this.NobleCard5.Name = "NobleCard5";
+            this.NobleCard5.ReadOnly = true;
+            this.NobleCard5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.NobleCard5.Size = new System.Drawing.Size(80, 100);
+            this.NobleCard5.TabIndex = 18;
             // 
-            // textBox4
+            // NobleCard4
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox4.Location = new System.Drawing.Point(948, 90);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox4.Size = new System.Drawing.Size(70, 102);
-            this.textBox4.TabIndex = 17;
-            this.textBox4.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.NobleCard4.BackColor = System.Drawing.SystemColors.Window;
+            this.NobleCard4.Location = new System.Drawing.Point(680, 20);
+            this.NobleCard4.Multiline = true;
+            this.NobleCard4.Name = "NobleCard4";
+            this.NobleCard4.ReadOnly = true;
+            this.NobleCard4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.NobleCard4.Size = new System.Drawing.Size(80, 100);
+            this.NobleCard4.TabIndex = 17;
             // 
-            // textBox3
+            // NobleCard3
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox3.Location = new System.Drawing.Point(732, 90);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox3.Size = new System.Drawing.Size(70, 102);
-            this.textBox3.TabIndex = 16;
-            this.textBox3.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.NobleCard3.BackColor = System.Drawing.SystemColors.Window;
+            this.NobleCard3.Location = new System.Drawing.Point(520, 20);
+            this.NobleCard3.Multiline = true;
+            this.NobleCard3.Name = "NobleCard3";
+            this.NobleCard3.ReadOnly = true;
+            this.NobleCard3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.NobleCard3.Size = new System.Drawing.Size(80, 100);
+            this.NobleCard3.TabIndex = 16;
             // 
-            // textBox2
+            // NobleCard2
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Location = new System.Drawing.Point(519, 90);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox2.Size = new System.Drawing.Size(70, 102);
-            this.textBox2.TabIndex = 15;
-            this.textBox2.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.NobleCard2.BackColor = System.Drawing.SystemColors.Window;
+            this.NobleCard2.Location = new System.Drawing.Point(360, 20);
+            this.NobleCard2.Multiline = true;
+            this.NobleCard2.Name = "NobleCard2";
+            this.NobleCard2.ReadOnly = true;
+            this.NobleCard2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.NobleCard2.Size = new System.Drawing.Size(80, 100);
+            this.NobleCard2.TabIndex = 15;
             // 
-            // textBox1
+            // NobleCard1
             // 
-            this.textBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(304, 90);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox1.Size = new System.Drawing.Size(70, 102);
-            this.textBox1.TabIndex = 14;
-            this.textBox1.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.NobleCard1.BackColor = System.Drawing.SystemColors.Window;
+            this.NobleCard1.Location = new System.Drawing.Point(200, 20);
+            this.NobleCard1.Multiline = true;
+            this.NobleCard1.Name = "NobleCard1";
+            this.NobleCard1.ReadOnly = true;
+            this.NobleCard1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.NobleCard1.Size = new System.Drawing.Size(80, 100);
+            this.NobleCard1.TabIndex = 14;
             // 
             // gol
             // 
             this.gol.AutoSize = true;
-            this.gol.Location = new System.Drawing.Point(124, 581);
-            this.gol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gol.Location = new System.Drawing.Point(87, 387);
             this.gol.Name = "gol";
-            this.gol.Size = new System.Drawing.Size(64, 18);
+            this.gol.Size = new System.Drawing.Size(23, 12);
             this.gol.TabIndex = 13;
-            this.gol.Text = "label25";
+            this.gol.Text = "7개";
             // 
             // ony
             // 
             this.ony.AutoSize = true;
-            this.ony.Location = new System.Drawing.Point(124, 498);
-            this.ony.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ony.Location = new System.Drawing.Point(87, 332);
             this.ony.Name = "ony";
-            this.ony.Size = new System.Drawing.Size(64, 18);
+            this.ony.Size = new System.Drawing.Size(23, 12);
             this.ony.TabIndex = 12;
-            this.ony.Text = "label26";
+            this.ony.Text = "7개";
             // 
             // rub
             // 
             this.rub.AutoSize = true;
-            this.rub.Location = new System.Drawing.Point(124, 413);
-            this.rub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.rub.Location = new System.Drawing.Point(87, 275);
             this.rub.Name = "rub";
-            this.rub.Size = new System.Drawing.Size(64, 18);
+            this.rub.Size = new System.Drawing.Size(23, 12);
             this.rub.TabIndex = 11;
-            this.rub.Text = "label27";
+            this.rub.Text = "7개";
             // 
             // eme
             // 
             this.eme.AutoSize = true;
-            this.eme.Location = new System.Drawing.Point(124, 329);
-            this.eme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.eme.Location = new System.Drawing.Point(87, 219);
             this.eme.Name = "eme";
-            this.eme.Size = new System.Drawing.Size(64, 18);
+            this.eme.Size = new System.Drawing.Size(23, 12);
             this.eme.TabIndex = 10;
-            this.eme.Text = "label28";
+            this.eme.Text = "7개";
             // 
             // saf
             // 
             this.saf.AutoSize = true;
-            this.saf.Location = new System.Drawing.Point(124, 246);
-            this.saf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.saf.Location = new System.Drawing.Point(87, 164);
             this.saf.Name = "saf";
-            this.saf.Size = new System.Drawing.Size(64, 18);
+            this.saf.Size = new System.Drawing.Size(23, 12);
             this.saf.TabIndex = 9;
-            this.saf.Text = "label29";
+            this.saf.Text = "7개";
             // 
             // pictureBox25
             // 
             this.pictureBox25.Image = global::KWU_Splendor.Properties.Resources.gold;
-            this.pictureBox25.Location = new System.Drawing.Point(30, 552);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox25.Location = new System.Drawing.Point(21, 368);
             this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox25.Size = new System.Drawing.Size(50, 49);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox25.TabIndex = 8;
             this.pictureBox25.TabStop = false;
@@ -1834,10 +1697,9 @@
             // pictureBox26
             // 
             this.pictureBox26.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox26.Location = new System.Drawing.Point(30, 468);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox26.Location = new System.Drawing.Point(21, 312);
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox26.Size = new System.Drawing.Size(50, 49);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox26.TabIndex = 7;
             this.pictureBox26.TabStop = false;
@@ -1845,10 +1707,9 @@
             // pictureBox27
             // 
             this.pictureBox27.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox27.Location = new System.Drawing.Point(30, 384);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox27.Location = new System.Drawing.Point(21, 256);
             this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox27.Size = new System.Drawing.Size(50, 49);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox27.TabIndex = 6;
             this.pictureBox27.TabStop = false;
@@ -1856,10 +1717,9 @@
             // pictureBox28
             // 
             this.pictureBox28.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox28.Location = new System.Drawing.Point(30, 300);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox28.Location = new System.Drawing.Point(21, 200);
             this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox28.Size = new System.Drawing.Size(50, 49);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox28.TabIndex = 5;
             this.pictureBox28.TabStop = false;
@@ -1867,10 +1727,9 @@
             // pictureBox29
             // 
             this.pictureBox29.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox29.Location = new System.Drawing.Point(30, 216);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox29.Location = new System.Drawing.Point(21, 144);
             this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox29.Size = new System.Drawing.Size(50, 49);
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox29.TabIndex = 4;
             this.pictureBox29.TabStop = false;
@@ -1878,20 +1737,18 @@
             // dia
             // 
             this.dia.AutoSize = true;
-            this.dia.Location = new System.Drawing.Point(124, 168);
-            this.dia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.dia.Location = new System.Drawing.Point(87, 112);
             this.dia.Name = "dia";
-            this.dia.Size = new System.Drawing.Size(64, 18);
+            this.dia.Size = new System.Drawing.Size(23, 12);
             this.dia.TabIndex = 3;
-            this.dia.Text = "label30";
+            this.dia.Text = "7개";
             // 
             // pictureBox30
             // 
             this.pictureBox30.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox30.Location = new System.Drawing.Point(30, 132);
-            this.pictureBox30.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox30.Location = new System.Drawing.Point(21, 88);
             this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox30.Size = new System.Drawing.Size(50, 49);
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox30.TabIndex = 3;
             this.pictureBox30.TabStop = false;
@@ -1899,39 +1756,146 @@
             // round
             // 
             this.round.AutoSize = true;
-            this.round.Location = new System.Drawing.Point(996, 13);
-            this.round.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.round.Location = new System.Drawing.Point(697, 9);
             this.round.Name = "round";
-            this.round.Size = new System.Drawing.Size(76, 18);
+            this.round.Size = new System.Drawing.Size(51, 12);
             this.round.TabIndex = 32;
             this.round.Text = "Round 1";
             // 
             // turn
             // 
             this.turn.AutoSize = true;
-            this.turn.Location = new System.Drawing.Point(1071, 13);
-            this.turn.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.turn.Location = new System.Drawing.Point(750, 9);
             this.turn.Name = "turn";
-            this.turn.Size = new System.Drawing.Size(110, 18);
+            this.turn.Size = new System.Drawing.Size(75, 12);
             this.turn.TabIndex = 32;
             this.turn.Text = "Player1 차례";
             // 
             // BtnConnect
             // 
-            this.BtnConnect.Location = new System.Drawing.Point(226, 11);
+            this.BtnConnect.Location = new System.Drawing.Point(158, 7);
+            this.BtnConnect.Margin = new System.Windows.Forms.Padding(2);
             this.BtnConnect.Name = "BtnConnect";
-            this.BtnConnect.Size = new System.Drawing.Size(103, 30);
+            this.BtnConnect.Size = new System.Drawing.Size(72, 20);
             this.BtnConnect.TabIndex = 34;
             this.BtnConnect.Text = "연결";
             this.BtnConnect.UseVisualStyleBackColor = true;
             this.BtnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
+            // L3C1_ptb
+            // 
+            this.L3C1_ptb.Location = new System.Drawing.Point(440, 140);
+            this.L3C1_ptb.Name = "L3C1_ptb";
+            this.L3C1_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L3C1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L3C1_ptb.TabIndex = 55;
+            this.L3C1_ptb.TabStop = false;
+            // 
+            // L2C1_ptb
+            // 
+            this.L2C1_ptb.Location = new System.Drawing.Point(440, 250);
+            this.L2C1_ptb.Name = "L2C1_ptb";
+            this.L2C1_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L2C1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L2C1_ptb.TabIndex = 56;
+            this.L2C1_ptb.TabStop = false;
+            // 
+            // L1C1_ptb
+            // 
+            this.L1C1_ptb.Location = new System.Drawing.Point(440, 360);
+            this.L1C1_ptb.Name = "L1C1_ptb";
+            this.L1C1_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L1C1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L1C1_ptb.TabIndex = 57;
+            this.L1C1_ptb.TabStop = false;
+            // 
+            // L3C2_ptb
+            // 
+            this.L3C2_ptb.Location = new System.Drawing.Point(600, 140);
+            this.L3C2_ptb.Name = "L3C2_ptb";
+            this.L3C2_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L3C2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L3C2_ptb.TabIndex = 58;
+            this.L3C2_ptb.TabStop = false;
+            // 
+            // L2C2_ptb
+            // 
+            this.L2C2_ptb.Location = new System.Drawing.Point(600, 250);
+            this.L2C2_ptb.Name = "L2C2_ptb";
+            this.L2C2_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L2C2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L2C2_ptb.TabIndex = 59;
+            this.L2C2_ptb.TabStop = false;
+            // 
+            // L1C2_ptb
+            // 
+            this.L1C2_ptb.Location = new System.Drawing.Point(600, 360);
+            this.L1C2_ptb.Name = "L1C2_ptb";
+            this.L1C2_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L1C2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L1C2_ptb.TabIndex = 60;
+            this.L1C2_ptb.TabStop = false;
+            // 
+            // L3C3_ptb
+            // 
+            this.L3C3_ptb.Location = new System.Drawing.Point(760, 140);
+            this.L3C3_ptb.Name = "L3C3_ptb";
+            this.L3C3_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L3C3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L3C3_ptb.TabIndex = 61;
+            this.L3C3_ptb.TabStop = false;
+            // 
+            // L3C4_ptb
+            // 
+            this.L3C4_ptb.Location = new System.Drawing.Point(920, 140);
+            this.L3C4_ptb.Name = "L3C4_ptb";
+            this.L3C4_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L3C4_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L3C4_ptb.TabIndex = 62;
+            this.L3C4_ptb.TabStop = false;
+            // 
+            // L1C4_ptb
+            // 
+            this.L1C4_ptb.Location = new System.Drawing.Point(920, 360);
+            this.L1C4_ptb.Name = "L1C4_ptb";
+            this.L1C4_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L1C4_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L1C4_ptb.TabIndex = 63;
+            this.L1C4_ptb.TabStop = false;
+            // 
+            // L2C3_ptb
+            // 
+            this.L2C3_ptb.Location = new System.Drawing.Point(760, 250);
+            this.L2C3_ptb.Name = "L2C3_ptb";
+            this.L2C3_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L2C3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L2C3_ptb.TabIndex = 64;
+            this.L2C3_ptb.TabStop = false;
+            // 
+            // L2C4_ptb
+            // 
+            this.L2C4_ptb.Location = new System.Drawing.Point(920, 250);
+            this.L2C4_ptb.Name = "L2C4_ptb";
+            this.L2C4_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L2C4_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L2C4_ptb.TabIndex = 65;
+            this.L2C4_ptb.TabStop = false;
+            // 
+            // L1C3_ptb
+            // 
+            this.L1C3_ptb.Location = new System.Drawing.Point(760, 360);
+            this.L1C3_ptb.Name = "L1C3_ptb";
+            this.L1C3_ptb.Size = new System.Drawing.Size(50, 49);
+            this.L1C3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L1C3_ptb.TabIndex = 66;
+            this.L1C3_ptb.TabStop = false;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1924, 1170);
+            this.ClientSize = new System.Drawing.Size(1484, 875);
             this.Controls.Add(this.BtnConnect);
             this.Controls.Add(this.turn);
             this.Controls.Add(this.round);
@@ -1944,7 +1908,6 @@
             this.Controls.Add(this.P4_GB);
             this.Controls.Add(this.P3_GB);
             this.Controls.Add(this.P1_GB);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -1960,18 +1923,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.P3_GB.ResumeLayout(false);
             this.P3_GB.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.P2_GB.ResumeLayout(false);
             this.P2_GB.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -1996,6 +1959,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L3C1_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C1_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C1_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L3C2_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C2_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C2_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L3C3_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L3C4_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C4_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C3_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C4_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C3_ptb)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2074,26 +2049,26 @@
         private System.Windows.Forms.PictureBox pictureBox30;
         private System.Windows.Forms.Label round;
         private System.Windows.Forms.Label turn;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox NobleCard5;
+        private System.Windows.Forms.TextBox NobleCard4;
+        private System.Windows.Forms.TextBox NobleCard3;
+        private System.Windows.Forms.TextBox NobleCard2;
+        private System.Windows.Forms.TextBox NobleCard1;
+        private System.Windows.Forms.TextBox Level1Card4;
+        private System.Windows.Forms.TextBox Level1Card3;
+        private System.Windows.Forms.TextBox Level1Card2;
+        private System.Windows.Forms.TextBox Level1Card1;
+        private System.Windows.Forms.TextBox Level1Card_Count;
+        private System.Windows.Forms.TextBox Level2Card4;
+        private System.Windows.Forms.TextBox Level2Card3;
+        private System.Windows.Forms.TextBox Level2Card2;
+        private System.Windows.Forms.TextBox Level2Card1;
+        private System.Windows.Forms.TextBox Level2Card_Count;
+        private System.Windows.Forms.TextBox Level3Card4;
+        private System.Windows.Forms.TextBox Level3Card3;
+        private System.Windows.Forms.TextBox Level3Card2;
+        private System.Windows.Forms.TextBox Level3Card1;
+        private System.Windows.Forms.TextBox Level3Card_Count;
         private System.Windows.Forms.Label P3_onyCard;
         private System.Windows.Forms.Label P3_rubCard;
         private System.Windows.Forms.Label P3_emeCard;
@@ -2115,17 +2090,17 @@
         private System.Windows.Forms.Label P2_emeCard;
         private System.Windows.Forms.Label P2_safCard;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox P2_resered3;
+        private System.Windows.Forms.TextBox P2_resered2;
+        private System.Windows.Forms.TextBox P2_resered1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox P4_resered3;
+        private System.Windows.Forms.TextBox P4_resered2;
+        private System.Windows.Forms.TextBox P4_resered1;
         private System.Windows.Forms.Label P1_card;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label P1_score;
@@ -2139,14 +2114,26 @@
         private System.Windows.Forms.Label P4_score;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.TextBox P1_resered3;
+        private System.Windows.Forms.TextBox P1_resered2;
+        private System.Windows.Forms.TextBox P1_resered1;
         private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox46;
+        private System.Windows.Forms.TextBox P3_resered3;
+        private System.Windows.Forms.TextBox P3_resered2;
+        private System.Windows.Forms.TextBox P3_resered1;
         private System.Windows.Forms.Button BtnConnect;
+        private System.Windows.Forms.PictureBox L1C1_ptb;
+        private System.Windows.Forms.PictureBox L2C1_ptb;
+        private System.Windows.Forms.PictureBox L3C1_ptb;
+        private System.Windows.Forms.PictureBox L1C3_ptb;
+        private System.Windows.Forms.PictureBox L2C4_ptb;
+        private System.Windows.Forms.PictureBox L2C3_ptb;
+        private System.Windows.Forms.PictureBox L1C4_ptb;
+        private System.Windows.Forms.PictureBox L3C4_ptb;
+        private System.Windows.Forms.PictureBox L3C3_ptb;
+        private System.Windows.Forms.PictureBox L1C2_ptb;
+        private System.Windows.Forms.PictureBox L2C2_ptb;
+        private System.Windows.Forms.PictureBox L3C2_ptb;
     }
 }
 
