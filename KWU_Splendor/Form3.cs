@@ -35,123 +35,123 @@ namespace KWU_Splendor
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            Level1Card1.Text = "Score: " + level1cards[0].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level1cards[0].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level1cards[0].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level1cards[0].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level1cards[0].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level1cards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level1Card1.Text = level1cards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level1cards[0].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[0].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[0].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[0].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L1C1_ptb, level1cards[0].cardGem);
-            Level1Card2.Text = "Score: " + level1cards[1].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level1cards[1].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level1cards[1].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level1cards[1].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level1cards[1].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level1cards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level1Card2.Text = level1cards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level1cards[1].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[1].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[1].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[1].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L1C2_ptb, level1cards[1].cardGem);
-            Level1Card3.Text = "Score: " + level1cards[2].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level1cards[2].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level1cards[2].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level1cards[2].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level1cards[2].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level1cards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level1Card3.Text = level1cards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level1cards[2].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[2].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[2].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[2].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L1C3_ptb, level1cards[2].cardGem);
-            Level1Card4.Text = "Score: " + level1cards[3].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level1cards[3].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level1cards[3].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level1cards[3].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level1cards[3].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level1cards[3].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level1Card4.Text = level1cards[3].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level1cards[3].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[3].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[3].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[3].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level1cards[3].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L1C4_ptb, level1cards[3].cardGem);
 
-            Level2Card1.Text = "Score: " + level2cards[0].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level2cards[0].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level2cards[0].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level2cards[0].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level2cards[0].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level2cards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level2Card1.Text = level2cards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level2cards[0].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[0].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[0].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[0].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L2C1_ptb, level2cards[0].cardGem);
-            Level2Card2.Text = "Score: " + level2cards[1].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level2cards[1].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level2cards[1].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level2cards[1].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level2cards[1].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level2cards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level2Card2.Text = level2cards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level2cards[1].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[1].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[1].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[1].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L2C2_ptb, level2cards[1].cardGem);
-            Level2Card3.Text = "Score: " + level2cards[2].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level2cards[2].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level2cards[2].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level2cards[2].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level2cards[2].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level2cards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level2Card3.Text = level2cards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level2cards[2].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[2].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[2].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[2].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L2C3_ptb, level2cards[2].cardGem);
-            Level2Card4.Text = "Score: " + level2cards[3].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level2cards[3].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level2cards[3].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level2cards[3].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level2cards[3].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level2cards[3].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level2Card4.Text = level2cards[3].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level2cards[3].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[3].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[3].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[3].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level2cards[3].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L2C4_ptb, level2cards[3].cardGem);
 
-            Level3Card1.Text = "Score: " + level3cards[0].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level3cards[0].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level3cards[0].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level3cards[0].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level3cards[0].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level3cards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level3Card1.Text = level3cards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level3cards[0].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[0].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[0].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[0].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L3C1_ptb, level3cards[0].cardGem);
-            Level3Card2.Text = "Score: " + level3cards[1].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level3cards[1].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level3cards[1].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level3cards[1].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level3cards[1].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level3cards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level3Card2.Text = level3cards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level3cards[1].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[1].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[1].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[1].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L3C2_ptb, level3cards[1].cardGem);
-            Level3Card3.Text = "Score: " + level3cards[2].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level3cards[2].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level3cards[2].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level3cards[2].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level3cards[2].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level3cards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level3Card3.Text = level3cards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level3cards[2].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[2].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[2].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[2].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L3C3_ptb, level3cards[2].cardGem);
-            Level3Card4.Text = "Score: " + level3cards[3].cardScore.ToString() + "점" + Environment.NewLine
-                + "Ony: " + level3cards[3].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + level3cards[3].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + level3cards[3].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + level3cards[3].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + level3cards[3].cardCost[4].ToString() + "개" + Environment.NewLine;
+            Level3Card4.Text = level3cards[3].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + level3cards[3].cardCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[3].cardCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[3].cardCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[3].cardCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + level3cards[3].cardCost[4].ToString() + "개" + Environment.NewLine;
             ptb_img(L3C4_ptb, level3cards[3].cardGem);
 
-            NobleCard1.Text = "Score: " + "3" + "점" + Environment.NewLine
-                + "Ony: " + noblecards[0].nobleCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + noblecards[0].nobleCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + noblecards[0].nobleCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + noblecards[0].nobleCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + noblecards[0].nobleCost[4].ToString() + "개" + Environment.NewLine;
-            NobleCard2.Text = "Score: " + "3" + "점" + Environment.NewLine
-                + "Ony: " + noblecards[1].nobleCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + noblecards[1].nobleCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + noblecards[1].nobleCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + noblecards[1].nobleCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + noblecards[1].nobleCost[4].ToString() + "개" + Environment.NewLine;
-            NobleCard3.Text = "Score: " + "3" + "점" + Environment.NewLine
-                + "Ony: " + noblecards[2].nobleCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + noblecards[2].nobleCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + noblecards[2].nobleCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + noblecards[2].nobleCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + noblecards[2].nobleCost[4].ToString() + "개" + Environment.NewLine;
-            NobleCard4.Text = "Score: " + "3" + "점" + Environment.NewLine
-                + "Ony: " + noblecards[3].nobleCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + noblecards[3].nobleCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + noblecards[3].nobleCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + noblecards[3].nobleCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + noblecards[3].nobleCost[4].ToString() + "개" + Environment.NewLine;
-            NobleCard5.Text = "Score: " + "3" + "점" + Environment.NewLine
-                + "Ony: " + noblecards[4].nobleCost[0].ToString() + "개" + Environment.NewLine
-                + "Saf: " + noblecards[4].nobleCost[1].ToString() + "개" + Environment.NewLine
-                + "Eme: " + noblecards[4].nobleCost[2].ToString() + "개" + Environment.NewLine
-                + "Ruby: " + noblecards[4].nobleCost[3].ToString() + "개" + Environment.NewLine
-                + "Dia: " + noblecards[4].nobleCost[4].ToString() + "개" + Environment.NewLine;
+            NobleCard1.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + noblecards[0].nobleCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[0].nobleCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[0].nobleCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[0].nobleCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[0].nobleCost[4].ToString() + "개" + Environment.NewLine;
+            NobleCard2.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + noblecards[1].nobleCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[1].nobleCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[1].nobleCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[1].nobleCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[1].nobleCost[4].ToString() + "개" + Environment.NewLine;
+            NobleCard3.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + noblecards[2].nobleCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[2].nobleCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[2].nobleCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[2].nobleCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[2].nobleCost[4].ToString() + "개" + Environment.NewLine;
+            NobleCard4.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + noblecards[3].nobleCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[3].nobleCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[3].nobleCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[3].nobleCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[3].nobleCost[4].ToString() + "개" + Environment.NewLine;
+            NobleCard5.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
+                + "      " + noblecards[4].nobleCost[0].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[4].nobleCost[1].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[4].nobleCost[2].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[4].nobleCost[3].ToString() + "개" + Environment.NewLine
+                + "      " + noblecards[4].nobleCost[4].ToString() + "개" + Environment.NewLine;
         }
         private void ptb_img(PictureBox ptb, int GemNumber)
         {
