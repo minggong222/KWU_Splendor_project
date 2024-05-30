@@ -47,6 +47,62 @@
             this.rdo_l11 = new System.Windows.Forms.RadioButton();
             this.btn_buy = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
+            this.pictureBox71 = new System.Windows.Forms.PictureBox();
+            this.pictureBox72 = new System.Windows.Forms.PictureBox();
+            this.pictureBox73 = new System.Windows.Forms.PictureBox();
+            this.pictureBox74 = new System.Windows.Forms.PictureBox();
+            this.pictureBox75 = new System.Windows.Forms.PictureBox();
+            this.pictureBox66 = new System.Windows.Forms.PictureBox();
+            this.pictureBox67 = new System.Windows.Forms.PictureBox();
+            this.pictureBox68 = new System.Windows.Forms.PictureBox();
+            this.pictureBox69 = new System.Windows.Forms.PictureBox();
+            this.pictureBox70 = new System.Windows.Forms.PictureBox();
+            this.pictureBox61 = new System.Windows.Forms.PictureBox();
+            this.pictureBox62 = new System.Windows.Forms.PictureBox();
+            this.pictureBox63 = new System.Windows.Forms.PictureBox();
+            this.pictureBox64 = new System.Windows.Forms.PictureBox();
+            this.pictureBox65 = new System.Windows.Forms.PictureBox();
+            this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.pictureBox37 = new System.Windows.Forms.PictureBox();
+            this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.L2C4_ptb = new System.Windows.Forms.PictureBox();
+            this.L2C3_ptb = new System.Windows.Forms.PictureBox();
+            this.L2C2_ptb = new System.Windows.Forms.PictureBox();
+            this.L2C1_ptb = new System.Windows.Forms.PictureBox();
+            this.Level2Card4 = new System.Windows.Forms.TextBox();
+            this.Level2Card3 = new System.Windows.Forms.TextBox();
+            this.Level2Card2 = new System.Windows.Forms.TextBox();
+            this.Level2Card1 = new System.Windows.Forms.TextBox();
+            this.pictureBox86 = new System.Windows.Forms.PictureBox();
+            this.pictureBox87 = new System.Windows.Forms.PictureBox();
+            this.pictureBox88 = new System.Windows.Forms.PictureBox();
+            this.pictureBox89 = new System.Windows.Forms.PictureBox();
+            this.pictureBox90 = new System.Windows.Forms.PictureBox();
+            this.pictureBox81 = new System.Windows.Forms.PictureBox();
+            this.pictureBox82 = new System.Windows.Forms.PictureBox();
+            this.pictureBox83 = new System.Windows.Forms.PictureBox();
+            this.pictureBox84 = new System.Windows.Forms.PictureBox();
+            this.pictureBox85 = new System.Windows.Forms.PictureBox();
+            this.pictureBox76 = new System.Windows.Forms.PictureBox();
+            this.pictureBox77 = new System.Windows.Forms.PictureBox();
+            this.pictureBox78 = new System.Windows.Forms.PictureBox();
+            this.pictureBox79 = new System.Windows.Forms.PictureBox();
+            this.pictureBox80 = new System.Windows.Forms.PictureBox();
+            this.pictureBox41 = new System.Windows.Forms.PictureBox();
+            this.pictureBox42 = new System.Windows.Forms.PictureBox();
+            this.pictureBox43 = new System.Windows.Forms.PictureBox();
+            this.pictureBox44 = new System.Windows.Forms.PictureBox();
+            this.pictureBox45 = new System.Windows.Forms.PictureBox();
+            this.L1C3_ptb = new System.Windows.Forms.PictureBox();
+            this.L1C4_ptb = new System.Windows.Forms.PictureBox();
+            this.L1C2_ptb = new System.Windows.Forms.PictureBox();
+            this.L1C1_ptb = new System.Windows.Forms.PictureBox();
+            this.Level1Card4 = new System.Windows.Forms.TextBox();
+            this.Level1Card3 = new System.Windows.Forms.TextBox();
+            this.Level1Card2 = new System.Windows.Forms.TextBox();
+            this.Level1Card1 = new System.Windows.Forms.TextBox();
             this.pictureBox111 = new System.Windows.Forms.PictureBox();
             this.pictureBox112 = new System.Windows.Forms.PictureBox();
             this.pictureBox113 = new System.Windows.Forms.PictureBox();
@@ -105,62 +161,54 @@
             this.Level3Card3 = new System.Windows.Forms.TextBox();
             this.Level3Card2 = new System.Windows.Forms.TextBox();
             this.Level3Card1 = new System.Windows.Forms.TextBox();
-            this.pictureBox71 = new System.Windows.Forms.PictureBox();
-            this.pictureBox72 = new System.Windows.Forms.PictureBox();
-            this.pictureBox73 = new System.Windows.Forms.PictureBox();
-            this.pictureBox74 = new System.Windows.Forms.PictureBox();
-            this.pictureBox75 = new System.Windows.Forms.PictureBox();
-            this.pictureBox66 = new System.Windows.Forms.PictureBox();
-            this.pictureBox67 = new System.Windows.Forms.PictureBox();
-            this.pictureBox68 = new System.Windows.Forms.PictureBox();
-            this.pictureBox69 = new System.Windows.Forms.PictureBox();
-            this.pictureBox70 = new System.Windows.Forms.PictureBox();
-            this.pictureBox61 = new System.Windows.Forms.PictureBox();
-            this.pictureBox62 = new System.Windows.Forms.PictureBox();
-            this.pictureBox63 = new System.Windows.Forms.PictureBox();
-            this.pictureBox64 = new System.Windows.Forms.PictureBox();
-            this.pictureBox65 = new System.Windows.Forms.PictureBox();
-            this.pictureBox36 = new System.Windows.Forms.PictureBox();
-            this.pictureBox37 = new System.Windows.Forms.PictureBox();
-            this.pictureBox38 = new System.Windows.Forms.PictureBox();
-            this.pictureBox39 = new System.Windows.Forms.PictureBox();
-            this.pictureBox40 = new System.Windows.Forms.PictureBox();
-            this.L2C4_ptb = new System.Windows.Forms.PictureBox();
-            this.L2C3_ptb = new System.Windows.Forms.PictureBox();
-            this.L2C2_ptb = new System.Windows.Forms.PictureBox();
-            this.L2C1_ptb = new System.Windows.Forms.PictureBox();
-            this.Level2Card4 = new System.Windows.Forms.TextBox();
-            this.Level2Card3 = new System.Windows.Forms.TextBox();
-            this.Level2Card2 = new System.Windows.Forms.TextBox();
-            this.Level2Card1 = new System.Windows.Forms.TextBox();
-            this.pictureBox86 = new System.Windows.Forms.PictureBox();
-            this.pictureBox87 = new System.Windows.Forms.PictureBox();
-            this.pictureBox88 = new System.Windows.Forms.PictureBox();
-            this.pictureBox89 = new System.Windows.Forms.PictureBox();
-            this.pictureBox90 = new System.Windows.Forms.PictureBox();
-            this.pictureBox81 = new System.Windows.Forms.PictureBox();
-            this.pictureBox82 = new System.Windows.Forms.PictureBox();
-            this.pictureBox83 = new System.Windows.Forms.PictureBox();
-            this.pictureBox84 = new System.Windows.Forms.PictureBox();
-            this.pictureBox85 = new System.Windows.Forms.PictureBox();
-            this.pictureBox76 = new System.Windows.Forms.PictureBox();
-            this.pictureBox77 = new System.Windows.Forms.PictureBox();
-            this.pictureBox78 = new System.Windows.Forms.PictureBox();
-            this.pictureBox79 = new System.Windows.Forms.PictureBox();
-            this.pictureBox80 = new System.Windows.Forms.PictureBox();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.pictureBox43 = new System.Windows.Forms.PictureBox();
-            this.pictureBox44 = new System.Windows.Forms.PictureBox();
-            this.pictureBox45 = new System.Windows.Forms.PictureBox();
-            this.L1C3_ptb = new System.Windows.Forms.PictureBox();
-            this.L1C4_ptb = new System.Windows.Forms.PictureBox();
-            this.L1C2_ptb = new System.Windows.Forms.PictureBox();
-            this.L1C1_ptb = new System.Windows.Forms.PictureBox();
-            this.Level1Card4 = new System.Windows.Forms.TextBox();
-            this.Level1Card3 = new System.Windows.Forms.TextBox();
-            this.Level1Card2 = new System.Windows.Forms.TextBox();
-            this.Level1Card1 = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox75)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C4_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C3_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C2_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C1_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox86)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox88)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox89)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox90)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox81)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox82)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox83)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox84)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox85)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox76)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox77)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox78)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox79)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox80)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C3_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C4_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C2_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C1_ptb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox111)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).BeginInit();
@@ -210,54 +258,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.L3C3_ptb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.L3C2_ptb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.L3C1_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox75)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L2C4_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L2C3_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L2C2_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L2C1_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox86)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox88)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox89)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox90)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox81)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox82)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox83)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox84)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox85)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox76)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox77)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox78)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox79)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox80)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L1C3_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L1C4_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L1C2_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L1C1_ptb)).BeginInit();
             this.SuspendLayout();
             // 
             // rdo_n1
@@ -486,653 +486,10 @@
             this.btn_cancel.UseVisualStyleBackColor = true;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
-            // pictureBox111
-            // 
-            this.pictureBox111.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox111.Location = new System.Drawing.Point(1028, 74);
-            this.pictureBox111.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox111.Name = "pictureBox111";
-            this.pictureBox111.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox111.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox111.TabIndex = 181;
-            this.pictureBox111.TabStop = false;
-            // 
-            // pictureBox112
-            // 
-            this.pictureBox112.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox112.Location = new System.Drawing.Point(1028, 129);
-            this.pictureBox112.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox112.Name = "pictureBox112";
-            this.pictureBox112.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox112.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox112.TabIndex = 180;
-            this.pictureBox112.TabStop = false;
-            // 
-            // pictureBox113
-            // 
-            this.pictureBox113.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox113.Location = new System.Drawing.Point(1028, 112);
-            this.pictureBox113.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox113.Name = "pictureBox113";
-            this.pictureBox113.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox113.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox113.TabIndex = 179;
-            this.pictureBox113.TabStop = false;
-            // 
-            // pictureBox114
-            // 
-            this.pictureBox114.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox114.Location = new System.Drawing.Point(1028, 92);
-            this.pictureBox114.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox114.Name = "pictureBox114";
-            this.pictureBox114.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox114.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox114.TabIndex = 178;
-            this.pictureBox114.TabStop = false;
-            // 
-            // pictureBox115
-            // 
-            this.pictureBox115.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox115.Location = new System.Drawing.Point(1028, 146);
-            this.pictureBox115.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox115.Name = "pictureBox115";
-            this.pictureBox115.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox115.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox115.TabIndex = 177;
-            this.pictureBox115.TabStop = false;
-            // 
-            // pictureBox106
-            // 
-            this.pictureBox106.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox106.Location = new System.Drawing.Point(799, 74);
-            this.pictureBox106.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox106.Name = "pictureBox106";
-            this.pictureBox106.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox106.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox106.TabIndex = 176;
-            this.pictureBox106.TabStop = false;
-            // 
-            // pictureBox107
-            // 
-            this.pictureBox107.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox107.Location = new System.Drawing.Point(799, 129);
-            this.pictureBox107.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox107.Name = "pictureBox107";
-            this.pictureBox107.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox107.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox107.TabIndex = 175;
-            this.pictureBox107.TabStop = false;
-            // 
-            // pictureBox108
-            // 
-            this.pictureBox108.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox108.Location = new System.Drawing.Point(799, 112);
-            this.pictureBox108.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox108.Name = "pictureBox108";
-            this.pictureBox108.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox108.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox108.TabIndex = 174;
-            this.pictureBox108.TabStop = false;
-            // 
-            // pictureBox109
-            // 
-            this.pictureBox109.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox109.Location = new System.Drawing.Point(799, 92);
-            this.pictureBox109.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox109.Name = "pictureBox109";
-            this.pictureBox109.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox109.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox109.TabIndex = 173;
-            this.pictureBox109.TabStop = false;
-            // 
-            // pictureBox110
-            // 
-            this.pictureBox110.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox110.Location = new System.Drawing.Point(799, 146);
-            this.pictureBox110.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox110.Name = "pictureBox110";
-            this.pictureBox110.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox110.TabIndex = 172;
-            this.pictureBox110.TabStop = false;
-            // 
-            // pictureBox101
-            // 
-            this.pictureBox101.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox101.Location = new System.Drawing.Point(570, 74);
-            this.pictureBox101.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox101.Name = "pictureBox101";
-            this.pictureBox101.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox101.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox101.TabIndex = 171;
-            this.pictureBox101.TabStop = false;
-            // 
-            // pictureBox102
-            // 
-            this.pictureBox102.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox102.Location = new System.Drawing.Point(570, 129);
-            this.pictureBox102.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox102.Name = "pictureBox102";
-            this.pictureBox102.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox102.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox102.TabIndex = 170;
-            this.pictureBox102.TabStop = false;
-            // 
-            // pictureBox103
-            // 
-            this.pictureBox103.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox103.Location = new System.Drawing.Point(570, 112);
-            this.pictureBox103.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox103.Name = "pictureBox103";
-            this.pictureBox103.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox103.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox103.TabIndex = 169;
-            this.pictureBox103.TabStop = false;
-            // 
-            // pictureBox104
-            // 
-            this.pictureBox104.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox104.Location = new System.Drawing.Point(570, 92);
-            this.pictureBox104.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox104.Name = "pictureBox104";
-            this.pictureBox104.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox104.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox104.TabIndex = 168;
-            this.pictureBox104.TabStop = false;
-            // 
-            // pictureBox105
-            // 
-            this.pictureBox105.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox105.Location = new System.Drawing.Point(570, 146);
-            this.pictureBox105.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox105.Name = "pictureBox105";
-            this.pictureBox105.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox105.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox105.TabIndex = 167;
-            this.pictureBox105.TabStop = false;
-            // 
-            // pictureBox96
-            // 
-            this.pictureBox96.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox96.Location = new System.Drawing.Point(110, 74);
-            this.pictureBox96.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox96.Name = "pictureBox96";
-            this.pictureBox96.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox96.TabIndex = 166;
-            this.pictureBox96.TabStop = false;
-            // 
-            // pictureBox97
-            // 
-            this.pictureBox97.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox97.Location = new System.Drawing.Point(110, 129);
-            this.pictureBox97.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox97.Name = "pictureBox97";
-            this.pictureBox97.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox97.TabIndex = 165;
-            this.pictureBox97.TabStop = false;
-            // 
-            // pictureBox98
-            // 
-            this.pictureBox98.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox98.Location = new System.Drawing.Point(110, 112);
-            this.pictureBox98.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox98.Name = "pictureBox98";
-            this.pictureBox98.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox98.TabIndex = 164;
-            this.pictureBox98.TabStop = false;
-            // 
-            // pictureBox99
-            // 
-            this.pictureBox99.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox99.Location = new System.Drawing.Point(110, 92);
-            this.pictureBox99.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox99.Name = "pictureBox99";
-            this.pictureBox99.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox99.TabIndex = 163;
-            this.pictureBox99.TabStop = false;
-            // 
-            // pictureBox100
-            // 
-            this.pictureBox100.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox100.Location = new System.Drawing.Point(110, 146);
-            this.pictureBox100.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox100.Name = "pictureBox100";
-            this.pictureBox100.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox100.TabIndex = 162;
-            this.pictureBox100.TabStop = false;
-            // 
-            // pictureBox91
-            // 
-            this.pictureBox91.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox91.Location = new System.Drawing.Point(337, 74);
-            this.pictureBox91.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox91.Name = "pictureBox91";
-            this.pictureBox91.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox91.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox91.TabIndex = 161;
-            this.pictureBox91.TabStop = false;
-            // 
-            // pictureBox92
-            // 
-            this.pictureBox92.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox92.Location = new System.Drawing.Point(337, 129);
-            this.pictureBox92.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox92.Name = "pictureBox92";
-            this.pictureBox92.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox92.TabIndex = 160;
-            this.pictureBox92.TabStop = false;
-            // 
-            // pictureBox93
-            // 
-            this.pictureBox93.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox93.Location = new System.Drawing.Point(337, 112);
-            this.pictureBox93.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox93.Name = "pictureBox93";
-            this.pictureBox93.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox93.TabIndex = 159;
-            this.pictureBox93.TabStop = false;
-            // 
-            // pictureBox94
-            // 
-            this.pictureBox94.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox94.Location = new System.Drawing.Point(337, 92);
-            this.pictureBox94.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox94.Name = "pictureBox94";
-            this.pictureBox94.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox94.TabIndex = 158;
-            this.pictureBox94.TabStop = false;
-            // 
-            // pictureBox95
-            // 
-            this.pictureBox95.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox95.Location = new System.Drawing.Point(337, 146);
-            this.pictureBox95.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox95.Name = "pictureBox95";
-            this.pictureBox95.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox95.TabIndex = 157;
-            this.pictureBox95.TabStop = false;
-            // 
-            // NobleCard5
-            // 
-            this.NobleCard5.BackColor = System.Drawing.SystemColors.Window;
-            this.NobleCard5.Location = new System.Drawing.Point(1014, 40);
-            this.NobleCard5.Margin = new System.Windows.Forms.Padding(4);
-            this.NobleCard5.Multiline = true;
-            this.NobleCard5.Name = "NobleCard5";
-            this.NobleCard5.ReadOnly = true;
-            this.NobleCard5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.NobleCard5.Size = new System.Drawing.Size(113, 148);
-            this.NobleCard5.TabIndex = 156;
-            // 
-            // NobleCard4
-            // 
-            this.NobleCard4.BackColor = System.Drawing.SystemColors.Window;
-            this.NobleCard4.Location = new System.Drawing.Point(785, 40);
-            this.NobleCard4.Margin = new System.Windows.Forms.Padding(4);
-            this.NobleCard4.Multiline = true;
-            this.NobleCard4.Name = "NobleCard4";
-            this.NobleCard4.ReadOnly = true;
-            this.NobleCard4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.NobleCard4.Size = new System.Drawing.Size(113, 148);
-            this.NobleCard4.TabIndex = 155;
-            // 
-            // NobleCard3
-            // 
-            this.NobleCard3.BackColor = System.Drawing.SystemColors.Window;
-            this.NobleCard3.Location = new System.Drawing.Point(557, 40);
-            this.NobleCard3.Margin = new System.Windows.Forms.Padding(4);
-            this.NobleCard3.Multiline = true;
-            this.NobleCard3.Name = "NobleCard3";
-            this.NobleCard3.ReadOnly = true;
-            this.NobleCard3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.NobleCard3.Size = new System.Drawing.Size(113, 148);
-            this.NobleCard3.TabIndex = 154;
-            // 
-            // NobleCard2
-            // 
-            this.NobleCard2.BackColor = System.Drawing.SystemColors.Window;
-            this.NobleCard2.Location = new System.Drawing.Point(328, 40);
-            this.NobleCard2.Margin = new System.Windows.Forms.Padding(4);
-            this.NobleCard2.Multiline = true;
-            this.NobleCard2.Name = "NobleCard2";
-            this.NobleCard2.ReadOnly = true;
-            this.NobleCard2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.NobleCard2.Size = new System.Drawing.Size(113, 148);
-            this.NobleCard2.TabIndex = 153;
-            // 
-            // NobleCard1
-            // 
-            this.NobleCard1.BackColor = System.Drawing.SystemColors.Window;
-            this.NobleCard1.Location = new System.Drawing.Point(100, 40);
-            this.NobleCard1.Margin = new System.Windows.Forms.Padding(4);
-            this.NobleCard1.Multiline = true;
-            this.NobleCard1.Name = "NobleCard1";
-            this.NobleCard1.ReadOnly = true;
-            this.NobleCard1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.NobleCard1.Size = new System.Drawing.Size(113, 148);
-            this.NobleCard1.TabIndex = 152;
-            // 
-            // pictureBox56
-            // 
-            this.pictureBox56.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox56.Location = new System.Drawing.Point(1028, 289);
-            this.pictureBox56.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox56.TabIndex = 209;
-            this.pictureBox56.TabStop = false;
-            // 
-            // pictureBox57
-            // 
-            this.pictureBox57.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox57.Location = new System.Drawing.Point(1028, 344);
-            this.pictureBox57.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox57.TabIndex = 208;
-            this.pictureBox57.TabStop = false;
-            // 
-            // pictureBox58
-            // 
-            this.pictureBox58.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox58.Location = new System.Drawing.Point(1028, 327);
-            this.pictureBox58.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox58.TabIndex = 207;
-            this.pictureBox58.TabStop = false;
-            // 
-            // pictureBox59
-            // 
-            this.pictureBox59.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox59.Location = new System.Drawing.Point(1028, 307);
-            this.pictureBox59.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox59.TabIndex = 206;
-            this.pictureBox59.TabStop = false;
-            // 
-            // pictureBox60
-            // 
-            this.pictureBox60.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox60.Location = new System.Drawing.Point(1028, 361);
-            this.pictureBox60.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox60.Name = "pictureBox60";
-            this.pictureBox60.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox60.TabIndex = 205;
-            this.pictureBox60.TabStop = false;
-            // 
-            // pictureBox51
-            // 
-            this.pictureBox51.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox51.Location = new System.Drawing.Point(799, 289);
-            this.pictureBox51.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox51.TabIndex = 204;
-            this.pictureBox51.TabStop = false;
-            // 
-            // pictureBox52
-            // 
-            this.pictureBox52.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox52.Location = new System.Drawing.Point(799, 344);
-            this.pictureBox52.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox52.TabIndex = 203;
-            this.pictureBox52.TabStop = false;
-            // 
-            // pictureBox53
-            // 
-            this.pictureBox53.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox53.Location = new System.Drawing.Point(799, 327);
-            this.pictureBox53.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox53.TabIndex = 202;
-            this.pictureBox53.TabStop = false;
-            // 
-            // pictureBox54
-            // 
-            this.pictureBox54.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox54.Location = new System.Drawing.Point(799, 307);
-            this.pictureBox54.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox54.TabIndex = 201;
-            this.pictureBox54.TabStop = false;
-            // 
-            // pictureBox55
-            // 
-            this.pictureBox55.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox55.Location = new System.Drawing.Point(799, 361);
-            this.pictureBox55.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox55.TabIndex = 200;
-            this.pictureBox55.TabStop = false;
-            // 
-            // pictureBox46
-            // 
-            this.pictureBox46.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox46.Location = new System.Drawing.Point(570, 289);
-            this.pictureBox46.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox46.TabIndex = 199;
-            this.pictureBox46.TabStop = false;
-            // 
-            // pictureBox47
-            // 
-            this.pictureBox47.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox47.Location = new System.Drawing.Point(570, 344);
-            this.pictureBox47.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox47.TabIndex = 198;
-            this.pictureBox47.TabStop = false;
-            // 
-            // pictureBox48
-            // 
-            this.pictureBox48.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox48.Location = new System.Drawing.Point(570, 327);
-            this.pictureBox48.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox48.TabIndex = 197;
-            this.pictureBox48.TabStop = false;
-            // 
-            // pictureBox49
-            // 
-            this.pictureBox49.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox49.Location = new System.Drawing.Point(570, 307);
-            this.pictureBox49.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox49.TabIndex = 196;
-            this.pictureBox49.TabStop = false;
-            // 
-            // pictureBox50
-            // 
-            this.pictureBox50.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox50.Location = new System.Drawing.Point(570, 361);
-            this.pictureBox50.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox50.TabIndex = 195;
-            this.pictureBox50.TabStop = false;
-            // 
-            // pictureBox35
-            // 
-            this.pictureBox35.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox35.Location = new System.Drawing.Point(337, 289);
-            this.pictureBox35.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox35.TabIndex = 194;
-            this.pictureBox35.TabStop = false;
-            // 
-            // pictureBox34
-            // 
-            this.pictureBox34.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox34.Location = new System.Drawing.Point(337, 344);
-            this.pictureBox34.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox34.TabIndex = 193;
-            this.pictureBox34.TabStop = false;
-            // 
-            // pictureBox33
-            // 
-            this.pictureBox33.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox33.Location = new System.Drawing.Point(337, 327);
-            this.pictureBox33.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox33.TabIndex = 192;
-            this.pictureBox33.TabStop = false;
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox32.Location = new System.Drawing.Point(337, 307);
-            this.pictureBox32.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox32.TabIndex = 191;
-            this.pictureBox32.TabStop = false;
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox31.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox31.Location = new System.Drawing.Point(337, 361);
-            this.pictureBox31.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox31.TabIndex = 190;
-            this.pictureBox31.TabStop = false;
-            // 
-            // L3C4_ptb
-            // 
-            this.L3C4_ptb.Location = new System.Drawing.Point(1096, 254);
-            this.L3C4_ptb.Margin = new System.Windows.Forms.Padding(4);
-            this.L3C4_ptb.Name = "L3C4_ptb";
-            this.L3C4_ptb.Size = new System.Drawing.Size(31, 28);
-            this.L3C4_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.L3C4_ptb.TabIndex = 189;
-            this.L3C4_ptb.TabStop = false;
-            // 
-            // L3C3_ptb
-            // 
-            this.L3C3_ptb.Location = new System.Drawing.Point(867, 254);
-            this.L3C3_ptb.Margin = new System.Windows.Forms.Padding(4);
-            this.L3C3_ptb.Name = "L3C3_ptb";
-            this.L3C3_ptb.Size = new System.Drawing.Size(31, 28);
-            this.L3C3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.L3C3_ptb.TabIndex = 188;
-            this.L3C3_ptb.TabStop = false;
-            // 
-            // L3C2_ptb
-            // 
-            this.L3C2_ptb.Location = new System.Drawing.Point(639, 254);
-            this.L3C2_ptb.Margin = new System.Windows.Forms.Padding(4);
-            this.L3C2_ptb.Name = "L3C2_ptb";
-            this.L3C2_ptb.Size = new System.Drawing.Size(31, 28);
-            this.L3C2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.L3C2_ptb.TabIndex = 187;
-            this.L3C2_ptb.TabStop = false;
-            // 
-            // L3C1_ptb
-            // 
-            this.L3C1_ptb.Location = new System.Drawing.Point(410, 254);
-            this.L3C1_ptb.Margin = new System.Windows.Forms.Padding(4);
-            this.L3C1_ptb.Name = "L3C1_ptb";
-            this.L3C1_ptb.Size = new System.Drawing.Size(31, 28);
-            this.L3C1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.L3C1_ptb.TabIndex = 186;
-            this.L3C1_ptb.TabStop = false;
-            // 
-            // Level3Card4
-            // 
-            this.Level3Card4.BackColor = System.Drawing.Color.Cyan;
-            this.Level3Card4.Location = new System.Drawing.Point(1014, 254);
-            this.Level3Card4.Margin = new System.Windows.Forms.Padding(4);
-            this.Level3Card4.Multiline = true;
-            this.Level3Card4.Name = "Level3Card4";
-            this.Level3Card4.ReadOnly = true;
-            this.Level3Card4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level3Card4.Size = new System.Drawing.Size(113, 148);
-            this.Level3Card4.TabIndex = 185;
-            // 
-            // Level3Card3
-            // 
-            this.Level3Card3.BackColor = System.Drawing.Color.Cyan;
-            this.Level3Card3.Location = new System.Drawing.Point(785, 254);
-            this.Level3Card3.Margin = new System.Windows.Forms.Padding(4);
-            this.Level3Card3.Multiline = true;
-            this.Level3Card3.Name = "Level3Card3";
-            this.Level3Card3.ReadOnly = true;
-            this.Level3Card3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level3Card3.Size = new System.Drawing.Size(113, 148);
-            this.Level3Card3.TabIndex = 184;
-            // 
-            // Level3Card2
-            // 
-            this.Level3Card2.BackColor = System.Drawing.Color.Cyan;
-            this.Level3Card2.Location = new System.Drawing.Point(557, 254);
-            this.Level3Card2.Margin = new System.Windows.Forms.Padding(4);
-            this.Level3Card2.Multiline = true;
-            this.Level3Card2.Name = "Level3Card2";
-            this.Level3Card2.ReadOnly = true;
-            this.Level3Card2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level3Card2.Size = new System.Drawing.Size(113, 148);
-            this.Level3Card2.TabIndex = 183;
-            // 
-            // Level3Card1
-            // 
-            this.Level3Card1.BackColor = System.Drawing.Color.Cyan;
-            this.Level3Card1.Location = new System.Drawing.Point(328, 254);
-            this.Level3Card1.Margin = new System.Windows.Forms.Padding(4);
-            this.Level3Card1.Multiline = true;
-            this.Level3Card1.Name = "Level3Card1";
-            this.Level3Card1.ReadOnly = true;
-            this.Level3Card1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level3Card1.Size = new System.Drawing.Size(113, 148);
-            this.Level3Card1.TabIndex = 182;
-            // 
             // pictureBox71
             // 
             this.pictureBox71.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox71.Location = new System.Drawing.Point(1028, 474);
+            this.pictureBox71.Location = new System.Drawing.Point(1028, 546);
             this.pictureBox71.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox71.Name = "pictureBox71";
             this.pictureBox71.Size = new System.Drawing.Size(20, 20);
@@ -1176,7 +533,7 @@
             // pictureBox75
             // 
             this.pictureBox75.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox75.Location = new System.Drawing.Point(1028, 546);
+            this.pictureBox75.Location = new System.Drawing.Point(1028, 474);
             this.pictureBox75.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox75.Name = "pictureBox75";
             this.pictureBox75.Size = new System.Drawing.Size(20, 20);
@@ -1187,7 +544,7 @@
             // pictureBox66
             // 
             this.pictureBox66.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox66.Location = new System.Drawing.Point(799, 474);
+            this.pictureBox66.Location = new System.Drawing.Point(799, 546);
             this.pictureBox66.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox66.Name = "pictureBox66";
             this.pictureBox66.Size = new System.Drawing.Size(20, 20);
@@ -1231,7 +588,7 @@
             // pictureBox70
             // 
             this.pictureBox70.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox70.Location = new System.Drawing.Point(799, 546);
+            this.pictureBox70.Location = new System.Drawing.Point(799, 474);
             this.pictureBox70.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox70.Name = "pictureBox70";
             this.pictureBox70.Size = new System.Drawing.Size(20, 20);
@@ -1242,7 +599,7 @@
             // pictureBox61
             // 
             this.pictureBox61.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox61.Location = new System.Drawing.Point(570, 474);
+            this.pictureBox61.Location = new System.Drawing.Point(570, 546);
             this.pictureBox61.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox61.Name = "pictureBox61";
             this.pictureBox61.Size = new System.Drawing.Size(20, 20);
@@ -1286,7 +643,7 @@
             // pictureBox65
             // 
             this.pictureBox65.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox65.Location = new System.Drawing.Point(570, 546);
+            this.pictureBox65.Location = new System.Drawing.Point(570, 474);
             this.pictureBox65.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox65.Name = "pictureBox65";
             this.pictureBox65.Size = new System.Drawing.Size(20, 20);
@@ -1297,7 +654,7 @@
             // pictureBox36
             // 
             this.pictureBox36.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox36.Location = new System.Drawing.Point(337, 474);
+            this.pictureBox36.Location = new System.Drawing.Point(337, 546);
             this.pictureBox36.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(20, 20);
@@ -1341,7 +698,7 @@
             // pictureBox40
             // 
             this.pictureBox40.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox40.Location = new System.Drawing.Point(337, 546);
+            this.pictureBox40.Location = new System.Drawing.Point(337, 474);
             this.pictureBox40.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(20, 20);
@@ -1440,7 +797,7 @@
             // pictureBox86
             // 
             this.pictureBox86.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox86.Location = new System.Drawing.Point(1028, 660);
+            this.pictureBox86.Location = new System.Drawing.Point(1028, 732);
             this.pictureBox86.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox86.Name = "pictureBox86";
             this.pictureBox86.Size = new System.Drawing.Size(20, 20);
@@ -1484,7 +841,7 @@
             // pictureBox90
             // 
             this.pictureBox90.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox90.Location = new System.Drawing.Point(1028, 732);
+            this.pictureBox90.Location = new System.Drawing.Point(1028, 660);
             this.pictureBox90.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox90.Name = "pictureBox90";
             this.pictureBox90.Size = new System.Drawing.Size(20, 20);
@@ -1495,7 +852,7 @@
             // pictureBox81
             // 
             this.pictureBox81.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox81.Location = new System.Drawing.Point(799, 660);
+            this.pictureBox81.Location = new System.Drawing.Point(799, 732);
             this.pictureBox81.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox81.Name = "pictureBox81";
             this.pictureBox81.Size = new System.Drawing.Size(20, 20);
@@ -1539,7 +896,7 @@
             // pictureBox85
             // 
             this.pictureBox85.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox85.Location = new System.Drawing.Point(799, 732);
+            this.pictureBox85.Location = new System.Drawing.Point(799, 660);
             this.pictureBox85.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox85.Name = "pictureBox85";
             this.pictureBox85.Size = new System.Drawing.Size(20, 20);
@@ -1550,7 +907,7 @@
             // pictureBox76
             // 
             this.pictureBox76.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox76.Location = new System.Drawing.Point(570, 660);
+            this.pictureBox76.Location = new System.Drawing.Point(570, 732);
             this.pictureBox76.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox76.Name = "pictureBox76";
             this.pictureBox76.Size = new System.Drawing.Size(20, 20);
@@ -1594,7 +951,7 @@
             // pictureBox80
             // 
             this.pictureBox80.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox80.Location = new System.Drawing.Point(570, 732);
+            this.pictureBox80.Location = new System.Drawing.Point(570, 660);
             this.pictureBox80.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox80.Name = "pictureBox80";
             this.pictureBox80.Size = new System.Drawing.Size(20, 20);
@@ -1605,7 +962,7 @@
             // pictureBox41
             // 
             this.pictureBox41.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox41.Location = new System.Drawing.Point(337, 660);
+            this.pictureBox41.Location = new System.Drawing.Point(337, 732);
             this.pictureBox41.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.Size = new System.Drawing.Size(20, 20);
@@ -1649,7 +1006,7 @@
             // pictureBox45
             // 
             this.pictureBox45.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox45.Location = new System.Drawing.Point(337, 732);
+            this.pictureBox45.Location = new System.Drawing.Point(337, 660);
             this.pictureBox45.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(20, 20);
@@ -1745,67 +1102,654 @@
             this.Level1Card1.Size = new System.Drawing.Size(113, 148);
             this.Level1Card1.TabIndex = 238;
             // 
+            // pictureBox111
+            // 
+            this.pictureBox111.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.pictureBox111.Location = new System.Drawing.Point(1028, 154);
+            this.pictureBox111.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox111.Name = "pictureBox111";
+            this.pictureBox111.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox111.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox111.TabIndex = 295;
+            this.pictureBox111.TabStop = false;
+            // 
+            // pictureBox112
+            // 
+            this.pictureBox112.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.pictureBox112.Location = new System.Drawing.Point(1028, 137);
+            this.pictureBox112.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox112.Name = "pictureBox112";
+            this.pictureBox112.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox112.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox112.TabIndex = 294;
+            this.pictureBox112.TabStop = false;
+            // 
+            // pictureBox113
+            // 
+            this.pictureBox113.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.pictureBox113.Location = new System.Drawing.Point(1028, 120);
+            this.pictureBox113.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox113.Name = "pictureBox113";
+            this.pictureBox113.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox113.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox113.TabIndex = 293;
+            this.pictureBox113.TabStop = false;
+            // 
+            // pictureBox114
+            // 
+            this.pictureBox114.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.pictureBox114.Location = new System.Drawing.Point(1028, 100);
+            this.pictureBox114.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox114.Name = "pictureBox114";
+            this.pictureBox114.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox114.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox114.TabIndex = 292;
+            this.pictureBox114.TabStop = false;
+            // 
+            // pictureBox115
+            // 
+            this.pictureBox115.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.pictureBox115.Location = new System.Drawing.Point(1028, 82);
+            this.pictureBox115.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox115.Name = "pictureBox115";
+            this.pictureBox115.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox115.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox115.TabIndex = 291;
+            this.pictureBox115.TabStop = false;
+            // 
+            // pictureBox106
+            // 
+            this.pictureBox106.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.pictureBox106.Location = new System.Drawing.Point(799, 154);
+            this.pictureBox106.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox106.Name = "pictureBox106";
+            this.pictureBox106.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox106.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox106.TabIndex = 290;
+            this.pictureBox106.TabStop = false;
+            // 
+            // pictureBox107
+            // 
+            this.pictureBox107.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.pictureBox107.Location = new System.Drawing.Point(799, 137);
+            this.pictureBox107.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox107.Name = "pictureBox107";
+            this.pictureBox107.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox107.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox107.TabIndex = 289;
+            this.pictureBox107.TabStop = false;
+            // 
+            // pictureBox108
+            // 
+            this.pictureBox108.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.pictureBox108.Location = new System.Drawing.Point(799, 120);
+            this.pictureBox108.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox108.Name = "pictureBox108";
+            this.pictureBox108.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox108.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox108.TabIndex = 288;
+            this.pictureBox108.TabStop = false;
+            // 
+            // pictureBox109
+            // 
+            this.pictureBox109.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.pictureBox109.Location = new System.Drawing.Point(799, 100);
+            this.pictureBox109.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox109.Name = "pictureBox109";
+            this.pictureBox109.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox109.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox109.TabIndex = 287;
+            this.pictureBox109.TabStop = false;
+            // 
+            // pictureBox110
+            // 
+            this.pictureBox110.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.pictureBox110.Location = new System.Drawing.Point(799, 82);
+            this.pictureBox110.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox110.Name = "pictureBox110";
+            this.pictureBox110.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox110.TabIndex = 286;
+            this.pictureBox110.TabStop = false;
+            // 
+            // pictureBox101
+            // 
+            this.pictureBox101.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.pictureBox101.Location = new System.Drawing.Point(570, 154);
+            this.pictureBox101.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox101.Name = "pictureBox101";
+            this.pictureBox101.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox101.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox101.TabIndex = 285;
+            this.pictureBox101.TabStop = false;
+            // 
+            // pictureBox102
+            // 
+            this.pictureBox102.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.pictureBox102.Location = new System.Drawing.Point(570, 137);
+            this.pictureBox102.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox102.Name = "pictureBox102";
+            this.pictureBox102.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox102.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox102.TabIndex = 284;
+            this.pictureBox102.TabStop = false;
+            // 
+            // pictureBox103
+            // 
+            this.pictureBox103.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.pictureBox103.Location = new System.Drawing.Point(570, 120);
+            this.pictureBox103.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox103.Name = "pictureBox103";
+            this.pictureBox103.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox103.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox103.TabIndex = 283;
+            this.pictureBox103.TabStop = false;
+            // 
+            // pictureBox104
+            // 
+            this.pictureBox104.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.pictureBox104.Location = new System.Drawing.Point(570, 100);
+            this.pictureBox104.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox104.Name = "pictureBox104";
+            this.pictureBox104.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox104.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox104.TabIndex = 282;
+            this.pictureBox104.TabStop = false;
+            // 
+            // pictureBox105
+            // 
+            this.pictureBox105.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.pictureBox105.Location = new System.Drawing.Point(570, 82);
+            this.pictureBox105.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox105.Name = "pictureBox105";
+            this.pictureBox105.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox105.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox105.TabIndex = 281;
+            this.pictureBox105.TabStop = false;
+            // 
+            // pictureBox96
+            // 
+            this.pictureBox96.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.pictureBox96.Location = new System.Drawing.Point(110, 154);
+            this.pictureBox96.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox96.Name = "pictureBox96";
+            this.pictureBox96.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox96.TabIndex = 280;
+            this.pictureBox96.TabStop = false;
+            // 
+            // pictureBox97
+            // 
+            this.pictureBox97.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.pictureBox97.Location = new System.Drawing.Point(110, 137);
+            this.pictureBox97.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox97.Name = "pictureBox97";
+            this.pictureBox97.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox97.TabIndex = 279;
+            this.pictureBox97.TabStop = false;
+            // 
+            // pictureBox98
+            // 
+            this.pictureBox98.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.pictureBox98.Location = new System.Drawing.Point(110, 120);
+            this.pictureBox98.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox98.Name = "pictureBox98";
+            this.pictureBox98.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox98.TabIndex = 278;
+            this.pictureBox98.TabStop = false;
+            // 
+            // pictureBox99
+            // 
+            this.pictureBox99.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.pictureBox99.Location = new System.Drawing.Point(110, 100);
+            this.pictureBox99.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox99.Name = "pictureBox99";
+            this.pictureBox99.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox99.TabIndex = 277;
+            this.pictureBox99.TabStop = false;
+            // 
+            // pictureBox100
+            // 
+            this.pictureBox100.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.pictureBox100.Location = new System.Drawing.Point(110, 82);
+            this.pictureBox100.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox100.Name = "pictureBox100";
+            this.pictureBox100.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox100.TabIndex = 276;
+            this.pictureBox100.TabStop = false;
+            // 
+            // pictureBox91
+            // 
+            this.pictureBox91.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.pictureBox91.Location = new System.Drawing.Point(337, 154);
+            this.pictureBox91.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox91.Name = "pictureBox91";
+            this.pictureBox91.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox91.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox91.TabIndex = 275;
+            this.pictureBox91.TabStop = false;
+            // 
+            // pictureBox92
+            // 
+            this.pictureBox92.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.pictureBox92.Location = new System.Drawing.Point(337, 137);
+            this.pictureBox92.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox92.Name = "pictureBox92";
+            this.pictureBox92.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox92.TabIndex = 274;
+            this.pictureBox92.TabStop = false;
+            // 
+            // pictureBox93
+            // 
+            this.pictureBox93.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.pictureBox93.Location = new System.Drawing.Point(337, 120);
+            this.pictureBox93.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox93.Name = "pictureBox93";
+            this.pictureBox93.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox93.TabIndex = 273;
+            this.pictureBox93.TabStop = false;
+            // 
+            // pictureBox94
+            // 
+            this.pictureBox94.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.pictureBox94.Location = new System.Drawing.Point(337, 100);
+            this.pictureBox94.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox94.Name = "pictureBox94";
+            this.pictureBox94.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox94.TabIndex = 272;
+            this.pictureBox94.TabStop = false;
+            // 
+            // pictureBox95
+            // 
+            this.pictureBox95.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.pictureBox95.Location = new System.Drawing.Point(337, 82);
+            this.pictureBox95.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox95.Name = "pictureBox95";
+            this.pictureBox95.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox95.TabIndex = 271;
+            this.pictureBox95.TabStop = false;
+            // 
+            // NobleCard5
+            // 
+            this.NobleCard5.BackColor = System.Drawing.SystemColors.Window;
+            this.NobleCard5.Location = new System.Drawing.Point(1014, 48);
+            this.NobleCard5.Margin = new System.Windows.Forms.Padding(4);
+            this.NobleCard5.Multiline = true;
+            this.NobleCard5.Name = "NobleCard5";
+            this.NobleCard5.ReadOnly = true;
+            this.NobleCard5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.NobleCard5.Size = new System.Drawing.Size(113, 148);
+            this.NobleCard5.TabIndex = 270;
+            // 
+            // NobleCard4
+            // 
+            this.NobleCard4.BackColor = System.Drawing.SystemColors.Window;
+            this.NobleCard4.Location = new System.Drawing.Point(785, 48);
+            this.NobleCard4.Margin = new System.Windows.Forms.Padding(4);
+            this.NobleCard4.Multiline = true;
+            this.NobleCard4.Name = "NobleCard4";
+            this.NobleCard4.ReadOnly = true;
+            this.NobleCard4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.NobleCard4.Size = new System.Drawing.Size(113, 148);
+            this.NobleCard4.TabIndex = 269;
+            // 
+            // NobleCard3
+            // 
+            this.NobleCard3.BackColor = System.Drawing.SystemColors.Window;
+            this.NobleCard3.Location = new System.Drawing.Point(557, 48);
+            this.NobleCard3.Margin = new System.Windows.Forms.Padding(4);
+            this.NobleCard3.Multiline = true;
+            this.NobleCard3.Name = "NobleCard3";
+            this.NobleCard3.ReadOnly = true;
+            this.NobleCard3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.NobleCard3.Size = new System.Drawing.Size(113, 148);
+            this.NobleCard3.TabIndex = 268;
+            // 
+            // NobleCard2
+            // 
+            this.NobleCard2.BackColor = System.Drawing.SystemColors.Window;
+            this.NobleCard2.Location = new System.Drawing.Point(328, 48);
+            this.NobleCard2.Margin = new System.Windows.Forms.Padding(4);
+            this.NobleCard2.Multiline = true;
+            this.NobleCard2.Name = "NobleCard2";
+            this.NobleCard2.ReadOnly = true;
+            this.NobleCard2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.NobleCard2.Size = new System.Drawing.Size(113, 148);
+            this.NobleCard2.TabIndex = 267;
+            // 
+            // NobleCard1
+            // 
+            this.NobleCard1.BackColor = System.Drawing.SystemColors.Window;
+            this.NobleCard1.Location = new System.Drawing.Point(100, 48);
+            this.NobleCard1.Margin = new System.Windows.Forms.Padding(4);
+            this.NobleCard1.Multiline = true;
+            this.NobleCard1.Name = "NobleCard1";
+            this.NobleCard1.ReadOnly = true;
+            this.NobleCard1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.NobleCard1.Size = new System.Drawing.Size(113, 148);
+            this.NobleCard1.TabIndex = 266;
+            // 
+            // pictureBox56
+            // 
+            this.pictureBox56.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.pictureBox56.Location = new System.Drawing.Point(1028, 346);
+            this.pictureBox56.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox56.Name = "pictureBox56";
+            this.pictureBox56.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox56.TabIndex = 324;
+            this.pictureBox56.TabStop = false;
+            // 
+            // pictureBox57
+            // 
+            this.pictureBox57.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.pictureBox57.Location = new System.Drawing.Point(1028, 329);
+            this.pictureBox57.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox57.Name = "pictureBox57";
+            this.pictureBox57.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox57.TabIndex = 323;
+            this.pictureBox57.TabStop = false;
+            // 
+            // pictureBox58
+            // 
+            this.pictureBox58.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.pictureBox58.Location = new System.Drawing.Point(1028, 312);
+            this.pictureBox58.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox58.Name = "pictureBox58";
+            this.pictureBox58.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox58.TabIndex = 322;
+            this.pictureBox58.TabStop = false;
+            // 
+            // pictureBox59
+            // 
+            this.pictureBox59.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.pictureBox59.Location = new System.Drawing.Point(1028, 292);
+            this.pictureBox59.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox59.Name = "pictureBox59";
+            this.pictureBox59.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox59.TabIndex = 321;
+            this.pictureBox59.TabStop = false;
+            // 
+            // pictureBox60
+            // 
+            this.pictureBox60.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.pictureBox60.Location = new System.Drawing.Point(1028, 274);
+            this.pictureBox60.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox60.Name = "pictureBox60";
+            this.pictureBox60.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox60.TabIndex = 320;
+            this.pictureBox60.TabStop = false;
+            // 
+            // pictureBox51
+            // 
+            this.pictureBox51.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.pictureBox51.Location = new System.Drawing.Point(799, 346);
+            this.pictureBox51.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox51.Name = "pictureBox51";
+            this.pictureBox51.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox51.TabIndex = 319;
+            this.pictureBox51.TabStop = false;
+            // 
+            // pictureBox52
+            // 
+            this.pictureBox52.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.pictureBox52.Location = new System.Drawing.Point(799, 329);
+            this.pictureBox52.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox52.Name = "pictureBox52";
+            this.pictureBox52.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox52.TabIndex = 318;
+            this.pictureBox52.TabStop = false;
+            // 
+            // pictureBox53
+            // 
+            this.pictureBox53.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.pictureBox53.Location = new System.Drawing.Point(799, 312);
+            this.pictureBox53.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox53.Name = "pictureBox53";
+            this.pictureBox53.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox53.TabIndex = 317;
+            this.pictureBox53.TabStop = false;
+            // 
+            // pictureBox54
+            // 
+            this.pictureBox54.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.pictureBox54.Location = new System.Drawing.Point(799, 292);
+            this.pictureBox54.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox54.Name = "pictureBox54";
+            this.pictureBox54.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox54.TabIndex = 316;
+            this.pictureBox54.TabStop = false;
+            // 
+            // pictureBox55
+            // 
+            this.pictureBox55.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.pictureBox55.Location = new System.Drawing.Point(799, 274);
+            this.pictureBox55.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox55.Name = "pictureBox55";
+            this.pictureBox55.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox55.TabIndex = 315;
+            this.pictureBox55.TabStop = false;
+            // 
+            // pictureBox46
+            // 
+            this.pictureBox46.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.pictureBox46.Location = new System.Drawing.Point(570, 346);
+            this.pictureBox46.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox46.Name = "pictureBox46";
+            this.pictureBox46.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox46.TabIndex = 314;
+            this.pictureBox46.TabStop = false;
+            // 
+            // pictureBox47
+            // 
+            this.pictureBox47.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.pictureBox47.Location = new System.Drawing.Point(570, 329);
+            this.pictureBox47.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox47.Name = "pictureBox47";
+            this.pictureBox47.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox47.TabIndex = 313;
+            this.pictureBox47.TabStop = false;
+            // 
+            // pictureBox48
+            // 
+            this.pictureBox48.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.pictureBox48.Location = new System.Drawing.Point(570, 312);
+            this.pictureBox48.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox48.Name = "pictureBox48";
+            this.pictureBox48.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox48.TabIndex = 312;
+            this.pictureBox48.TabStop = false;
+            // 
+            // pictureBox49
+            // 
+            this.pictureBox49.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.pictureBox49.Location = new System.Drawing.Point(570, 292);
+            this.pictureBox49.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox49.Name = "pictureBox49";
+            this.pictureBox49.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox49.TabIndex = 311;
+            this.pictureBox49.TabStop = false;
+            // 
+            // pictureBox50
+            // 
+            this.pictureBox50.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.pictureBox50.Location = new System.Drawing.Point(570, 274);
+            this.pictureBox50.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox50.Name = "pictureBox50";
+            this.pictureBox50.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox50.TabIndex = 310;
+            this.pictureBox50.TabStop = false;
+            // 
+            // pictureBox35
+            // 
+            this.pictureBox35.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.pictureBox35.Location = new System.Drawing.Point(337, 346);
+            this.pictureBox35.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox35.TabIndex = 309;
+            this.pictureBox35.TabStop = false;
+            // 
+            // pictureBox34
+            // 
+            this.pictureBox34.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.pictureBox34.Location = new System.Drawing.Point(337, 329);
+            this.pictureBox34.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox34.TabIndex = 308;
+            this.pictureBox34.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.pictureBox33.Location = new System.Drawing.Point(337, 312);
+            this.pictureBox33.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox33.TabIndex = 307;
+            this.pictureBox33.TabStop = false;
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.pictureBox32.Location = new System.Drawing.Point(337, 292);
+            this.pictureBox32.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox32.TabIndex = 306;
+            this.pictureBox32.TabStop = false;
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.pictureBox31.Location = new System.Drawing.Point(337, 274);
+            this.pictureBox31.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox31.TabIndex = 305;
+            this.pictureBox31.TabStop = false;
+            // 
+            // L3C4_ptb
+            // 
+            this.L3C4_ptb.Location = new System.Drawing.Point(1096, 239);
+            this.L3C4_ptb.Margin = new System.Windows.Forms.Padding(4);
+            this.L3C4_ptb.Name = "L3C4_ptb";
+            this.L3C4_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L3C4_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L3C4_ptb.TabIndex = 304;
+            this.L3C4_ptb.TabStop = false;
+            // 
+            // L3C3_ptb
+            // 
+            this.L3C3_ptb.Location = new System.Drawing.Point(867, 239);
+            this.L3C3_ptb.Margin = new System.Windows.Forms.Padding(4);
+            this.L3C3_ptb.Name = "L3C3_ptb";
+            this.L3C3_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L3C3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L3C3_ptb.TabIndex = 303;
+            this.L3C3_ptb.TabStop = false;
+            // 
+            // L3C2_ptb
+            // 
+            this.L3C2_ptb.Location = new System.Drawing.Point(639, 239);
+            this.L3C2_ptb.Margin = new System.Windows.Forms.Padding(4);
+            this.L3C2_ptb.Name = "L3C2_ptb";
+            this.L3C2_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L3C2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L3C2_ptb.TabIndex = 302;
+            this.L3C2_ptb.TabStop = false;
+            // 
+            // L3C1_ptb
+            // 
+            this.L3C1_ptb.Location = new System.Drawing.Point(410, 239);
+            this.L3C1_ptb.Margin = new System.Windows.Forms.Padding(4);
+            this.L3C1_ptb.Name = "L3C1_ptb";
+            this.L3C1_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L3C1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.L3C1_ptb.TabIndex = 301;
+            this.L3C1_ptb.TabStop = false;
+            // 
+            // Level3Card4
+            // 
+            this.Level3Card4.BackColor = System.Drawing.Color.Cyan;
+            this.Level3Card4.Location = new System.Drawing.Point(1014, 239);
+            this.Level3Card4.Margin = new System.Windows.Forms.Padding(4);
+            this.Level3Card4.Multiline = true;
+            this.Level3Card4.Name = "Level3Card4";
+            this.Level3Card4.ReadOnly = true;
+            this.Level3Card4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level3Card4.Size = new System.Drawing.Size(113, 148);
+            this.Level3Card4.TabIndex = 300;
+            // 
+            // Level3Card3
+            // 
+            this.Level3Card3.BackColor = System.Drawing.Color.Cyan;
+            this.Level3Card3.Location = new System.Drawing.Point(785, 239);
+            this.Level3Card3.Margin = new System.Windows.Forms.Padding(4);
+            this.Level3Card3.Multiline = true;
+            this.Level3Card3.Name = "Level3Card3";
+            this.Level3Card3.ReadOnly = true;
+            this.Level3Card3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level3Card3.Size = new System.Drawing.Size(113, 148);
+            this.Level3Card3.TabIndex = 299;
+            // 
+            // Level3Card2
+            // 
+            this.Level3Card2.BackColor = System.Drawing.Color.Cyan;
+            this.Level3Card2.Location = new System.Drawing.Point(557, 239);
+            this.Level3Card2.Margin = new System.Windows.Forms.Padding(4);
+            this.Level3Card2.Multiline = true;
+            this.Level3Card2.Name = "Level3Card2";
+            this.Level3Card2.ReadOnly = true;
+            this.Level3Card2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level3Card2.Size = new System.Drawing.Size(113, 148);
+            this.Level3Card2.TabIndex = 298;
+            // 
+            // Level3Card1
+            // 
+            this.Level3Card1.BackColor = System.Drawing.Color.Cyan;
+            this.Level3Card1.Location = new System.Drawing.Point(328, 239);
+            this.Level3Card1.Margin = new System.Windows.Forms.Padding(4);
+            this.Level3Card1.Multiline = true;
+            this.Level3Card1.Name = "Level3Card1";
+            this.Level3Card1.ReadOnly = true;
+            this.Level3Card1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Level3Card1.Size = new System.Drawing.Size(113, 148);
+            this.Level3Card1.TabIndex = 297;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1234, 976);
-            this.Controls.Add(this.pictureBox86);
-            this.Controls.Add(this.pictureBox87);
-            this.Controls.Add(this.pictureBox88);
-            this.Controls.Add(this.pictureBox89);
-            this.Controls.Add(this.pictureBox90);
-            this.Controls.Add(this.pictureBox81);
-            this.Controls.Add(this.pictureBox82);
-            this.Controls.Add(this.pictureBox83);
-            this.Controls.Add(this.pictureBox84);
-            this.Controls.Add(this.pictureBox85);
-            this.Controls.Add(this.pictureBox76);
-            this.Controls.Add(this.pictureBox77);
-            this.Controls.Add(this.pictureBox78);
-            this.Controls.Add(this.pictureBox79);
-            this.Controls.Add(this.pictureBox80);
-            this.Controls.Add(this.pictureBox41);
-            this.Controls.Add(this.pictureBox42);
-            this.Controls.Add(this.pictureBox43);
-            this.Controls.Add(this.pictureBox44);
-            this.Controls.Add(this.pictureBox45);
-            this.Controls.Add(this.L1C3_ptb);
-            this.Controls.Add(this.L1C4_ptb);
-            this.Controls.Add(this.L1C2_ptb);
-            this.Controls.Add(this.L1C1_ptb);
-            this.Controls.Add(this.Level1Card4);
-            this.Controls.Add(this.Level1Card3);
-            this.Controls.Add(this.Level1Card2);
-            this.Controls.Add(this.Level1Card1);
-            this.Controls.Add(this.pictureBox71);
-            this.Controls.Add(this.pictureBox72);
-            this.Controls.Add(this.pictureBox73);
-            this.Controls.Add(this.pictureBox74);
-            this.Controls.Add(this.pictureBox75);
-            this.Controls.Add(this.pictureBox66);
-            this.Controls.Add(this.pictureBox67);
-            this.Controls.Add(this.pictureBox68);
-            this.Controls.Add(this.pictureBox69);
-            this.Controls.Add(this.pictureBox70);
-            this.Controls.Add(this.pictureBox61);
-            this.Controls.Add(this.pictureBox62);
-            this.Controls.Add(this.pictureBox63);
-            this.Controls.Add(this.pictureBox64);
-            this.Controls.Add(this.pictureBox65);
-            this.Controls.Add(this.pictureBox36);
-            this.Controls.Add(this.pictureBox37);
-            this.Controls.Add(this.pictureBox38);
-            this.Controls.Add(this.pictureBox39);
-            this.Controls.Add(this.pictureBox40);
-            this.Controls.Add(this.L2C4_ptb);
-            this.Controls.Add(this.L2C3_ptb);
-            this.Controls.Add(this.L2C2_ptb);
-            this.Controls.Add(this.L2C1_ptb);
-            this.Controls.Add(this.Level2Card4);
-            this.Controls.Add(this.Level2Card3);
-            this.Controls.Add(this.Level2Card2);
-            this.Controls.Add(this.Level2Card1);
             this.Controls.Add(this.pictureBox56);
             this.Controls.Add(this.pictureBox57);
             this.Controls.Add(this.pictureBox58);
@@ -1864,6 +1808,62 @@
             this.Controls.Add(this.NobleCard3);
             this.Controls.Add(this.NobleCard2);
             this.Controls.Add(this.NobleCard1);
+            this.Controls.Add(this.pictureBox86);
+            this.Controls.Add(this.pictureBox87);
+            this.Controls.Add(this.pictureBox88);
+            this.Controls.Add(this.pictureBox89);
+            this.Controls.Add(this.pictureBox90);
+            this.Controls.Add(this.pictureBox81);
+            this.Controls.Add(this.pictureBox82);
+            this.Controls.Add(this.pictureBox83);
+            this.Controls.Add(this.pictureBox84);
+            this.Controls.Add(this.pictureBox85);
+            this.Controls.Add(this.pictureBox76);
+            this.Controls.Add(this.pictureBox77);
+            this.Controls.Add(this.pictureBox78);
+            this.Controls.Add(this.pictureBox79);
+            this.Controls.Add(this.pictureBox80);
+            this.Controls.Add(this.pictureBox41);
+            this.Controls.Add(this.pictureBox42);
+            this.Controls.Add(this.pictureBox43);
+            this.Controls.Add(this.pictureBox44);
+            this.Controls.Add(this.pictureBox45);
+            this.Controls.Add(this.L1C3_ptb);
+            this.Controls.Add(this.L1C4_ptb);
+            this.Controls.Add(this.L1C2_ptb);
+            this.Controls.Add(this.L1C1_ptb);
+            this.Controls.Add(this.Level1Card4);
+            this.Controls.Add(this.Level1Card3);
+            this.Controls.Add(this.Level1Card2);
+            this.Controls.Add(this.Level1Card1);
+            this.Controls.Add(this.pictureBox71);
+            this.Controls.Add(this.pictureBox72);
+            this.Controls.Add(this.pictureBox73);
+            this.Controls.Add(this.pictureBox74);
+            this.Controls.Add(this.pictureBox75);
+            this.Controls.Add(this.pictureBox66);
+            this.Controls.Add(this.pictureBox67);
+            this.Controls.Add(this.pictureBox68);
+            this.Controls.Add(this.pictureBox69);
+            this.Controls.Add(this.pictureBox70);
+            this.Controls.Add(this.pictureBox61);
+            this.Controls.Add(this.pictureBox62);
+            this.Controls.Add(this.pictureBox63);
+            this.Controls.Add(this.pictureBox64);
+            this.Controls.Add(this.pictureBox65);
+            this.Controls.Add(this.pictureBox36);
+            this.Controls.Add(this.pictureBox37);
+            this.Controls.Add(this.pictureBox38);
+            this.Controls.Add(this.pictureBox39);
+            this.Controls.Add(this.pictureBox40);
+            this.Controls.Add(this.L2C4_ptb);
+            this.Controls.Add(this.L2C3_ptb);
+            this.Controls.Add(this.L2C2_ptb);
+            this.Controls.Add(this.L2C1_ptb);
+            this.Controls.Add(this.Level2Card4);
+            this.Controls.Add(this.Level2Card3);
+            this.Controls.Add(this.Level2Card2);
+            this.Controls.Add(this.Level2Card1);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_buy);
             this.Controls.Add(this.rdo_l14);
@@ -1887,6 +1887,54 @@
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox75)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C4_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C3_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C2_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L2C1_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox86)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox88)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox89)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox90)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox81)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox82)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox83)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox84)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox85)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox76)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox77)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox78)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox79)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox80)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C3_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C4_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C2_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.L1C1_ptb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox111)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).EndInit();
@@ -1936,54 +1984,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.L3C3_ptb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.L3C2_ptb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.L3C1_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox75)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L2C4_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L2C3_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L2C2_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L2C1_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox86)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox88)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox89)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox90)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox81)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox82)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox83)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox84)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox85)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox76)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox77)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox78)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox79)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox80)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L1C3_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L1C4_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L1C2_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.L1C1_ptb)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2009,6 +2009,62 @@
         private System.Windows.Forms.RadioButton rdo_l11;
         private System.Windows.Forms.Button btn_buy;
         private System.Windows.Forms.Button btn_cancel;
+        private System.Windows.Forms.PictureBox pictureBox71;
+        private System.Windows.Forms.PictureBox pictureBox72;
+        private System.Windows.Forms.PictureBox pictureBox73;
+        private System.Windows.Forms.PictureBox pictureBox74;
+        private System.Windows.Forms.PictureBox pictureBox75;
+        private System.Windows.Forms.PictureBox pictureBox66;
+        private System.Windows.Forms.PictureBox pictureBox67;
+        private System.Windows.Forms.PictureBox pictureBox68;
+        private System.Windows.Forms.PictureBox pictureBox69;
+        private System.Windows.Forms.PictureBox pictureBox70;
+        private System.Windows.Forms.PictureBox pictureBox61;
+        private System.Windows.Forms.PictureBox pictureBox62;
+        private System.Windows.Forms.PictureBox pictureBox63;
+        private System.Windows.Forms.PictureBox pictureBox64;
+        private System.Windows.Forms.PictureBox pictureBox65;
+        private System.Windows.Forms.PictureBox pictureBox36;
+        private System.Windows.Forms.PictureBox pictureBox37;
+        private System.Windows.Forms.PictureBox pictureBox38;
+        private System.Windows.Forms.PictureBox pictureBox39;
+        private System.Windows.Forms.PictureBox pictureBox40;
+        private System.Windows.Forms.PictureBox L2C4_ptb;
+        private System.Windows.Forms.PictureBox L2C3_ptb;
+        private System.Windows.Forms.PictureBox L2C2_ptb;
+        private System.Windows.Forms.PictureBox L2C1_ptb;
+        private System.Windows.Forms.TextBox Level2Card4;
+        private System.Windows.Forms.TextBox Level2Card3;
+        private System.Windows.Forms.TextBox Level2Card2;
+        private System.Windows.Forms.TextBox Level2Card1;
+        private System.Windows.Forms.PictureBox pictureBox86;
+        private System.Windows.Forms.PictureBox pictureBox87;
+        private System.Windows.Forms.PictureBox pictureBox88;
+        private System.Windows.Forms.PictureBox pictureBox89;
+        private System.Windows.Forms.PictureBox pictureBox90;
+        private System.Windows.Forms.PictureBox pictureBox81;
+        private System.Windows.Forms.PictureBox pictureBox82;
+        private System.Windows.Forms.PictureBox pictureBox83;
+        private System.Windows.Forms.PictureBox pictureBox84;
+        private System.Windows.Forms.PictureBox pictureBox85;
+        private System.Windows.Forms.PictureBox pictureBox76;
+        private System.Windows.Forms.PictureBox pictureBox77;
+        private System.Windows.Forms.PictureBox pictureBox78;
+        private System.Windows.Forms.PictureBox pictureBox79;
+        private System.Windows.Forms.PictureBox pictureBox80;
+        private System.Windows.Forms.PictureBox pictureBox41;
+        private System.Windows.Forms.PictureBox pictureBox42;
+        private System.Windows.Forms.PictureBox pictureBox43;
+        private System.Windows.Forms.PictureBox pictureBox44;
+        private System.Windows.Forms.PictureBox pictureBox45;
+        private System.Windows.Forms.PictureBox L1C3_ptb;
+        private System.Windows.Forms.PictureBox L1C4_ptb;
+        private System.Windows.Forms.PictureBox L1C2_ptb;
+        private System.Windows.Forms.PictureBox L1C1_ptb;
+        private System.Windows.Forms.TextBox Level1Card4;
+        private System.Windows.Forms.TextBox Level1Card3;
+        private System.Windows.Forms.TextBox Level1Card2;
+        private System.Windows.Forms.TextBox Level1Card1;
         private System.Windows.Forms.PictureBox pictureBox111;
         private System.Windows.Forms.PictureBox pictureBox112;
         private System.Windows.Forms.PictureBox pictureBox113;
@@ -2067,61 +2123,5 @@
         private System.Windows.Forms.TextBox Level3Card3;
         private System.Windows.Forms.TextBox Level3Card2;
         private System.Windows.Forms.TextBox Level3Card1;
-        private System.Windows.Forms.PictureBox pictureBox71;
-        private System.Windows.Forms.PictureBox pictureBox72;
-        private System.Windows.Forms.PictureBox pictureBox73;
-        private System.Windows.Forms.PictureBox pictureBox74;
-        private System.Windows.Forms.PictureBox pictureBox75;
-        private System.Windows.Forms.PictureBox pictureBox66;
-        private System.Windows.Forms.PictureBox pictureBox67;
-        private System.Windows.Forms.PictureBox pictureBox68;
-        private System.Windows.Forms.PictureBox pictureBox69;
-        private System.Windows.Forms.PictureBox pictureBox70;
-        private System.Windows.Forms.PictureBox pictureBox61;
-        private System.Windows.Forms.PictureBox pictureBox62;
-        private System.Windows.Forms.PictureBox pictureBox63;
-        private System.Windows.Forms.PictureBox pictureBox64;
-        private System.Windows.Forms.PictureBox pictureBox65;
-        private System.Windows.Forms.PictureBox pictureBox36;
-        private System.Windows.Forms.PictureBox pictureBox37;
-        private System.Windows.Forms.PictureBox pictureBox38;
-        private System.Windows.Forms.PictureBox pictureBox39;
-        private System.Windows.Forms.PictureBox pictureBox40;
-        private System.Windows.Forms.PictureBox L2C4_ptb;
-        private System.Windows.Forms.PictureBox L2C3_ptb;
-        private System.Windows.Forms.PictureBox L2C2_ptb;
-        private System.Windows.Forms.PictureBox L2C1_ptb;
-        private System.Windows.Forms.TextBox Level2Card4;
-        private System.Windows.Forms.TextBox Level2Card3;
-        private System.Windows.Forms.TextBox Level2Card2;
-        private System.Windows.Forms.TextBox Level2Card1;
-        private System.Windows.Forms.PictureBox pictureBox86;
-        private System.Windows.Forms.PictureBox pictureBox87;
-        private System.Windows.Forms.PictureBox pictureBox88;
-        private System.Windows.Forms.PictureBox pictureBox89;
-        private System.Windows.Forms.PictureBox pictureBox90;
-        private System.Windows.Forms.PictureBox pictureBox81;
-        private System.Windows.Forms.PictureBox pictureBox82;
-        private System.Windows.Forms.PictureBox pictureBox83;
-        private System.Windows.Forms.PictureBox pictureBox84;
-        private System.Windows.Forms.PictureBox pictureBox85;
-        private System.Windows.Forms.PictureBox pictureBox76;
-        private System.Windows.Forms.PictureBox pictureBox77;
-        private System.Windows.Forms.PictureBox pictureBox78;
-        private System.Windows.Forms.PictureBox pictureBox79;
-        private System.Windows.Forms.PictureBox pictureBox80;
-        private System.Windows.Forms.PictureBox pictureBox41;
-        private System.Windows.Forms.PictureBox pictureBox42;
-        private System.Windows.Forms.PictureBox pictureBox43;
-        private System.Windows.Forms.PictureBox pictureBox44;
-        private System.Windows.Forms.PictureBox pictureBox45;
-        private System.Windows.Forms.PictureBox L1C3_ptb;
-        private System.Windows.Forms.PictureBox L1C4_ptb;
-        private System.Windows.Forms.PictureBox L1C2_ptb;
-        private System.Windows.Forms.PictureBox L1C1_ptb;
-        private System.Windows.Forms.TextBox Level1Card4;
-        private System.Windows.Forms.TextBox Level1Card3;
-        private System.Windows.Forms.TextBox Level1Card2;
-        private System.Windows.Forms.TextBox Level1Card1;
     }
 }

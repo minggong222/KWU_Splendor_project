@@ -19,6 +19,8 @@ namespace KWU_Splendor
         List<Noble> noblecards;
         public string CheckCard;
         public string CardNumber;
+        public event EventHandler<Card> CardBuy;
+        public event EventHandler<Noble> NobleBuy;
         public Form3(List<Card> l1cards, List<Card> l2cards, List<Card> l3cards, List<Noble> nbcards)
         {
             InitializeComponent();
@@ -171,23 +173,23 @@ namespace KWU_Splendor
                     switch (CardNumber)
                     {
                         case "1":
-                            MessageBox.Show(NobleCard1.Text);
+                            nobleBuy(noblecards[0]);
                             break;
 
                         case "2":
-                            MessageBox.Show(NobleCard2.Text);
+                            nobleBuy(noblecards[1]);
                             break;
 
                         case "3":
-                            MessageBox.Show(NobleCard3.Text);
+                            nobleBuy(noblecards[2]);
                             break;
 
                         case "4":
-                            MessageBox.Show(NobleCard4.Text);
+                            nobleBuy(noblecards[3]);
                             break;
 
                         case "5":
-                            MessageBox.Show(NobleCard5.Text);
+                            nobleBuy(noblecards[4]);
                             break;
                     }
                     break;
@@ -196,51 +198,51 @@ namespace KWU_Splendor
                     switch (CardNumber)
                     {
                         case "11":
-                            MessageBox.Show(Level1Card1.Text);
+                            cardBuy(level1cards[0]);
                             break;
 
                         case "12":
-                            MessageBox.Show(Level1Card2.Text);
+                            cardBuy(level1cards[1]);
                             break;
 
                         case "13":
-                            MessageBox.Show(Level1Card3.Text);
+                            cardBuy(level1cards[2]);
                             break;
 
                         case "14":
-                            MessageBox.Show(Level1Card4.Text);
+                            cardBuy(level1cards[3]);
                             break;
 
                         case "21":
-                            MessageBox.Show(Level2Card1.Text);
+                            cardBuy(level2cards[0]);
                             break;
 
                         case "22":
-                            MessageBox.Show(Level2Card2.Text);
+                            cardBuy(level2cards[1]);
                             break;
 
                         case "23":
-                            MessageBox.Show(Level2Card3.Text);
+                            cardBuy(level2cards[2]);
                             break;
 
                         case "24":
-                            MessageBox.Show(Level2Card4.Text);
+                            cardBuy(level2cards[3]);
                             break;
 
                         case "31":
-                            MessageBox.Show(Level3Card1.Text);
+                            cardBuy(level3cards[0]);
                             break;
 
                         case "32":
-                            MessageBox.Show(Level3Card2.Text);
+                            cardBuy(level3cards[1]);
                             break;
 
                         case "33":
-                            MessageBox.Show(Level3Card3.Text);
+                            cardBuy(level3cards[2]);
                             break;
 
                         case "34":
-                            MessageBox.Show(Level3Card4.Text);
+                            cardBuy(level3cards[3]);
                             break;
 
                     }
@@ -251,7 +253,16 @@ namespace KWU_Splendor
                     break;
             }
         }
-
+        public void cardBuy(Card card)
+        {
+            CardBuy?.Invoke(this, card);
+            this.Close();
+        }
+        public void nobleBuy(Noble noble)
+        {
+            NobleBuy?.Invoke(this, noble);
+            this.Close();
+        }
         private void rdo_CheckedChanged(object sender, EventArgs e)
         {
             CheckCard = ((RadioButton)sender).Name.ToString().Substring(4,1);

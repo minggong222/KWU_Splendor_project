@@ -53,9 +53,9 @@ namespace KWU_Splendor
             {
                 if (chk_dia.Checked)
                 {
-                    if(dia_count < 2)
+                    if(dia_count < 4)
                     {
-                        MessageBox.Show("보석의 갯수가 2개 이상이 아닙니다");
+                        MessageBox.Show("보석의 갯수가 4개 이상이 아닙니다");
                     }
                     else
                     {
@@ -66,9 +66,9 @@ namespace KWU_Splendor
                 }
                 if (chk_eme.Checked)
                 {
-                    if (eme_count < 2)
+                    if (eme_count < 4)
                     {
-                        MessageBox.Show("보석의 갯수가 2개 이상이 아닙니다");
+                        MessageBox.Show("보석의 갯수가 4개 이상이 아닙니다");
                     }
                     else
                     {
@@ -79,9 +79,9 @@ namespace KWU_Splendor
                 }
                 if (chk_ony.Checked)
                 {
-                    if (ony_count < 2)
+                    if (ony_count < 4)
                     {
-                        MessageBox.Show("보석의 갯수가 2개 이상이 아닙니다");
+                        MessageBox.Show("보석의 갯수가 4개 이상이 아닙니다");
                     }
                     else
                     {
@@ -92,9 +92,9 @@ namespace KWU_Splendor
                 }
                 if (chk_rub.Checked)
                 {
-                    if (rub_count < 2)
+                    if (rub_count < 4)
                     {
-                        MessageBox.Show("보석의 갯수가 2개 이상이 아닙니다");
+                        MessageBox.Show("보석의 갯수가 4개 이상이 아닙니다");
                     }
                     else
                     {
@@ -105,9 +105,9 @@ namespace KWU_Splendor
                 }
                 if (chk_saf.Checked)
                 {
-                    if (saf_count < 2)
+                    if (saf_count < 4)
                     {
-                        MessageBox.Show("보석의 갯수가 2개 이상이 아닙니다");
+                        MessageBox.Show("보석의 갯수가 4개 이상이 아닙니다");
                     }
                     else
                     {
