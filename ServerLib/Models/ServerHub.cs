@@ -46,6 +46,7 @@ namespace ServerLib.Models
         public Board boardInfo;                    // 보드 정보
         public int winner = 0;                     // 0 : 게임 진행 / 1 : Player1 승리 / 2 : Player2 승리 / 3 : Player3 승리 / 4 : Player4 승리
         public int turnPlayer = 1;                 // 1 : Player1 / 2 : Player2 / 3 : Player3 / 4 : Player4
+        public int round = 1;
         public TurnEnd()
         {
             boardInfo = new Board();

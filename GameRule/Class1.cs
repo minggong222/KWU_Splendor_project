@@ -159,6 +159,7 @@ namespace GameDefine
             deckCards1.Add(new Card(cardID++, 0, 4, 0, 0, 0, 1, 1, 0));
             deckCards1.Add(new Card(cardID++, 2, 0, 0, 0, 1, 0, 1, 1));
             deckCards1.Add(new Card(cardID++, 1, 0, 1, 2, 1, 0, 1, 1));
+
             deckCards1.Add(new Card(cardID++, 1, 0, 1, 1, 1, 0, 1, 1));
             deckCards1.Add(new Card(cardID++, 0, 1, 3, 1, 0, 0, 1, 1));
             deckCards1.Add(new Card(cardID++, 3, 0, 0, 0, 0, 0, 1, 1));
@@ -169,6 +170,7 @@ namespace GameDefine
             deckCards1.Add(new Card(cardID++, 0, 2, 0, 2, 0, 0, 1, 2));
             deckCards1.Add(new Card(cardID++, 0, 3, 1, 0, 1, 0, 1, 2));
             deckCards1.Add(new Card(cardID++, 1, 1, 0, 1, 1, 0, 1, 2));
+            
             deckCards1.Add(new Card(cardID++, 2, 1, 0, 1, 1, 0, 1, 2));
             deckCards1.Add(new Card(cardID++, 2, 1, 0, 2, 0, 0, 1, 2));
             deckCards1.Add(new Card(cardID++, 0, 0, 0, 3, 0, 0, 1, 2));
@@ -179,6 +181,7 @@ namespace GameDefine
             deckCards1.Add(new Card(cardID++, 2, 0, 1, 0, 2, 0, 1, 3));
             deckCards1.Add(new Card(cardID++, 1, 1, 1, 0, 2, 0, 1, 3));
             deckCards1.Add(new Card(cardID++, 1, 1, 1, 0, 1, 0, 1, 3));
+            
             deckCards1.Add(new Card(cardID++, 0, 0, 0, 2, 2, 0, 1, 3));
             deckCards1.Add(new Card(cardID++, 0, 0, 0, 0, 4, 1, 1, 3));
             deckCards1.Add(new Card(cardID++, 1, 2, 2, 0, 0, 0, 1, 4));
@@ -201,6 +204,7 @@ namespace GameDefine
             deckCards2.Add(new Card(cardID++, 3, 2, 3, 0, 0, 1, 2, 1));
             deckCards2.Add(new Card(cardID++, 0, 3, 0, 0, 5, 2, 2, 1));
             deckCards2.Add(new Card(cardID++, 0, 5, 0, 0, 0, 2, 2, 1));
+            
             deckCards2.Add(new Card(cardID++, 4, 0, 0, 1, 2, 2, 2, 1));
             deckCards2.Add(new Card(cardID++, 0, 6, 0, 0, 0, 3, 2, 1));
             deckCards2.Add(new Card(cardID++, 0, 0, 2, 3, 3, 1, 2, 2));
@@ -211,6 +215,7 @@ namespace GameDefine
             deckCards2.Add(new Card(cardID++, 0, 0, 6, 0, 0, 3, 2, 2));
             deckCards2.Add(new Card(cardID++, 3, 3, 0, 2, 0, 1, 2, 3));
             deckCards2.Add(new Card(cardID++, 3, 0, 0, 2, 2, 1, 2, 3));
+            
             deckCards2.Add(new Card(cardID++, 0, 4, 2, 0, 1, 2, 2, 3));
             deckCards2.Add(new Card(cardID++, 5, 0, 0, 0, 3, 2, 2, 3));
             deckCards2.Add(new Card(cardID++, 5, 0, 0, 0, 0, 2, 2, 3));
@@ -233,6 +238,7 @@ namespace GameDefine
             deckCards3.Add(new Card(cardID++, 0, 3, 0, 0, 7, 5, 3, 1));
             deckCards3.Add(new Card(cardID++, 3, 3, 0, 3, 5, 3, 3, 2));
             deckCards3.Add(new Card(cardID++, 0, 6, 3, 0, 3, 4, 3, 2));
+            
             deckCards3.Add(new Card(cardID++, 0, 7, 0, 0, 0, 4, 3, 2));
             deckCards3.Add(new Card(cardID++, 0, 7, 3, 0, 0, 5, 3, 2));
             deckCards3.Add(new Card(cardID++, 3, 5, 3, 0, 3, 3, 3, 3));

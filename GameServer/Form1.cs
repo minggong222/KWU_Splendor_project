@@ -54,6 +54,7 @@ namespace GameServer
                     break;
                 case 4:
                     TE.turnPlayer = 1;
+                    TE.round++;
                     break;
             }
             _roomManager.SendToMyRoom(TE);
