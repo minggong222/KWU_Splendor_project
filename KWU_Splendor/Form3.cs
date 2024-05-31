@@ -157,11 +157,11 @@ namespace KWU_Splendor
         }
         private void ptb_img(PictureBox ptb, int GemNumber)
         {
-            if (GemNumber == 0) ptb.Load("Image\\onyx.png");
+            if (GemNumber == 0) ptb.Load("Image\\dia.png");
             if (GemNumber == 1) ptb.Load("Image\\sapphire.png");
             if (GemNumber == 2) ptb.Load("Image\\emerald.png");
             if (GemNumber == 3) ptb.Load("Image\\ruby.png");
-            if (GemNumber == 4) ptb.Load("Image\\dia.png");
+            if (GemNumber == 4) ptb.Load("Image\\onyx.png");
             ptb.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 

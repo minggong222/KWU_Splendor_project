@@ -1749,6 +1749,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1234, 976);
             this.Controls.Add(this.pictureBox56);
             this.Controls.Add(this.pictureBox57);
