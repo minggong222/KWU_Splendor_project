@@ -383,6 +383,7 @@ namespace KWU_Splendor
 
                 gameState.players[myTurn - 1].totalScore += card.cardScore;
                 gameState.players[myTurn - 1].gemSale[card.cardGem]++;
+                gameState.players[myTurn - 1].playerCards.Add(card);
                 int num;
                 if(card.cardID <= 40)
                 {
@@ -419,22 +420,14 @@ namespace KWU_Splendor
         }
         private void Form3_NobleBuy(object sender, Noble noble)
         {
-            if (noble.nobleCost[0] <= gameState.players[myTurn - 1].playerGems[0] &&
-                noble.nobleCost[1] <= gameState.players[myTurn - 1].playerGems[1] &&
-                noble.nobleCost[2] <= gameState.players[myTurn - 1].playerGems[2] &&
-                noble.nobleCost[3] <= gameState.players[myTurn - 1].playerGems[3] &&
-                noble.nobleCost[4] <= gameState.players[myTurn - 1].playerGems[4])
+            if (noble.nobleCost[0] <= gameState.players[myTurn - 1].gemSale[0] &&
+                noble.nobleCost[1] <= gameState.players[myTurn - 1].gemSale[1] &&
+                noble.nobleCost[2] <= gameState.players[myTurn - 1].gemSale[2] &&
+                noble.nobleCost[3] <= gameState.players[myTurn - 1].gemSale[3] &&
+                noble.nobleCost[4] <= gameState.players[myTurn - 1].gemSale[4])
             {
-                gameState.boardInfo.boardGems[0] += noble.nobleCost[0];
-                gameState.players[myTurn - 1].playerGems[0] -= noble.nobleCost[0];
-                gameState.boardInfo.boardGems[1] += noble.nobleCost[1];
-                gameState.players[myTurn - 1].playerGems[1] -= noble.nobleCost[1];
-                gameState.boardInfo.boardGems[2] += noble.nobleCost[2];
-                gameState.players[myTurn - 1].playerGems[2] -= noble.nobleCost[2];
-                gameState.boardInfo.boardGems[3] += noble.nobleCost[3];
-                gameState.players[myTurn - 1].playerGems[3] -= noble.nobleCost[3];
-                gameState.boardInfo.boardGems[4] += noble.nobleCost[4];
-                gameState.players[myTurn - 1].playerGems[4] -= noble.nobleCost[4];
+                gameState.players[myTurn - 1].totalScore += 3;
+                gameState.players[myTurn - 1].playerNoble.Add(noble);
                 _clientHandler.Send(gameState);
             }
             else
