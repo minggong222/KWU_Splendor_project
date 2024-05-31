@@ -21,10 +21,7 @@ namespace KWU_Splendor
         public string CardNumber;
         public event EventHandler<Card> CardBuy;
         public event EventHandler<Noble> NobleBuy;
-<<<<<<< HEAD
-=======
         public event EventHandler<Card> Reserved;
->>>>>>> origin/jinwoo
         public Form3(List<Card> l1cards, List<Card> l2cards, List<Card> l3cards, List<Noble> nbcards)
         {
             InitializeComponent();
@@ -267,15 +264,12 @@ namespace KWU_Splendor
             NobleBuy?.Invoke(this, noble);
             this.Close();
         }
-<<<<<<< HEAD
-=======
 
         public void reserved(Card card)
         {
             Reserved?.Invoke(this, card);
             this.Close();
         }
->>>>>>> origin/jinwoo
         private void rdo_CheckedChanged(object sender, EventArgs e)
         {
             CheckCard = ((RadioButton)sender).Name.ToString().Substring(4,1);

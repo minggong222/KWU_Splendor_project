@@ -67,10 +67,7 @@ namespace KWU_Splendor
             GamSetting();
             CardSetting();
             PlayerSetting();
-<<<<<<< HEAD
-=======
             //ReservedCardSetting();
->>>>>>> origin/jinwoo
         }
         public void GamSetting()
         {
@@ -212,10 +209,7 @@ namespace KWU_Splendor
             P1_eme.Text = gameState.players[idx].playerGems[2].ToString() + "개";
             P1_rub.Text = gameState.players[idx].playerGems[3].ToString() + "개";
             P1_ony.Text = gameState.players[idx].playerGems[4].ToString() + "개";
-<<<<<<< HEAD
-=======
             P1_gol.Text = gameState.players[idx].playerGems[5].ToString() + "개";
->>>>>>> origin/jinwoo
             P1_diaCard.Text = "+" + gameState.players[idx].gemSale[0].ToString();
             P1_safCard.Text = "+" + gameState.players[idx].gemSale[1].ToString();
             P1_emeCard.Text = "+" + gameState.players[idx].gemSale[2].ToString();
@@ -259,10 +253,7 @@ namespace KWU_Splendor
             P2_eme.Text = gameState.players[idx].playerGems[2].ToString() + "개";
             P2_rub.Text = gameState.players[idx].playerGems[3].ToString() + "개";
             P2_ony.Text = gameState.players[idx].playerGems[4].ToString() + "개";
-<<<<<<< HEAD
-=======
             P2_gol.Text = gameState.players[idx].playerGems[5].ToString() + "개";
->>>>>>> origin/jinwoo
             P2_diaCard.Text = "+" + gameState.players[idx].gemSale[0].ToString();
             P2_safCard.Text = "+" + gameState.players[idx].gemSale[1].ToString();
             P2_emeCard.Text = "+" + gameState.players[idx].gemSale[2].ToString();
@@ -306,10 +297,7 @@ namespace KWU_Splendor
             P3_eme.Text = gameState.players[idx].playerGems[2].ToString() + "개";
             P3_rub.Text = gameState.players[idx].playerGems[3].ToString() + "개";
             P3_ony.Text = gameState.players[idx].playerGems[4].ToString() + "개";
-<<<<<<< HEAD
-=======
             P3_gol.Text = gameState.players[idx].playerGems[5].ToString() + "개";
->>>>>>> origin/jinwoo
             P3_diaCard.Text = "+" + gameState.players[idx].gemSale[0].ToString();
             P3_safCard.Text = "+" + gameState.players[idx].gemSale[1].ToString();
             P3_emeCard.Text = "+" + gameState.players[idx].gemSale[2].ToString();
@@ -353,10 +341,7 @@ namespace KWU_Splendor
             P4_eme.Text = gameState.players[idx].playerGems[2].ToString() + "개";
             P4_rub.Text = gameState.players[idx].playerGems[3].ToString() + "개";
             P4_ony.Text = gameState.players[idx].playerGems[4].ToString() + "개";
-<<<<<<< HEAD
-=======
             P4_gol.Text = gameState.players[idx].playerGems[5].ToString() + "개";
->>>>>>> origin/jinwoo
             P4_diaCard.Text = "+" + gameState.players[idx].gemSale[0].ToString();
             P4_safCard.Text = "+" + gameState.players[idx].gemSale[1].ToString();
             P4_emeCard.Text = "+" + gameState.players[idx].gemSale[2].ToString();
@@ -365,11 +350,6 @@ namespace KWU_Splendor
             P4_GB.Text = "Player" + (idx + 1);
             P4_score.Text = gameState.players[idx].totalScore.ToString();
             round.Text = "Round" + gameState.round;
-<<<<<<< HEAD
-            turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
-        }
-
-=======
             if (gameState.players[idx].reservedCards.Count == 1)
             {
                 P4_reserved1.Text = gameState.players[idx].reservedCards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
@@ -403,7 +383,6 @@ namespace KWU_Splendor
             turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
         }
        
->>>>>>> origin/jinwoo
         /*
      * 0 : 다이아(흰)dia
      * 1 : 사파이어(파) saf
@@ -479,10 +458,7 @@ namespace KWU_Splendor
                 Form3 form3 = new Form3(level1cards, level2cards, level3cards, noblecards);
                 form3.CardBuy += Form3_CardBuy;
                 form3.NobleBuy += Form3_NobleBuy;
-<<<<<<< HEAD
-=======
                 form3.Reserved += Form3_Reserved;
->>>>>>> origin/jinwoo
                 form3.Show();
             }
             else
@@ -585,8 +561,6 @@ namespace KWU_Splendor
                 MessageBox.Show("보석이 부족합니다.");
             }
         }
-<<<<<<< HEAD
-=======
         private void Form3_Reserved(object sender, Card card)
         {
             // 예약된 카드가 3장 이내 라면 조건
@@ -628,30 +602,12 @@ namespace KWU_Splendor
                 MessageBox.Show("예약된 카드의 최대 갯수는 3장입니다.");
             }
         }
->>>>>>> origin/jinwoo
         private async void btnConnect_Click(object sender, EventArgs e)
         {
             await _client.ConnectAsync();
         }
         private void btn_sendRes_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            if (gameState.turnPlayer == myTurn)
-            {
-                //drawcard 실행 테스트
-                gameState.boardInfo.DrawCard(1);
-                Level1Card_Count.Text = Environment.NewLine + Environment.NewLine + "남은 갯수" + Environment.NewLine + Environment.NewLine + gameState.boardInfo.deckCards1.Count;
-            }
-            else
-            {
-                MessageBox.Show("나의 턴이 아닙니다.");
-            }
-        }
-
-        private void btn_sendRes_Click(object sender, EventArgs e)
-        {
-=======
->>>>>>> origin/jinwoo
             _clientHandler.Send(gameState);
         }
 
