@@ -62,7 +62,8 @@ namespace GameDefine
         public int[] gemSale = new int[5];     // 할인 받을 수 있는 보석 개수
         public List<Card> playerCards = new List<Card>();      // 보유하고 있는 카드
         public List<Noble> playerNoble = new List<Noble>();    // 보유하고 있는 귀족
-        public int[] playerGems = new int[5];               // 보유하고 있는 보석
+        public List<Card> reservedCards = new List<Card>();    //보유하고 있는 예약된 카드
+        public int[] playerGems = new int[6];               // 보유하고 있는 보석
 
         public Player()
         {
@@ -72,6 +73,7 @@ namespace GameDefine
                 gemSale[i] = 0;
                 playerGems[i] = 0;
             }
+            playerGems[5] = 0;
         }
     }
 

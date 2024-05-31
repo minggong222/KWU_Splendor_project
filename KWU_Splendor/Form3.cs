@@ -21,6 +21,10 @@ namespace KWU_Splendor
         public string CardNumber;
         public event EventHandler<Card> CardBuy;
         public event EventHandler<Noble> NobleBuy;
+<<<<<<< HEAD
+=======
+        public event EventHandler<Card> Reserved;
+>>>>>>> origin/jinwoo
         public Form3(List<Card> l1cards, List<Card> l2cards, List<Card> l3cards, List<Noble> nbcards)
         {
             InitializeComponent();
@@ -263,10 +267,81 @@ namespace KWU_Splendor
             NobleBuy?.Invoke(this, noble);
             this.Close();
         }
+<<<<<<< HEAD
+=======
+
+        public void reserved(Card card)
+        {
+            Reserved?.Invoke(this, card);
+            this.Close();
+        }
+>>>>>>> origin/jinwoo
         private void rdo_CheckedChanged(object sender, EventArgs e)
         {
             CheckCard = ((RadioButton)sender).Name.ToString().Substring(4,1);
             CardNumber = ((RadioButton)sender).Name.ToString().Substring(5);
+        }
+
+        private void btn_reserved_Click(object sender, EventArgs e)
+        {
+            if(CheckCard == "l")
+            {
+                switch (CardNumber)
+                {
+                    case "11":
+                        reserved(level1cards[0]);
+                        break;
+
+                    case "12":
+                        reserved(level1cards[1]);
+                        break;
+
+                    case "13":
+                        reserved(level1cards[2]);
+                        break;
+
+                    case "14":
+                        reserved(level1cards[3]);
+                        break;
+
+                    case "21":
+                        reserved(level2cards[0]);
+                        break;
+
+                    case "22":
+                        reserved(level2cards[1]);
+                        break;
+
+                    case "23":
+                        reserved(level2cards[2]);
+                        break;
+
+                    case "24":
+                        reserved(level2cards[3]);
+                        break;
+
+                    case "31":
+                        reserved(level3cards[0]);
+                        break;
+
+                    case "32":
+                        reserved(level3cards[1]);
+                        break;
+
+                    case "33":
+                        reserved(level3cards[2]);
+                        break;
+
+                    case "34":
+                        reserved(level3cards[3]);
+                        break;
+
+                }
+            }
+            else
+            {
+                MessageBox.Show("잘못된 선택입니다");
+            }
         }
     }
 }

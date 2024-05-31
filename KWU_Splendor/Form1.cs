@@ -67,6 +67,10 @@ namespace KWU_Splendor
             GamSetting();
             CardSetting();
             PlayerSetting();
+<<<<<<< HEAD
+=======
+            //ReservedCardSetting();
+>>>>>>> origin/jinwoo
         }
         public void GamSetting()
         {
@@ -208,6 +212,10 @@ namespace KWU_Splendor
             P1_eme.Text = gameState.players[idx].playerGems[2].ToString() + "개";
             P1_rub.Text = gameState.players[idx].playerGems[3].ToString() + "개";
             P1_ony.Text = gameState.players[idx].playerGems[4].ToString() + "개";
+<<<<<<< HEAD
+=======
+            P1_gol.Text = gameState.players[idx].playerGems[5].ToString() + "개";
+>>>>>>> origin/jinwoo
             P1_diaCard.Text = "+" + gameState.players[idx].gemSale[0].ToString();
             P1_safCard.Text = "+" + gameState.players[idx].gemSale[1].ToString();
             P1_emeCard.Text = "+" + gameState.players[idx].gemSale[2].ToString();
@@ -215,12 +223,46 @@ namespace KWU_Splendor
             P1_onyCard.Text = "+" + gameState.players[idx].gemSale[4].ToString();
             P1_GB.Text = "Player" + (idx + 1);
             P1_score.Text = gameState.players[idx].totalScore.ToString();
+            if (gameState.players[idx].reservedCards.Count == 1)
+            {
+                P1_reserved1.Text = gameState.players[idx].reservedCards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P1R1_ptb, gameState.players[idx].reservedCards[0].cardGem);
+            }
+            else if (gameState.players[idx].reservedCards.Count == 2)
+            {
+                P1_reserved2.Text = gameState.players[idx].reservedCards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P1R2_ptb, gameState.players[idx].reservedCards[1].cardGem);
+            }
+            else if (gameState.players[idx].reservedCards.Count == 3)
+            {
+                P1_reserved3.Text = gameState.players[idx].reservedCards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[0].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[1].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[2].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[3].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P1R3_ptb, gameState.players[idx].reservedCards[2].cardGem);
+            }
             idx = (idx + 1) % 4;
             P2_dia.Text = gameState.players[idx].playerGems[0].ToString() + "개";
             P2_saf.Text = gameState.players[idx].playerGems[1].ToString() + "개";
             P2_eme.Text = gameState.players[idx].playerGems[2].ToString() + "개";
             P2_rub.Text = gameState.players[idx].playerGems[3].ToString() + "개";
             P2_ony.Text = gameState.players[idx].playerGems[4].ToString() + "개";
+<<<<<<< HEAD
+=======
+            P2_gol.Text = gameState.players[idx].playerGems[5].ToString() + "개";
+>>>>>>> origin/jinwoo
             P2_diaCard.Text = "+" + gameState.players[idx].gemSale[0].ToString();
             P2_safCard.Text = "+" + gameState.players[idx].gemSale[1].ToString();
             P2_emeCard.Text = "+" + gameState.players[idx].gemSale[2].ToString();
@@ -228,12 +270,46 @@ namespace KWU_Splendor
             P2_onyCard.Text = "+" + gameState.players[idx].gemSale[4].ToString();
             P2_GB.Text = "Player" + (idx + 1);
             P2_score.Text = gameState.players[idx].totalScore.ToString();
+            if (gameState.players[idx].reservedCards.Count == 1)
+            {
+                P2_reserved1.Text = gameState.players[idx].reservedCards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P2R1_ptb, gameState.players[idx].reservedCards[0].cardGem);
+            }
+            else if (gameState.players[idx].reservedCards.Count == 2)
+            {
+                P2_reserved2.Text = gameState.players[idx].reservedCards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P2R2_ptb, gameState.players[idx].reservedCards[1].cardGem);
+            }
+            else if (gameState.players[idx].reservedCards.Count == 3)
+            {
+                P2_reserved3.Text = gameState.players[idx].reservedCards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[0].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[1].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[2].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[3].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P2R3_ptb, gameState.players[idx].reservedCards[2].cardGem);
+            }
             idx = (idx + 1) % 4;
             P3_dia.Text = gameState.players[idx].playerGems[0].ToString() + "개";
             P3_saf.Text = gameState.players[idx].playerGems[1].ToString() + "개";
             P3_eme.Text = gameState.players[idx].playerGems[2].ToString() + "개";
             P3_rub.Text = gameState.players[idx].playerGems[3].ToString() + "개";
             P3_ony.Text = gameState.players[idx].playerGems[4].ToString() + "개";
+<<<<<<< HEAD
+=======
+            P3_gol.Text = gameState.players[idx].playerGems[5].ToString() + "개";
+>>>>>>> origin/jinwoo
             P3_diaCard.Text = "+" + gameState.players[idx].gemSale[0].ToString();
             P3_safCard.Text = "+" + gameState.players[idx].gemSale[1].ToString();
             P3_emeCard.Text = "+" + gameState.players[idx].gemSale[2].ToString();
@@ -241,12 +317,46 @@ namespace KWU_Splendor
             P3_onyCard.Text = "+" + gameState.players[idx].gemSale[4].ToString();
             P3_GB.Text = "Player" + (idx + 1);
             P3_score.Text = gameState.players[idx].totalScore.ToString();
+            if (gameState.players[idx].reservedCards.Count == 1)
+            {
+                P3_reserved1.Text = gameState.players[idx].reservedCards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P3R1_ptb, gameState.players[idx].reservedCards[0].cardGem);
+            }
+            else if (gameState.players[idx].reservedCards.Count == 2)
+            {
+                P3_reserved2.Text = gameState.players[idx].reservedCards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P3R2_ptb, gameState.players[idx].reservedCards[1].cardGem);
+            }
+            else if (gameState.players[idx].reservedCards.Count == 3)
+            {
+                P3_reserved3.Text = gameState.players[idx].reservedCards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[0].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[1].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[2].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[3].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P3R3_ptb, gameState.players[idx].reservedCards[2].cardGem);
+            }
             idx = (idx + 1) % 4;
             P4_dia.Text = gameState.players[idx].playerGems[0].ToString() + "개";
             P4_saf.Text = gameState.players[idx].playerGems[1].ToString() + "개";
             P4_eme.Text = gameState.players[idx].playerGems[2].ToString() + "개";
             P4_rub.Text = gameState.players[idx].playerGems[3].ToString() + "개";
             P4_ony.Text = gameState.players[idx].playerGems[4].ToString() + "개";
+<<<<<<< HEAD
+=======
+            P4_gol.Text = gameState.players[idx].playerGems[5].ToString() + "개";
+>>>>>>> origin/jinwoo
             P4_diaCard.Text = "+" + gameState.players[idx].gemSale[0].ToString();
             P4_safCard.Text = "+" + gameState.players[idx].gemSale[1].ToString();
             P4_emeCard.Text = "+" + gameState.players[idx].gemSale[2].ToString();
@@ -255,9 +365,45 @@ namespace KWU_Splendor
             P4_GB.Text = "Player" + (idx + 1);
             P4_score.Text = gameState.players[idx].totalScore.ToString();
             round.Text = "Round" + gameState.round;
+<<<<<<< HEAD
             turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
         }
 
+=======
+            if (gameState.players[idx].reservedCards.Count == 1)
+            {
+                P4_reserved1.Text = gameState.players[idx].reservedCards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P4R1_ptb, gameState.players[idx].reservedCards[0].cardGem);
+            }
+            else if (gameState.players[idx].reservedCards.Count == 2)
+            {
+                P4_reserved2.Text = gameState.players[idx].reservedCards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.players[idx].reservedCards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P4R2_ptb, gameState.players[idx].reservedCards[1].cardGem);
+            }
+            else if (gameState.players[idx].reservedCards.Count == 3)
+            {
+                P4_reserved3.Text = gameState.players[idx].reservedCards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[0].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[1].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[2].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[3].ToString() + "개" + Environment.NewLine
+                     + "      " + gameState.players[idx].reservedCards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(P4R3_ptb, gameState.players[idx].reservedCards[2].cardGem);
+            }
+            turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
+        }
+       
+>>>>>>> origin/jinwoo
         /*
      * 0 : 다이아(흰)dia
      * 1 : 사파이어(파) saf
@@ -333,6 +479,10 @@ namespace KWU_Splendor
                 Form3 form3 = new Form3(level1cards, level2cards, level3cards, noblecards);
                 form3.CardBuy += Form3_CardBuy;
                 form3.NobleBuy += Form3_NobleBuy;
+<<<<<<< HEAD
+=======
+                form3.Reserved += Form3_Reserved;
+>>>>>>> origin/jinwoo
                 form3.Show();
             }
             else
@@ -435,13 +585,57 @@ namespace KWU_Splendor
                 MessageBox.Show("보석이 부족합니다.");
             }
         }
+<<<<<<< HEAD
+=======
+        private void Form3_Reserved(object sender, Card card)
+        {
+            // 예약된 카드가 3장 이내 라면 조건
+            if (gameState.players[myTurn - 1].reservedCards.Count < 3)
+            {
+                gameState.players[myTurn - 1].playerGems[5] += 1;
+                gameState.players[myTurn - 1].reservedCards.Add(card);
+
+                Random rnd = new Random();
+                int num;
+                if (card.cardID <= 40)
+                {
+                    num = rnd.Next(gameState.boardInfo.deckCards1.Count);
+                    gameState.boardInfo.boardCards1.Remove(card);
+                    gameState.boardInfo.boardCards1.Add(gameState.boardInfo.deckCards1[num]);
+                    gameState.boardInfo.deckCards1.Remove(gameState.boardInfo.deckCards1[num]);
+
+                }
+                else if (card.cardID <= 70)
+                {
+                    num = rnd.Next(gameState.boardInfo.deckCards1.Count);
+                    gameState.boardInfo.boardCards2.Remove(card);
+                    gameState.boardInfo.boardCards2.Add(gameState.boardInfo.deckCards2[num]);
+                    gameState.boardInfo.deckCards2.Remove(gameState.boardInfo.deckCards2[num]);
+
+                }
+                else
+                {
+                    num = rnd.Next(gameState.boardInfo.deckCards1.Count);
+                    gameState.boardInfo.boardCards3.Remove(card);
+                    gameState.boardInfo.boardCards3.Add(gameState.boardInfo.deckCards3[num]);
+                    gameState.boardInfo.deckCards3.Remove(gameState.boardInfo.deckCards3[num]);
+
+                }
+                _clientHandler.Send(gameState);
+            }
+            else
+            {
+                MessageBox.Show("예약된 카드의 최대 갯수는 3장입니다.");
+            }
+        }
+>>>>>>> origin/jinwoo
         private async void btnConnect_Click(object sender, EventArgs e)
         {
             await _client.ConnectAsync();
         }
-
-        private void btn_reservation_Click(object sender, EventArgs e)
+        private void btn_sendRes_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (gameState.turnPlayer == myTurn)
             {
                 //drawcard 실행 테스트
@@ -456,7 +650,11 @@ namespace KWU_Splendor
 
         private void btn_sendRes_Click(object sender, EventArgs e)
         {
+=======
+>>>>>>> origin/jinwoo
             _clientHandler.Send(gameState);
         }
+
+
     }
 }
