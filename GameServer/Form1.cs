@@ -29,12 +29,6 @@ namespace GameServer
                 Type = (int)state,
             };
         }
-        private void AddClientMessageList(Packet hub)
-        {
-            string message = "asd";
-            
-            lbxMsg.Items.Add(message);
-        }
         private void Connected(object sender, ServerEventArgs e)
         {
 
@@ -50,19 +44,20 @@ namespace GameServer
         }
         private void Received(object sender, ServerEventArgs e)
         {
-            AddClientMessageList(e.Hub);
-            switch (e.Hub.turnPlayer)
+            TE = e.Hub;
+            switch (TE.turnPlayer)
             {
                 case 1:
                 case 2:
                 case 3:
-                    e.Hub.turnPlayer++;
+                    TE.turnPlayer++;
                     break;
                 case 4:
-                    e.Hub.turnPlayer = 1;
+                    TE.turnPlayer = 1;
+                    TE.round++;
                     break;
             }
-            _roomManager.SendToMyRoom(e.Hub);
+            _roomManager.SendToMyRoom(TE);
         }
 
         private void RunningStateChanged(bool isRunning)
