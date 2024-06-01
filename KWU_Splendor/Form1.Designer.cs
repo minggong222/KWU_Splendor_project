@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.P1_GB = new System.Windows.Forms.GroupBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.textBox35 = new System.Windows.Forms.TextBox();
             this.textBox34 = new System.Windows.Forms.TextBox();
@@ -54,59 +54,59 @@
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.P1_dia = new System.Windows.Forms.Label();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.P3_GB = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.P3_card = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.P3_score = new System.Windows.Forms.Label();
+            this.P3_onyCard = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.P3_emeCard = new System.Windows.Forms.Label();
+            this.P3_rubCard = new System.Windows.Forms.Label();
+            this.P3_diaCard = new System.Windows.Forms.Label();
+            this.P3_gol = new System.Windows.Forms.Label();
+            this.P3_safCard = new System.Windows.Forms.Label();
+            this.P3_ony = new System.Windows.Forms.Label();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.P3_rub = new System.Windows.Forms.Label();
+            this.P3_eme = new System.Windows.Forms.Label();
+            this.P3_saf = new System.Windows.Forms.Label();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.P3_dia = new System.Windows.Forms.Label();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.textBox44 = new System.Windows.Forms.TextBox();
             this.textBox45 = new System.Windows.Forms.TextBox();
             this.textBox46 = new System.Windows.Forms.TextBox();
-            this.P2_card = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.P2_score = new System.Windows.Forms.Label();
             this.P2_onyCard = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.P2_diaCard = new System.Windows.Forms.Label();
             this.P2_rubCard = new System.Windows.Forms.Label();
             this.P2_emeCard = new System.Windows.Forms.Label();
             this.P2_safCard = new System.Windows.Forms.Label();
             this.P2_gol = new System.Windows.Forms.Label();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.P2_ony = new System.Windows.Forms.Label();
             this.P2_dia = new System.Windows.Forms.Label();
             this.P2_rub = new System.Windows.Forms.Label();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.P2_eme = new System.Windows.Forms.Label();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.P2_saf = new System.Windows.Forms.Label();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.P3_card = new System.Windows.Forms.Label();
-            this.P3_score = new System.Windows.Forms.Label();
+            this.P2_GB = new System.Windows.Forms.GroupBox();
+            this.P2_card = new System.Windows.Forms.Label();
+            this.P2_score = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.P3_onyCard = new System.Windows.Forms.Label();
-            this.P3_rubCard = new System.Windows.Forms.Label();
-            this.P3_emeCard = new System.Windows.Forms.Label();
-            this.P3_safCard = new System.Windows.Forms.Label();
-            this.P3_diaCard = new System.Windows.Forms.Label();
-            this.P3_gol = new System.Windows.Forms.Label();
-            this.P3_ony = new System.Windows.Forms.Label();
-            this.P3_rub = new System.Windows.Forms.Label();
-            this.P3_Eme = new System.Windows.Forms.Label();
-            this.P3_saf = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.P3_dia = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.P4_GB = new System.Windows.Forms.GroupBox();
             this.P4_card = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.P4_score = new System.Windows.Forms.Label();
@@ -171,7 +171,8 @@
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.round = new System.Windows.Forms.Label();
             this.turn = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
+            this.BtnConnect = new System.Windows.Forms.Button();
+            this.P1_GB.SuspendLayout();
             this.groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
@@ -179,23 +180,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            this.groupBox9.SuspendLayout();
+            this.P3_GB.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            this.groupBox3.SuspendLayout();
-            this.groupBox6.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.P2_GB.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox4.SuspendLayout();
+            this.P4_GB.SuspendLayout();
             this.groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -212,38 +213,38 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // P1_GB
             // 
-            this.groupBox1.Controls.Add(this.groupBox8);
-            this.groupBox1.Controls.Add(this.P1_card);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.P1_score);
-            this.groupBox1.Controls.Add(this.P1_onyCard);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.P1_rubCard);
-            this.groupBox1.Controls.Add(this.P1_emeCard);
-            this.groupBox1.Controls.Add(this.P1_safCard);
-            this.groupBox1.Controls.Add(this.P1_diaCard);
-            this.groupBox1.Controls.Add(this.P1_gol);
-            this.groupBox1.Controls.Add(this.P1_ony);
-            this.groupBox1.Controls.Add(this.P1_rub);
-            this.groupBox1.Controls.Add(this.P1_eme);
-            this.groupBox1.Controls.Add(this.P1_saf);
-            this.groupBox1.Controls.Add(this.pictureBox18);
-            this.groupBox1.Controls.Add(this.pictureBox17);
-            this.groupBox1.Controls.Add(this.pictureBox16);
-            this.groupBox1.Controls.Add(this.pictureBox15);
-            this.groupBox1.Controls.Add(this.pictureBox14);
-            this.groupBox1.Controls.Add(this.P1_dia);
-            this.groupBox1.Controls.Add(this.pictureBox13);
-            this.groupBox1.Location = new System.Drawing.Point(293, 868);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Size = new System.Drawing.Size(1127, 150);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Player1";
+            this.P1_GB.Controls.Add(this.groupBox8);
+            this.P1_GB.Controls.Add(this.P1_card);
+            this.P1_GB.Controls.Add(this.label7);
+            this.P1_GB.Controls.Add(this.P1_score);
+            this.P1_GB.Controls.Add(this.P1_onyCard);
+            this.P1_GB.Controls.Add(this.label8);
+            this.P1_GB.Controls.Add(this.P1_rubCard);
+            this.P1_GB.Controls.Add(this.P1_emeCard);
+            this.P1_GB.Controls.Add(this.P1_safCard);
+            this.P1_GB.Controls.Add(this.P1_diaCard);
+            this.P1_GB.Controls.Add(this.P1_gol);
+            this.P1_GB.Controls.Add(this.P1_ony);
+            this.P1_GB.Controls.Add(this.P1_rub);
+            this.P1_GB.Controls.Add(this.P1_eme);
+            this.P1_GB.Controls.Add(this.P1_saf);
+            this.P1_GB.Controls.Add(this.pictureBox18);
+            this.P1_GB.Controls.Add(this.pictureBox17);
+            this.P1_GB.Controls.Add(this.pictureBox16);
+            this.P1_GB.Controls.Add(this.pictureBox15);
+            this.P1_GB.Controls.Add(this.pictureBox14);
+            this.P1_GB.Controls.Add(this.P1_dia);
+            this.P1_GB.Controls.Add(this.pictureBox13);
+            this.P1_GB.Location = new System.Drawing.Point(293, 868);
+            this.P1_GB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.P1_GB.Name = "P1_GB";
+            this.P1_GB.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.P1_GB.Size = new System.Drawing.Size(1127, 150);
+            this.P1_GB.TabIndex = 0;
+            this.P1_GB.TabStop = false;
+            this.P1_GB.Text = "Player1";
             // 
             // groupBox8
             // 
@@ -497,98 +498,98 @@
             this.pictureBox13.TabIndex = 16;
             this.pictureBox13.TabStop = false;
             // 
-            // groupBox2
+            // P3_GB
             // 
-            this.groupBox2.Controls.Add(this.groupBox9);
-            this.groupBox2.Controls.Add(this.P2_card);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.P2_score);
-            this.groupBox2.Controls.Add(this.P2_onyCard);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.P2_diaCard);
-            this.groupBox2.Controls.Add(this.P2_rubCard);
-            this.groupBox2.Controls.Add(this.P2_emeCard);
-            this.groupBox2.Controls.Add(this.P2_safCard);
-            this.groupBox2.Controls.Add(this.P2_gol);
-            this.groupBox2.Controls.Add(this.pictureBox24);
-            this.groupBox2.Controls.Add(this.P2_ony);
-            this.groupBox2.Controls.Add(this.P2_dia);
-            this.groupBox2.Controls.Add(this.P2_rub);
-            this.groupBox2.Controls.Add(this.pictureBox23);
-            this.groupBox2.Controls.Add(this.P2_eme);
-            this.groupBox2.Controls.Add(this.pictureBox22);
-            this.groupBox2.Controls.Add(this.P2_saf);
-            this.groupBox2.Controls.Add(this.pictureBox21);
-            this.groupBox2.Controls.Add(this.pictureBox19);
-            this.groupBox2.Controls.Add(this.pictureBox20);
-            this.groupBox2.Location = new System.Drawing.Point(293, 30);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox2.Size = new System.Drawing.Size(1127, 150);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Player2";
+            this.P3_GB.Controls.Add(this.groupBox6);
+            this.P3_GB.Controls.Add(this.P3_card);
+            this.P3_GB.Controls.Add(this.label3);
+            this.P3_GB.Controls.Add(this.P3_score);
+            this.P3_GB.Controls.Add(this.P3_onyCard);
+            this.P3_GB.Controls.Add(this.label4);
+            this.P3_GB.Controls.Add(this.P3_emeCard);
+            this.P3_GB.Controls.Add(this.P3_rubCard);
+            this.P3_GB.Controls.Add(this.P3_diaCard);
+            this.P3_GB.Controls.Add(this.P3_gol);
+            this.P3_GB.Controls.Add(this.P3_safCard);
+            this.P3_GB.Controls.Add(this.P3_ony);
+            this.P3_GB.Controls.Add(this.pictureBox24);
+            this.P3_GB.Controls.Add(this.P3_rub);
+            this.P3_GB.Controls.Add(this.P3_eme);
+            this.P3_GB.Controls.Add(this.P3_saf);
+            this.P3_GB.Controls.Add(this.pictureBox23);
+            this.P3_GB.Controls.Add(this.pictureBox22);
+            this.P3_GB.Controls.Add(this.pictureBox21);
+            this.P3_GB.Controls.Add(this.P3_dia);
+            this.P3_GB.Controls.Add(this.pictureBox19);
+            this.P3_GB.Controls.Add(this.pictureBox20);
+            this.P3_GB.Location = new System.Drawing.Point(293, 30);
+            this.P3_GB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.P3_GB.Name = "P3_GB";
+            this.P3_GB.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.P3_GB.Size = new System.Drawing.Size(1127, 150);
+            this.P3_GB.TabIndex = 1;
+            this.P3_GB.TabStop = false;
+            this.P3_GB.Text = "Player2";
             // 
-            // groupBox9
+            // groupBox6
             // 
-            this.groupBox9.Controls.Add(this.textBox44);
-            this.groupBox9.Controls.Add(this.textBox45);
-            this.groupBox9.Controls.Add(this.textBox46);
-            this.groupBox9.Location = new System.Drawing.Point(690, 19);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(431, 118);
-            this.groupBox9.TabIndex = 54;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "예약된 카드";
+            this.groupBox6.Controls.Add(this.textBox25);
+            this.groupBox6.Controls.Add(this.textBox22);
+            this.groupBox6.Controls.Add(this.textBox21);
+            this.groupBox6.Location = new System.Drawing.Point(615, 23);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(376, 119);
+            this.groupBox6.TabIndex = 33;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "예약된 카드";
             // 
-            // textBox44
+            // textBox25
             // 
-            this.textBox44.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox44.Location = new System.Drawing.Point(326, 20);
-            this.textBox44.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox44.Multiline = true;
-            this.textBox44.Name = "textBox44";
-            this.textBox44.ReadOnly = true;
-            this.textBox44.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox44.Size = new System.Drawing.Size(57, 86);
-            this.textBox44.TabIndex = 41;
-            this.textBox44.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.textBox25.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox25.Location = new System.Drawing.Point(180, 25);
+            this.textBox25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox25.Multiline = true;
+            this.textBox25.Name = "textBox25";
+            this.textBox25.ReadOnly = true;
+            this.textBox25.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox25.Size = new System.Drawing.Size(57, 86);
+            this.textBox25.TabIndex = 37;
+            this.textBox25.Text = "1\r\n2\r\n3\r\n4\r\n5";
             // 
-            // textBox45
+            // textBox22
             // 
-            this.textBox45.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox45.Location = new System.Drawing.Point(197, 20);
-            this.textBox45.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox45.Multiline = true;
-            this.textBox45.Name = "textBox45";
-            this.textBox45.ReadOnly = true;
-            this.textBox45.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox45.Size = new System.Drawing.Size(57, 86);
-            this.textBox45.TabIndex = 40;
-            this.textBox45.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.textBox22.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox22.Location = new System.Drawing.Point(99, 25);
+            this.textBox22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox22.Multiline = true;
+            this.textBox22.Name = "textBox22";
+            this.textBox22.ReadOnly = true;
+            this.textBox22.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox22.Size = new System.Drawing.Size(57, 86);
+            this.textBox22.TabIndex = 34;
+            this.textBox22.Text = "1\r\n2\r\n3\r\n4\r\n5";
             // 
-            // textBox46
+            // textBox21
             // 
-            this.textBox46.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox46.Location = new System.Drawing.Point(74, 20);
-            this.textBox46.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox46.Multiline = true;
-            this.textBox46.Name = "textBox46";
-            this.textBox46.ReadOnly = true;
-            this.textBox46.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox46.Size = new System.Drawing.Size(57, 86);
-            this.textBox46.TabIndex = 39;
-            this.textBox46.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            this.textBox21.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox21.Location = new System.Drawing.Point(20, 25);
+            this.textBox21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox21.Multiline = true;
+            this.textBox21.Name = "textBox21";
+            this.textBox21.ReadOnly = true;
+            this.textBox21.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox21.Size = new System.Drawing.Size(57, 86);
+            this.textBox21.TabIndex = 33;
+            this.textBox21.Text = "1\r\n2\r\n3\r\n4\r\n5";
             // 
-            // P2_card
+            // P3_card
             // 
-            this.P2_card.AutoSize = true;
-            this.P2_card.Location = new System.Drawing.Point(594, 75);
-            this.P2_card.Name = "P2_card";
-            this.P2_card.Size = new System.Drawing.Size(15, 15);
-            this.P2_card.TabIndex = 37;
-            this.P2_card.Text = "0";
+            this.P3_card.AutoSize = true;
+            this.P3_card.Location = new System.Drawing.Point(594, 75);
+            this.P3_card.Name = "P3_card";
+            this.P3_card.Size = new System.Drawing.Size(15, 15);
+            this.P3_card.TabIndex = 37;
+            this.P3_card.Text = "0";
             // 
             // label3
             // 
@@ -599,23 +600,23 @@
             this.label3.TabIndex = 36;
             this.label3.Text = "구매한 카드 :";
             // 
-            // P2_score
+            // P3_score
             // 
-            this.P2_score.AutoSize = true;
-            this.P2_score.Location = new System.Drawing.Point(594, 52);
-            this.P2_score.Name = "P2_score";
-            this.P2_score.Size = new System.Drawing.Size(15, 15);
-            this.P2_score.TabIndex = 36;
-            this.P2_score.Text = "0";
+            this.P3_score.AutoSize = true;
+            this.P3_score.Location = new System.Drawing.Point(594, 52);
+            this.P3_score.Name = "P3_score";
+            this.P3_score.Size = new System.Drawing.Size(15, 15);
+            this.P3_score.TabIndex = 36;
+            this.P3_score.Text = "0";
             // 
-            // P2_onyCard
+            // P3_onyCard
             // 
-            this.P2_onyCard.AutoSize = true;
-            this.P2_onyCard.Location = new System.Drawing.Point(346, 110);
-            this.P2_onyCard.Name = "P2_onyCard";
-            this.P2_onyCard.Size = new System.Drawing.Size(23, 15);
-            this.P2_onyCard.TabIndex = 48;
-            this.P2_onyCard.Text = "+0";
+            this.P3_onyCard.AutoSize = true;
+            this.P3_onyCard.Location = new System.Drawing.Point(346, 109);
+            this.P3_onyCard.Name = "P3_onyCard";
+            this.P3_onyCard.Size = new System.Drawing.Size(23, 15);
+            this.P3_onyCard.TabIndex = 18;
+            this.P3_onyCard.Text = "+0";
             // 
             // label4
             // 
@@ -626,50 +627,59 @@
             this.label4.TabIndex = 35;
             this.label4.Text = "점수 :";
             // 
-            // P2_diaCard
+            // P3_emeCard
             // 
-            this.P2_diaCard.AutoSize = true;
-            this.P2_diaCard.Location = new System.Drawing.Point(19, 110);
-            this.P2_diaCard.Name = "P2_diaCard";
-            this.P2_diaCard.Size = new System.Drawing.Size(23, 15);
-            this.P2_diaCard.TabIndex = 44;
-            this.P2_diaCard.Text = "+0";
+            this.P3_emeCard.AutoSize = true;
+            this.P3_emeCard.Location = new System.Drawing.Point(183, 108);
+            this.P3_emeCard.Name = "P3_emeCard";
+            this.P3_emeCard.Size = new System.Drawing.Size(23, 15);
+            this.P3_emeCard.TabIndex = 16;
+            this.P3_emeCard.Text = "+0";
             // 
-            // P2_rubCard
+            // P3_rubCard
             // 
-            this.P2_rubCard.AutoSize = true;
-            this.P2_rubCard.Location = new System.Drawing.Point(267, 110);
-            this.P2_rubCard.Name = "P2_rubCard";
-            this.P2_rubCard.Size = new System.Drawing.Size(23, 15);
-            this.P2_rubCard.TabIndex = 47;
-            this.P2_rubCard.Text = "+0";
+            this.P3_rubCard.AutoSize = true;
+            this.P3_rubCard.Location = new System.Drawing.Point(268, 108);
+            this.P3_rubCard.Name = "P3_rubCard";
+            this.P3_rubCard.Size = new System.Drawing.Size(23, 15);
+            this.P3_rubCard.TabIndex = 17;
+            this.P3_rubCard.Text = "+0";
             // 
-            // P2_emeCard
+            // P3_diaCard
             // 
-            this.P2_emeCard.AutoSize = true;
-            this.P2_emeCard.Location = new System.Drawing.Point(182, 110);
-            this.P2_emeCard.Name = "P2_emeCard";
-            this.P2_emeCard.Size = new System.Drawing.Size(23, 15);
-            this.P2_emeCard.TabIndex = 46;
-            this.P2_emeCard.Text = "+0";
+            this.P3_diaCard.AutoSize = true;
+            this.P3_diaCard.Location = new System.Drawing.Point(20, 108);
+            this.P3_diaCard.Name = "P3_diaCard";
+            this.P3_diaCard.Size = new System.Drawing.Size(23, 15);
+            this.P3_diaCard.TabIndex = 14;
+            this.P3_diaCard.Text = "+0";
             // 
-            // P2_safCard
+            // P3_gol
             // 
-            this.P2_safCard.AutoSize = true;
-            this.P2_safCard.Location = new System.Drawing.Point(100, 110);
-            this.P2_safCard.Name = "P2_safCard";
-            this.P2_safCard.Size = new System.Drawing.Size(23, 15);
-            this.P2_safCard.TabIndex = 45;
-            this.P2_safCard.Text = "+0";
+            this.P3_gol.AutoSize = true;
+            this.P3_gol.Location = new System.Drawing.Point(426, 93);
+            this.P3_gol.Name = "P3_gol";
+            this.P3_gol.Size = new System.Drawing.Size(45, 15);
+            this.P3_gol.TabIndex = 13;
+            this.P3_gol.Text = "label6";
             // 
-            // P2_gol
+            // P3_safCard
             // 
-            this.P2_gol.AutoSize = true;
-            this.P2_gol.Location = new System.Drawing.Point(426, 92);
-            this.P2_gol.Name = "P2_gol";
-            this.P2_gol.Size = new System.Drawing.Size(53, 15);
-            this.P2_gol.TabIndex = 43;
-            this.P2_gol.Text = "label19";
+            this.P3_safCard.AutoSize = true;
+            this.P3_safCard.Location = new System.Drawing.Point(101, 109);
+            this.P3_safCard.Name = "P3_safCard";
+            this.P3_safCard.Size = new System.Drawing.Size(23, 15);
+            this.P3_safCard.TabIndex = 15;
+            this.P3_safCard.Text = "+0";
+            // 
+            // P3_ony
+            // 
+            this.P3_ony.AutoSize = true;
+            this.P3_ony.Location = new System.Drawing.Point(346, 91);
+            this.P3_ony.Name = "P3_ony";
+            this.P3_ony.Size = new System.Drawing.Size(45, 15);
+            this.P3_ony.TabIndex = 12;
+            this.P3_ony.Text = "label5";
             // 
             // pictureBox24
             // 
@@ -682,32 +692,32 @@
             this.pictureBox24.TabIndex = 32;
             this.pictureBox24.TabStop = false;
             // 
-            // P2_ony
+            // P3_rub
             // 
-            this.P2_ony.AutoSize = true;
-            this.P2_ony.Location = new System.Drawing.Point(346, 92);
-            this.P2_ony.Name = "P2_ony";
-            this.P2_ony.Size = new System.Drawing.Size(53, 15);
-            this.P2_ony.TabIndex = 42;
-            this.P2_ony.Text = "label20";
+            this.P3_rub.AutoSize = true;
+            this.P3_rub.Location = new System.Drawing.Point(268, 91);
+            this.P3_rub.Name = "P3_rub";
+            this.P3_rub.Size = new System.Drawing.Size(45, 15);
+            this.P3_rub.TabIndex = 11;
+            this.P3_rub.Text = "label4";
             // 
-            // P2_dia
+            // P3_eme
             // 
-            this.P2_dia.AutoSize = true;
-            this.P2_dia.Location = new System.Drawing.Point(19, 92);
-            this.P2_dia.Name = "P2_dia";
-            this.P2_dia.Size = new System.Drawing.Size(53, 15);
-            this.P2_dia.TabIndex = 38;
-            this.P2_dia.Text = "label24";
+            this.P3_eme.AutoSize = true;
+            this.P3_eme.Location = new System.Drawing.Point(183, 91);
+            this.P3_eme.Name = "P3_eme";
+            this.P3_eme.Size = new System.Drawing.Size(45, 15);
+            this.P3_eme.TabIndex = 10;
+            this.P3_eme.Text = "label3";
             // 
-            // P2_rub
+            // P3_saf
             // 
-            this.P2_rub.AutoSize = true;
-            this.P2_rub.Location = new System.Drawing.Point(267, 92);
-            this.P2_rub.Name = "P2_rub";
-            this.P2_rub.Size = new System.Drawing.Size(53, 15);
-            this.P2_rub.TabIndex = 41;
-            this.P2_rub.Text = "label21";
+            this.P3_saf.AutoSize = true;
+            this.P3_saf.Location = new System.Drawing.Point(101, 92);
+            this.P3_saf.Name = "P3_saf";
+            this.P3_saf.Size = new System.Drawing.Size(45, 15);
+            this.P3_saf.TabIndex = 9;
+            this.P3_saf.Text = "label2";
             // 
             // pictureBox23
             // 
@@ -720,15 +730,6 @@
             this.pictureBox23.TabIndex = 37;
             this.pictureBox23.TabStop = false;
             // 
-            // P2_eme
-            // 
-            this.P2_eme.AutoSize = true;
-            this.P2_eme.Location = new System.Drawing.Point(182, 92);
-            this.P2_eme.Name = "P2_eme";
-            this.P2_eme.Size = new System.Drawing.Size(53, 15);
-            this.P2_eme.TabIndex = 40;
-            this.P2_eme.Text = "label22";
-            // 
             // pictureBox22
             // 
             this.pictureBox22.Image = global::KWU_Splendor.Properties.Resources.emerald;
@@ -740,15 +741,6 @@
             this.pictureBox22.TabIndex = 36;
             this.pictureBox22.TabStop = false;
             // 
-            // P2_saf
-            // 
-            this.P2_saf.AutoSize = true;
-            this.P2_saf.Location = new System.Drawing.Point(100, 92);
-            this.P2_saf.Name = "P2_saf";
-            this.P2_saf.Size = new System.Drawing.Size(53, 15);
-            this.P2_saf.TabIndex = 39;
-            this.P2_saf.Text = "label23";
-            // 
             // pictureBox21
             // 
             this.pictureBox21.Image = global::KWU_Splendor.Properties.Resources.ruby;
@@ -759,6 +751,15 @@
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 35;
             this.pictureBox21.TabStop = false;
+            // 
+            // P3_dia
+            // 
+            this.P3_dia.AutoSize = true;
+            this.P3_dia.Location = new System.Drawing.Point(20, 92);
+            this.P3_dia.Name = "P3_dia";
+            this.P3_dia.Size = new System.Drawing.Size(45, 15);
+            this.P3_dia.TabIndex = 3;
+            this.P3_dia.Text = "label1";
             // 
             // pictureBox19
             // 
@@ -782,56 +783,206 @@
             this.pictureBox20.TabIndex = 34;
             this.pictureBox20.TabStop = false;
             // 
-            // groupBox3
+            // groupBox9
             // 
-            this.groupBox3.Controls.Add(this.P3_card);
-            this.groupBox3.Controls.Add(this.P3_score);
-            this.groupBox3.Controls.Add(this.label2);
-            this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Controls.Add(this.groupBox6);
-            this.groupBox3.Controls.Add(this.P3_onyCard);
-            this.groupBox3.Controls.Add(this.P3_rubCard);
-            this.groupBox3.Controls.Add(this.P3_emeCard);
-            this.groupBox3.Controls.Add(this.P3_safCard);
-            this.groupBox3.Controls.Add(this.P3_diaCard);
-            this.groupBox3.Controls.Add(this.P3_gol);
-            this.groupBox3.Controls.Add(this.P3_ony);
-            this.groupBox3.Controls.Add(this.P3_rub);
-            this.groupBox3.Controls.Add(this.P3_Eme);
-            this.groupBox3.Controls.Add(this.P3_saf);
-            this.groupBox3.Controls.Add(this.pictureBox6);
-            this.groupBox3.Controls.Add(this.pictureBox5);
-            this.groupBox3.Controls.Add(this.pictureBox4);
-            this.groupBox3.Controls.Add(this.pictureBox3);
-            this.groupBox3.Controls.Add(this.pictureBox2);
-            this.groupBox3.Controls.Add(this.P3_dia);
-            this.groupBox3.Controls.Add(this.pictureBox1);
-            this.groupBox3.Location = new System.Drawing.Point(63, 82);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox3.Size = new System.Drawing.Size(176, 872);
-            this.groupBox3.TabIndex = 1;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Player3";
+            this.groupBox9.Controls.Add(this.textBox44);
+            this.groupBox9.Controls.Add(this.textBox45);
+            this.groupBox9.Controls.Add(this.textBox46);
+            this.groupBox9.Location = new System.Drawing.Point(22, 518);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(153, 347);
+            this.groupBox9.TabIndex = 54;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "예약된 카드";
             // 
-            // P3_card
+            // textBox44
             // 
-            this.P3_card.AutoSize = true;
-            this.P3_card.Location = new System.Drawing.Point(123, 484);
-            this.P3_card.Name = "P3_card";
-            this.P3_card.Size = new System.Drawing.Size(15, 15);
-            this.P3_card.TabIndex = 35;
-            this.P3_card.Text = "0";
+            this.textBox44.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox44.Location = new System.Drawing.Point(56, 250);
+            this.textBox44.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox44.Multiline = true;
+            this.textBox44.Name = "textBox44";
+            this.textBox44.ReadOnly = true;
+            this.textBox44.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox44.Size = new System.Drawing.Size(57, 86);
+            this.textBox44.TabIndex = 41;
+            this.textBox44.Text = "1\r\n2\r\n3\r\n4\r\n5";
             // 
-            // P3_score
+            // textBox45
             // 
-            this.P3_score.AutoSize = true;
-            this.P3_score.Location = new System.Drawing.Point(123, 461);
-            this.P3_score.Name = "P3_score";
-            this.P3_score.Size = new System.Drawing.Size(15, 15);
-            this.P3_score.TabIndex = 33;
-            this.P3_score.Text = "0";
+            this.textBox45.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox45.Location = new System.Drawing.Point(56, 144);
+            this.textBox45.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox45.Multiline = true;
+            this.textBox45.Name = "textBox45";
+            this.textBox45.ReadOnly = true;
+            this.textBox45.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox45.Size = new System.Drawing.Size(57, 86);
+            this.textBox45.TabIndex = 40;
+            this.textBox45.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            // 
+            // textBox46
+            // 
+            this.textBox46.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox46.Location = new System.Drawing.Point(56, 38);
+            this.textBox46.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox46.Multiline = true;
+            this.textBox46.Name = "textBox46";
+            this.textBox46.ReadOnly = true;
+            this.textBox46.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox46.Size = new System.Drawing.Size(57, 86);
+            this.textBox46.TabIndex = 39;
+            this.textBox46.Text = "1\r\n2\r\n3\r\n4\r\n5";
+            // 
+            // P2_onyCard
+            // 
+            this.P2_onyCard.AutoSize = true;
+            this.P2_onyCard.Location = new System.Drawing.Point(102, 342);
+            this.P2_onyCard.Name = "P2_onyCard";
+            this.P2_onyCard.Size = new System.Drawing.Size(23, 15);
+            this.P2_onyCard.TabIndex = 48;
+            this.P2_onyCard.Text = "+0";
+            // 
+            // P2_diaCard
+            // 
+            this.P2_diaCard.AutoSize = true;
+            this.P2_diaCard.Location = new System.Drawing.Point(102, 62);
+            this.P2_diaCard.Name = "P2_diaCard";
+            this.P2_diaCard.Size = new System.Drawing.Size(23, 15);
+            this.P2_diaCard.TabIndex = 44;
+            this.P2_diaCard.Text = "+0";
+            // 
+            // P2_rubCard
+            // 
+            this.P2_rubCard.AutoSize = true;
+            this.P2_rubCard.Location = new System.Drawing.Point(102, 272);
+            this.P2_rubCard.Name = "P2_rubCard";
+            this.P2_rubCard.Size = new System.Drawing.Size(23, 15);
+            this.P2_rubCard.TabIndex = 47;
+            this.P2_rubCard.Text = "+0";
+            // 
+            // P2_emeCard
+            // 
+            this.P2_emeCard.AutoSize = true;
+            this.P2_emeCard.Location = new System.Drawing.Point(102, 202);
+            this.P2_emeCard.Name = "P2_emeCard";
+            this.P2_emeCard.Size = new System.Drawing.Size(23, 15);
+            this.P2_emeCard.TabIndex = 46;
+            this.P2_emeCard.Text = "+0";
+            // 
+            // P2_safCard
+            // 
+            this.P2_safCard.AutoSize = true;
+            this.P2_safCard.Location = new System.Drawing.Point(102, 132);
+            this.P2_safCard.Name = "P2_safCard";
+            this.P2_safCard.Size = new System.Drawing.Size(23, 15);
+            this.P2_safCard.TabIndex = 45;
+            this.P2_safCard.Text = "+0";
+            // 
+            // P2_gol
+            // 
+            this.P2_gol.AutoSize = true;
+            this.P2_gol.Location = new System.Drawing.Point(102, 394);
+            this.P2_gol.Name = "P2_gol";
+            this.P2_gol.Size = new System.Drawing.Size(53, 15);
+            this.P2_gol.TabIndex = 43;
+            this.P2_gol.Text = "label19";
+            // 
+            // P2_ony
+            // 
+            this.P2_ony.AutoSize = true;
+            this.P2_ony.Location = new System.Drawing.Point(102, 324);
+            this.P2_ony.Name = "P2_ony";
+            this.P2_ony.Size = new System.Drawing.Size(53, 15);
+            this.P2_ony.TabIndex = 42;
+            this.P2_ony.Text = "label20";
+            // 
+            // P2_dia
+            // 
+            this.P2_dia.AutoSize = true;
+            this.P2_dia.Location = new System.Drawing.Point(102, 44);
+            this.P2_dia.Name = "P2_dia";
+            this.P2_dia.Size = new System.Drawing.Size(53, 15);
+            this.P2_dia.TabIndex = 38;
+            this.P2_dia.Text = "label24";
+            // 
+            // P2_rub
+            // 
+            this.P2_rub.AutoSize = true;
+            this.P2_rub.Location = new System.Drawing.Point(102, 254);
+            this.P2_rub.Name = "P2_rub";
+            this.P2_rub.Size = new System.Drawing.Size(53, 15);
+            this.P2_rub.TabIndex = 41;
+            this.P2_rub.Text = "label21";
+            // 
+            // P2_eme
+            // 
+            this.P2_eme.AutoSize = true;
+            this.P2_eme.Location = new System.Drawing.Point(102, 184);
+            this.P2_eme.Name = "P2_eme";
+            this.P2_eme.Size = new System.Drawing.Size(53, 15);
+            this.P2_eme.TabIndex = 40;
+            this.P2_eme.Text = "label22";
+            // 
+            // P2_saf
+            // 
+            this.P2_saf.AutoSize = true;
+            this.P2_saf.Location = new System.Drawing.Point(102, 114);
+            this.P2_saf.Name = "P2_saf";
+            this.P2_saf.Size = new System.Drawing.Size(53, 15);
+            this.P2_saf.TabIndex = 39;
+            this.P2_saf.Text = "label23";
+            // 
+            // P2_GB
+            // 
+            this.P2_GB.Controls.Add(this.groupBox9);
+            this.P2_GB.Controls.Add(this.P2_card);
+            this.P2_GB.Controls.Add(this.P2_score);
+            this.P2_GB.Controls.Add(this.label2);
+            this.P2_GB.Controls.Add(this.P2_onyCard);
+            this.P2_GB.Controls.Add(this.label1);
+            this.P2_GB.Controls.Add(this.P2_rubCard);
+            this.P2_GB.Controls.Add(this.P2_diaCard);
+            this.P2_GB.Controls.Add(this.P2_emeCard);
+            this.P2_GB.Controls.Add(this.P2_gol);
+            this.P2_GB.Controls.Add(this.P2_safCard);
+            this.P2_GB.Controls.Add(this.P2_dia);
+            this.P2_GB.Controls.Add(this.pictureBox6);
+            this.P2_GB.Controls.Add(this.pictureBox5);
+            this.P2_GB.Controls.Add(this.pictureBox4);
+            this.P2_GB.Controls.Add(this.pictureBox3);
+            this.P2_GB.Controls.Add(this.P2_rub);
+            this.P2_GB.Controls.Add(this.P2_ony);
+            this.P2_GB.Controls.Add(this.pictureBox2);
+            this.P2_GB.Controls.Add(this.P2_eme);
+            this.P2_GB.Controls.Add(this.P2_saf);
+            this.P2_GB.Controls.Add(this.pictureBox1);
+            this.P2_GB.Location = new System.Drawing.Point(1435, 37);
+            this.P2_GB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.P2_GB.Name = "P2_GB";
+            this.P2_GB.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.P2_GB.Size = new System.Drawing.Size(176, 872);
+            this.P2_GB.TabIndex = 1;
+            this.P2_GB.TabStop = false;
+            this.P2_GB.Text = "Player3";
+            // 
+            // P2_card
+            // 
+            this.P2_card.AutoSize = true;
+            this.P2_card.Location = new System.Drawing.Point(123, 484);
+            this.P2_card.Name = "P2_card";
+            this.P2_card.Size = new System.Drawing.Size(15, 15);
+            this.P2_card.TabIndex = 35;
+            this.P2_card.Text = "0";
+            // 
+            // P2_score
+            // 
+            this.P2_score.AutoSize = true;
+            this.P2_score.Location = new System.Drawing.Point(123, 461);
+            this.P2_score.Name = "P2_score";
+            this.P2_score.Size = new System.Drawing.Size(15, 15);
+            this.P2_score.TabIndex = 33;
+            this.P2_score.Text = "0";
             // 
             // label2
             // 
@@ -850,147 +1001,6 @@
             this.label1.Size = new System.Drawing.Size(47, 15);
             this.label1.TabIndex = 33;
             this.label1.Text = "점수 :";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.textBox25);
-            this.groupBox6.Controls.Add(this.textBox22);
-            this.groupBox6.Controls.Add(this.textBox21);
-            this.groupBox6.Location = new System.Drawing.Point(6, 515);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(164, 350);
-            this.groupBox6.TabIndex = 33;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "예약된 카드";
-            // 
-            // textBox25
-            // 
-            this.textBox25.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox25.Location = new System.Drawing.Point(56, 248);
-            this.textBox25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox25.Multiline = true;
-            this.textBox25.Name = "textBox25";
-            this.textBox25.ReadOnly = true;
-            this.textBox25.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox25.Size = new System.Drawing.Size(57, 86);
-            this.textBox25.TabIndex = 37;
-            this.textBox25.Text = "1\r\n2\r\n3\r\n4\r\n5";
-            // 
-            // textBox22
-            // 
-            this.textBox22.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox22.Location = new System.Drawing.Point(56, 144);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox22.Multiline = true;
-            this.textBox22.Name = "textBox22";
-            this.textBox22.ReadOnly = true;
-            this.textBox22.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox22.Size = new System.Drawing.Size(57, 86);
-            this.textBox22.TabIndex = 34;
-            this.textBox22.Text = "1\r\n2\r\n3\r\n4\r\n5";
-            // 
-            // textBox21
-            // 
-            this.textBox21.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox21.Location = new System.Drawing.Point(56, 38);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox21.Multiline = true;
-            this.textBox21.Name = "textBox21";
-            this.textBox21.ReadOnly = true;
-            this.textBox21.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox21.Size = new System.Drawing.Size(57, 86);
-            this.textBox21.TabIndex = 33;
-            this.textBox21.Text = "1\r\n2\r\n3\r\n4\r\n5";
-            // 
-            // P3_onyCard
-            // 
-            this.P3_onyCard.AutoSize = true;
-            this.P3_onyCard.Location = new System.Drawing.Point(102, 358);
-            this.P3_onyCard.Name = "P3_onyCard";
-            this.P3_onyCard.Size = new System.Drawing.Size(23, 15);
-            this.P3_onyCard.TabIndex = 18;
-            this.P3_onyCard.Text = "+0";
-            // 
-            // P3_rubCard
-            // 
-            this.P3_rubCard.AutoSize = true;
-            this.P3_rubCard.Location = new System.Drawing.Point(102, 287);
-            this.P3_rubCard.Name = "P3_rubCard";
-            this.P3_rubCard.Size = new System.Drawing.Size(23, 15);
-            this.P3_rubCard.TabIndex = 17;
-            this.P3_rubCard.Text = "+0";
-            // 
-            // P3_emeCard
-            // 
-            this.P3_emeCard.AutoSize = true;
-            this.P3_emeCard.Location = new System.Drawing.Point(102, 217);
-            this.P3_emeCard.Name = "P3_emeCard";
-            this.P3_emeCard.Size = new System.Drawing.Size(23, 15);
-            this.P3_emeCard.TabIndex = 16;
-            this.P3_emeCard.Text = "+0";
-            // 
-            // P3_safCard
-            // 
-            this.P3_safCard.AutoSize = true;
-            this.P3_safCard.Location = new System.Drawing.Point(102, 142);
-            this.P3_safCard.Name = "P3_safCard";
-            this.P3_safCard.Size = new System.Drawing.Size(23, 15);
-            this.P3_safCard.TabIndex = 15;
-            this.P3_safCard.Text = "+0";
-            // 
-            // P3_diaCard
-            // 
-            this.P3_diaCard.AutoSize = true;
-            this.P3_diaCard.Location = new System.Drawing.Point(102, 70);
-            this.P3_diaCard.Name = "P3_diaCard";
-            this.P3_diaCard.Size = new System.Drawing.Size(23, 15);
-            this.P3_diaCard.TabIndex = 14;
-            this.P3_diaCard.Text = "+0";
-            // 
-            // P3_gol
-            // 
-            this.P3_gol.AutoSize = true;
-            this.P3_gol.Location = new System.Drawing.Point(102, 409);
-            this.P3_gol.Name = "P3_gol";
-            this.P3_gol.Size = new System.Drawing.Size(45, 15);
-            this.P3_gol.TabIndex = 13;
-            this.P3_gol.Text = "label6";
-            // 
-            // P3_ony
-            // 
-            this.P3_ony.AutoSize = true;
-            this.P3_ony.Location = new System.Drawing.Point(102, 340);
-            this.P3_ony.Name = "P3_ony";
-            this.P3_ony.Size = new System.Drawing.Size(45, 15);
-            this.P3_ony.TabIndex = 12;
-            this.P3_ony.Text = "label5";
-            // 
-            // P3_rub
-            // 
-            this.P3_rub.AutoSize = true;
-            this.P3_rub.Location = new System.Drawing.Point(102, 270);
-            this.P3_rub.Name = "P3_rub";
-            this.P3_rub.Size = new System.Drawing.Size(45, 15);
-            this.P3_rub.TabIndex = 11;
-            this.P3_rub.Text = "label4";
-            // 
-            // P3_Eme
-            // 
-            this.P3_Eme.AutoSize = true;
-            this.P3_Eme.Location = new System.Drawing.Point(102, 200);
-            this.P3_Eme.Name = "P3_Eme";
-            this.P3_Eme.Size = new System.Drawing.Size(45, 15);
-            this.P3_Eme.TabIndex = 10;
-            this.P3_Eme.Text = "label3";
-            // 
-            // P3_saf
-            // 
-            this.P3_saf.AutoSize = true;
-            this.P3_saf.Location = new System.Drawing.Point(102, 124);
-            this.P3_saf.Name = "P3_saf";
-            this.P3_saf.Size = new System.Drawing.Size(45, 15);
-            this.P3_saf.TabIndex = 9;
-            this.P3_saf.Text = "label2";
             // 
             // pictureBox6
             // 
@@ -1047,15 +1057,6 @@
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
-            // P3_dia
-            // 
-            this.P3_dia.AutoSize = true;
-            this.P3_dia.Location = new System.Drawing.Point(102, 53);
-            this.P3_dia.Name = "P3_dia";
-            this.P3_dia.Size = new System.Drawing.Size(45, 15);
-            this.P3_dia.TabIndex = 3;
-            this.P3_dia.Text = "label1";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::KWU_Splendor.Properties.Resources.dia;
@@ -1067,38 +1068,38 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // groupBox4
+            // P4_GB
             // 
-            this.groupBox4.Controls.Add(this.P4_card);
-            this.groupBox4.Controls.Add(this.label5);
-            this.groupBox4.Controls.Add(this.P4_score);
-            this.groupBox4.Controls.Add(this.groupBox7);
-            this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Controls.Add(this.P4_gol);
-            this.groupBox4.Controls.Add(this.P4_onyCard);
-            this.groupBox4.Controls.Add(this.pictureBox12);
-            this.groupBox4.Controls.Add(this.P4_rubCard);
-            this.groupBox4.Controls.Add(this.P4_ony);
-            this.groupBox4.Controls.Add(this.P4_emeCard);
-            this.groupBox4.Controls.Add(this.P4_dia);
-            this.groupBox4.Controls.Add(this.P4_safCard);
-            this.groupBox4.Controls.Add(this.P4_diaCard);
-            this.groupBox4.Controls.Add(this.P4_rub);
-            this.groupBox4.Controls.Add(this.pictureBox11);
-            this.groupBox4.Controls.Add(this.P4_eme);
-            this.groupBox4.Controls.Add(this.pictureBox10);
-            this.groupBox4.Controls.Add(this.P4_saf);
-            this.groupBox4.Controls.Add(this.pictureBox9);
-            this.groupBox4.Controls.Add(this.pictureBox7);
-            this.groupBox4.Controls.Add(this.pictureBox8);
-            this.groupBox4.Location = new System.Drawing.Point(1493, 82);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox4.Size = new System.Drawing.Size(187, 872);
-            this.groupBox4.TabIndex = 2;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Player4";
+            this.P4_GB.Controls.Add(this.P4_card);
+            this.P4_GB.Controls.Add(this.label5);
+            this.P4_GB.Controls.Add(this.P4_score);
+            this.P4_GB.Controls.Add(this.groupBox7);
+            this.P4_GB.Controls.Add(this.label6);
+            this.P4_GB.Controls.Add(this.P4_gol);
+            this.P4_GB.Controls.Add(this.P4_onyCard);
+            this.P4_GB.Controls.Add(this.pictureBox12);
+            this.P4_GB.Controls.Add(this.P4_rubCard);
+            this.P4_GB.Controls.Add(this.P4_ony);
+            this.P4_GB.Controls.Add(this.P4_emeCard);
+            this.P4_GB.Controls.Add(this.P4_dia);
+            this.P4_GB.Controls.Add(this.P4_safCard);
+            this.P4_GB.Controls.Add(this.P4_diaCard);
+            this.P4_GB.Controls.Add(this.P4_rub);
+            this.P4_GB.Controls.Add(this.pictureBox11);
+            this.P4_GB.Controls.Add(this.P4_eme);
+            this.P4_GB.Controls.Add(this.pictureBox10);
+            this.P4_GB.Controls.Add(this.P4_saf);
+            this.P4_GB.Controls.Add(this.pictureBox9);
+            this.P4_GB.Controls.Add(this.pictureBox7);
+            this.P4_GB.Controls.Add(this.pictureBox8);
+            this.P4_GB.Location = new System.Drawing.Point(99, 41);
+            this.P4_GB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.P4_GB.Name = "P4_GB";
+            this.P4_GB.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.P4_GB.Size = new System.Drawing.Size(187, 872);
+            this.P4_GB.TabIndex = 2;
+            this.P4_GB.TabStop = false;
+            this.P4_GB.Text = "Player4";
             // 
             // P4_card
             // 
@@ -1839,28 +1840,41 @@
             this.turn.TabIndex = 32;
             this.turn.Text = "Player1 차례";
             // 
+            // BtnConnect
+            // 
+            this.BtnConnect.Location = new System.Drawing.Point(181, 9);
+            this.BtnConnect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnConnect.Name = "BtnConnect";
+            this.BtnConnect.Size = new System.Drawing.Size(82, 25);
+            this.BtnConnect.TabIndex = 34;
+            this.BtnConnect.Text = "연결";
+            this.BtnConnect.UseVisualStyleBackColor = true;
+            this.BtnConnect.Click += new System.EventHandler(this.btnConnect_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1694, 1055);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1659, 975);
+            this.Controls.Add(this.BtnConnect);
             this.Controls.Add(this.turn);
             this.Controls.Add(this.round);
+            this.Controls.Add(this.P2_GB);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.btn_sendRes);
             this.Controls.Add(this.btn_reservation);
             this.Controls.Add(this.btn_card);
             this.Controls.Add(this.btn_coin);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.P4_GB);
+            this.Controls.Add(this.P3_GB);
+            this.Controls.Add(this.P1_GB);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.P1_GB.ResumeLayout(false);
+            this.P1_GB.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
@@ -1869,28 +1883,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
+            this.P3_GB.ResumeLayout(false);
+            this.P3_GB.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            this.P2_GB.ResumeLayout(false);
+            this.P2_GB.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            this.P4_GB.ResumeLayout(false);
+            this.P4_GB.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
@@ -1914,10 +1928,10 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox P1_GB;
+        private System.Windows.Forms.GroupBox P3_GB;
+        private System.Windows.Forms.GroupBox P2_GB;
+        private System.Windows.Forms.GroupBox P4_GB;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label P3_dia;
         private System.Windows.Forms.PictureBox pictureBox5;
@@ -1928,7 +1942,7 @@
         private System.Windows.Forms.Label P3_gol;
         private System.Windows.Forms.Label P3_ony;
         private System.Windows.Forms.Label P3_rub;
-        private System.Windows.Forms.Label P3_Eme;
+        private System.Windows.Forms.Label P3_eme;
         private System.Windows.Forms.Label P3_saf;
         private System.Windows.Forms.Label P4_gol;
         private System.Windows.Forms.PictureBox pictureBox12;
@@ -2041,10 +2055,10 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label P1_score;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label P2_card;
-        private System.Windows.Forms.Label P2_score;
         private System.Windows.Forms.Label P3_card;
         private System.Windows.Forms.Label P3_score;
+        private System.Windows.Forms.Label P2_card;
+        private System.Windows.Forms.Label P2_score;
         private System.Windows.Forms.Label P4_card;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label P4_score;
@@ -2057,6 +2071,7 @@
         private System.Windows.Forms.TextBox textBox44;
         private System.Windows.Forms.TextBox textBox45;
         private System.Windows.Forms.TextBox textBox46;
+        private System.Windows.Forms.Button BtnConnect;
     }
 }
 
