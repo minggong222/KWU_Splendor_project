@@ -3931,7 +3931,6 @@
             this.Controls.Add(this.P1_GB);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.P1_GB.ResumeLayout(false);
             this.P1_GB.PerformLayout();
             this.groupBox8.ResumeLayout(false);
