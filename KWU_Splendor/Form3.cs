@@ -17,18 +17,20 @@ namespace KWU_Splendor
         List<Card> level2cards;
         List<Card> level3cards;
         List<Noble> noblecards;
+        List<Card> Rcards;
         public string CheckCard;
         public string CardNumber;
         public event EventHandler<Card> CardBuy;
         public event EventHandler<Noble> NobleBuy;
         public event EventHandler<Card> Reserved;
-        public Form3(List<Card> l1cards, List<Card> l2cards, List<Card> l3cards, List<Noble> nbcards)
+        public Form3(List<Card> l1cards, List<Card> l2cards, List<Card> l3cards, List<Noble> nbcards, List<Card> rcards)
         {
             InitializeComponent();
             level1cards = l1cards;
             level2cards = l2cards;
             level3cards = l3cards;
             noblecards = nbcards;
+            Rcards = rcards;
         }
 
         private void btn_cancel_Click(object sender, EventArgs e)
@@ -38,6 +40,28 @@ namespace KWU_Splendor
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            reserved_card1.Visible = false;
+            reserved_card2.Visible = false;
+            reserved_card3.Visible = false;
+            RC1_ptb.Visible = false;
+            RC2_ptb.Visible = false;
+            RC3_ptb.Visible = false;
+            r1g1.Visible = false;
+            r1g2.Visible = false;
+            r1g3.Visible = false;
+            r1g4.Visible = false;
+            r1g5.Visible = false;
+            r2g1.Visible = false;
+            r2g2.Visible = false;
+            r2g3.Visible = false;
+            r2g4.Visible = false;
+            r2g5.Visible = false;
+            r3g1.Visible = false;
+            r3g2.Visible = false;
+            r3g3.Visible = false;
+            r3g4.Visible = false;
+            r3g5.Visible = false;
+
             Level1Card1.Text = level1cards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + level1cards[0].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + level1cards[0].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -155,6 +179,58 @@ namespace KWU_Splendor
                 + "      " + noblecards[4].nobleCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + noblecards[4].nobleCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + noblecards[4].nobleCost[4].ToString() + "개" + Environment.NewLine;
+
+            if (Rcards.Count == 1)
+            {
+                reserved_card1.Visible = true;
+                RC1_ptb.Visible = true;
+                r1g1.Visible = true;
+                r1g2.Visible = true;
+                r1g3.Visible = true;
+                r1g4.Visible = true;
+                r1g5.Visible = true;
+                reserved_card1.Text = Rcards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + Rcards[0].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + Rcards[0].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + Rcards[0].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + Rcards[0].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + Rcards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(RC1_ptb, Rcards[0].cardGem);
+            }
+            else if (Rcards.Count == 2)
+            {
+                reserved_card2.Visible = true;
+                RC2_ptb.Visible = true;
+                r2g1.Visible = true;
+                r2g2.Visible = true;
+                r2g3.Visible = true;
+                r2g4.Visible = true;
+                r2g5.Visible = true;
+                reserved_card2.Text = Rcards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + Rcards[1].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + Rcards[1].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + Rcards[1].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + Rcards[1].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + Rcards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(RC2_ptb, Rcards[1].cardGem);
+            }
+            else if (Rcards.Count == 3)
+            {
+                reserved_card3.Visible = true;
+                RC3_ptb.Visible = true;
+                r3g1.Visible = true;
+                r3g2.Visible = true;
+                r3g3.Visible = true;
+                r3g4.Visible = true;
+                r3g5.Visible = true;
+                reserved_card3.Text = Rcards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                     + "      " + Rcards[2].cardCost[0].ToString() + "개" + Environment.NewLine
+                     + "      " + Rcards[2].cardCost[1].ToString() + "개" + Environment.NewLine
+                     + "      " + Rcards[2].cardCost[2].ToString() + "개" + Environment.NewLine
+                     + "      " + Rcards[2].cardCost[3].ToString() + "개" + Environment.NewLine
+                     + "      " + Rcards[2].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(RC3_ptb, Rcards[2].cardGem);
+            }
         }
         private void ptb_img(PictureBox ptb, int GemNumber)
         {
