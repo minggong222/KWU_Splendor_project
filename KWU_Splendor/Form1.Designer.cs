@@ -574,11 +574,9 @@
             this.P1_GB.Controls.Add(this.pictureBox14);
             this.P1_GB.Controls.Add(this.P1_dia);
             this.P1_GB.Controls.Add(this.pictureBox13);
-            this.P1_GB.Location = new System.Drawing.Point(366, 1042);
-            this.P1_GB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_GB.Location = new System.Drawing.Point(256, 695);
             this.P1_GB.Name = "P1_GB";
-            this.P1_GB.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.P1_GB.Size = new System.Drawing.Size(1409, 180);
+            this.P1_GB.Size = new System.Drawing.Size(986, 120);
             this.P1_GB.TabIndex = 0;
             this.P1_GB.TabStop = false;
             this.P1_GB.Text = "Player1";
@@ -606,41 +604,36 @@
             this.groupBox8.Controls.Add(this.P1_reserved2);
             this.groupBox8.Controls.Add(this.P1_r1g2);
             this.groupBox8.Controls.Add(this.P1_reserved1);
-            this.groupBox8.Location = new System.Drawing.Point(863, 15);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox8.Location = new System.Drawing.Point(604, 10);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox8.Size = new System.Drawing.Size(540, 153);
+            this.groupBox8.Size = new System.Drawing.Size(378, 102);
             this.groupBox8.TabIndex = 53;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "예약된 카드";
             // 
             // P1R3_ptb
             // 
-            this.P1R3_ptb.Location = new System.Drawing.Point(481, 24);
-            this.P1R3_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1R3_ptb.Location = new System.Drawing.Point(336, 16);
             this.P1R3_ptb.Name = "P1R3_ptb";
-            this.P1R3_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P1R3_ptb.Size = new System.Drawing.Size(22, 19);
             this.P1R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1R3_ptb.TabIndex = 231;
             this.P1R3_ptb.TabStop = false;
             // 
             // P1R2_ptb
             // 
-            this.P1R2_ptb.Location = new System.Drawing.Point(306, 21);
-            this.P1R2_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1R2_ptb.Location = new System.Drawing.Point(213, 14);
             this.P1R2_ptb.Name = "P1R2_ptb";
-            this.P1R2_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P1R2_ptb.Size = new System.Drawing.Size(22, 19);
             this.P1R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1R2_ptb.TabIndex = 230;
             this.P1R2_ptb.TabStop = false;
             // 
             // P1R1_ptb
             // 
-            this.P1R1_ptb.Location = new System.Drawing.Point(130, 24);
-            this.P1R1_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1R1_ptb.Location = new System.Drawing.Point(90, 16);
             this.P1R1_ptb.Name = "P1R1_ptb";
-            this.P1R1_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P1R1_ptb.Size = new System.Drawing.Size(22, 19);
             this.P1R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1R1_ptb.TabIndex = 183;
             this.P1R1_ptb.TabStop = false;
@@ -648,10 +641,9 @@
             // P1_r3g1
             // 
             this.P1_r3g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P1_r3g1.Location = new System.Drawing.Point(413, 48);
-            this.P1_r3g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r3g1.Location = new System.Drawing.Point(289, 32);
             this.P1_r3g1.Name = "P1_r3g1";
-            this.P1_r3g1.Size = new System.Drawing.Size(20, 20);
+            this.P1_r3g1.Size = new System.Drawing.Size(14, 13);
             this.P1_r3g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r3g1.TabIndex = 172;
             this.P1_r3g1.TabStop = false;
@@ -659,10 +651,9 @@
             // P1_r3g5
             // 
             this.P1_r3g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P1_r3g5.Location = new System.Drawing.Point(413, 120);
-            this.P1_r3g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r3g5.Location = new System.Drawing.Point(289, 80);
             this.P1_r3g5.Name = "P1_r3g5";
-            this.P1_r3g5.Size = new System.Drawing.Size(20, 20);
+            this.P1_r3g5.Size = new System.Drawing.Size(14, 13);
             this.P1_r3g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r3g5.TabIndex = 171;
             this.P1_r3g5.TabStop = false;
@@ -670,10 +661,9 @@
             // P1_r3g4
             // 
             this.P1_r3g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P1_r3g4.Location = new System.Drawing.Point(413, 104);
-            this.P1_r3g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r3g4.Location = new System.Drawing.Point(289, 69);
             this.P1_r3g4.Name = "P1_r3g4";
-            this.P1_r3g4.Size = new System.Drawing.Size(20, 20);
+            this.P1_r3g4.Size = new System.Drawing.Size(14, 13);
             this.P1_r3g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r3g4.TabIndex = 170;
             this.P1_r3g4.TabStop = false;
@@ -681,10 +671,9 @@
             // P1_r3g3
             // 
             this.P1_r3g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P1_r3g3.Location = new System.Drawing.Point(413, 87);
-            this.P1_r3g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r3g3.Location = new System.Drawing.Point(289, 58);
             this.P1_r3g3.Name = "P1_r3g3";
-            this.P1_r3g3.Size = new System.Drawing.Size(20, 20);
+            this.P1_r3g3.Size = new System.Drawing.Size(14, 13);
             this.P1_r3g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r3g3.TabIndex = 169;
             this.P1_r3g3.TabStop = false;
@@ -692,10 +681,9 @@
             // P1_r3g2
             // 
             this.P1_r3g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P1_r3g2.Location = new System.Drawing.Point(413, 68);
-            this.P1_r3g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r3g2.Location = new System.Drawing.Point(289, 45);
             this.P1_r3g2.Name = "P1_r3g2";
-            this.P1_r3g2.Size = new System.Drawing.Size(20, 20);
+            this.P1_r3g2.Size = new System.Drawing.Size(14, 13);
             this.P1_r3g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r3g2.TabIndex = 168;
             this.P1_r3g2.TabStop = false;
@@ -703,10 +691,9 @@
             // P1_r2g1
             // 
             this.P1_r2g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P1_r2g1.Location = new System.Drawing.Point(237, 48);
-            this.P1_r2g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r2g1.Location = new System.Drawing.Point(166, 32);
             this.P1_r2g1.Name = "P1_r2g1";
-            this.P1_r2g1.Size = new System.Drawing.Size(20, 20);
+            this.P1_r2g1.Size = new System.Drawing.Size(14, 13);
             this.P1_r2g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r2g1.TabIndex = 167;
             this.P1_r2g1.TabStop = false;
@@ -714,10 +701,9 @@
             // P1_r2g5
             // 
             this.P1_r2g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P1_r2g5.Location = new System.Drawing.Point(237, 120);
-            this.P1_r2g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r2g5.Location = new System.Drawing.Point(166, 80);
             this.P1_r2g5.Name = "P1_r2g5";
-            this.P1_r2g5.Size = new System.Drawing.Size(20, 20);
+            this.P1_r2g5.Size = new System.Drawing.Size(14, 13);
             this.P1_r2g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r2g5.TabIndex = 166;
             this.P1_r2g5.TabStop = false;
@@ -725,10 +711,9 @@
             // P1_r2g4
             // 
             this.P1_r2g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P1_r2g4.Location = new System.Drawing.Point(237, 104);
-            this.P1_r2g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r2g4.Location = new System.Drawing.Point(166, 69);
             this.P1_r2g4.Name = "P1_r2g4";
-            this.P1_r2g4.Size = new System.Drawing.Size(20, 20);
+            this.P1_r2g4.Size = new System.Drawing.Size(14, 13);
             this.P1_r2g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r2g4.TabIndex = 165;
             this.P1_r2g4.TabStop = false;
@@ -736,10 +721,9 @@
             // P1_r2g3
             // 
             this.P1_r2g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P1_r2g3.Location = new System.Drawing.Point(237, 87);
-            this.P1_r2g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r2g3.Location = new System.Drawing.Point(166, 58);
             this.P1_r2g3.Name = "P1_r2g3";
-            this.P1_r2g3.Size = new System.Drawing.Size(20, 20);
+            this.P1_r2g3.Size = new System.Drawing.Size(14, 13);
             this.P1_r2g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r2g3.TabIndex = 164;
             this.P1_r2g3.TabStop = false;
@@ -747,10 +731,9 @@
             // P1_r2g2
             // 
             this.P1_r2g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P1_r2g2.Location = new System.Drawing.Point(237, 68);
-            this.P1_r2g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r2g2.Location = new System.Drawing.Point(166, 45);
             this.P1_r2g2.Name = "P1_r2g2";
-            this.P1_r2g2.Size = new System.Drawing.Size(20, 20);
+            this.P1_r2g2.Size = new System.Drawing.Size(14, 13);
             this.P1_r2g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r2g2.TabIndex = 163;
             this.P1_r2g2.TabStop = false;
@@ -758,10 +741,9 @@
             // P1_r1g1
             // 
             this.P1_r1g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P1_r1g1.Location = new System.Drawing.Point(61, 46);
-            this.P1_r1g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r1g1.Location = new System.Drawing.Point(43, 31);
             this.P1_r1g1.Name = "P1_r1g1";
-            this.P1_r1g1.Size = new System.Drawing.Size(20, 20);
+            this.P1_r1g1.Size = new System.Drawing.Size(14, 13);
             this.P1_r1g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r1g1.TabIndex = 162;
             this.P1_r1g1.TabStop = false;
@@ -769,10 +751,9 @@
             // P1_r1g5
             // 
             this.P1_r1g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P1_r1g5.Location = new System.Drawing.Point(61, 120);
-            this.P1_r1g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r1g5.Location = new System.Drawing.Point(43, 80);
             this.P1_r1g5.Name = "P1_r1g5";
-            this.P1_r1g5.Size = new System.Drawing.Size(20, 20);
+            this.P1_r1g5.Size = new System.Drawing.Size(14, 13);
             this.P1_r1g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r1g5.TabIndex = 161;
             this.P1_r1g5.TabStop = false;
@@ -780,10 +761,9 @@
             // P1_r1g4
             // 
             this.P1_r1g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P1_r1g4.Location = new System.Drawing.Point(61, 100);
-            this.P1_r1g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r1g4.Location = new System.Drawing.Point(43, 67);
             this.P1_r1g4.Name = "P1_r1g4";
-            this.P1_r1g4.Size = new System.Drawing.Size(20, 20);
+            this.P1_r1g4.Size = new System.Drawing.Size(14, 13);
             this.P1_r1g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r1g4.TabIndex = 160;
             this.P1_r1g4.TabStop = false;
@@ -791,22 +771,20 @@
             // P1_reserved3
             // 
             this.P1_reserved3.BackColor = System.Drawing.SystemColors.Window;
-            this.P1_reserved3.Location = new System.Drawing.Point(413, 24);
-            this.P1_reserved3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_reserved3.Location = new System.Drawing.Point(289, 16);
             this.P1_reserved3.Multiline = true;
             this.P1_reserved3.Name = "P1_reserved3";
             this.P1_reserved3.ReadOnly = true;
             this.P1_reserved3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P1_reserved3.Size = new System.Drawing.Size(98, 124);
+            this.P1_reserved3.Size = new System.Drawing.Size(70, 84);
             this.P1_reserved3.TabIndex = 41;
             // 
             // P1_r1g3
             // 
             this.P1_r1g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P1_r1g3.Location = new System.Drawing.Point(61, 86);
-            this.P1_r1g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r1g3.Location = new System.Drawing.Point(43, 57);
             this.P1_r1g3.Name = "P1_r1g3";
-            this.P1_r1g3.Size = new System.Drawing.Size(20, 20);
+            this.P1_r1g3.Size = new System.Drawing.Size(14, 13);
             this.P1_r1g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r1g3.TabIndex = 159;
             this.P1_r1g3.TabStop = false;
@@ -814,22 +792,20 @@
             // P1_reserved2
             // 
             this.P1_reserved2.BackColor = System.Drawing.SystemColors.Window;
-            this.P1_reserved2.Location = new System.Drawing.Point(237, 21);
-            this.P1_reserved2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_reserved2.Location = new System.Drawing.Point(166, 14);
             this.P1_reserved2.Multiline = true;
             this.P1_reserved2.Name = "P1_reserved2";
             this.P1_reserved2.ReadOnly = true;
             this.P1_reserved2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P1_reserved2.Size = new System.Drawing.Size(98, 124);
+            this.P1_reserved2.Size = new System.Drawing.Size(70, 84);
             this.P1_reserved2.TabIndex = 40;
             // 
             // P1_r1g2
             // 
             this.P1_r1g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P1_r1g2.Location = new System.Drawing.Point(61, 66);
-            this.P1_r1g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_r1g2.Location = new System.Drawing.Point(43, 44);
             this.P1_r1g2.Name = "P1_r1g2";
-            this.P1_r1g2.Size = new System.Drawing.Size(20, 20);
+            this.P1_r1g2.Size = new System.Drawing.Size(14, 13);
             this.P1_r1g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1_r1g2.TabIndex = 158;
             this.P1_r1g2.TabStop = false;
@@ -837,162 +813,146 @@
             // P1_reserved1
             // 
             this.P1_reserved1.BackColor = System.Drawing.SystemColors.Window;
-            this.P1_reserved1.Location = new System.Drawing.Point(61, 22);
-            this.P1_reserved1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P1_reserved1.Location = new System.Drawing.Point(43, 15);
             this.P1_reserved1.Multiline = true;
             this.P1_reserved1.Name = "P1_reserved1";
             this.P1_reserved1.ReadOnly = true;
             this.P1_reserved1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P1_reserved1.Size = new System.Drawing.Size(98, 124);
+            this.P1_reserved1.Size = new System.Drawing.Size(70, 84);
             this.P1_reserved1.TabIndex = 39;
             // 
             // P1_card
             // 
             this.P1_card.AutoSize = true;
-            this.P1_card.Location = new System.Drawing.Point(766, 86);
-            this.P1_card.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_card.Location = new System.Drawing.Point(536, 57);
             this.P1_card.Name = "P1_card";
-            this.P1_card.Size = new System.Drawing.Size(18, 18);
+            this.P1_card.Size = new System.Drawing.Size(11, 12);
             this.P1_card.TabIndex = 52;
             this.P1_card.Text = "0";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(639, 86);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(447, 57);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(116, 18);
+            this.label7.Size = new System.Drawing.Size(77, 12);
             this.label7.TabIndex = 52;
             this.label7.Text = "구매한 카드 :";
             // 
             // P1_score
             // 
             this.P1_score.AutoSize = true;
-            this.P1_score.Location = new System.Drawing.Point(766, 58);
-            this.P1_score.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_score.Location = new System.Drawing.Point(536, 39);
             this.P1_score.Name = "P1_score";
-            this.P1_score.Size = new System.Drawing.Size(18, 18);
+            this.P1_score.Size = new System.Drawing.Size(11, 12);
             this.P1_score.TabIndex = 51;
             this.P1_score.Text = "0";
             // 
             // P1_onyCard
             // 
             this.P1_onyCard.AutoSize = true;
-            this.P1_onyCard.Location = new System.Drawing.Point(444, 136);
-            this.P1_onyCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_onyCard.Location = new System.Drawing.Point(311, 91);
             this.P1_onyCard.Name = "P1_onyCard";
-            this.P1_onyCard.Size = new System.Drawing.Size(27, 18);
+            this.P1_onyCard.Size = new System.Drawing.Size(17, 12);
             this.P1_onyCard.TabIndex = 36;
             this.P1_onyCard.Text = "+0";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(700, 58);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(490, 39);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 18);
+            this.label8.Size = new System.Drawing.Size(37, 12);
             this.label8.TabIndex = 51;
             this.label8.Text = "점수 :";
             // 
             // P1_rubCard
             // 
             this.P1_rubCard.AutoSize = true;
-            this.P1_rubCard.Location = new System.Drawing.Point(346, 136);
-            this.P1_rubCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_rubCard.Location = new System.Drawing.Point(242, 91);
             this.P1_rubCard.Name = "P1_rubCard";
-            this.P1_rubCard.Size = new System.Drawing.Size(27, 18);
+            this.P1_rubCard.Size = new System.Drawing.Size(17, 12);
             this.P1_rubCard.TabIndex = 35;
             this.P1_rubCard.Text = "+0";
             // 
             // P1_emeCard
             // 
             this.P1_emeCard.AutoSize = true;
-            this.P1_emeCard.Location = new System.Drawing.Point(240, 136);
-            this.P1_emeCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_emeCard.Location = new System.Drawing.Point(168, 91);
             this.P1_emeCard.Name = "P1_emeCard";
-            this.P1_emeCard.Size = new System.Drawing.Size(27, 18);
+            this.P1_emeCard.Size = new System.Drawing.Size(17, 12);
             this.P1_emeCard.TabIndex = 34;
             this.P1_emeCard.Text = "+0";
             // 
             // P1_safCard
             // 
             this.P1_safCard.AutoSize = true;
-            this.P1_safCard.Location = new System.Drawing.Point(139, 136);
-            this.P1_safCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_safCard.Location = new System.Drawing.Point(97, 91);
             this.P1_safCard.Name = "P1_safCard";
-            this.P1_safCard.Size = new System.Drawing.Size(27, 18);
+            this.P1_safCard.Size = new System.Drawing.Size(17, 12);
             this.P1_safCard.TabIndex = 33;
             this.P1_safCard.Text = "+0";
             // 
             // P1_diaCard
             // 
             this.P1_diaCard.AutoSize = true;
-            this.P1_diaCard.Location = new System.Drawing.Point(36, 136);
-            this.P1_diaCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_diaCard.Location = new System.Drawing.Point(25, 91);
             this.P1_diaCard.Name = "P1_diaCard";
-            this.P1_diaCard.Size = new System.Drawing.Size(27, 18);
+            this.P1_diaCard.Size = new System.Drawing.Size(17, 12);
             this.P1_diaCard.TabIndex = 32;
             this.P1_diaCard.Text = "+0";
             // 
             // P1_gol
             // 
             this.P1_gol.AutoSize = true;
-            this.P1_gol.Location = new System.Drawing.Point(544, 114);
-            this.P1_gol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_gol.Location = new System.Drawing.Point(381, 76);
             this.P1_gol.Name = "P1_gol";
-            this.P1_gol.Size = new System.Drawing.Size(18, 18);
+            this.P1_gol.Size = new System.Drawing.Size(11, 12);
             this.P1_gol.TabIndex = 31;
             this.P1_gol.Text = "0";
             // 
             // P1_ony
             // 
             this.P1_ony.AutoSize = true;
-            this.P1_ony.Location = new System.Drawing.Point(444, 114);
-            this.P1_ony.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_ony.Location = new System.Drawing.Point(311, 76);
             this.P1_ony.Name = "P1_ony";
-            this.P1_ony.Size = new System.Drawing.Size(18, 18);
+            this.P1_ony.Size = new System.Drawing.Size(11, 12);
             this.P1_ony.TabIndex = 30;
             this.P1_ony.Text = "0";
             // 
             // P1_rub
             // 
             this.P1_rub.AutoSize = true;
-            this.P1_rub.Location = new System.Drawing.Point(346, 114);
-            this.P1_rub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_rub.Location = new System.Drawing.Point(242, 76);
             this.P1_rub.Name = "P1_rub";
-            this.P1_rub.Size = new System.Drawing.Size(18, 18);
+            this.P1_rub.Size = new System.Drawing.Size(11, 12);
             this.P1_rub.TabIndex = 29;
             this.P1_rub.Text = "0";
             // 
             // P1_eme
             // 
             this.P1_eme.AutoSize = true;
-            this.P1_eme.Location = new System.Drawing.Point(240, 114);
-            this.P1_eme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_eme.Location = new System.Drawing.Point(168, 76);
             this.P1_eme.Name = "P1_eme";
-            this.P1_eme.Size = new System.Drawing.Size(18, 18);
+            this.P1_eme.Size = new System.Drawing.Size(11, 12);
             this.P1_eme.TabIndex = 28;
             this.P1_eme.Text = "0";
             // 
             // P1_saf
             // 
             this.P1_saf.AutoSize = true;
-            this.P1_saf.Location = new System.Drawing.Point(139, 114);
-            this.P1_saf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_saf.Location = new System.Drawing.Point(97, 76);
             this.P1_saf.Name = "P1_saf";
-            this.P1_saf.Size = new System.Drawing.Size(18, 18);
+            this.P1_saf.Size = new System.Drawing.Size(11, 12);
             this.P1_saf.TabIndex = 27;
             this.P1_saf.Text = "0";
             // 
             // pictureBox18
             // 
             this.pictureBox18.Image = global::KWU_Splendor.Properties.Resources.gold;
-            this.pictureBox18.Location = new System.Drawing.Point(536, 30);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox18.Location = new System.Drawing.Point(375, 20);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox18.Size = new System.Drawing.Size(50, 49);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.TabIndex = 26;
             this.pictureBox18.TabStop = false;
@@ -1000,10 +960,9 @@
             // pictureBox17
             // 
             this.pictureBox17.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox17.Location = new System.Drawing.Point(436, 30);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox17.Location = new System.Drawing.Point(305, 20);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox17.Size = new System.Drawing.Size(50, 49);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 26;
             this.pictureBox17.TabStop = false;
@@ -1011,10 +970,9 @@
             // pictureBox16
             // 
             this.pictureBox16.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox16.Location = new System.Drawing.Point(339, 30);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox16.Location = new System.Drawing.Point(237, 20);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox16.Size = new System.Drawing.Size(50, 49);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 26;
             this.pictureBox16.TabStop = false;
@@ -1022,10 +980,9 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox15.Location = new System.Drawing.Point(231, 30);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox15.Location = new System.Drawing.Point(162, 20);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox15.Size = new System.Drawing.Size(50, 49);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 26;
             this.pictureBox15.TabStop = false;
@@ -1033,10 +990,9 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox14.Location = new System.Drawing.Point(129, 30);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox14.Location = new System.Drawing.Point(90, 20);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox14.Size = new System.Drawing.Size(50, 49);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 26;
             this.pictureBox14.TabStop = false;
@@ -1044,20 +1000,18 @@
             // P1_dia
             // 
             this.P1_dia.AutoSize = true;
-            this.P1_dia.Location = new System.Drawing.Point(36, 114);
-            this.P1_dia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P1_dia.Location = new System.Drawing.Point(25, 76);
             this.P1_dia.Name = "P1_dia";
-            this.P1_dia.Size = new System.Drawing.Size(18, 18);
+            this.P1_dia.Size = new System.Drawing.Size(11, 12);
             this.P1_dia.TabIndex = 26;
             this.P1_dia.Text = "0";
             // 
             // pictureBox13
             // 
             this.pictureBox13.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox13.Location = new System.Drawing.Point(29, 30);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox13.Location = new System.Drawing.Point(20, 20);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox13.Size = new System.Drawing.Size(50, 49);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 16;
             this.pictureBox13.TabStop = false;
@@ -1086,11 +1040,9 @@
             this.P3_GB.Controls.Add(this.P3_dia);
             this.P3_GB.Controls.Add(this.pictureBox19);
             this.P3_GB.Controls.Add(this.pictureBox20);
-            this.P3_GB.Location = new System.Drawing.Point(366, 36);
-            this.P3_GB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_GB.Location = new System.Drawing.Point(256, 24);
             this.P3_GB.Name = "P3_GB";
-            this.P3_GB.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.P3_GB.Size = new System.Drawing.Size(1409, 180);
+            this.P3_GB.Size = new System.Drawing.Size(986, 120);
             this.P3_GB.TabIndex = 1;
             this.P3_GB.TabStop = false;
             this.P3_GB.Text = "Player2";
@@ -1118,41 +1070,36 @@
             this.groupBox6.Controls.Add(this.P3_r2g4);
             this.groupBox6.Controls.Add(this.P3_reserved2);
             this.groupBox6.Controls.Add(this.P3_reserved1);
-            this.groupBox6.Location = new System.Drawing.Point(863, 15);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox6.Location = new System.Drawing.Point(604, 10);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox6.Size = new System.Drawing.Size(540, 153);
+            this.groupBox6.Size = new System.Drawing.Size(378, 102);
             this.groupBox6.TabIndex = 33;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "예약된 카드";
             // 
             // P3R3_ptb
             // 
-            this.P3R3_ptb.Location = new System.Drawing.Point(481, 24);
-            this.P3R3_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3R3_ptb.Location = new System.Drawing.Point(336, 16);
             this.P3R3_ptb.Name = "P3R3_ptb";
-            this.P3R3_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P3R3_ptb.Size = new System.Drawing.Size(22, 19);
             this.P3R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3R3_ptb.TabIndex = 237;
             this.P3R3_ptb.TabStop = false;
             // 
             // P3R2_ptb
             // 
-            this.P3R2_ptb.Location = new System.Drawing.Point(306, 24);
-            this.P3R2_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3R2_ptb.Location = new System.Drawing.Point(213, 16);
             this.P3R2_ptb.Name = "P3R2_ptb";
-            this.P3R2_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P3R2_ptb.Size = new System.Drawing.Size(22, 19);
             this.P3R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3R2_ptb.TabIndex = 236;
             this.P3R2_ptb.TabStop = false;
             // 
             // P3R1_ptb
             // 
-            this.P3R1_ptb.Location = new System.Drawing.Point(131, 24);
-            this.P3R1_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3R1_ptb.Location = new System.Drawing.Point(92, 16);
             this.P3R1_ptb.Name = "P3R1_ptb";
-            this.P3R1_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P3R1_ptb.Size = new System.Drawing.Size(22, 19);
             this.P3R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3R1_ptb.TabIndex = 235;
             this.P3R1_ptb.TabStop = false;
@@ -1160,10 +1107,9 @@
             // P3_r1g2
             // 
             this.P3_r1g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P3_r1g2.Location = new System.Drawing.Point(61, 74);
-            this.P3_r1g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r1g2.Location = new System.Drawing.Point(43, 49);
             this.P3_r1g2.Name = "P3_r1g2";
-            this.P3_r1g2.Size = new System.Drawing.Size(20, 20);
+            this.P3_r1g2.Size = new System.Drawing.Size(14, 13);
             this.P3_r1g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r1g2.TabIndex = 194;
             this.P3_r1g2.TabStop = false;
@@ -1171,10 +1117,9 @@
             // P3_r1g3
             // 
             this.P3_r1g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P3_r1g3.Location = new System.Drawing.Point(61, 93);
-            this.P3_r1g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r1g3.Location = new System.Drawing.Point(43, 62);
             this.P3_r1g3.Name = "P3_r1g3";
-            this.P3_r1g3.Size = new System.Drawing.Size(20, 20);
+            this.P3_r1g3.Size = new System.Drawing.Size(14, 13);
             this.P3_r1g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r1g3.TabIndex = 193;
             this.P3_r1g3.TabStop = false;
@@ -1182,10 +1127,9 @@
             // P3_r1g1
             // 
             this.P3_r1g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P3_r1g1.Location = new System.Drawing.Point(61, 52);
-            this.P3_r1g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r1g1.Location = new System.Drawing.Point(43, 35);
             this.P3_r1g1.Name = "P3_r1g1";
-            this.P3_r1g1.Size = new System.Drawing.Size(20, 20);
+            this.P3_r1g1.Size = new System.Drawing.Size(14, 13);
             this.P3_r1g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r1g1.TabIndex = 192;
             this.P3_r1g1.TabStop = false;
@@ -1193,10 +1137,9 @@
             // P3_r1g5
             // 
             this.P3_r1g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P3_r1g5.Location = new System.Drawing.Point(61, 124);
-            this.P3_r1g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r1g5.Location = new System.Drawing.Point(43, 83);
             this.P3_r1g5.Name = "P3_r1g5";
-            this.P3_r1g5.Size = new System.Drawing.Size(20, 20);
+            this.P3_r1g5.Size = new System.Drawing.Size(14, 13);
             this.P3_r1g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r1g5.TabIndex = 191;
             this.P3_r1g5.TabStop = false;
@@ -1204,10 +1147,9 @@
             // P3_r1g4
             // 
             this.P3_r1g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P3_r1g4.Location = new System.Drawing.Point(61, 108);
-            this.P3_r1g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r1g4.Location = new System.Drawing.Point(43, 72);
             this.P3_r1g4.Name = "P3_r1g4";
-            this.P3_r1g4.Size = new System.Drawing.Size(20, 20);
+            this.P3_r1g4.Size = new System.Drawing.Size(14, 13);
             this.P3_r1g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r1g4.TabIndex = 190;
             this.P3_r1g4.TabStop = false;
@@ -1215,10 +1157,9 @@
             // P3_r3g2
             // 
             this.P3_r3g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P3_r3g2.Location = new System.Drawing.Point(413, 75);
-            this.P3_r3g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r3g2.Location = new System.Drawing.Point(289, 50);
             this.P3_r3g2.Name = "P3_r3g2";
-            this.P3_r3g2.Size = new System.Drawing.Size(20, 20);
+            this.P3_r3g2.Size = new System.Drawing.Size(14, 13);
             this.P3_r3g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r3g2.TabIndex = 189;
             this.P3_r3g2.TabStop = false;
@@ -1226,10 +1167,9 @@
             // P3_r3g3
             // 
             this.P3_r3g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P3_r3g3.Location = new System.Drawing.Point(413, 94);
-            this.P3_r3g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r3g3.Location = new System.Drawing.Point(289, 63);
             this.P3_r3g3.Name = "P3_r3g3";
-            this.P3_r3g3.Size = new System.Drawing.Size(20, 20);
+            this.P3_r3g3.Size = new System.Drawing.Size(14, 13);
             this.P3_r3g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r3g3.TabIndex = 188;
             this.P3_r3g3.TabStop = false;
@@ -1237,10 +1177,9 @@
             // P3_r3g1
             // 
             this.P3_r3g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P3_r3g1.Location = new System.Drawing.Point(413, 54);
-            this.P3_r3g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r3g1.Location = new System.Drawing.Point(289, 36);
             this.P3_r3g1.Name = "P3_r3g1";
-            this.P3_r3g1.Size = new System.Drawing.Size(20, 20);
+            this.P3_r3g1.Size = new System.Drawing.Size(14, 13);
             this.P3_r3g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r3g1.TabIndex = 187;
             this.P3_r3g1.TabStop = false;
@@ -1248,10 +1187,9 @@
             // P3_r3g5
             // 
             this.P3_r3g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P3_r3g5.Location = new System.Drawing.Point(413, 126);
-            this.P3_r3g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r3g5.Location = new System.Drawing.Point(289, 84);
             this.P3_r3g5.Name = "P3_r3g5";
-            this.P3_r3g5.Size = new System.Drawing.Size(20, 20);
+            this.P3_r3g5.Size = new System.Drawing.Size(14, 13);
             this.P3_r3g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r3g5.TabIndex = 186;
             this.P3_r3g5.TabStop = false;
@@ -1259,10 +1197,9 @@
             // P3_r3g4
             // 
             this.P3_r3g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P3_r3g4.Location = new System.Drawing.Point(413, 110);
-            this.P3_r3g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r3g4.Location = new System.Drawing.Point(289, 73);
             this.P3_r3g4.Name = "P3_r3g4";
-            this.P3_r3g4.Size = new System.Drawing.Size(20, 20);
+            this.P3_r3g4.Size = new System.Drawing.Size(14, 13);
             this.P3_r3g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r3g4.TabIndex = 185;
             this.P3_r3g4.TabStop = false;
@@ -1270,10 +1207,9 @@
             // P3_r2g2
             // 
             this.P3_r2g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P3_r2g2.Location = new System.Drawing.Point(237, 74);
-            this.P3_r2g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r2g2.Location = new System.Drawing.Point(166, 49);
             this.P3_r2g2.Name = "P3_r2g2";
-            this.P3_r2g2.Size = new System.Drawing.Size(20, 20);
+            this.P3_r2g2.Size = new System.Drawing.Size(14, 13);
             this.P3_r2g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r2g2.TabIndex = 184;
             this.P3_r2g2.TabStop = false;
@@ -1281,10 +1217,9 @@
             // P3_r2g3
             // 
             this.P3_r2g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P3_r2g3.Location = new System.Drawing.Point(237, 93);
-            this.P3_r2g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r2g3.Location = new System.Drawing.Point(166, 62);
             this.P3_r2g3.Name = "P3_r2g3";
-            this.P3_r2g3.Size = new System.Drawing.Size(20, 20);
+            this.P3_r2g3.Size = new System.Drawing.Size(14, 13);
             this.P3_r2g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r2g3.TabIndex = 183;
             this.P3_r2g3.TabStop = false;
@@ -1292,10 +1227,9 @@
             // P3_r2g1
             // 
             this.P3_r2g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P3_r2g1.Location = new System.Drawing.Point(237, 52);
-            this.P3_r2g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r2g1.Location = new System.Drawing.Point(166, 35);
             this.P3_r2g1.Name = "P3_r2g1";
-            this.P3_r2g1.Size = new System.Drawing.Size(20, 20);
+            this.P3_r2g1.Size = new System.Drawing.Size(14, 13);
             this.P3_r2g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r2g1.TabIndex = 182;
             this.P3_r2g1.TabStop = false;
@@ -1303,22 +1237,20 @@
             // P3_reserved3
             // 
             this.P3_reserved3.BackColor = System.Drawing.SystemColors.Window;
-            this.P3_reserved3.Location = new System.Drawing.Point(413, 24);
-            this.P3_reserved3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_reserved3.Location = new System.Drawing.Point(289, 16);
             this.P3_reserved3.Multiline = true;
             this.P3_reserved3.Name = "P3_reserved3";
             this.P3_reserved3.ReadOnly = true;
             this.P3_reserved3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P3_reserved3.Size = new System.Drawing.Size(98, 124);
+            this.P3_reserved3.Size = new System.Drawing.Size(70, 84);
             this.P3_reserved3.TabIndex = 37;
             // 
             // P3_r2g5
             // 
             this.P3_r2g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P3_r2g5.Location = new System.Drawing.Point(237, 124);
-            this.P3_r2g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r2g5.Location = new System.Drawing.Point(166, 83);
             this.P3_r2g5.Name = "P3_r2g5";
-            this.P3_r2g5.Size = new System.Drawing.Size(20, 20);
+            this.P3_r2g5.Size = new System.Drawing.Size(14, 13);
             this.P3_r2g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r2g5.TabIndex = 181;
             this.P3_r2g5.TabStop = false;
@@ -1326,10 +1258,9 @@
             // P3_r2g4
             // 
             this.P3_r2g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P3_r2g4.Location = new System.Drawing.Point(237, 108);
-            this.P3_r2g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_r2g4.Location = new System.Drawing.Point(166, 72);
             this.P3_r2g4.Name = "P3_r2g4";
-            this.P3_r2g4.Size = new System.Drawing.Size(20, 20);
+            this.P3_r2g4.Size = new System.Drawing.Size(14, 13);
             this.P3_r2g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3_r2g4.TabIndex = 180;
             this.P3_r2g4.TabStop = false;
@@ -1337,144 +1268,130 @@
             // P3_reserved2
             // 
             this.P3_reserved2.BackColor = System.Drawing.SystemColors.Window;
-            this.P3_reserved2.Location = new System.Drawing.Point(237, 24);
-            this.P3_reserved2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_reserved2.Location = new System.Drawing.Point(166, 16);
             this.P3_reserved2.Multiline = true;
             this.P3_reserved2.Name = "P3_reserved2";
             this.P3_reserved2.ReadOnly = true;
             this.P3_reserved2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P3_reserved2.Size = new System.Drawing.Size(98, 124);
+            this.P3_reserved2.Size = new System.Drawing.Size(70, 84);
             this.P3_reserved2.TabIndex = 34;
             // 
             // P3_reserved1
             // 
             this.P3_reserved1.BackColor = System.Drawing.SystemColors.Window;
-            this.P3_reserved1.Location = new System.Drawing.Point(61, 24);
-            this.P3_reserved1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P3_reserved1.Location = new System.Drawing.Point(43, 16);
             this.P3_reserved1.Multiline = true;
             this.P3_reserved1.Name = "P3_reserved1";
             this.P3_reserved1.ReadOnly = true;
             this.P3_reserved1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P3_reserved1.Size = new System.Drawing.Size(98, 124);
+            this.P3_reserved1.Size = new System.Drawing.Size(70, 84);
             this.P3_reserved1.TabIndex = 33;
             // 
             // P3_card
             // 
             this.P3_card.AutoSize = true;
-            this.P3_card.Location = new System.Drawing.Point(761, 86);
-            this.P3_card.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_card.Location = new System.Drawing.Point(533, 57);
             this.P3_card.Name = "P3_card";
-            this.P3_card.Size = new System.Drawing.Size(18, 18);
+            this.P3_card.Size = new System.Drawing.Size(11, 12);
             this.P3_card.TabIndex = 37;
             this.P3_card.Text = "0";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(639, 86);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(447, 57);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 18);
+            this.label3.Size = new System.Drawing.Size(77, 12);
             this.label3.TabIndex = 36;
             this.label3.Text = "구매한 카드 :";
             // 
             // P3_score
             // 
             this.P3_score.AutoSize = true;
-            this.P3_score.Location = new System.Drawing.Point(761, 57);
-            this.P3_score.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_score.Location = new System.Drawing.Point(533, 38);
             this.P3_score.Name = "P3_score";
-            this.P3_score.Size = new System.Drawing.Size(18, 18);
+            this.P3_score.Size = new System.Drawing.Size(11, 12);
             this.P3_score.TabIndex = 36;
             this.P3_score.Text = "0";
             // 
             // P3_onyCard
             // 
             this.P3_onyCard.AutoSize = true;
-            this.P3_onyCard.Location = new System.Drawing.Point(433, 130);
-            this.P3_onyCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_onyCard.Location = new System.Drawing.Point(303, 87);
             this.P3_onyCard.Name = "P3_onyCard";
-            this.P3_onyCard.Size = new System.Drawing.Size(27, 18);
+            this.P3_onyCard.Size = new System.Drawing.Size(17, 12);
             this.P3_onyCard.TabIndex = 18;
             this.P3_onyCard.Text = "+0";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(699, 57);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(489, 38);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 18);
+            this.label4.Size = new System.Drawing.Size(37, 12);
             this.label4.TabIndex = 35;
             this.label4.Text = "점수 :";
             // 
             // P3_emeCard
             // 
             this.P3_emeCard.AutoSize = true;
-            this.P3_emeCard.Location = new System.Drawing.Point(229, 129);
-            this.P3_emeCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_emeCard.Location = new System.Drawing.Point(160, 86);
             this.P3_emeCard.Name = "P3_emeCard";
-            this.P3_emeCard.Size = new System.Drawing.Size(27, 18);
+            this.P3_emeCard.Size = new System.Drawing.Size(17, 12);
             this.P3_emeCard.TabIndex = 16;
             this.P3_emeCard.Text = "+0";
             // 
             // P3_rubCard
             // 
             this.P3_rubCard.AutoSize = true;
-            this.P3_rubCard.Location = new System.Drawing.Point(334, 129);
-            this.P3_rubCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_rubCard.Location = new System.Drawing.Point(234, 86);
             this.P3_rubCard.Name = "P3_rubCard";
-            this.P3_rubCard.Size = new System.Drawing.Size(27, 18);
+            this.P3_rubCard.Size = new System.Drawing.Size(17, 12);
             this.P3_rubCard.TabIndex = 17;
             this.P3_rubCard.Text = "+0";
             // 
             // P3_diaCard
             // 
             this.P3_diaCard.AutoSize = true;
-            this.P3_diaCard.Location = new System.Drawing.Point(26, 130);
-            this.P3_diaCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_diaCard.Location = new System.Drawing.Point(18, 87);
             this.P3_diaCard.Name = "P3_diaCard";
-            this.P3_diaCard.Size = new System.Drawing.Size(27, 18);
+            this.P3_diaCard.Size = new System.Drawing.Size(17, 12);
             this.P3_diaCard.TabIndex = 14;
             this.P3_diaCard.Text = "+0";
             // 
             // P3_gol
             // 
             this.P3_gol.AutoSize = true;
-            this.P3_gol.Location = new System.Drawing.Point(533, 112);
-            this.P3_gol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_gol.Location = new System.Drawing.Point(373, 75);
             this.P3_gol.Name = "P3_gol";
-            this.P3_gol.Size = new System.Drawing.Size(18, 18);
+            this.P3_gol.Size = new System.Drawing.Size(11, 12);
             this.P3_gol.TabIndex = 13;
             this.P3_gol.Text = "0";
             // 
             // P3_safCard
             // 
             this.P3_safCard.AutoSize = true;
-            this.P3_safCard.Location = new System.Drawing.Point(126, 130);
-            this.P3_safCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_safCard.Location = new System.Drawing.Point(88, 87);
             this.P3_safCard.Name = "P3_safCard";
-            this.P3_safCard.Size = new System.Drawing.Size(27, 18);
+            this.P3_safCard.Size = new System.Drawing.Size(17, 12);
             this.P3_safCard.TabIndex = 15;
             this.P3_safCard.Text = "+0";
             // 
             // P3_ony
             // 
             this.P3_ony.AutoSize = true;
-            this.P3_ony.Location = new System.Drawing.Point(433, 110);
-            this.P3_ony.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_ony.Location = new System.Drawing.Point(303, 73);
             this.P3_ony.Name = "P3_ony";
-            this.P3_ony.Size = new System.Drawing.Size(18, 18);
+            this.P3_ony.Size = new System.Drawing.Size(11, 12);
             this.P3_ony.TabIndex = 12;
             this.P3_ony.Text = "0";
             // 
             // pictureBox24
             // 
             this.pictureBox24.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox24.Location = new System.Drawing.Point(9, 30);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox24.Location = new System.Drawing.Point(6, 20);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox24.Size = new System.Drawing.Size(50, 49);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox24.TabIndex = 32;
             this.pictureBox24.TabStop = false;
@@ -1482,40 +1399,36 @@
             // P3_rub
             // 
             this.P3_rub.AutoSize = true;
-            this.P3_rub.Location = new System.Drawing.Point(334, 110);
-            this.P3_rub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_rub.Location = new System.Drawing.Point(234, 73);
             this.P3_rub.Name = "P3_rub";
-            this.P3_rub.Size = new System.Drawing.Size(18, 18);
+            this.P3_rub.Size = new System.Drawing.Size(11, 12);
             this.P3_rub.TabIndex = 11;
             this.P3_rub.Text = "0";
             // 
             // P3_eme
             // 
             this.P3_eme.AutoSize = true;
-            this.P3_eme.Location = new System.Drawing.Point(229, 110);
-            this.P3_eme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_eme.Location = new System.Drawing.Point(160, 73);
             this.P3_eme.Name = "P3_eme";
-            this.P3_eme.Size = new System.Drawing.Size(18, 18);
+            this.P3_eme.Size = new System.Drawing.Size(11, 12);
             this.P3_eme.TabIndex = 10;
             this.P3_eme.Text = "0";
             // 
             // P3_saf
             // 
             this.P3_saf.AutoSize = true;
-            this.P3_saf.Location = new System.Drawing.Point(126, 110);
-            this.P3_saf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_saf.Location = new System.Drawing.Point(88, 73);
             this.P3_saf.Name = "P3_saf";
-            this.P3_saf.Size = new System.Drawing.Size(18, 18);
+            this.P3_saf.Size = new System.Drawing.Size(11, 12);
             this.P3_saf.TabIndex = 9;
             this.P3_saf.Text = "0";
             // 
             // pictureBox23
             // 
             this.pictureBox23.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox23.Location = new System.Drawing.Point(110, 30);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox23.Location = new System.Drawing.Point(77, 20);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox23.Size = new System.Drawing.Size(50, 49);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox23.TabIndex = 37;
             this.pictureBox23.TabStop = false;
@@ -1523,10 +1436,9 @@
             // pictureBox22
             // 
             this.pictureBox22.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox22.Location = new System.Drawing.Point(211, 30);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox22.Location = new System.Drawing.Point(148, 20);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox22.Size = new System.Drawing.Size(50, 49);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 36;
             this.pictureBox22.TabStop = false;
@@ -1534,10 +1446,9 @@
             // pictureBox21
             // 
             this.pictureBox21.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox21.Location = new System.Drawing.Point(319, 30);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox21.Location = new System.Drawing.Point(223, 20);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox21.Size = new System.Drawing.Size(50, 49);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 35;
             this.pictureBox21.TabStop = false;
@@ -1545,20 +1456,18 @@
             // P3_dia
             // 
             this.P3_dia.AutoSize = true;
-            this.P3_dia.Location = new System.Drawing.Point(26, 110);
-            this.P3_dia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P3_dia.Location = new System.Drawing.Point(18, 73);
             this.P3_dia.Name = "P3_dia";
-            this.P3_dia.Size = new System.Drawing.Size(18, 18);
+            this.P3_dia.Size = new System.Drawing.Size(11, 12);
             this.P3_dia.TabIndex = 3;
             this.P3_dia.Text = "0";
             // 
             // pictureBox19
             // 
             this.pictureBox19.Image = global::KWU_Splendor.Properties.Resources.gold;
-            this.pictureBox19.Location = new System.Drawing.Point(519, 30);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox19.Location = new System.Drawing.Point(363, 20);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox19.Size = new System.Drawing.Size(50, 49);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.TabIndex = 33;
             this.pictureBox19.TabStop = false;
@@ -1566,10 +1475,9 @@
             // pictureBox20
             // 
             this.pictureBox20.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox20.Location = new System.Drawing.Point(419, 30);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox20.Location = new System.Drawing.Point(293, 20);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox20.Size = new System.Drawing.Size(50, 49);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox20.TabIndex = 34;
             this.pictureBox20.TabStop = false;
@@ -1597,41 +1505,36 @@
             this.groupBox9.Controls.Add(this.P2_reserved2);
             this.groupBox9.Controls.Add(this.P2_r1g1);
             this.groupBox9.Controls.Add(this.P2_reserved1);
-            this.groupBox9.Location = new System.Drawing.Point(9, 621);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox9.Location = new System.Drawing.Point(6, 414);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox9.Size = new System.Drawing.Size(203, 416);
+            this.groupBox9.Size = new System.Drawing.Size(142, 277);
             this.groupBox9.TabIndex = 54;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "예약된 카드";
             // 
             // P2R1_ptb
             // 
-            this.P2R1_ptb.Location = new System.Drawing.Point(123, 26);
-            this.P2R1_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2R1_ptb.Location = new System.Drawing.Point(85, 17);
             this.P2R1_ptb.Name = "P2R1_ptb";
-            this.P2R1_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P2R1_ptb.Size = new System.Drawing.Size(22, 19);
             this.P2R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2R1_ptb.TabIndex = 234;
             this.P2R1_ptb.TabStop = false;
             // 
             // P2R2_ptb
             // 
-            this.P2R2_ptb.Location = new System.Drawing.Point(123, 154);
-            this.P2R2_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2R2_ptb.Location = new System.Drawing.Point(85, 103);
             this.P2R2_ptb.Name = "P2R2_ptb";
-            this.P2R2_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P2R2_ptb.Size = new System.Drawing.Size(22, 19);
             this.P2R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2R2_ptb.TabIndex = 233;
             this.P2R2_ptb.TabStop = false;
             // 
             // P2R3_ptb
             // 
-            this.P2R3_ptb.Location = new System.Drawing.Point(123, 284);
-            this.P2R3_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2R3_ptb.Location = new System.Drawing.Point(85, 189);
             this.P2R3_ptb.Name = "P2R3_ptb";
-            this.P2R3_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P2R3_ptb.Size = new System.Drawing.Size(22, 19);
             this.P2R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2R3_ptb.TabIndex = 232;
             this.P2R3_ptb.TabStop = false;
@@ -1639,10 +1542,9 @@
             // P2_r3g4
             // 
             this.P2_r3g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P2_r3g4.Location = new System.Drawing.Point(54, 369);
-            this.P2_r3g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r3g4.Location = new System.Drawing.Point(38, 246);
             this.P2_r3g4.Name = "P2_r3g4";
-            this.P2_r3g4.Size = new System.Drawing.Size(20, 20);
+            this.P2_r3g4.Size = new System.Drawing.Size(14, 13);
             this.P2_r3g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r3g4.TabIndex = 211;
             this.P2_r3g4.TabStop = false;
@@ -1650,10 +1552,9 @@
             // P2_r3g5
             // 
             this.P2_r3g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P2_r3g5.Location = new System.Drawing.Point(54, 384);
-            this.P2_r3g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r3g5.Location = new System.Drawing.Point(38, 256);
             this.P2_r3g5.Name = "P2_r3g5";
-            this.P2_r3g5.Size = new System.Drawing.Size(20, 20);
+            this.P2_r3g5.Size = new System.Drawing.Size(14, 13);
             this.P2_r3g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r3g5.TabIndex = 210;
             this.P2_r3g5.TabStop = false;
@@ -1661,10 +1562,9 @@
             // P2_r3g2
             // 
             this.P2_r3g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P2_r3g2.Location = new System.Drawing.Point(54, 330);
-            this.P2_r3g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r3g2.Location = new System.Drawing.Point(38, 220);
             this.P2_r3g2.Name = "P2_r3g2";
-            this.P2_r3g2.Size = new System.Drawing.Size(20, 20);
+            this.P2_r3g2.Size = new System.Drawing.Size(14, 13);
             this.P2_r3g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r3g2.TabIndex = 209;
             this.P2_r3g2.TabStop = false;
@@ -1672,10 +1572,9 @@
             // P2_r3g3
             // 
             this.P2_r3g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P2_r3g3.Location = new System.Drawing.Point(54, 350);
-            this.P2_r3g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r3g3.Location = new System.Drawing.Point(38, 233);
             this.P2_r3g3.Name = "P2_r3g3";
-            this.P2_r3g3.Size = new System.Drawing.Size(20, 20);
+            this.P2_r3g3.Size = new System.Drawing.Size(14, 13);
             this.P2_r3g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r3g3.TabIndex = 208;
             this.P2_r3g3.TabStop = false;
@@ -1683,10 +1582,9 @@
             // P2_r3g1
             // 
             this.P2_r3g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P2_r3g1.Location = new System.Drawing.Point(54, 309);
-            this.P2_r3g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r3g1.Location = new System.Drawing.Point(38, 206);
             this.P2_r3g1.Name = "P2_r3g1";
-            this.P2_r3g1.Size = new System.Drawing.Size(20, 20);
+            this.P2_r3g1.Size = new System.Drawing.Size(14, 13);
             this.P2_r3g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r3g1.TabIndex = 207;
             this.P2_r3g1.TabStop = false;
@@ -1694,10 +1592,9 @@
             // P2_r2g4
             // 
             this.P2_r2g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P2_r2g4.Location = new System.Drawing.Point(54, 240);
-            this.P2_r2g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r2g4.Location = new System.Drawing.Point(38, 160);
             this.P2_r2g4.Name = "P2_r2g4";
-            this.P2_r2g4.Size = new System.Drawing.Size(20, 20);
+            this.P2_r2g4.Size = new System.Drawing.Size(14, 13);
             this.P2_r2g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r2g4.TabIndex = 206;
             this.P2_r2g4.TabStop = false;
@@ -1705,10 +1602,9 @@
             // P2_r2g5
             // 
             this.P2_r2g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P2_r2g5.Location = new System.Drawing.Point(54, 255);
-            this.P2_r2g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r2g5.Location = new System.Drawing.Point(38, 170);
             this.P2_r2g5.Name = "P2_r2g5";
-            this.P2_r2g5.Size = new System.Drawing.Size(20, 20);
+            this.P2_r2g5.Size = new System.Drawing.Size(14, 13);
             this.P2_r2g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r2g5.TabIndex = 205;
             this.P2_r2g5.TabStop = false;
@@ -1716,10 +1612,9 @@
             // P2_r2g2
             // 
             this.P2_r2g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P2_r2g2.Location = new System.Drawing.Point(54, 201);
-            this.P2_r2g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r2g2.Location = new System.Drawing.Point(38, 134);
             this.P2_r2g2.Name = "P2_r2g2";
-            this.P2_r2g2.Size = new System.Drawing.Size(20, 20);
+            this.P2_r2g2.Size = new System.Drawing.Size(14, 13);
             this.P2_r2g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r2g2.TabIndex = 204;
             this.P2_r2g2.TabStop = false;
@@ -1727,10 +1622,9 @@
             // P2_r2g3
             // 
             this.P2_r2g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P2_r2g3.Location = new System.Drawing.Point(54, 220);
-            this.P2_r2g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r2g3.Location = new System.Drawing.Point(38, 147);
             this.P2_r2g3.Name = "P2_r2g3";
-            this.P2_r2g3.Size = new System.Drawing.Size(20, 20);
+            this.P2_r2g3.Size = new System.Drawing.Size(14, 13);
             this.P2_r2g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r2g3.TabIndex = 203;
             this.P2_r2g3.TabStop = false;
@@ -1738,10 +1632,9 @@
             // P2_r2g1
             // 
             this.P2_r2g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P2_r2g1.Location = new System.Drawing.Point(54, 180);
-            this.P2_r2g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r2g1.Location = new System.Drawing.Point(38, 120);
             this.P2_r2g1.Name = "P2_r2g1";
-            this.P2_r2g1.Size = new System.Drawing.Size(20, 20);
+            this.P2_r2g1.Size = new System.Drawing.Size(14, 13);
             this.P2_r2g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r2g1.TabIndex = 202;
             this.P2_r2g1.TabStop = false;
@@ -1749,10 +1642,9 @@
             // P2_r1g4
             // 
             this.P2_r1g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P2_r1g4.Location = new System.Drawing.Point(54, 111);
-            this.P2_r1g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r1g4.Location = new System.Drawing.Point(38, 74);
             this.P2_r1g4.Name = "P2_r1g4";
-            this.P2_r1g4.Size = new System.Drawing.Size(20, 20);
+            this.P2_r1g4.Size = new System.Drawing.Size(14, 13);
             this.P2_r1g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r1g4.TabIndex = 201;
             this.P2_r1g4.TabStop = false;
@@ -1760,10 +1652,9 @@
             // P2_r1g5
             // 
             this.P2_r1g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P2_r1g5.Location = new System.Drawing.Point(54, 126);
-            this.P2_r1g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r1g5.Location = new System.Drawing.Point(38, 84);
             this.P2_r1g5.Name = "P2_r1g5";
-            this.P2_r1g5.Size = new System.Drawing.Size(20, 20);
+            this.P2_r1g5.Size = new System.Drawing.Size(14, 13);
             this.P2_r1g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r1g5.TabIndex = 200;
             this.P2_r1g5.TabStop = false;
@@ -1771,10 +1662,9 @@
             // P2_r1g2
             // 
             this.P2_r1g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P2_r1g2.Location = new System.Drawing.Point(54, 72);
-            this.P2_r1g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r1g2.Location = new System.Drawing.Point(38, 48);
             this.P2_r1g2.Name = "P2_r1g2";
-            this.P2_r1g2.Size = new System.Drawing.Size(20, 20);
+            this.P2_r1g2.Size = new System.Drawing.Size(14, 13);
             this.P2_r1g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r1g2.TabIndex = 199;
             this.P2_r1g2.TabStop = false;
@@ -1782,22 +1672,20 @@
             // P2_reserved3
             // 
             this.P2_reserved3.BackColor = System.Drawing.SystemColors.Window;
-            this.P2_reserved3.Location = new System.Drawing.Point(54, 284);
-            this.P2_reserved3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_reserved3.Location = new System.Drawing.Point(38, 189);
             this.P2_reserved3.Multiline = true;
             this.P2_reserved3.Name = "P2_reserved3";
             this.P2_reserved3.ReadOnly = true;
             this.P2_reserved3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P2_reserved3.Size = new System.Drawing.Size(98, 124);
+            this.P2_reserved3.Size = new System.Drawing.Size(70, 84);
             this.P2_reserved3.TabIndex = 41;
             // 
             // P2_r1g3
             // 
             this.P2_r1g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P2_r1g3.Location = new System.Drawing.Point(54, 92);
-            this.P2_r1g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r1g3.Location = new System.Drawing.Point(38, 61);
             this.P2_r1g3.Name = "P2_r1g3";
-            this.P2_r1g3.Size = new System.Drawing.Size(20, 20);
+            this.P2_r1g3.Size = new System.Drawing.Size(14, 13);
             this.P2_r1g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r1g3.TabIndex = 198;
             this.P2_r1g3.TabStop = false;
@@ -1805,22 +1693,20 @@
             // P2_reserved2
             // 
             this.P2_reserved2.BackColor = System.Drawing.SystemColors.Window;
-            this.P2_reserved2.Location = new System.Drawing.Point(54, 154);
-            this.P2_reserved2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_reserved2.Location = new System.Drawing.Point(38, 103);
             this.P2_reserved2.Multiline = true;
             this.P2_reserved2.Name = "P2_reserved2";
             this.P2_reserved2.ReadOnly = true;
             this.P2_reserved2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P2_reserved2.Size = new System.Drawing.Size(98, 124);
+            this.P2_reserved2.Size = new System.Drawing.Size(70, 84);
             this.P2_reserved2.TabIndex = 40;
             // 
             // P2_r1g1
             // 
             this.P2_r1g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P2_r1g1.Location = new System.Drawing.Point(54, 51);
-            this.P2_r1g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_r1g1.Location = new System.Drawing.Point(38, 34);
             this.P2_r1g1.Name = "P2_r1g1";
-            this.P2_r1g1.Size = new System.Drawing.Size(20, 20);
+            this.P2_r1g1.Size = new System.Drawing.Size(14, 13);
             this.P2_r1g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P2_r1g1.TabIndex = 197;
             this.P2_r1g1.TabStop = false;
@@ -1828,122 +1714,110 @@
             // P2_reserved1
             // 
             this.P2_reserved1.BackColor = System.Drawing.SystemColors.Window;
-            this.P2_reserved1.Location = new System.Drawing.Point(54, 26);
-            this.P2_reserved1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_reserved1.Location = new System.Drawing.Point(38, 17);
             this.P2_reserved1.Multiline = true;
             this.P2_reserved1.Name = "P2_reserved1";
             this.P2_reserved1.ReadOnly = true;
             this.P2_reserved1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P2_reserved1.Size = new System.Drawing.Size(98, 124);
+            this.P2_reserved1.Size = new System.Drawing.Size(70, 84);
             this.P2_reserved1.TabIndex = 39;
             // 
             // P2_onyCard
             // 
             this.P2_onyCard.AutoSize = true;
-            this.P2_onyCard.Location = new System.Drawing.Point(129, 411);
-            this.P2_onyCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_onyCard.Location = new System.Drawing.Point(90, 274);
             this.P2_onyCard.Name = "P2_onyCard";
-            this.P2_onyCard.Size = new System.Drawing.Size(27, 18);
+            this.P2_onyCard.Size = new System.Drawing.Size(17, 12);
             this.P2_onyCard.TabIndex = 48;
             this.P2_onyCard.Text = "+0";
             // 
             // P2_diaCard
             // 
             this.P2_diaCard.AutoSize = true;
-            this.P2_diaCard.Location = new System.Drawing.Point(129, 75);
-            this.P2_diaCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_diaCard.Location = new System.Drawing.Point(90, 50);
             this.P2_diaCard.Name = "P2_diaCard";
-            this.P2_diaCard.Size = new System.Drawing.Size(27, 18);
+            this.P2_diaCard.Size = new System.Drawing.Size(17, 12);
             this.P2_diaCard.TabIndex = 44;
             this.P2_diaCard.Text = "+0";
             // 
             // P2_rubCard
             // 
             this.P2_rubCard.AutoSize = true;
-            this.P2_rubCard.Location = new System.Drawing.Point(129, 327);
-            this.P2_rubCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_rubCard.Location = new System.Drawing.Point(90, 218);
             this.P2_rubCard.Name = "P2_rubCard";
-            this.P2_rubCard.Size = new System.Drawing.Size(27, 18);
+            this.P2_rubCard.Size = new System.Drawing.Size(17, 12);
             this.P2_rubCard.TabIndex = 47;
             this.P2_rubCard.Text = "+0";
             // 
             // P2_emeCard
             // 
             this.P2_emeCard.AutoSize = true;
-            this.P2_emeCard.Location = new System.Drawing.Point(129, 243);
-            this.P2_emeCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_emeCard.Location = new System.Drawing.Point(90, 162);
             this.P2_emeCard.Name = "P2_emeCard";
-            this.P2_emeCard.Size = new System.Drawing.Size(27, 18);
+            this.P2_emeCard.Size = new System.Drawing.Size(17, 12);
             this.P2_emeCard.TabIndex = 46;
             this.P2_emeCard.Text = "+0";
             // 
             // P2_safCard
             // 
             this.P2_safCard.AutoSize = true;
-            this.P2_safCard.Location = new System.Drawing.Point(129, 159);
-            this.P2_safCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_safCard.Location = new System.Drawing.Point(90, 106);
             this.P2_safCard.Name = "P2_safCard";
-            this.P2_safCard.Size = new System.Drawing.Size(27, 18);
+            this.P2_safCard.Size = new System.Drawing.Size(17, 12);
             this.P2_safCard.TabIndex = 45;
             this.P2_safCard.Text = "+0";
             // 
             // P2_gol
             // 
             this.P2_gol.AutoSize = true;
-            this.P2_gol.Location = new System.Drawing.Point(129, 472);
-            this.P2_gol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_gol.Location = new System.Drawing.Point(90, 315);
             this.P2_gol.Name = "P2_gol";
-            this.P2_gol.Size = new System.Drawing.Size(18, 18);
+            this.P2_gol.Size = new System.Drawing.Size(11, 12);
             this.P2_gol.TabIndex = 43;
             this.P2_gol.Text = "0";
             // 
             // P2_ony
             // 
             this.P2_ony.AutoSize = true;
-            this.P2_ony.Location = new System.Drawing.Point(129, 388);
-            this.P2_ony.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_ony.Location = new System.Drawing.Point(90, 259);
             this.P2_ony.Name = "P2_ony";
-            this.P2_ony.Size = new System.Drawing.Size(18, 18);
+            this.P2_ony.Size = new System.Drawing.Size(11, 12);
             this.P2_ony.TabIndex = 42;
             this.P2_ony.Text = "0";
             // 
             // P2_dia
             // 
             this.P2_dia.AutoSize = true;
-            this.P2_dia.Location = new System.Drawing.Point(129, 52);
-            this.P2_dia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_dia.Location = new System.Drawing.Point(90, 35);
             this.P2_dia.Name = "P2_dia";
-            this.P2_dia.Size = new System.Drawing.Size(18, 18);
+            this.P2_dia.Size = new System.Drawing.Size(11, 12);
             this.P2_dia.TabIndex = 38;
             this.P2_dia.Text = "0";
             // 
             // P2_rub
             // 
             this.P2_rub.AutoSize = true;
-            this.P2_rub.Location = new System.Drawing.Point(129, 304);
-            this.P2_rub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_rub.Location = new System.Drawing.Point(90, 203);
             this.P2_rub.Name = "P2_rub";
-            this.P2_rub.Size = new System.Drawing.Size(18, 18);
+            this.P2_rub.Size = new System.Drawing.Size(11, 12);
             this.P2_rub.TabIndex = 41;
             this.P2_rub.Text = "0";
             // 
             // P2_eme
             // 
             this.P2_eme.AutoSize = true;
-            this.P2_eme.Location = new System.Drawing.Point(129, 220);
-            this.P2_eme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_eme.Location = new System.Drawing.Point(90, 147);
             this.P2_eme.Name = "P2_eme";
-            this.P2_eme.Size = new System.Drawing.Size(18, 18);
+            this.P2_eme.Size = new System.Drawing.Size(11, 12);
             this.P2_eme.TabIndex = 40;
             this.P2_eme.Text = "0";
             // 
             // P2_saf
             // 
             this.P2_saf.AutoSize = true;
-            this.P2_saf.Location = new System.Drawing.Point(129, 136);
-            this.P2_saf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_saf.Location = new System.Drawing.Point(90, 91);
             this.P2_saf.Name = "P2_saf";
-            this.P2_saf.Size = new System.Drawing.Size(18, 18);
+            this.P2_saf.Size = new System.Drawing.Size(11, 12);
             this.P2_saf.TabIndex = 39;
             this.P2_saf.Text = "0";
             // 
@@ -1971,11 +1845,9 @@
             this.P2_GB.Controls.Add(this.P2_eme);
             this.P2_GB.Controls.Add(this.P2_saf);
             this.P2_GB.Controls.Add(this.pictureBox1);
-            this.P2_GB.Location = new System.Drawing.Point(1794, 44);
-            this.P2_GB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P2_GB.Location = new System.Drawing.Point(1256, 29);
             this.P2_GB.Name = "P2_GB";
-            this.P2_GB.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.P2_GB.Size = new System.Drawing.Size(220, 1046);
+            this.P2_GB.Size = new System.Drawing.Size(154, 697);
             this.P2_GB.TabIndex = 1;
             this.P2_GB.TabStop = false;
             this.P2_GB.Text = "Player3";
@@ -1983,50 +1855,45 @@
             // P2_card
             // 
             this.P2_card.AutoSize = true;
-            this.P2_card.Location = new System.Drawing.Point(154, 580);
-            this.P2_card.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_card.Location = new System.Drawing.Point(108, 387);
             this.P2_card.Name = "P2_card";
-            this.P2_card.Size = new System.Drawing.Size(18, 18);
+            this.P2_card.Size = new System.Drawing.Size(11, 12);
             this.P2_card.TabIndex = 35;
             this.P2_card.Text = "0";
             // 
             // P2_score
             // 
             this.P2_score.AutoSize = true;
-            this.P2_score.Location = new System.Drawing.Point(154, 554);
-            this.P2_score.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P2_score.Location = new System.Drawing.Point(108, 369);
             this.P2_score.Name = "P2_score";
-            this.P2_score.Size = new System.Drawing.Size(18, 18);
+            this.P2_score.Size = new System.Drawing.Size(11, 12);
             this.P2_score.TabIndex = 33;
             this.P2_score.Text = "0";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 580);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(18, 387);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 18);
+            this.label2.Size = new System.Drawing.Size(77, 12);
             this.label2.TabIndex = 34;
             this.label2.Text = "구매한 카드 :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(89, 554);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(62, 369);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 18);
+            this.label1.Size = new System.Drawing.Size(37, 12);
             this.label1.TabIndex = 33;
             this.label1.Text = "점수 :";
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::KWU_Splendor.Properties.Resources.gold;
-            this.pictureBox6.Location = new System.Drawing.Point(31, 468);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Location = new System.Drawing.Point(22, 312);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox6.Size = new System.Drawing.Size(50, 49);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 8;
             this.pictureBox6.TabStop = false;
@@ -2034,10 +1901,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox5.Location = new System.Drawing.Point(31, 384);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(22, 256);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox5.Size = new System.Drawing.Size(50, 49);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 7;
             this.pictureBox5.TabStop = false;
@@ -2045,10 +1911,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox4.Location = new System.Drawing.Point(31, 300);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(22, 200);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox4.Size = new System.Drawing.Size(50, 49);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
@@ -2056,10 +1921,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox3.Location = new System.Drawing.Point(31, 216);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(22, 144);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox3.Size = new System.Drawing.Size(50, 49);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
@@ -2067,10 +1931,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox2.Location = new System.Drawing.Point(31, 132);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(22, 88);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox2.Size = new System.Drawing.Size(50, 49);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -2078,10 +1941,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox1.Location = new System.Drawing.Point(31, 48);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(22, 32);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox1.Size = new System.Drawing.Size(50, 49);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -2110,11 +1972,9 @@
             this.P4_GB.Controls.Add(this.pictureBox9);
             this.P4_GB.Controls.Add(this.pictureBox7);
             this.P4_GB.Controls.Add(this.pictureBox8);
-            this.P4_GB.Location = new System.Drawing.Point(124, 50);
-            this.P4_GB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_GB.Location = new System.Drawing.Point(87, 33);
             this.P4_GB.Name = "P4_GB";
-            this.P4_GB.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.P4_GB.Size = new System.Drawing.Size(234, 1046);
+            this.P4_GB.Size = new System.Drawing.Size(164, 697);
             this.P4_GB.TabIndex = 2;
             this.P4_GB.TabStop = false;
             this.P4_GB.Text = "Player4";
@@ -2122,30 +1982,27 @@
             // P4_card
             // 
             this.P4_card.AutoSize = true;
-            this.P4_card.Location = new System.Drawing.Point(164, 580);
-            this.P4_card.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_card.Location = new System.Drawing.Point(115, 387);
             this.P4_card.Name = "P4_card";
-            this.P4_card.Size = new System.Drawing.Size(18, 18);
+            this.P4_card.Size = new System.Drawing.Size(11, 12);
             this.P4_card.TabIndex = 37;
             this.P4_card.Text = "0";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(36, 580);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(25, 387);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 18);
+            this.label5.Size = new System.Drawing.Size(77, 12);
             this.label5.TabIndex = 50;
             this.label5.Text = "구매한 카드 :";
             // 
             // P4_score
             // 
             this.P4_score.AutoSize = true;
-            this.P4_score.Location = new System.Drawing.Point(164, 554);
-            this.P4_score.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_score.Location = new System.Drawing.Point(115, 369);
             this.P4_score.Name = "P4_score";
-            this.P4_score.Size = new System.Drawing.Size(18, 18);
+            this.P4_score.Size = new System.Drawing.Size(11, 12);
             this.P4_score.TabIndex = 36;
             this.P4_score.Text = "0";
             // 
@@ -2172,41 +2029,36 @@
             this.groupBox7.Controls.Add(this.P4_reserved2);
             this.groupBox7.Controls.Add(this.P4_r1g3);
             this.groupBox7.Controls.Add(this.P4_reserved1);
-            this.groupBox7.Location = new System.Drawing.Point(16, 621);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Location = new System.Drawing.Point(11, 414);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox7.Size = new System.Drawing.Size(206, 420);
+            this.groupBox7.Size = new System.Drawing.Size(144, 280);
             this.groupBox7.TabIndex = 39;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "예약된 카드";
             // 
             // P4R3_ptb
             // 
-            this.P4R3_ptb.Location = new System.Drawing.Point(120, 284);
-            this.P4R3_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4R3_ptb.Location = new System.Drawing.Point(83, 189);
             this.P4R3_ptb.Name = "P4R3_ptb";
-            this.P4R3_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P4R3_ptb.Size = new System.Drawing.Size(22, 19);
             this.P4R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4R3_ptb.TabIndex = 229;
             this.P4R3_ptb.TabStop = false;
             // 
             // P4R2_ptb
             // 
-            this.P4R2_ptb.Location = new System.Drawing.Point(120, 154);
-            this.P4R2_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4R2_ptb.Location = new System.Drawing.Point(83, 103);
             this.P4R2_ptb.Name = "P4R2_ptb";
-            this.P4R2_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P4R2_ptb.Size = new System.Drawing.Size(22, 19);
             this.P4R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4R2_ptb.TabIndex = 228;
             this.P4R2_ptb.TabStop = false;
             // 
             // P4R1_ptb
             // 
-            this.P4R1_ptb.Location = new System.Drawing.Point(120, 26);
-            this.P4R1_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4R1_ptb.Location = new System.Drawing.Point(83, 17);
             this.P4R1_ptb.Name = "P4R1_ptb";
-            this.P4R1_ptb.Size = new System.Drawing.Size(31, 28);
+            this.P4R1_ptb.Size = new System.Drawing.Size(22, 19);
             this.P4R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4R1_ptb.TabIndex = 152;
             this.P4R1_ptb.TabStop = false;
@@ -2214,10 +2066,9 @@
             // P4_r3g1
             // 
             this.P4_r3g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P4_r3g1.Location = new System.Drawing.Point(51, 310);
-            this.P4_r3g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r3g1.Location = new System.Drawing.Point(36, 207);
             this.P4_r3g1.Name = "P4_r3g1";
-            this.P4_r3g1.Size = new System.Drawing.Size(20, 20);
+            this.P4_r3g1.Size = new System.Drawing.Size(14, 13);
             this.P4_r3g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r3g1.TabIndex = 227;
             this.P4_r3g1.TabStop = false;
@@ -2225,10 +2076,9 @@
             // P4_r3g4
             // 
             this.P4_r3g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P4_r3g4.Location = new System.Drawing.Point(51, 369);
-            this.P4_r3g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r3g4.Location = new System.Drawing.Point(36, 246);
             this.P4_r3g4.Name = "P4_r3g4";
-            this.P4_r3g4.Size = new System.Drawing.Size(20, 20);
+            this.P4_r3g4.Size = new System.Drawing.Size(14, 13);
             this.P4_r3g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r3g4.TabIndex = 226;
             this.P4_r3g4.TabStop = false;
@@ -2236,10 +2086,9 @@
             // P4_r3g5
             // 
             this.P4_r3g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P4_r3g5.Location = new System.Drawing.Point(51, 384);
-            this.P4_r3g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r3g5.Location = new System.Drawing.Point(36, 256);
             this.P4_r3g5.Name = "P4_r3g5";
-            this.P4_r3g5.Size = new System.Drawing.Size(20, 20);
+            this.P4_r3g5.Size = new System.Drawing.Size(14, 13);
             this.P4_r3g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r3g5.TabIndex = 225;
             this.P4_r3g5.TabStop = false;
@@ -2247,10 +2096,9 @@
             // P4_r3g2
             // 
             this.P4_r3g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P4_r3g2.Location = new System.Drawing.Point(51, 330);
-            this.P4_r3g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r3g2.Location = new System.Drawing.Point(36, 220);
             this.P4_r3g2.Name = "P4_r3g2";
-            this.P4_r3g2.Size = new System.Drawing.Size(20, 20);
+            this.P4_r3g2.Size = new System.Drawing.Size(14, 13);
             this.P4_r3g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r3g2.TabIndex = 224;
             this.P4_r3g2.TabStop = false;
@@ -2258,10 +2106,9 @@
             // P4_r3g3
             // 
             this.P4_r3g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P4_r3g3.Location = new System.Drawing.Point(51, 350);
-            this.P4_r3g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r3g3.Location = new System.Drawing.Point(36, 233);
             this.P4_r3g3.Name = "P4_r3g3";
-            this.P4_r3g3.Size = new System.Drawing.Size(20, 20);
+            this.P4_r3g3.Size = new System.Drawing.Size(14, 13);
             this.P4_r3g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r3g3.TabIndex = 223;
             this.P4_r3g3.TabStop = false;
@@ -2269,10 +2116,9 @@
             // P4_r2g1
             // 
             this.P4_r2g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P4_r2g1.Location = new System.Drawing.Point(51, 182);
-            this.P4_r2g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r2g1.Location = new System.Drawing.Point(36, 121);
             this.P4_r2g1.Name = "P4_r2g1";
-            this.P4_r2g1.Size = new System.Drawing.Size(20, 20);
+            this.P4_r2g1.Size = new System.Drawing.Size(14, 13);
             this.P4_r2g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r2g1.TabIndex = 222;
             this.P4_r2g1.TabStop = false;
@@ -2280,10 +2126,9 @@
             // P4_r2g4
             // 
             this.P4_r2g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P4_r2g4.Location = new System.Drawing.Point(51, 240);
-            this.P4_r2g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r2g4.Location = new System.Drawing.Point(36, 160);
             this.P4_r2g4.Name = "P4_r2g4";
-            this.P4_r2g4.Size = new System.Drawing.Size(20, 20);
+            this.P4_r2g4.Size = new System.Drawing.Size(14, 13);
             this.P4_r2g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r2g4.TabIndex = 221;
             this.P4_r2g4.TabStop = false;
@@ -2291,10 +2136,9 @@
             // P4_r2g5
             // 
             this.P4_r2g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P4_r2g5.Location = new System.Drawing.Point(51, 255);
-            this.P4_r2g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r2g5.Location = new System.Drawing.Point(36, 170);
             this.P4_r2g5.Name = "P4_r2g5";
-            this.P4_r2g5.Size = new System.Drawing.Size(20, 20);
+            this.P4_r2g5.Size = new System.Drawing.Size(14, 13);
             this.P4_r2g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r2g5.TabIndex = 220;
             this.P4_r2g5.TabStop = false;
@@ -2302,10 +2146,9 @@
             // P4_r2g2
             // 
             this.P4_r2g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P4_r2g2.Location = new System.Drawing.Point(51, 201);
-            this.P4_r2g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r2g2.Location = new System.Drawing.Point(36, 134);
             this.P4_r2g2.Name = "P4_r2g2";
-            this.P4_r2g2.Size = new System.Drawing.Size(20, 20);
+            this.P4_r2g2.Size = new System.Drawing.Size(14, 13);
             this.P4_r2g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r2g2.TabIndex = 219;
             this.P4_r2g2.TabStop = false;
@@ -2313,10 +2156,9 @@
             // P4_r2g3
             // 
             this.P4_r2g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P4_r2g3.Location = new System.Drawing.Point(51, 220);
-            this.P4_r2g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r2g3.Location = new System.Drawing.Point(36, 147);
             this.P4_r2g3.Name = "P4_r2g3";
-            this.P4_r2g3.Size = new System.Drawing.Size(20, 20);
+            this.P4_r2g3.Size = new System.Drawing.Size(14, 13);
             this.P4_r2g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r2g3.TabIndex = 218;
             this.P4_r2g3.TabStop = false;
@@ -2324,10 +2166,9 @@
             // P4_r1g1
             // 
             this.P4_r1g1.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.P4_r1g1.Location = new System.Drawing.Point(51, 52);
-            this.P4_r1g1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r1g1.Location = new System.Drawing.Point(36, 35);
             this.P4_r1g1.Name = "P4_r1g1";
-            this.P4_r1g1.Size = new System.Drawing.Size(20, 20);
+            this.P4_r1g1.Size = new System.Drawing.Size(14, 13);
             this.P4_r1g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r1g1.TabIndex = 217;
             this.P4_r1g1.TabStop = false;
@@ -2335,10 +2176,9 @@
             // P4_r1g4
             // 
             this.P4_r1g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.P4_r1g4.Location = new System.Drawing.Point(51, 111);
-            this.P4_r1g4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r1g4.Location = new System.Drawing.Point(36, 74);
             this.P4_r1g4.Name = "P4_r1g4";
-            this.P4_r1g4.Size = new System.Drawing.Size(20, 20);
+            this.P4_r1g4.Size = new System.Drawing.Size(14, 13);
             this.P4_r1g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r1g4.TabIndex = 216;
             this.P4_r1g4.TabStop = false;
@@ -2346,22 +2186,20 @@
             // P4_reserved3
             // 
             this.P4_reserved3.BackColor = System.Drawing.SystemColors.Window;
-            this.P4_reserved3.Location = new System.Drawing.Point(51, 284);
-            this.P4_reserved3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_reserved3.Location = new System.Drawing.Point(36, 189);
             this.P4_reserved3.Multiline = true;
             this.P4_reserved3.Name = "P4_reserved3";
             this.P4_reserved3.ReadOnly = true;
             this.P4_reserved3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P4_reserved3.Size = new System.Drawing.Size(98, 124);
+            this.P4_reserved3.Size = new System.Drawing.Size(70, 84);
             this.P4_reserved3.TabIndex = 37;
             // 
             // P4_r1g5
             // 
             this.P4_r1g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.P4_r1g5.Location = new System.Drawing.Point(51, 126);
-            this.P4_r1g5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r1g5.Location = new System.Drawing.Point(36, 84);
             this.P4_r1g5.Name = "P4_r1g5";
-            this.P4_r1g5.Size = new System.Drawing.Size(20, 20);
+            this.P4_r1g5.Size = new System.Drawing.Size(14, 13);
             this.P4_r1g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r1g5.TabIndex = 215;
             this.P4_r1g5.TabStop = false;
@@ -2369,10 +2207,9 @@
             // P4_r1g2
             // 
             this.P4_r1g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.P4_r1g2.Location = new System.Drawing.Point(51, 72);
-            this.P4_r1g2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r1g2.Location = new System.Drawing.Point(36, 48);
             this.P4_r1g2.Name = "P4_r1g2";
-            this.P4_r1g2.Size = new System.Drawing.Size(20, 20);
+            this.P4_r1g2.Size = new System.Drawing.Size(14, 13);
             this.P4_r1g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r1g2.TabIndex = 214;
             this.P4_r1g2.TabStop = false;
@@ -2380,22 +2217,20 @@
             // P4_reserved2
             // 
             this.P4_reserved2.BackColor = System.Drawing.SystemColors.Window;
-            this.P4_reserved2.Location = new System.Drawing.Point(51, 154);
-            this.P4_reserved2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_reserved2.Location = new System.Drawing.Point(36, 103);
             this.P4_reserved2.Multiline = true;
             this.P4_reserved2.Name = "P4_reserved2";
             this.P4_reserved2.ReadOnly = true;
             this.P4_reserved2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P4_reserved2.Size = new System.Drawing.Size(98, 124);
+            this.P4_reserved2.Size = new System.Drawing.Size(70, 84);
             this.P4_reserved2.TabIndex = 34;
             // 
             // P4_r1g3
             // 
             this.P4_r1g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.P4_r1g3.Location = new System.Drawing.Point(51, 92);
-            this.P4_r1g3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_r1g3.Location = new System.Drawing.Point(36, 61);
             this.P4_r1g3.Name = "P4_r1g3";
-            this.P4_r1g3.Size = new System.Drawing.Size(20, 20);
+            this.P4_r1g3.Size = new System.Drawing.Size(14, 13);
             this.P4_r1g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P4_r1g3.TabIndex = 213;
             this.P4_r1g3.TabStop = false;
@@ -2403,52 +2238,47 @@
             // P4_reserved1
             // 
             this.P4_reserved1.BackColor = System.Drawing.SystemColors.Window;
-            this.P4_reserved1.Location = new System.Drawing.Point(51, 26);
-            this.P4_reserved1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.P4_reserved1.Location = new System.Drawing.Point(36, 17);
             this.P4_reserved1.Multiline = true;
             this.P4_reserved1.Name = "P4_reserved1";
             this.P4_reserved1.ReadOnly = true;
             this.P4_reserved1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P4_reserved1.Size = new System.Drawing.Size(98, 124);
+            this.P4_reserved1.Size = new System.Drawing.Size(70, 84);
             this.P4_reserved1.TabIndex = 33;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(99, 554);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(69, 369);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 18);
+            this.label6.Size = new System.Drawing.Size(37, 12);
             this.label6.TabIndex = 49;
             this.label6.Text = "점수 :";
             // 
             // P4_gol
             // 
             this.P4_gol.AutoSize = true;
-            this.P4_gol.Location = new System.Drawing.Point(130, 490);
-            this.P4_gol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_gol.Location = new System.Drawing.Point(91, 327);
             this.P4_gol.Name = "P4_gol";
-            this.P4_gol.Size = new System.Drawing.Size(18, 18);
+            this.P4_gol.Size = new System.Drawing.Size(11, 12);
             this.P4_gol.TabIndex = 25;
             this.P4_gol.Text = "0";
             // 
             // P4_onyCard
             // 
             this.P4_onyCard.AutoSize = true;
-            this.P4_onyCard.Location = new System.Drawing.Point(130, 430);
-            this.P4_onyCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_onyCard.Location = new System.Drawing.Point(91, 287);
             this.P4_onyCard.Name = "P4_onyCard";
-            this.P4_onyCard.Size = new System.Drawing.Size(27, 18);
+            this.P4_onyCard.Size = new System.Drawing.Size(17, 12);
             this.P4_onyCard.TabIndex = 24;
             this.P4_onyCard.Text = "+0";
             // 
             // pictureBox12
             // 
             this.pictureBox12.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox12.Location = new System.Drawing.Point(36, 48);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox12.Location = new System.Drawing.Point(25, 32);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox12.Size = new System.Drawing.Size(50, 49);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 15;
             this.pictureBox12.TabStop = false;
@@ -2456,80 +2286,72 @@
             // P4_rubCard
             // 
             this.P4_rubCard.AutoSize = true;
-            this.P4_rubCard.Location = new System.Drawing.Point(130, 344);
-            this.P4_rubCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_rubCard.Location = new System.Drawing.Point(91, 229);
             this.P4_rubCard.Name = "P4_rubCard";
-            this.P4_rubCard.Size = new System.Drawing.Size(27, 18);
+            this.P4_rubCard.Size = new System.Drawing.Size(17, 12);
             this.P4_rubCard.TabIndex = 23;
             this.P4_rubCard.Text = "+0";
             // 
             // P4_ony
             // 
             this.P4_ony.AutoSize = true;
-            this.P4_ony.Location = new System.Drawing.Point(130, 408);
-            this.P4_ony.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_ony.Location = new System.Drawing.Point(91, 272);
             this.P4_ony.Name = "P4_ony";
-            this.P4_ony.Size = new System.Drawing.Size(18, 18);
+            this.P4_ony.Size = new System.Drawing.Size(11, 12);
             this.P4_ony.TabIndex = 24;
             this.P4_ony.Text = "0";
             // 
             // P4_emeCard
             // 
             this.P4_emeCard.AutoSize = true;
-            this.P4_emeCard.Location = new System.Drawing.Point(130, 260);
-            this.P4_emeCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_emeCard.Location = new System.Drawing.Point(91, 173);
             this.P4_emeCard.Name = "P4_emeCard";
-            this.P4_emeCard.Size = new System.Drawing.Size(27, 18);
+            this.P4_emeCard.Size = new System.Drawing.Size(17, 12);
             this.P4_emeCard.TabIndex = 22;
             this.P4_emeCard.Text = "+0";
             // 
             // P4_dia
             // 
             this.P4_dia.AutoSize = true;
-            this.P4_dia.Location = new System.Drawing.Point(130, 64);
-            this.P4_dia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_dia.Location = new System.Drawing.Point(91, 43);
             this.P4_dia.Name = "P4_dia";
-            this.P4_dia.Size = new System.Drawing.Size(18, 18);
+            this.P4_dia.Size = new System.Drawing.Size(11, 12);
             this.P4_dia.TabIndex = 14;
             this.P4_dia.Text = "0";
             // 
             // P4_safCard
             // 
             this.P4_safCard.AutoSize = true;
-            this.P4_safCard.Location = new System.Drawing.Point(130, 170);
-            this.P4_safCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_safCard.Location = new System.Drawing.Point(91, 113);
             this.P4_safCard.Name = "P4_safCard";
-            this.P4_safCard.Size = new System.Drawing.Size(27, 18);
+            this.P4_safCard.Size = new System.Drawing.Size(17, 12);
             this.P4_safCard.TabIndex = 21;
             this.P4_safCard.Text = "+0";
             // 
             // P4_diaCard
             // 
             this.P4_diaCard.AutoSize = true;
-            this.P4_diaCard.Location = new System.Drawing.Point(130, 84);
-            this.P4_diaCard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_diaCard.Location = new System.Drawing.Point(91, 56);
             this.P4_diaCard.Name = "P4_diaCard";
-            this.P4_diaCard.Size = new System.Drawing.Size(27, 18);
+            this.P4_diaCard.Size = new System.Drawing.Size(17, 12);
             this.P4_diaCard.TabIndex = 20;
             this.P4_diaCard.Text = "+0";
             // 
             // P4_rub
             // 
             this.P4_rub.AutoSize = true;
-            this.P4_rub.Location = new System.Drawing.Point(130, 324);
-            this.P4_rub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_rub.Location = new System.Drawing.Point(91, 216);
             this.P4_rub.Name = "P4_rub";
-            this.P4_rub.Size = new System.Drawing.Size(18, 18);
+            this.P4_rub.Size = new System.Drawing.Size(11, 12);
             this.P4_rub.TabIndex = 23;
             this.P4_rub.Text = "0";
             // 
             // pictureBox11
             // 
             this.pictureBox11.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox11.Location = new System.Drawing.Point(36, 132);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox11.Location = new System.Drawing.Point(25, 88);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox11.Size = new System.Drawing.Size(50, 49);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 16;
             this.pictureBox11.TabStop = false;
@@ -2537,20 +2359,18 @@
             // P4_eme
             // 
             this.P4_eme.AutoSize = true;
-            this.P4_eme.Location = new System.Drawing.Point(130, 240);
-            this.P4_eme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_eme.Location = new System.Drawing.Point(91, 160);
             this.P4_eme.Name = "P4_eme";
-            this.P4_eme.Size = new System.Drawing.Size(18, 18);
+            this.P4_eme.Size = new System.Drawing.Size(11, 12);
             this.P4_eme.TabIndex = 22;
             this.P4_eme.Text = "0";
             // 
             // pictureBox10
             // 
             this.pictureBox10.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox10.Location = new System.Drawing.Point(36, 216);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox10.Location = new System.Drawing.Point(25, 144);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox10.Size = new System.Drawing.Size(50, 49);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 17;
             this.pictureBox10.TabStop = false;
@@ -2558,20 +2378,18 @@
             // P4_saf
             // 
             this.P4_saf.AutoSize = true;
-            this.P4_saf.Location = new System.Drawing.Point(130, 142);
-            this.P4_saf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.P4_saf.Location = new System.Drawing.Point(91, 95);
             this.P4_saf.Name = "P4_saf";
-            this.P4_saf.Size = new System.Drawing.Size(18, 18);
+            this.P4_saf.Size = new System.Drawing.Size(11, 12);
             this.P4_saf.TabIndex = 21;
             this.P4_saf.Text = "0";
             // 
             // pictureBox9
             // 
             this.pictureBox9.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox9.Location = new System.Drawing.Point(36, 300);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox9.Location = new System.Drawing.Point(25, 200);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox9.Size = new System.Drawing.Size(50, 49);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 18;
             this.pictureBox9.TabStop = false;
@@ -2579,10 +2397,9 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::KWU_Splendor.Properties.Resources.gold;
-            this.pictureBox7.Location = new System.Drawing.Point(36, 468);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Location = new System.Drawing.Point(25, 312);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox7.Size = new System.Drawing.Size(50, 49);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 20;
             this.pictureBox7.TabStop = false;
@@ -2590,20 +2407,18 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox8.Location = new System.Drawing.Point(36, 384);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Location = new System.Drawing.Point(25, 256);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox8.Size = new System.Drawing.Size(50, 49);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 19;
             this.pictureBox8.TabStop = false;
             // 
             // btn_coin
             // 
-            this.btn_coin.Location = new System.Drawing.Point(679, 982);
-            this.btn_coin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_coin.Location = new System.Drawing.Point(607, 657);
             this.btn_coin.Name = "btn_coin";
-            this.btn_coin.Size = new System.Drawing.Size(149, 34);
+            this.btn_coin.Size = new System.Drawing.Size(104, 23);
             this.btn_coin.TabIndex = 3;
             this.btn_coin.Text = "보석 가져오기";
             this.btn_coin.UseVisualStyleBackColor = true;
@@ -2611,10 +2426,9 @@
             // 
             // btn_card
             // 
-            this.btn_card.Location = new System.Drawing.Point(970, 982);
-            this.btn_card.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_card.Location = new System.Drawing.Point(811, 657);
             this.btn_card.Name = "btn_card";
-            this.btn_card.Size = new System.Drawing.Size(159, 34);
+            this.btn_card.Size = new System.Drawing.Size(111, 23);
             this.btn_card.TabIndex = 4;
             this.btn_card.Text = "개발 카드 구매";
             this.btn_card.UseVisualStyleBackColor = true;
@@ -2622,10 +2436,9 @@
             // 
             // btn_sendRes
             // 
-            this.btn_sendRes.Location = new System.Drawing.Point(1669, 982);
-            this.btn_sendRes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_sendRes.Location = new System.Drawing.Point(1168, 655);
             this.btn_sendRes.Name = "btn_sendRes";
-            this.btn_sendRes.Size = new System.Drawing.Size(109, 34);
+            this.btn_sendRes.Size = new System.Drawing.Size(76, 23);
             this.btn_sendRes.TabIndex = 6;
             this.btn_sendRes.Text = "턴 마치기";
             this.btn_sendRes.UseVisualStyleBackColor = true;
@@ -2762,11 +2575,9 @@
             this.groupBox5.Controls.Add(this.pictureBox29);
             this.groupBox5.Controls.Add(this.dia);
             this.groupBox5.Controls.Add(this.pictureBox30);
-            this.groupBox5.Location = new System.Drawing.Point(374, 238);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Location = new System.Drawing.Point(262, 159);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox5.Size = new System.Drawing.Size(1400, 714);
+            this.groupBox5.Size = new System.Drawing.Size(980, 476);
             this.groupBox5.TabIndex = 14;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Board";
@@ -2774,10 +2585,9 @@
             // pictureBox111
             // 
             this.pictureBox111.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox111.Location = new System.Drawing.Point(1214, 136);
-            this.pictureBox111.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox111.Location = new System.Drawing.Point(850, 91);
             this.pictureBox111.Name = "pictureBox111";
-            this.pictureBox111.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox111.Size = new System.Drawing.Size(14, 13);
             this.pictureBox111.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox111.TabIndex = 151;
             this.pictureBox111.TabStop = false;
@@ -2785,10 +2595,9 @@
             // pictureBox112
             // 
             this.pictureBox112.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox112.Location = new System.Drawing.Point(1214, 118);
-            this.pictureBox112.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox112.Location = new System.Drawing.Point(850, 79);
             this.pictureBox112.Name = "pictureBox112";
-            this.pictureBox112.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox112.Size = new System.Drawing.Size(14, 13);
             this.pictureBox112.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox112.TabIndex = 150;
             this.pictureBox112.TabStop = false;
@@ -2796,10 +2605,9 @@
             // pictureBox113
             // 
             this.pictureBox113.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox113.Location = new System.Drawing.Point(1214, 102);
-            this.pictureBox113.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox113.Location = new System.Drawing.Point(850, 68);
             this.pictureBox113.Name = "pictureBox113";
-            this.pictureBox113.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox113.Size = new System.Drawing.Size(14, 13);
             this.pictureBox113.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox113.TabIndex = 149;
             this.pictureBox113.TabStop = false;
@@ -2807,10 +2615,9 @@
             // pictureBox114
             // 
             this.pictureBox114.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox114.Location = new System.Drawing.Point(1214, 82);
-            this.pictureBox114.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox114.Location = new System.Drawing.Point(850, 55);
             this.pictureBox114.Name = "pictureBox114";
-            this.pictureBox114.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox114.Size = new System.Drawing.Size(14, 13);
             this.pictureBox114.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox114.TabIndex = 148;
             this.pictureBox114.TabStop = false;
@@ -2818,10 +2625,9 @@
             // pictureBox115
             // 
             this.pictureBox115.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox115.Location = new System.Drawing.Point(1214, 64);
-            this.pictureBox115.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox115.Location = new System.Drawing.Point(850, 43);
             this.pictureBox115.Name = "pictureBox115";
-            this.pictureBox115.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox115.Size = new System.Drawing.Size(14, 13);
             this.pictureBox115.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox115.TabIndex = 147;
             this.pictureBox115.TabStop = false;
@@ -2829,10 +2635,9 @@
             // pictureBox106
             // 
             this.pictureBox106.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox106.Location = new System.Drawing.Point(986, 136);
-            this.pictureBox106.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox106.Location = new System.Drawing.Point(690, 91);
             this.pictureBox106.Name = "pictureBox106";
-            this.pictureBox106.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox106.Size = new System.Drawing.Size(14, 13);
             this.pictureBox106.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox106.TabIndex = 146;
             this.pictureBox106.TabStop = false;
@@ -2840,10 +2645,9 @@
             // pictureBox107
             // 
             this.pictureBox107.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox107.Location = new System.Drawing.Point(986, 118);
-            this.pictureBox107.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox107.Location = new System.Drawing.Point(690, 79);
             this.pictureBox107.Name = "pictureBox107";
-            this.pictureBox107.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox107.Size = new System.Drawing.Size(14, 13);
             this.pictureBox107.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox107.TabIndex = 145;
             this.pictureBox107.TabStop = false;
@@ -2851,10 +2655,9 @@
             // pictureBox108
             // 
             this.pictureBox108.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox108.Location = new System.Drawing.Point(986, 102);
-            this.pictureBox108.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox108.Location = new System.Drawing.Point(690, 68);
             this.pictureBox108.Name = "pictureBox108";
-            this.pictureBox108.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox108.Size = new System.Drawing.Size(14, 13);
             this.pictureBox108.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox108.TabIndex = 144;
             this.pictureBox108.TabStop = false;
@@ -2862,10 +2665,9 @@
             // pictureBox109
             // 
             this.pictureBox109.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox109.Location = new System.Drawing.Point(986, 82);
-            this.pictureBox109.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox109.Location = new System.Drawing.Point(690, 55);
             this.pictureBox109.Name = "pictureBox109";
-            this.pictureBox109.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox109.Size = new System.Drawing.Size(14, 13);
             this.pictureBox109.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox109.TabIndex = 143;
             this.pictureBox109.TabStop = false;
@@ -2873,10 +2675,9 @@
             // pictureBox110
             // 
             this.pictureBox110.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox110.Location = new System.Drawing.Point(986, 64);
-            this.pictureBox110.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox110.Location = new System.Drawing.Point(690, 43);
             this.pictureBox110.Name = "pictureBox110";
-            this.pictureBox110.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox110.Size = new System.Drawing.Size(14, 13);
             this.pictureBox110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox110.TabIndex = 142;
             this.pictureBox110.TabStop = false;
@@ -2884,10 +2685,9 @@
             // pictureBox101
             // 
             this.pictureBox101.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox101.Location = new System.Drawing.Point(756, 136);
-            this.pictureBox101.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox101.Location = new System.Drawing.Point(529, 91);
             this.pictureBox101.Name = "pictureBox101";
-            this.pictureBox101.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox101.Size = new System.Drawing.Size(14, 13);
             this.pictureBox101.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox101.TabIndex = 141;
             this.pictureBox101.TabStop = false;
@@ -2895,10 +2695,9 @@
             // pictureBox102
             // 
             this.pictureBox102.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox102.Location = new System.Drawing.Point(756, 118);
-            this.pictureBox102.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox102.Location = new System.Drawing.Point(529, 79);
             this.pictureBox102.Name = "pictureBox102";
-            this.pictureBox102.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox102.Size = new System.Drawing.Size(14, 13);
             this.pictureBox102.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox102.TabIndex = 140;
             this.pictureBox102.TabStop = false;
@@ -2906,10 +2705,9 @@
             // pictureBox103
             // 
             this.pictureBox103.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox103.Location = new System.Drawing.Point(756, 102);
-            this.pictureBox103.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox103.Location = new System.Drawing.Point(529, 68);
             this.pictureBox103.Name = "pictureBox103";
-            this.pictureBox103.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox103.Size = new System.Drawing.Size(14, 13);
             this.pictureBox103.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox103.TabIndex = 139;
             this.pictureBox103.TabStop = false;
@@ -2917,10 +2715,9 @@
             // pictureBox104
             // 
             this.pictureBox104.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox104.Location = new System.Drawing.Point(756, 82);
-            this.pictureBox104.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox104.Location = new System.Drawing.Point(529, 55);
             this.pictureBox104.Name = "pictureBox104";
-            this.pictureBox104.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox104.Size = new System.Drawing.Size(14, 13);
             this.pictureBox104.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox104.TabIndex = 138;
             this.pictureBox104.TabStop = false;
@@ -2928,10 +2725,9 @@
             // pictureBox105
             // 
             this.pictureBox105.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox105.Location = new System.Drawing.Point(756, 64);
-            this.pictureBox105.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox105.Location = new System.Drawing.Point(529, 43);
             this.pictureBox105.Name = "pictureBox105";
-            this.pictureBox105.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox105.Size = new System.Drawing.Size(14, 13);
             this.pictureBox105.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox105.TabIndex = 137;
             this.pictureBox105.TabStop = false;
@@ -2939,10 +2735,9 @@
             // pictureBox96
             // 
             this.pictureBox96.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox96.Location = new System.Drawing.Point(296, 136);
-            this.pictureBox96.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox96.Location = new System.Drawing.Point(207, 91);
             this.pictureBox96.Name = "pictureBox96";
-            this.pictureBox96.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox96.Size = new System.Drawing.Size(14, 13);
             this.pictureBox96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox96.TabIndex = 136;
             this.pictureBox96.TabStop = false;
@@ -2950,10 +2745,9 @@
             // pictureBox97
             // 
             this.pictureBox97.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox97.Location = new System.Drawing.Point(296, 118);
-            this.pictureBox97.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox97.Location = new System.Drawing.Point(207, 79);
             this.pictureBox97.Name = "pictureBox97";
-            this.pictureBox97.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox97.Size = new System.Drawing.Size(14, 13);
             this.pictureBox97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox97.TabIndex = 135;
             this.pictureBox97.TabStop = false;
@@ -2961,10 +2755,9 @@
             // pictureBox98
             // 
             this.pictureBox98.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox98.Location = new System.Drawing.Point(296, 102);
-            this.pictureBox98.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox98.Location = new System.Drawing.Point(207, 68);
             this.pictureBox98.Name = "pictureBox98";
-            this.pictureBox98.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox98.Size = new System.Drawing.Size(14, 13);
             this.pictureBox98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox98.TabIndex = 134;
             this.pictureBox98.TabStop = false;
@@ -2972,10 +2765,9 @@
             // pictureBox99
             // 
             this.pictureBox99.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox99.Location = new System.Drawing.Point(296, 82);
-            this.pictureBox99.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox99.Location = new System.Drawing.Point(207, 55);
             this.pictureBox99.Name = "pictureBox99";
-            this.pictureBox99.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox99.Size = new System.Drawing.Size(14, 13);
             this.pictureBox99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox99.TabIndex = 133;
             this.pictureBox99.TabStop = false;
@@ -2983,10 +2775,9 @@
             // pictureBox100
             // 
             this.pictureBox100.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox100.Location = new System.Drawing.Point(296, 64);
-            this.pictureBox100.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox100.Location = new System.Drawing.Point(207, 43);
             this.pictureBox100.Name = "pictureBox100";
-            this.pictureBox100.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox100.Size = new System.Drawing.Size(14, 13);
             this.pictureBox100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox100.TabIndex = 132;
             this.pictureBox100.TabStop = false;
@@ -2994,10 +2785,9 @@
             // pictureBox91
             // 
             this.pictureBox91.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox91.Location = new System.Drawing.Point(523, 136);
-            this.pictureBox91.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox91.Location = new System.Drawing.Point(366, 91);
             this.pictureBox91.Name = "pictureBox91";
-            this.pictureBox91.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox91.Size = new System.Drawing.Size(14, 13);
             this.pictureBox91.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox91.TabIndex = 131;
             this.pictureBox91.TabStop = false;
@@ -3005,10 +2795,9 @@
             // pictureBox92
             // 
             this.pictureBox92.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox92.Location = new System.Drawing.Point(523, 118);
-            this.pictureBox92.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox92.Location = new System.Drawing.Point(366, 79);
             this.pictureBox92.Name = "pictureBox92";
-            this.pictureBox92.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox92.Size = new System.Drawing.Size(14, 13);
             this.pictureBox92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox92.TabIndex = 130;
             this.pictureBox92.TabStop = false;
@@ -3016,10 +2805,9 @@
             // pictureBox93
             // 
             this.pictureBox93.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox93.Location = new System.Drawing.Point(523, 102);
-            this.pictureBox93.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox93.Location = new System.Drawing.Point(366, 68);
             this.pictureBox93.Name = "pictureBox93";
-            this.pictureBox93.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox93.Size = new System.Drawing.Size(14, 13);
             this.pictureBox93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox93.TabIndex = 129;
             this.pictureBox93.TabStop = false;
@@ -3027,10 +2815,9 @@
             // pictureBox94
             // 
             this.pictureBox94.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox94.Location = new System.Drawing.Point(523, 82);
-            this.pictureBox94.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox94.Location = new System.Drawing.Point(366, 55);
             this.pictureBox94.Name = "pictureBox94";
-            this.pictureBox94.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox94.Size = new System.Drawing.Size(14, 13);
             this.pictureBox94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox94.TabIndex = 128;
             this.pictureBox94.TabStop = false;
@@ -3038,10 +2825,9 @@
             // pictureBox95
             // 
             this.pictureBox95.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox95.Location = new System.Drawing.Point(523, 64);
-            this.pictureBox95.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox95.Location = new System.Drawing.Point(366, 43);
             this.pictureBox95.Name = "pictureBox95";
-            this.pictureBox95.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox95.Size = new System.Drawing.Size(14, 13);
             this.pictureBox95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox95.TabIndex = 127;
             this.pictureBox95.TabStop = false;
@@ -3049,10 +2835,9 @@
             // pictureBox86
             // 
             this.pictureBox86.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox86.Location = new System.Drawing.Point(1214, 646);
-            this.pictureBox86.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox86.Location = new System.Drawing.Point(850, 431);
             this.pictureBox86.Name = "pictureBox86";
-            this.pictureBox86.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox86.Size = new System.Drawing.Size(14, 13);
             this.pictureBox86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox86.TabIndex = 126;
             this.pictureBox86.TabStop = false;
@@ -3060,10 +2845,9 @@
             // pictureBox87
             // 
             this.pictureBox87.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox87.Location = new System.Drawing.Point(1214, 628);
-            this.pictureBox87.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox87.Location = new System.Drawing.Point(850, 419);
             this.pictureBox87.Name = "pictureBox87";
-            this.pictureBox87.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox87.Size = new System.Drawing.Size(14, 13);
             this.pictureBox87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox87.TabIndex = 125;
             this.pictureBox87.TabStop = false;
@@ -3071,10 +2855,9 @@
             // pictureBox88
             // 
             this.pictureBox88.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox88.Location = new System.Drawing.Point(1214, 612);
-            this.pictureBox88.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox88.Location = new System.Drawing.Point(850, 408);
             this.pictureBox88.Name = "pictureBox88";
-            this.pictureBox88.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox88.Size = new System.Drawing.Size(14, 13);
             this.pictureBox88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox88.TabIndex = 124;
             this.pictureBox88.TabStop = false;
@@ -3082,10 +2865,9 @@
             // pictureBox89
             // 
             this.pictureBox89.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox89.Location = new System.Drawing.Point(1214, 592);
-            this.pictureBox89.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox89.Location = new System.Drawing.Point(850, 395);
             this.pictureBox89.Name = "pictureBox89";
-            this.pictureBox89.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox89.Size = new System.Drawing.Size(14, 13);
             this.pictureBox89.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox89.TabIndex = 123;
             this.pictureBox89.TabStop = false;
@@ -3093,10 +2875,9 @@
             // pictureBox90
             // 
             this.pictureBox90.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox90.Location = new System.Drawing.Point(1214, 574);
-            this.pictureBox90.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox90.Location = new System.Drawing.Point(850, 383);
             this.pictureBox90.Name = "pictureBox90";
-            this.pictureBox90.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox90.Size = new System.Drawing.Size(14, 13);
             this.pictureBox90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox90.TabIndex = 122;
             this.pictureBox90.TabStop = false;
@@ -3104,10 +2885,9 @@
             // pictureBox81
             // 
             this.pictureBox81.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox81.Location = new System.Drawing.Point(986, 646);
-            this.pictureBox81.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox81.Location = new System.Drawing.Point(690, 431);
             this.pictureBox81.Name = "pictureBox81";
-            this.pictureBox81.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox81.Size = new System.Drawing.Size(14, 13);
             this.pictureBox81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox81.TabIndex = 121;
             this.pictureBox81.TabStop = false;
@@ -3115,10 +2895,9 @@
             // pictureBox82
             // 
             this.pictureBox82.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox82.Location = new System.Drawing.Point(986, 628);
-            this.pictureBox82.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox82.Location = new System.Drawing.Point(690, 419);
             this.pictureBox82.Name = "pictureBox82";
-            this.pictureBox82.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox82.Size = new System.Drawing.Size(14, 13);
             this.pictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox82.TabIndex = 120;
             this.pictureBox82.TabStop = false;
@@ -3126,10 +2905,9 @@
             // pictureBox83
             // 
             this.pictureBox83.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox83.Location = new System.Drawing.Point(986, 612);
-            this.pictureBox83.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox83.Location = new System.Drawing.Point(690, 408);
             this.pictureBox83.Name = "pictureBox83";
-            this.pictureBox83.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox83.Size = new System.Drawing.Size(14, 13);
             this.pictureBox83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox83.TabIndex = 119;
             this.pictureBox83.TabStop = false;
@@ -3137,10 +2915,9 @@
             // pictureBox84
             // 
             this.pictureBox84.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox84.Location = new System.Drawing.Point(986, 592);
-            this.pictureBox84.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox84.Location = new System.Drawing.Point(690, 395);
             this.pictureBox84.Name = "pictureBox84";
-            this.pictureBox84.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox84.Size = new System.Drawing.Size(14, 13);
             this.pictureBox84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox84.TabIndex = 118;
             this.pictureBox84.TabStop = false;
@@ -3148,10 +2925,9 @@
             // pictureBox85
             // 
             this.pictureBox85.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox85.Location = new System.Drawing.Point(986, 574);
-            this.pictureBox85.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox85.Location = new System.Drawing.Point(690, 383);
             this.pictureBox85.Name = "pictureBox85";
-            this.pictureBox85.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox85.Size = new System.Drawing.Size(14, 13);
             this.pictureBox85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox85.TabIndex = 117;
             this.pictureBox85.TabStop = false;
@@ -3159,10 +2935,9 @@
             // pictureBox76
             // 
             this.pictureBox76.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox76.Location = new System.Drawing.Point(756, 646);
-            this.pictureBox76.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox76.Location = new System.Drawing.Point(529, 431);
             this.pictureBox76.Name = "pictureBox76";
-            this.pictureBox76.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox76.Size = new System.Drawing.Size(14, 13);
             this.pictureBox76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox76.TabIndex = 116;
             this.pictureBox76.TabStop = false;
@@ -3170,10 +2945,9 @@
             // pictureBox77
             // 
             this.pictureBox77.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox77.Location = new System.Drawing.Point(756, 628);
-            this.pictureBox77.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox77.Location = new System.Drawing.Point(529, 419);
             this.pictureBox77.Name = "pictureBox77";
-            this.pictureBox77.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox77.Size = new System.Drawing.Size(14, 13);
             this.pictureBox77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox77.TabIndex = 115;
             this.pictureBox77.TabStop = false;
@@ -3181,10 +2955,9 @@
             // pictureBox78
             // 
             this.pictureBox78.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox78.Location = new System.Drawing.Point(756, 612);
-            this.pictureBox78.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox78.Location = new System.Drawing.Point(529, 408);
             this.pictureBox78.Name = "pictureBox78";
-            this.pictureBox78.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox78.Size = new System.Drawing.Size(14, 13);
             this.pictureBox78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox78.TabIndex = 114;
             this.pictureBox78.TabStop = false;
@@ -3192,10 +2965,9 @@
             // pictureBox79
             // 
             this.pictureBox79.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox79.Location = new System.Drawing.Point(756, 592);
-            this.pictureBox79.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox79.Location = new System.Drawing.Point(529, 395);
             this.pictureBox79.Name = "pictureBox79";
-            this.pictureBox79.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox79.Size = new System.Drawing.Size(14, 13);
             this.pictureBox79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox79.TabIndex = 113;
             this.pictureBox79.TabStop = false;
@@ -3203,10 +2975,9 @@
             // pictureBox80
             // 
             this.pictureBox80.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox80.Location = new System.Drawing.Point(756, 574);
-            this.pictureBox80.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox80.Location = new System.Drawing.Point(529, 383);
             this.pictureBox80.Name = "pictureBox80";
-            this.pictureBox80.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox80.Size = new System.Drawing.Size(14, 13);
             this.pictureBox80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox80.TabIndex = 112;
             this.pictureBox80.TabStop = false;
@@ -3214,10 +2985,9 @@
             // pictureBox71
             // 
             this.pictureBox71.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox71.Location = new System.Drawing.Point(1214, 484);
-            this.pictureBox71.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox71.Location = new System.Drawing.Point(850, 323);
             this.pictureBox71.Name = "pictureBox71";
-            this.pictureBox71.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox71.Size = new System.Drawing.Size(14, 13);
             this.pictureBox71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox71.TabIndex = 111;
             this.pictureBox71.TabStop = false;
@@ -3225,10 +2995,9 @@
             // pictureBox72
             // 
             this.pictureBox72.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox72.Location = new System.Drawing.Point(1214, 468);
-            this.pictureBox72.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox72.Location = new System.Drawing.Point(850, 312);
             this.pictureBox72.Name = "pictureBox72";
-            this.pictureBox72.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox72.Size = new System.Drawing.Size(14, 13);
             this.pictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox72.TabIndex = 110;
             this.pictureBox72.TabStop = false;
@@ -3236,10 +3005,9 @@
             // pictureBox73
             // 
             this.pictureBox73.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox73.Location = new System.Drawing.Point(1214, 452);
-            this.pictureBox73.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox73.Location = new System.Drawing.Point(850, 301);
             this.pictureBox73.Name = "pictureBox73";
-            this.pictureBox73.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox73.Size = new System.Drawing.Size(14, 13);
             this.pictureBox73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox73.TabIndex = 109;
             this.pictureBox73.TabStop = false;
@@ -3247,10 +3015,9 @@
             // pictureBox74
             // 
             this.pictureBox74.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox74.Location = new System.Drawing.Point(1214, 430);
-            this.pictureBox74.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox74.Location = new System.Drawing.Point(850, 287);
             this.pictureBox74.Name = "pictureBox74";
-            this.pictureBox74.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox74.Size = new System.Drawing.Size(14, 13);
             this.pictureBox74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox74.TabIndex = 108;
             this.pictureBox74.TabStop = false;
@@ -3258,10 +3025,9 @@
             // pictureBox75
             // 
             this.pictureBox75.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox75.Location = new System.Drawing.Point(1214, 412);
-            this.pictureBox75.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox75.Location = new System.Drawing.Point(850, 275);
             this.pictureBox75.Name = "pictureBox75";
-            this.pictureBox75.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox75.Size = new System.Drawing.Size(14, 13);
             this.pictureBox75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox75.TabIndex = 107;
             this.pictureBox75.TabStop = false;
@@ -3269,10 +3035,9 @@
             // pictureBox66
             // 
             this.pictureBox66.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox66.Location = new System.Drawing.Point(986, 484);
-            this.pictureBox66.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox66.Location = new System.Drawing.Point(690, 323);
             this.pictureBox66.Name = "pictureBox66";
-            this.pictureBox66.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox66.Size = new System.Drawing.Size(14, 13);
             this.pictureBox66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox66.TabIndex = 106;
             this.pictureBox66.TabStop = false;
@@ -3280,10 +3045,9 @@
             // pictureBox67
             // 
             this.pictureBox67.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox67.Location = new System.Drawing.Point(986, 468);
-            this.pictureBox67.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox67.Location = new System.Drawing.Point(690, 312);
             this.pictureBox67.Name = "pictureBox67";
-            this.pictureBox67.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox67.Size = new System.Drawing.Size(14, 13);
             this.pictureBox67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox67.TabIndex = 105;
             this.pictureBox67.TabStop = false;
@@ -3291,10 +3055,9 @@
             // pictureBox68
             // 
             this.pictureBox68.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox68.Location = new System.Drawing.Point(986, 452);
-            this.pictureBox68.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox68.Location = new System.Drawing.Point(690, 301);
             this.pictureBox68.Name = "pictureBox68";
-            this.pictureBox68.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox68.Size = new System.Drawing.Size(14, 13);
             this.pictureBox68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox68.TabIndex = 104;
             this.pictureBox68.TabStop = false;
@@ -3302,10 +3065,9 @@
             // pictureBox69
             // 
             this.pictureBox69.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox69.Location = new System.Drawing.Point(986, 430);
-            this.pictureBox69.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox69.Location = new System.Drawing.Point(690, 287);
             this.pictureBox69.Name = "pictureBox69";
-            this.pictureBox69.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox69.Size = new System.Drawing.Size(14, 13);
             this.pictureBox69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox69.TabIndex = 103;
             this.pictureBox69.TabStop = false;
@@ -3313,10 +3075,9 @@
             // pictureBox70
             // 
             this.pictureBox70.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox70.Location = new System.Drawing.Point(986, 412);
-            this.pictureBox70.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox70.Location = new System.Drawing.Point(690, 275);
             this.pictureBox70.Name = "pictureBox70";
-            this.pictureBox70.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox70.Size = new System.Drawing.Size(14, 13);
             this.pictureBox70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox70.TabIndex = 102;
             this.pictureBox70.TabStop = false;
@@ -3324,10 +3085,9 @@
             // pictureBox61
             // 
             this.pictureBox61.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox61.Location = new System.Drawing.Point(756, 484);
-            this.pictureBox61.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox61.Location = new System.Drawing.Point(529, 323);
             this.pictureBox61.Name = "pictureBox61";
-            this.pictureBox61.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox61.Size = new System.Drawing.Size(14, 13);
             this.pictureBox61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox61.TabIndex = 101;
             this.pictureBox61.TabStop = false;
@@ -3335,10 +3095,9 @@
             // pictureBox62
             // 
             this.pictureBox62.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox62.Location = new System.Drawing.Point(756, 468);
-            this.pictureBox62.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox62.Location = new System.Drawing.Point(529, 312);
             this.pictureBox62.Name = "pictureBox62";
-            this.pictureBox62.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox62.Size = new System.Drawing.Size(14, 13);
             this.pictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox62.TabIndex = 100;
             this.pictureBox62.TabStop = false;
@@ -3346,10 +3105,9 @@
             // pictureBox63
             // 
             this.pictureBox63.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox63.Location = new System.Drawing.Point(756, 452);
-            this.pictureBox63.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox63.Location = new System.Drawing.Point(529, 301);
             this.pictureBox63.Name = "pictureBox63";
-            this.pictureBox63.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox63.Size = new System.Drawing.Size(14, 13);
             this.pictureBox63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox63.TabIndex = 99;
             this.pictureBox63.TabStop = false;
@@ -3357,10 +3115,9 @@
             // pictureBox64
             // 
             this.pictureBox64.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox64.Location = new System.Drawing.Point(756, 430);
-            this.pictureBox64.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox64.Location = new System.Drawing.Point(529, 287);
             this.pictureBox64.Name = "pictureBox64";
-            this.pictureBox64.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox64.Size = new System.Drawing.Size(14, 13);
             this.pictureBox64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox64.TabIndex = 98;
             this.pictureBox64.TabStop = false;
@@ -3368,10 +3125,9 @@
             // pictureBox65
             // 
             this.pictureBox65.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox65.Location = new System.Drawing.Point(756, 412);
-            this.pictureBox65.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox65.Location = new System.Drawing.Point(529, 275);
             this.pictureBox65.Name = "pictureBox65";
-            this.pictureBox65.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox65.Size = new System.Drawing.Size(14, 13);
             this.pictureBox65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox65.TabIndex = 97;
             this.pictureBox65.TabStop = false;
@@ -3379,10 +3135,9 @@
             // pictureBox56
             // 
             this.pictureBox56.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox56.Location = new System.Drawing.Point(1214, 316);
-            this.pictureBox56.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox56.Location = new System.Drawing.Point(850, 211);
             this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox56.Size = new System.Drawing.Size(14, 13);
             this.pictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox56.TabIndex = 96;
             this.pictureBox56.TabStop = false;
@@ -3390,10 +3145,9 @@
             // pictureBox57
             // 
             this.pictureBox57.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox57.Location = new System.Drawing.Point(1214, 300);
-            this.pictureBox57.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox57.Location = new System.Drawing.Point(850, 200);
             this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox57.Size = new System.Drawing.Size(14, 13);
             this.pictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox57.TabIndex = 95;
             this.pictureBox57.TabStop = false;
@@ -3401,10 +3155,9 @@
             // pictureBox58
             // 
             this.pictureBox58.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox58.Location = new System.Drawing.Point(1214, 284);
-            this.pictureBox58.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox58.Location = new System.Drawing.Point(850, 189);
             this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox58.Size = new System.Drawing.Size(14, 13);
             this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox58.TabIndex = 94;
             this.pictureBox58.TabStop = false;
@@ -3412,10 +3165,9 @@
             // pictureBox59
             // 
             this.pictureBox59.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox59.Location = new System.Drawing.Point(1214, 262);
-            this.pictureBox59.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox59.Location = new System.Drawing.Point(850, 175);
             this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox59.Size = new System.Drawing.Size(14, 13);
             this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox59.TabIndex = 93;
             this.pictureBox59.TabStop = false;
@@ -3423,10 +3175,9 @@
             // pictureBox60
             // 
             this.pictureBox60.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox60.Location = new System.Drawing.Point(1214, 244);
-            this.pictureBox60.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox60.Location = new System.Drawing.Point(850, 163);
             this.pictureBox60.Name = "pictureBox60";
-            this.pictureBox60.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox60.Size = new System.Drawing.Size(14, 13);
             this.pictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox60.TabIndex = 92;
             this.pictureBox60.TabStop = false;
@@ -3434,10 +3185,9 @@
             // pictureBox51
             // 
             this.pictureBox51.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox51.Location = new System.Drawing.Point(986, 316);
-            this.pictureBox51.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox51.Location = new System.Drawing.Point(690, 211);
             this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox51.Size = new System.Drawing.Size(14, 13);
             this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox51.TabIndex = 91;
             this.pictureBox51.TabStop = false;
@@ -3445,10 +3195,9 @@
             // pictureBox52
             // 
             this.pictureBox52.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox52.Location = new System.Drawing.Point(986, 300);
-            this.pictureBox52.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox52.Location = new System.Drawing.Point(690, 200);
             this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox52.Size = new System.Drawing.Size(14, 13);
             this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox52.TabIndex = 90;
             this.pictureBox52.TabStop = false;
@@ -3456,10 +3205,9 @@
             // pictureBox53
             // 
             this.pictureBox53.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox53.Location = new System.Drawing.Point(986, 284);
-            this.pictureBox53.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox53.Location = new System.Drawing.Point(690, 189);
             this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox53.Size = new System.Drawing.Size(14, 13);
             this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox53.TabIndex = 89;
             this.pictureBox53.TabStop = false;
@@ -3467,10 +3215,9 @@
             // pictureBox54
             // 
             this.pictureBox54.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox54.Location = new System.Drawing.Point(986, 262);
-            this.pictureBox54.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox54.Location = new System.Drawing.Point(690, 175);
             this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox54.Size = new System.Drawing.Size(14, 13);
             this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox54.TabIndex = 88;
             this.pictureBox54.TabStop = false;
@@ -3478,10 +3225,9 @@
             // pictureBox55
             // 
             this.pictureBox55.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox55.Location = new System.Drawing.Point(986, 244);
-            this.pictureBox55.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox55.Location = new System.Drawing.Point(690, 163);
             this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox55.Size = new System.Drawing.Size(14, 13);
             this.pictureBox55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox55.TabIndex = 87;
             this.pictureBox55.TabStop = false;
@@ -3489,10 +3235,9 @@
             // pictureBox46
             // 
             this.pictureBox46.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox46.Location = new System.Drawing.Point(756, 316);
-            this.pictureBox46.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox46.Location = new System.Drawing.Point(529, 211);
             this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox46.Size = new System.Drawing.Size(14, 13);
             this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox46.TabIndex = 86;
             this.pictureBox46.TabStop = false;
@@ -3500,10 +3245,9 @@
             // pictureBox47
             // 
             this.pictureBox47.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox47.Location = new System.Drawing.Point(756, 300);
-            this.pictureBox47.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox47.Location = new System.Drawing.Point(529, 200);
             this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox47.Size = new System.Drawing.Size(14, 13);
             this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox47.TabIndex = 85;
             this.pictureBox47.TabStop = false;
@@ -3511,10 +3255,9 @@
             // pictureBox48
             // 
             this.pictureBox48.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox48.Location = new System.Drawing.Point(756, 284);
-            this.pictureBox48.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox48.Location = new System.Drawing.Point(529, 189);
             this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox48.Size = new System.Drawing.Size(14, 13);
             this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox48.TabIndex = 84;
             this.pictureBox48.TabStop = false;
@@ -3522,10 +3265,9 @@
             // pictureBox49
             // 
             this.pictureBox49.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox49.Location = new System.Drawing.Point(756, 262);
-            this.pictureBox49.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox49.Location = new System.Drawing.Point(529, 175);
             this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox49.Size = new System.Drawing.Size(14, 13);
             this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox49.TabIndex = 83;
             this.pictureBox49.TabStop = false;
@@ -3533,10 +3275,9 @@
             // pictureBox50
             // 
             this.pictureBox50.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox50.Location = new System.Drawing.Point(756, 244);
-            this.pictureBox50.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox50.Location = new System.Drawing.Point(529, 163);
             this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox50.Size = new System.Drawing.Size(14, 13);
             this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox50.TabIndex = 82;
             this.pictureBox50.TabStop = false;
@@ -3544,10 +3285,9 @@
             // pictureBox41
             // 
             this.pictureBox41.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox41.Location = new System.Drawing.Point(523, 646);
-            this.pictureBox41.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox41.Location = new System.Drawing.Point(366, 431);
             this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox41.Size = new System.Drawing.Size(14, 13);
             this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox41.TabIndex = 81;
             this.pictureBox41.TabStop = false;
@@ -3555,10 +3295,9 @@
             // pictureBox42
             // 
             this.pictureBox42.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox42.Location = new System.Drawing.Point(523, 628);
-            this.pictureBox42.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox42.Location = new System.Drawing.Point(366, 419);
             this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox42.Size = new System.Drawing.Size(14, 13);
             this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox42.TabIndex = 80;
             this.pictureBox42.TabStop = false;
@@ -3566,10 +3305,9 @@
             // pictureBox43
             // 
             this.pictureBox43.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox43.Location = new System.Drawing.Point(523, 612);
-            this.pictureBox43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox43.Location = new System.Drawing.Point(366, 408);
             this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox43.Size = new System.Drawing.Size(14, 13);
             this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox43.TabIndex = 79;
             this.pictureBox43.TabStop = false;
@@ -3577,10 +3315,9 @@
             // pictureBox44
             // 
             this.pictureBox44.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox44.Location = new System.Drawing.Point(523, 592);
-            this.pictureBox44.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox44.Location = new System.Drawing.Point(366, 395);
             this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox44.Size = new System.Drawing.Size(14, 13);
             this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox44.TabIndex = 78;
             this.pictureBox44.TabStop = false;
@@ -3588,10 +3325,9 @@
             // pictureBox45
             // 
             this.pictureBox45.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox45.Location = new System.Drawing.Point(523, 574);
-            this.pictureBox45.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox45.Location = new System.Drawing.Point(366, 383);
             this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox45.Size = new System.Drawing.Size(14, 13);
             this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox45.TabIndex = 77;
             this.pictureBox45.TabStop = false;
@@ -3599,10 +3335,9 @@
             // pictureBox36
             // 
             this.pictureBox36.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox36.Location = new System.Drawing.Point(523, 484);
-            this.pictureBox36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox36.Location = new System.Drawing.Point(366, 323);
             this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox36.Size = new System.Drawing.Size(14, 13);
             this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox36.TabIndex = 76;
             this.pictureBox36.TabStop = false;
@@ -3610,10 +3345,9 @@
             // pictureBox37
             // 
             this.pictureBox37.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox37.Location = new System.Drawing.Point(523, 468);
-            this.pictureBox37.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox37.Location = new System.Drawing.Point(366, 312);
             this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox37.Size = new System.Drawing.Size(14, 13);
             this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox37.TabIndex = 75;
             this.pictureBox37.TabStop = false;
@@ -3621,10 +3355,9 @@
             // pictureBox38
             // 
             this.pictureBox38.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox38.Location = new System.Drawing.Point(523, 452);
-            this.pictureBox38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox38.Location = new System.Drawing.Point(366, 301);
             this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox38.Size = new System.Drawing.Size(14, 13);
             this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox38.TabIndex = 74;
             this.pictureBox38.TabStop = false;
@@ -3632,10 +3365,9 @@
             // pictureBox39
             // 
             this.pictureBox39.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox39.Location = new System.Drawing.Point(523, 430);
-            this.pictureBox39.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox39.Location = new System.Drawing.Point(366, 287);
             this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox39.Size = new System.Drawing.Size(14, 13);
             this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox39.TabIndex = 73;
             this.pictureBox39.TabStop = false;
@@ -3643,10 +3375,9 @@
             // pictureBox40
             // 
             this.pictureBox40.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox40.Location = new System.Drawing.Point(523, 412);
-            this.pictureBox40.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox40.Location = new System.Drawing.Point(366, 275);
             this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox40.Size = new System.Drawing.Size(14, 13);
             this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox40.TabIndex = 72;
             this.pictureBox40.TabStop = false;
@@ -3654,10 +3385,9 @@
             // pictureBox35
             // 
             this.pictureBox35.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox35.Location = new System.Drawing.Point(523, 316);
-            this.pictureBox35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox35.Location = new System.Drawing.Point(366, 211);
             this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox35.Size = new System.Drawing.Size(14, 13);
             this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox35.TabIndex = 71;
             this.pictureBox35.TabStop = false;
@@ -3665,10 +3395,9 @@
             // pictureBox34
             // 
             this.pictureBox34.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox34.Location = new System.Drawing.Point(523, 300);
-            this.pictureBox34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox34.Location = new System.Drawing.Point(366, 200);
             this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox34.Size = new System.Drawing.Size(14, 13);
             this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox34.TabIndex = 70;
             this.pictureBox34.TabStop = false;
@@ -3676,10 +3405,9 @@
             // pictureBox33
             // 
             this.pictureBox33.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox33.Location = new System.Drawing.Point(523, 284);
-            this.pictureBox33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox33.Location = new System.Drawing.Point(366, 189);
             this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox33.Size = new System.Drawing.Size(14, 13);
             this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox33.TabIndex = 69;
             this.pictureBox33.TabStop = false;
@@ -3687,10 +3415,9 @@
             // pictureBox32
             // 
             this.pictureBox32.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox32.Location = new System.Drawing.Point(523, 262);
-            this.pictureBox32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox32.Location = new System.Drawing.Point(366, 175);
             this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox32.Size = new System.Drawing.Size(14, 13);
             this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox32.TabIndex = 68;
             this.pictureBox32.TabStop = false;
@@ -3698,130 +3425,117 @@
             // pictureBox31
             // 
             this.pictureBox31.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox31.Location = new System.Drawing.Point(523, 244);
-            this.pictureBox31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox31.Location = new System.Drawing.Point(366, 163);
             this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox31.Size = new System.Drawing.Size(14, 13);
             this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox31.TabIndex = 67;
             this.pictureBox31.TabStop = false;
             // 
             // L1C3_ptb
             // 
-            this.L1C3_ptb.Location = new System.Drawing.Point(1053, 540);
-            this.L1C3_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L1C3_ptb.Location = new System.Drawing.Point(737, 360);
             this.L1C3_ptb.Name = "L1C3_ptb";
-            this.L1C3_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L1C3_ptb.Size = new System.Drawing.Size(22, 19);
             this.L1C3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L1C3_ptb.TabIndex = 66;
             this.L1C3_ptb.TabStop = false;
             // 
             // L2C4_ptb
             // 
-            this.L2C4_ptb.Location = new System.Drawing.Point(1281, 375);
-            this.L2C4_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L2C4_ptb.Location = new System.Drawing.Point(897, 250);
             this.L2C4_ptb.Name = "L2C4_ptb";
-            this.L2C4_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L2C4_ptb.Size = new System.Drawing.Size(22, 19);
             this.L2C4_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L2C4_ptb.TabIndex = 65;
             this.L2C4_ptb.TabStop = false;
             // 
             // L2C3_ptb
             // 
-            this.L2C3_ptb.Location = new System.Drawing.Point(1053, 375);
-            this.L2C3_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L2C3_ptb.Location = new System.Drawing.Point(737, 250);
             this.L2C3_ptb.Name = "L2C3_ptb";
-            this.L2C3_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L2C3_ptb.Size = new System.Drawing.Size(22, 19);
             this.L2C3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L2C3_ptb.TabIndex = 64;
             this.L2C3_ptb.TabStop = false;
             // 
             // L1C4_ptb
             // 
-            this.L1C4_ptb.Location = new System.Drawing.Point(1281, 540);
-            this.L1C4_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L1C4_ptb.Location = new System.Drawing.Point(897, 360);
             this.L1C4_ptb.Name = "L1C4_ptb";
-            this.L1C4_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L1C4_ptb.Size = new System.Drawing.Size(22, 19);
             this.L1C4_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L1C4_ptb.TabIndex = 63;
             this.L1C4_ptb.TabStop = false;
             // 
             // L3C4_ptb
             // 
-            this.L3C4_ptb.Location = new System.Drawing.Point(1281, 210);
-            this.L3C4_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L3C4_ptb.Location = new System.Drawing.Point(897, 140);
             this.L3C4_ptb.Name = "L3C4_ptb";
-            this.L3C4_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L3C4_ptb.Size = new System.Drawing.Size(22, 19);
             this.L3C4_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L3C4_ptb.TabIndex = 62;
             this.L3C4_ptb.TabStop = false;
             // 
             // L3C3_ptb
             // 
-            this.L3C3_ptb.Location = new System.Drawing.Point(1053, 210);
-            this.L3C3_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L3C3_ptb.Location = new System.Drawing.Point(737, 140);
             this.L3C3_ptb.Name = "L3C3_ptb";
-            this.L3C3_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L3C3_ptb.Size = new System.Drawing.Size(22, 19);
             this.L3C3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L3C3_ptb.TabIndex = 61;
             this.L3C3_ptb.TabStop = false;
             // 
             // L1C2_ptb
             // 
-            this.L1C2_ptb.Location = new System.Drawing.Point(826, 540);
-            this.L1C2_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L1C2_ptb.Location = new System.Drawing.Point(578, 360);
             this.L1C2_ptb.Name = "L1C2_ptb";
-            this.L1C2_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L1C2_ptb.Size = new System.Drawing.Size(22, 19);
             this.L1C2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L1C2_ptb.TabIndex = 60;
             this.L1C2_ptb.TabStop = false;
             // 
             // L2C2_ptb
             // 
-            this.L2C2_ptb.Location = new System.Drawing.Point(826, 375);
-            this.L2C2_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L2C2_ptb.Location = new System.Drawing.Point(578, 250);
             this.L2C2_ptb.Name = "L2C2_ptb";
-            this.L2C2_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L2C2_ptb.Size = new System.Drawing.Size(22, 19);
             this.L2C2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L2C2_ptb.TabIndex = 59;
             this.L2C2_ptb.TabStop = false;
             // 
             // L3C2_ptb
             // 
-            this.L3C2_ptb.Location = new System.Drawing.Point(826, 210);
-            this.L3C2_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L3C2_ptb.Location = new System.Drawing.Point(578, 140);
             this.L3C2_ptb.Name = "L3C2_ptb";
-            this.L3C2_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L3C2_ptb.Size = new System.Drawing.Size(22, 19);
             this.L3C2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L3C2_ptb.TabIndex = 58;
             this.L3C2_ptb.TabStop = false;
             // 
             // L1C1_ptb
             // 
-            this.L1C1_ptb.Location = new System.Drawing.Point(596, 540);
-            this.L1C1_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L1C1_ptb.Location = new System.Drawing.Point(417, 360);
             this.L1C1_ptb.Name = "L1C1_ptb";
-            this.L1C1_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L1C1_ptb.Size = new System.Drawing.Size(22, 19);
             this.L1C1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L1C1_ptb.TabIndex = 57;
             this.L1C1_ptb.TabStop = false;
             // 
             // L2C1_ptb
             // 
-            this.L2C1_ptb.Location = new System.Drawing.Point(596, 375);
-            this.L2C1_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L2C1_ptb.Location = new System.Drawing.Point(417, 250);
             this.L2C1_ptb.Name = "L2C1_ptb";
-            this.L2C1_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L2C1_ptb.Size = new System.Drawing.Size(22, 19);
             this.L2C1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L2C1_ptb.TabIndex = 56;
             this.L2C1_ptb.TabStop = false;
             // 
             // L3C1_ptb
             // 
-            this.L3C1_ptb.Location = new System.Drawing.Point(596, 210);
-            this.L3C1_ptb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.L3C1_ptb.Location = new System.Drawing.Point(417, 140);
             this.L3C1_ptb.Name = "L3C1_ptb";
-            this.L3C1_ptb.Size = new System.Drawing.Size(31, 28);
+            this.L3C1_ptb.Size = new System.Drawing.Size(22, 19);
             this.L3C1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.L3C1_ptb.TabIndex = 55;
             this.L3C1_ptb.TabStop = false;
@@ -3829,61 +3543,56 @@
             // Level1Card4
             // 
             this.Level1Card4.BackColor = System.Drawing.Color.Lime;
-            this.Level1Card4.Location = new System.Drawing.Point(1200, 540);
-            this.Level1Card4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level1Card4.Location = new System.Drawing.Point(840, 360);
             this.Level1Card4.Multiline = true;
             this.Level1Card4.Name = "Level1Card4";
             this.Level1Card4.ReadOnly = true;
             this.Level1Card4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level1Card4.Size = new System.Drawing.Size(113, 148);
+            this.Level1Card4.Size = new System.Drawing.Size(80, 100);
             this.Level1Card4.TabIndex = 33;
             // 
             // Level1Card3
             // 
             this.Level1Card3.BackColor = System.Drawing.Color.Lime;
-            this.Level1Card3.Location = new System.Drawing.Point(971, 540);
-            this.Level1Card3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level1Card3.Location = new System.Drawing.Point(680, 360);
             this.Level1Card3.Multiline = true;
             this.Level1Card3.Name = "Level1Card3";
             this.Level1Card3.ReadOnly = true;
             this.Level1Card3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level1Card3.Size = new System.Drawing.Size(113, 148);
+            this.Level1Card3.Size = new System.Drawing.Size(80, 100);
             this.Level1Card3.TabIndex = 32;
             // 
             // Level1Card2
             // 
             this.Level1Card2.BackColor = System.Drawing.Color.Lime;
-            this.Level1Card2.Location = new System.Drawing.Point(743, 540);
-            this.Level1Card2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level1Card2.Location = new System.Drawing.Point(520, 360);
             this.Level1Card2.Multiline = true;
             this.Level1Card2.Name = "Level1Card2";
             this.Level1Card2.ReadOnly = true;
             this.Level1Card2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level1Card2.Size = new System.Drawing.Size(113, 148);
+            this.Level1Card2.Size = new System.Drawing.Size(80, 100);
             this.Level1Card2.TabIndex = 31;
             // 
             // Level1Card1
             // 
             this.Level1Card1.BackColor = System.Drawing.Color.Lime;
-            this.Level1Card1.Location = new System.Drawing.Point(514, 540);
-            this.Level1Card1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level1Card1.Location = new System.Drawing.Point(360, 360);
             this.Level1Card1.Multiline = true;
             this.Level1Card1.Name = "Level1Card1";
             this.Level1Card1.ReadOnly = true;
             this.Level1Card1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level1Card1.Size = new System.Drawing.Size(113, 148);
+            this.Level1Card1.Size = new System.Drawing.Size(80, 100);
             this.Level1Card1.TabIndex = 30;
             // 
             // Level1Card_Count
             // 
             this.Level1Card_Count.BackColor = System.Drawing.Color.Lime;
-            this.Level1Card_Count.Location = new System.Drawing.Point(286, 540);
-            this.Level1Card_Count.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level1Card_Count.Location = new System.Drawing.Point(200, 360);
             this.Level1Card_Count.Multiline = true;
             this.Level1Card_Count.Name = "Level1Card_Count";
             this.Level1Card_Count.ReadOnly = true;
             this.Level1Card_Count.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level1Card_Count.Size = new System.Drawing.Size(113, 148);
+            this.Level1Card_Count.Size = new System.Drawing.Size(80, 100);
             this.Level1Card_Count.TabIndex = 29;
             this.Level1Card_Count.Text = "\r\n\r\n\r\n40";
             this.Level1Card_Count.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3891,61 +3600,56 @@
             // Level2Card4
             // 
             this.Level2Card4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Level2Card4.Location = new System.Drawing.Point(1200, 375);
-            this.Level2Card4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level2Card4.Location = new System.Drawing.Point(840, 250);
             this.Level2Card4.Multiline = true;
             this.Level2Card4.Name = "Level2Card4";
             this.Level2Card4.ReadOnly = true;
             this.Level2Card4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level2Card4.Size = new System.Drawing.Size(113, 148);
+            this.Level2Card4.Size = new System.Drawing.Size(80, 100);
             this.Level2Card4.TabIndex = 28;
             // 
             // Level2Card3
             // 
             this.Level2Card3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Level2Card3.Location = new System.Drawing.Point(971, 375);
-            this.Level2Card3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level2Card3.Location = new System.Drawing.Point(680, 250);
             this.Level2Card3.Multiline = true;
             this.Level2Card3.Name = "Level2Card3";
             this.Level2Card3.ReadOnly = true;
             this.Level2Card3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level2Card3.Size = new System.Drawing.Size(113, 148);
+            this.Level2Card3.Size = new System.Drawing.Size(80, 100);
             this.Level2Card3.TabIndex = 27;
             // 
             // Level2Card2
             // 
             this.Level2Card2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Level2Card2.Location = new System.Drawing.Point(743, 375);
-            this.Level2Card2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level2Card2.Location = new System.Drawing.Point(520, 250);
             this.Level2Card2.Multiline = true;
             this.Level2Card2.Name = "Level2Card2";
             this.Level2Card2.ReadOnly = true;
             this.Level2Card2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level2Card2.Size = new System.Drawing.Size(113, 148);
+            this.Level2Card2.Size = new System.Drawing.Size(80, 100);
             this.Level2Card2.TabIndex = 26;
             // 
             // Level2Card1
             // 
             this.Level2Card1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Level2Card1.Location = new System.Drawing.Point(514, 375);
-            this.Level2Card1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level2Card1.Location = new System.Drawing.Point(360, 250);
             this.Level2Card1.Multiline = true;
             this.Level2Card1.Name = "Level2Card1";
             this.Level2Card1.ReadOnly = true;
             this.Level2Card1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level2Card1.Size = new System.Drawing.Size(113, 148);
+            this.Level2Card1.Size = new System.Drawing.Size(80, 100);
             this.Level2Card1.TabIndex = 25;
             // 
             // Level2Card_Count
             // 
             this.Level2Card_Count.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Level2Card_Count.Location = new System.Drawing.Point(286, 375);
-            this.Level2Card_Count.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level2Card_Count.Location = new System.Drawing.Point(200, 250);
             this.Level2Card_Count.Multiline = true;
             this.Level2Card_Count.Name = "Level2Card_Count";
             this.Level2Card_Count.ReadOnly = true;
             this.Level2Card_Count.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level2Card_Count.Size = new System.Drawing.Size(113, 148);
+            this.Level2Card_Count.Size = new System.Drawing.Size(80, 100);
             this.Level2Card_Count.TabIndex = 24;
             this.Level2Card_Count.Text = "\r\n\r\n\r\n30";
             this.Level2Card_Count.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3953,61 +3657,56 @@
             // Level3Card4
             // 
             this.Level3Card4.BackColor = System.Drawing.Color.Cyan;
-            this.Level3Card4.Location = new System.Drawing.Point(1200, 210);
-            this.Level3Card4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level3Card4.Location = new System.Drawing.Point(840, 140);
             this.Level3Card4.Multiline = true;
             this.Level3Card4.Name = "Level3Card4";
             this.Level3Card4.ReadOnly = true;
             this.Level3Card4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level3Card4.Size = new System.Drawing.Size(113, 148);
+            this.Level3Card4.Size = new System.Drawing.Size(80, 100);
             this.Level3Card4.TabIndex = 23;
             // 
             // Level3Card3
             // 
             this.Level3Card3.BackColor = System.Drawing.Color.Cyan;
-            this.Level3Card3.Location = new System.Drawing.Point(971, 210);
-            this.Level3Card3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level3Card3.Location = new System.Drawing.Point(680, 140);
             this.Level3Card3.Multiline = true;
             this.Level3Card3.Name = "Level3Card3";
             this.Level3Card3.ReadOnly = true;
             this.Level3Card3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level3Card3.Size = new System.Drawing.Size(113, 148);
+            this.Level3Card3.Size = new System.Drawing.Size(80, 100);
             this.Level3Card3.TabIndex = 22;
             // 
             // Level3Card2
             // 
             this.Level3Card2.BackColor = System.Drawing.Color.Cyan;
-            this.Level3Card2.Location = new System.Drawing.Point(743, 210);
-            this.Level3Card2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level3Card2.Location = new System.Drawing.Point(520, 140);
             this.Level3Card2.Multiline = true;
             this.Level3Card2.Name = "Level3Card2";
             this.Level3Card2.ReadOnly = true;
             this.Level3Card2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level3Card2.Size = new System.Drawing.Size(113, 148);
+            this.Level3Card2.Size = new System.Drawing.Size(80, 100);
             this.Level3Card2.TabIndex = 21;
             // 
             // Level3Card1
             // 
             this.Level3Card1.BackColor = System.Drawing.Color.Cyan;
-            this.Level3Card1.Location = new System.Drawing.Point(514, 210);
-            this.Level3Card1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level3Card1.Location = new System.Drawing.Point(360, 140);
             this.Level3Card1.Multiline = true;
             this.Level3Card1.Name = "Level3Card1";
             this.Level3Card1.ReadOnly = true;
             this.Level3Card1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level3Card1.Size = new System.Drawing.Size(113, 148);
+            this.Level3Card1.Size = new System.Drawing.Size(80, 100);
             this.Level3Card1.TabIndex = 20;
             // 
             // Level3Card_Count
             // 
             this.Level3Card_Count.BackColor = System.Drawing.Color.Cyan;
-            this.Level3Card_Count.Location = new System.Drawing.Point(286, 210);
-            this.Level3Card_Count.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Level3Card_Count.Location = new System.Drawing.Point(200, 140);
             this.Level3Card_Count.Multiline = true;
             this.Level3Card_Count.Name = "Level3Card_Count";
             this.Level3Card_Count.ReadOnly = true;
             this.Level3Card_Count.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Level3Card_Count.Size = new System.Drawing.Size(113, 148);
+            this.Level3Card_Count.Size = new System.Drawing.Size(80, 100);
             this.Level3Card_Count.TabIndex = 19;
             this.Level3Card_Count.Text = "\r\n\r\n\r\n20";
             this.Level3Card_Count.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4015,120 +3714,109 @@
             // NobleCard5
             // 
             this.NobleCard5.BackColor = System.Drawing.SystemColors.Window;
-            this.NobleCard5.Location = new System.Drawing.Point(1200, 30);
-            this.NobleCard5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NobleCard5.Location = new System.Drawing.Point(840, 20);
             this.NobleCard5.Multiline = true;
             this.NobleCard5.Name = "NobleCard5";
             this.NobleCard5.ReadOnly = true;
             this.NobleCard5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.NobleCard5.Size = new System.Drawing.Size(113, 148);
+            this.NobleCard5.Size = new System.Drawing.Size(80, 100);
             this.NobleCard5.TabIndex = 18;
             // 
             // NobleCard4
             // 
             this.NobleCard4.BackColor = System.Drawing.SystemColors.Window;
-            this.NobleCard4.Location = new System.Drawing.Point(971, 30);
-            this.NobleCard4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NobleCard4.Location = new System.Drawing.Point(680, 20);
             this.NobleCard4.Multiline = true;
             this.NobleCard4.Name = "NobleCard4";
             this.NobleCard4.ReadOnly = true;
             this.NobleCard4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.NobleCard4.Size = new System.Drawing.Size(113, 148);
+            this.NobleCard4.Size = new System.Drawing.Size(80, 100);
             this.NobleCard4.TabIndex = 17;
             // 
             // NobleCard3
             // 
             this.NobleCard3.BackColor = System.Drawing.SystemColors.Window;
-            this.NobleCard3.Location = new System.Drawing.Point(743, 30);
-            this.NobleCard3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NobleCard3.Location = new System.Drawing.Point(520, 20);
             this.NobleCard3.Multiline = true;
             this.NobleCard3.Name = "NobleCard3";
             this.NobleCard3.ReadOnly = true;
             this.NobleCard3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.NobleCard3.Size = new System.Drawing.Size(113, 148);
+            this.NobleCard3.Size = new System.Drawing.Size(80, 100);
             this.NobleCard3.TabIndex = 16;
             // 
             // NobleCard2
             // 
             this.NobleCard2.BackColor = System.Drawing.SystemColors.Window;
-            this.NobleCard2.Location = new System.Drawing.Point(514, 30);
-            this.NobleCard2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NobleCard2.Location = new System.Drawing.Point(360, 20);
             this.NobleCard2.Multiline = true;
             this.NobleCard2.Name = "NobleCard2";
             this.NobleCard2.ReadOnly = true;
             this.NobleCard2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.NobleCard2.Size = new System.Drawing.Size(113, 148);
+            this.NobleCard2.Size = new System.Drawing.Size(80, 100);
             this.NobleCard2.TabIndex = 15;
             // 
             // NobleCard1
             // 
             this.NobleCard1.BackColor = System.Drawing.SystemColors.Window;
-            this.NobleCard1.Location = new System.Drawing.Point(286, 30);
-            this.NobleCard1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NobleCard1.Location = new System.Drawing.Point(200, 20);
             this.NobleCard1.Multiline = true;
             this.NobleCard1.Name = "NobleCard1";
             this.NobleCard1.ReadOnly = true;
             this.NobleCard1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.NobleCard1.Size = new System.Drawing.Size(113, 148);
+            this.NobleCard1.Size = new System.Drawing.Size(80, 100);
             this.NobleCard1.TabIndex = 14;
             // 
             // gol
             // 
             this.gol.AutoSize = true;
-            this.gol.Location = new System.Drawing.Point(124, 580);
-            this.gol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gol.Location = new System.Drawing.Point(87, 387);
             this.gol.Name = "gol";
-            this.gol.Size = new System.Drawing.Size(36, 18);
+            this.gol.Size = new System.Drawing.Size(23, 12);
             this.gol.TabIndex = 13;
             this.gol.Text = "5개";
             // 
             // ony
             // 
             this.ony.AutoSize = true;
-            this.ony.Location = new System.Drawing.Point(124, 498);
-            this.ony.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ony.Location = new System.Drawing.Point(87, 332);
             this.ony.Name = "ony";
-            this.ony.Size = new System.Drawing.Size(36, 18);
+            this.ony.Size = new System.Drawing.Size(23, 12);
             this.ony.TabIndex = 12;
             this.ony.Text = "7개";
             // 
             // rub
             // 
             this.rub.AutoSize = true;
-            this.rub.Location = new System.Drawing.Point(124, 412);
-            this.rub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.rub.Location = new System.Drawing.Point(87, 275);
             this.rub.Name = "rub";
-            this.rub.Size = new System.Drawing.Size(36, 18);
+            this.rub.Size = new System.Drawing.Size(23, 12);
             this.rub.TabIndex = 11;
             this.rub.Text = "7개";
             // 
             // eme
             // 
             this.eme.AutoSize = true;
-            this.eme.Location = new System.Drawing.Point(124, 328);
-            this.eme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.eme.Location = new System.Drawing.Point(87, 219);
             this.eme.Name = "eme";
-            this.eme.Size = new System.Drawing.Size(36, 18);
+            this.eme.Size = new System.Drawing.Size(23, 12);
             this.eme.TabIndex = 10;
             this.eme.Text = "7개";
             // 
             // saf
             // 
             this.saf.AutoSize = true;
-            this.saf.Location = new System.Drawing.Point(124, 246);
-            this.saf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.saf.Location = new System.Drawing.Point(87, 164);
             this.saf.Name = "saf";
-            this.saf.Size = new System.Drawing.Size(36, 18);
+            this.saf.Size = new System.Drawing.Size(23, 12);
             this.saf.TabIndex = 9;
             this.saf.Text = "7개";
             // 
             // pictureBox25
             // 
             this.pictureBox25.Image = global::KWU_Splendor.Properties.Resources.gold;
-            this.pictureBox25.Location = new System.Drawing.Point(30, 552);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox25.Location = new System.Drawing.Point(21, 368);
             this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox25.Size = new System.Drawing.Size(50, 49);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox25.TabIndex = 8;
             this.pictureBox25.TabStop = false;
@@ -4136,10 +3824,9 @@
             // pictureBox26
             // 
             this.pictureBox26.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox26.Location = new System.Drawing.Point(30, 468);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox26.Location = new System.Drawing.Point(21, 312);
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox26.Size = new System.Drawing.Size(50, 49);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox26.TabIndex = 7;
             this.pictureBox26.TabStop = false;
@@ -4147,10 +3834,9 @@
             // pictureBox27
             // 
             this.pictureBox27.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox27.Location = new System.Drawing.Point(30, 384);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox27.Location = new System.Drawing.Point(21, 256);
             this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox27.Size = new System.Drawing.Size(50, 49);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox27.TabIndex = 6;
             this.pictureBox27.TabStop = false;
@@ -4158,10 +3844,9 @@
             // pictureBox28
             // 
             this.pictureBox28.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox28.Location = new System.Drawing.Point(30, 300);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox28.Location = new System.Drawing.Point(21, 200);
             this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox28.Size = new System.Drawing.Size(50, 49);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox28.TabIndex = 5;
             this.pictureBox28.TabStop = false;
@@ -4169,10 +3854,9 @@
             // pictureBox29
             // 
             this.pictureBox29.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox29.Location = new System.Drawing.Point(30, 216);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox29.Location = new System.Drawing.Point(21, 144);
             this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox29.Size = new System.Drawing.Size(50, 49);
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox29.TabIndex = 4;
             this.pictureBox29.TabStop = false;
@@ -4180,20 +3864,18 @@
             // dia
             // 
             this.dia.AutoSize = true;
-            this.dia.Location = new System.Drawing.Point(124, 168);
-            this.dia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.dia.Location = new System.Drawing.Point(87, 112);
             this.dia.Name = "dia";
-            this.dia.Size = new System.Drawing.Size(36, 18);
+            this.dia.Size = new System.Drawing.Size(23, 12);
             this.dia.TabIndex = 3;
             this.dia.Text = "7개";
             // 
             // pictureBox30
             // 
             this.pictureBox30.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox30.Location = new System.Drawing.Point(30, 132);
-            this.pictureBox30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox30.Location = new System.Drawing.Point(21, 88);
             this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(71, 74);
+            this.pictureBox30.Size = new System.Drawing.Size(50, 49);
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox30.TabIndex = 3;
             this.pictureBox30.TabStop = false;
@@ -4201,28 +3883,27 @@
             // round
             // 
             this.round.AutoSize = true;
-            this.round.Location = new System.Drawing.Point(996, 14);
-            this.round.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.round.Location = new System.Drawing.Point(697, 9);
             this.round.Name = "round";
-            this.round.Size = new System.Drawing.Size(76, 18);
+            this.round.Size = new System.Drawing.Size(51, 12);
             this.round.TabIndex = 32;
             this.round.Text = "Round 1";
             // 
             // turn
             // 
             this.turn.AutoSize = true;
-            this.turn.Location = new System.Drawing.Point(1071, 14);
-            this.turn.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.turn.Location = new System.Drawing.Point(750, 9);
             this.turn.Name = "turn";
-            this.turn.Size = new System.Drawing.Size(110, 18);
+            this.turn.Size = new System.Drawing.Size(75, 12);
             this.turn.TabIndex = 32;
             this.turn.Text = "Player1 차례";
             // 
             // BtnConnect
             // 
-            this.BtnConnect.Location = new System.Drawing.Point(226, 10);
+            this.BtnConnect.Location = new System.Drawing.Point(158, 7);
+            this.BtnConnect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnConnect.Name = "BtnConnect";
-            this.BtnConnect.Size = new System.Drawing.Size(103, 30);
+            this.BtnConnect.Size = new System.Drawing.Size(72, 20);
             this.BtnConnect.TabIndex = 34;
             this.BtnConnect.Text = "연결";
             this.BtnConnect.UseVisualStyleBackColor = true;
@@ -4230,10 +3911,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1924, 1170);
+            this.ClientSize = new System.Drawing.Size(1464, 900);
             this.Controls.Add(this.BtnConnect);
             this.Controls.Add(this.turn);
             this.Controls.Add(this.round);
@@ -4245,7 +3926,6 @@
             this.Controls.Add(this.P4_GB);
             this.Controls.Add(this.P3_GB);
             this.Controls.Add(this.P1_GB);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

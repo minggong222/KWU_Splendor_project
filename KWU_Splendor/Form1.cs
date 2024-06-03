@@ -598,8 +598,9 @@ namespace KWU_Splendor
 
             if (gameState.turnPlayer == myTurn)
             {
-                Form2 form2 = new Form2(labelsData);
+                Form2 form2 = new Form2(labelsData, true);
                 form2.DataUpdated += Form2_DataUpdated;
+                form2.DataUpdated2 += Form2_DataUpdated2;
                 form2.Show();
             }
             else
@@ -609,6 +610,7 @@ namespace KWU_Splendor
         }
         private void Form2_DataUpdated(object sender, string[] newData)
         {
+            //보석 가져오기
             //form2에서 update된 값 label에 할당
             gameState.players[myTurn - 1].playerGems[0] += (Int32.Parse(dia.Text.Substring(0, 1)) - Int32.Parse(newData[0].Substring(0, 1)));
             gameState.players[myTurn - 1].playerGems[1] += (Int32.Parse(saf.Text.Substring(0, 1)) - Int32.Parse(newData[1].Substring(0, 1)));
@@ -620,9 +622,50 @@ namespace KWU_Splendor
             gameState.boardInfo.boardGems[2] = Int32.Parse(newData[2].Substring(0, 1));
             gameState.boardInfo.boardGems[3] = Int32.Parse(newData[3].Substring(0, 1));
             gameState.boardInfo.boardGems[4] = Int32.Parse(newData[4].Substring(0, 1));
-            _clientHandler.Send(gameState);
+
+            //플레이어의 보석이 10개 이상일시
+            int total_gem = gameState.players[myTurn - 1].playerGems[0] + gameState.players[myTurn - 1].playerGems[1] +
+                gameState.players[myTurn - 1].playerGems[2] + gameState.players[myTurn - 1].playerGems[3]
+                + gameState.players[myTurn - 1].playerGems[4] + gameState.players[myTurn - 1].playerGems[5];
+            if (total_gem > 10)
+            {
+                MessageBox.Show("플레이어는 보석을 최대 10개까지 소지 할 수 있습니다!");
+                string[] labelsData = { gameState.players[myTurn - 1].playerGems[0].ToString() + "개",
+                    gameState.players[myTurn - 1].playerGems[1].ToString() + "개", 
+                    gameState.players[myTurn - 1].playerGems[2].ToString() + "개", 
+                    gameState.players[myTurn - 1].playerGems[3].ToString() + "개", 
+                    gameState.players[myTurn - 1].playerGems[4].ToString() + "개" };
+
+                Form2 form2 = new Form2(labelsData, false);
+                form2.DataUpdated += Form2_DataUpdated;
+                form2.DataUpdated2 += Form2_DataUpdated2;
+                form2.Show();
+            }
+            else
+            {
+                _clientHandler.Send(gameState);
+            }
+
+            
         }
 
+        private void Form2_DataUpdated2(object sender, string[] newData)
+        {
+            //보석 버리기
+            //form2에서 update된 값 label에 할당
+            gameState.players[myTurn - 1].playerGems[0] -= Int32.Parse(newData[0].Substring(0, 1));
+            gameState.players[myTurn - 1].playerGems[1] -= Int32.Parse(newData[1].Substring(0, 1));
+            gameState.players[myTurn - 1].playerGems[2] -= Int32.Parse(newData[2].Substring(0, 1));
+            gameState.players[myTurn - 1].playerGems[3] -= Int32.Parse(newData[3].Substring(0, 1));
+            gameState.players[myTurn - 1].playerGems[4] -= Int32.Parse(newData[4].Substring(0, 1));
+            gameState.boardInfo.boardGems[0] += Int32.Parse(newData[0].Substring(0, 1));
+            gameState.boardInfo.boardGems[1] += Int32.Parse(newData[1].Substring(0, 1));
+            gameState.boardInfo.boardGems[2] += Int32.Parse(newData[2].Substring(0, 1));
+            gameState.boardInfo.boardGems[3] += Int32.Parse(newData[3].Substring(0, 1));
+            gameState.boardInfo.boardGems[4] += Int32.Parse(newData[4].Substring(0, 1));
+
+            _clientHandler.Send(gameState);
+        }
         private void btn_card_Click(object sender, EventArgs e)
         {
             if (gameState.turnPlayer == myTurn)
