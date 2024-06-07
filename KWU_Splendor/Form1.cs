@@ -54,13 +54,13 @@ namespace KWU_Splendor
             Debug.Print("{0}", myTurn);
             BoardSetting(GetTurn());
             gameState.turnPlayer = 1;
-            if (gameState.turnPlayer == 0)
+            /*if (gameState.turnPlayer == 0)
             {
                 turn.Text = "게임 종료!";
                 WinnerNotice();
             }               
-            else
-                turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
+            else*/
+            turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
 
         }
 
@@ -834,10 +834,10 @@ namespace KWU_Splendor
         }
         private void btn_sendRes_Click(object sender, EventArgs e)
         {
-            if(gameState.turnPlayer != myTurn)
-            {
-                MessageBox.Show("나의 턴이 아닙니다.");
-            }
+            //if(gameState.turnPlayer != myTurn)
+            //{
+            //    MessageBox.Show("나의 턴이 아닙니다.");
+            //}
             _clientHandler.Send(gameState);
         }
 
