@@ -1293,6 +1293,7 @@
             this.P3_card.Location = new System.Drawing.Point(533, 57);
             this.P3_card.Name = "P3_card";
             this.P3_card.Size = new System.Drawing.Size(11, 12);
+
             this.P3_card.TabIndex = 37;
             this.P3_card.Text = "0";
             // 
@@ -1311,6 +1312,7 @@
             this.P3_score.Location = new System.Drawing.Point(533, 38);
             this.P3_score.Name = "P3_score";
             this.P3_score.Size = new System.Drawing.Size(11, 12);
+
             this.P3_score.TabIndex = 36;
             this.P3_score.Text = "0";
             // 
@@ -3914,7 +3916,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1464, 900);
+
+            this.ClientSize = new System.Drawing.Size(1459, 846);
             this.Controls.Add(this.BtnConnect);
             this.Controls.Add(this.turn);
             this.Controls.Add(this.round);
@@ -3928,7 +3931,6 @@
             this.Controls.Add(this.P1_GB);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.P1_GB.ResumeLayout(false);
             this.P1_GB.PerformLayout();
             this.groupBox8.ResumeLayout(false);
