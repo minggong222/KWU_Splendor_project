@@ -30,13 +30,26 @@
         {
             this.P1_GB = new System.Windows.Forms.GroupBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.pictureBox126 = new System.Windows.Forms.PictureBox();
-            this.pictureBox121 = new System.Windows.Forms.PictureBox();
-            this.pictureBox122 = new System.Windows.Forms.PictureBox();
+            this.P1R3_ptb = new System.Windows.Forms.PictureBox();
+            this.P1R2_ptb = new System.Windows.Forms.PictureBox();
+            this.P1R1_ptb = new System.Windows.Forms.PictureBox();
+            this.P1_r3g1 = new System.Windows.Forms.PictureBox();
+            this.P1_r3g5 = new System.Windows.Forms.PictureBox();
+            this.P1_r3g4 = new System.Windows.Forms.PictureBox();
+            this.P1_r3g3 = new System.Windows.Forms.PictureBox();
+            this.P1_r3g2 = new System.Windows.Forms.PictureBox();
+            this.P1_r2g1 = new System.Windows.Forms.PictureBox();
+            this.P1_r2g5 = new System.Windows.Forms.PictureBox();
+            this.P1_r2g4 = new System.Windows.Forms.PictureBox();
+            this.P1_r2g3 = new System.Windows.Forms.PictureBox();
+            this.P1_r2g2 = new System.Windows.Forms.PictureBox();
+            this.P1_r1g1 = new System.Windows.Forms.PictureBox();
+            this.P1_r1g5 = new System.Windows.Forms.PictureBox();
+            this.P1_r1g4 = new System.Windows.Forms.PictureBox();
             this.P1_reserved3 = new System.Windows.Forms.TextBox();
-            this.pictureBox123 = new System.Windows.Forms.PictureBox();
+            this.P1_r1g3 = new System.Windows.Forms.PictureBox();
             this.P1_reserved2 = new System.Windows.Forms.TextBox();
-            this.pictureBox124 = new System.Windows.Forms.PictureBox();
+            this.P1_r1g2 = new System.Windows.Forms.PictureBox();
             this.P1_reserved1 = new System.Windows.Forms.TextBox();
             this.P1_card = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -61,9 +74,27 @@
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.P3_GB = new System.Windows.Forms.GroupBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.P2_reserved3 = new System.Windows.Forms.TextBox();
-            this.P2_reserved2 = new System.Windows.Forms.TextBox();
-            this.P2_reserved1 = new System.Windows.Forms.TextBox();
+            this.P3R3_ptb = new System.Windows.Forms.PictureBox();
+            this.P3R2_ptb = new System.Windows.Forms.PictureBox();
+            this.P3R1_ptb = new System.Windows.Forms.PictureBox();
+            this.P3_r1g2 = new System.Windows.Forms.PictureBox();
+            this.P3_r1g3 = new System.Windows.Forms.PictureBox();
+            this.P3_r1g1 = new System.Windows.Forms.PictureBox();
+            this.P3_r1g5 = new System.Windows.Forms.PictureBox();
+            this.P3_r1g4 = new System.Windows.Forms.PictureBox();
+            this.P3_r3g2 = new System.Windows.Forms.PictureBox();
+            this.P3_r3g3 = new System.Windows.Forms.PictureBox();
+            this.P3_r3g1 = new System.Windows.Forms.PictureBox();
+            this.P3_r3g5 = new System.Windows.Forms.PictureBox();
+            this.P3_r3g4 = new System.Windows.Forms.PictureBox();
+            this.P3_r2g2 = new System.Windows.Forms.PictureBox();
+            this.P3_r2g3 = new System.Windows.Forms.PictureBox();
+            this.P3_r2g1 = new System.Windows.Forms.PictureBox();
+            this.P3_reserved3 = new System.Windows.Forms.TextBox();
+            this.P3_r2g5 = new System.Windows.Forms.PictureBox();
+            this.P3_r2g4 = new System.Windows.Forms.PictureBox();
+            this.P3_reserved2 = new System.Windows.Forms.TextBox();
+            this.P3_reserved1 = new System.Windows.Forms.TextBox();
             this.P3_card = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.P3_score = new System.Windows.Forms.Label();
@@ -86,9 +117,27 @@
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.P3_reserved3 = new System.Windows.Forms.TextBox();
-            this.P3_reserved2 = new System.Windows.Forms.TextBox();
-            this.P3_reserved1 = new System.Windows.Forms.TextBox();
+            this.P2R1_ptb = new System.Windows.Forms.PictureBox();
+            this.P2R2_ptb = new System.Windows.Forms.PictureBox();
+            this.P2R3_ptb = new System.Windows.Forms.PictureBox();
+            this.P2_r3g4 = new System.Windows.Forms.PictureBox();
+            this.P2_r3g5 = new System.Windows.Forms.PictureBox();
+            this.P2_r3g2 = new System.Windows.Forms.PictureBox();
+            this.P2_r3g3 = new System.Windows.Forms.PictureBox();
+            this.P2_r3g1 = new System.Windows.Forms.PictureBox();
+            this.P2_r2g4 = new System.Windows.Forms.PictureBox();
+            this.P2_r2g5 = new System.Windows.Forms.PictureBox();
+            this.P2_r2g2 = new System.Windows.Forms.PictureBox();
+            this.P2_r2g3 = new System.Windows.Forms.PictureBox();
+            this.P2_r2g1 = new System.Windows.Forms.PictureBox();
+            this.P2_r1g4 = new System.Windows.Forms.PictureBox();
+            this.P2_r1g5 = new System.Windows.Forms.PictureBox();
+            this.P2_r1g2 = new System.Windows.Forms.PictureBox();
+            this.P2_reserved3 = new System.Windows.Forms.TextBox();
+            this.P2_r1g3 = new System.Windows.Forms.PictureBox();
+            this.P2_reserved2 = new System.Windows.Forms.TextBox();
+            this.P2_r1g1 = new System.Windows.Forms.PictureBox();
+            this.P2_reserved1 = new System.Windows.Forms.TextBox();
             this.P2_onyCard = new System.Windows.Forms.Label();
             this.P2_diaCard = new System.Windows.Forms.Label();
             this.P2_rubCard = new System.Windows.Forms.Label();
@@ -116,8 +165,26 @@
             this.label5 = new System.Windows.Forms.Label();
             this.P4_score = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.P4R3_ptb = new System.Windows.Forms.PictureBox();
+            this.P4R2_ptb = new System.Windows.Forms.PictureBox();
+            this.P4R1_ptb = new System.Windows.Forms.PictureBox();
+            this.P4_r3g1 = new System.Windows.Forms.PictureBox();
+            this.P4_r3g4 = new System.Windows.Forms.PictureBox();
+            this.P4_r3g5 = new System.Windows.Forms.PictureBox();
+            this.P4_r3g2 = new System.Windows.Forms.PictureBox();
+            this.P4_r3g3 = new System.Windows.Forms.PictureBox();
+            this.P4_r2g1 = new System.Windows.Forms.PictureBox();
+            this.P4_r2g4 = new System.Windows.Forms.PictureBox();
+            this.P4_r2g5 = new System.Windows.Forms.PictureBox();
+            this.P4_r2g2 = new System.Windows.Forms.PictureBox();
+            this.P4_r2g3 = new System.Windows.Forms.PictureBox();
+            this.P4_r1g1 = new System.Windows.Forms.PictureBox();
+            this.P4_r1g4 = new System.Windows.Forms.PictureBox();
             this.P4_reserved3 = new System.Windows.Forms.TextBox();
+            this.P4_r1g5 = new System.Windows.Forms.PictureBox();
+            this.P4_r1g2 = new System.Windows.Forms.PictureBox();
             this.P4_reserved2 = new System.Windows.Forms.TextBox();
+            this.P4_r1g3 = new System.Windows.Forms.PictureBox();
             this.P4_reserved1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.P4_gol = new System.Windows.Forms.Label();
@@ -273,80 +340,26 @@
             this.round = new System.Windows.Forms.Label();
             this.turn = new System.Windows.Forms.Label();
             this.BtnConnect = new System.Windows.Forms.Button();
-            this.pictureBox116 = new System.Windows.Forms.PictureBox();
-            this.pictureBox117 = new System.Windows.Forms.PictureBox();
-            this.pictureBox118 = new System.Windows.Forms.PictureBox();
-            this.pictureBox119 = new System.Windows.Forms.PictureBox();
-            this.pictureBox120 = new System.Windows.Forms.PictureBox();
-            this.pictureBox125 = new System.Windows.Forms.PictureBox();
-            this.pictureBox127 = new System.Windows.Forms.PictureBox();
-            this.pictureBox128 = new System.Windows.Forms.PictureBox();
-            this.pictureBox129 = new System.Windows.Forms.PictureBox();
-            this.pictureBox130 = new System.Windows.Forms.PictureBox();
-            this.pictureBox136 = new System.Windows.Forms.PictureBox();
-            this.pictureBox137 = new System.Windows.Forms.PictureBox();
-            this.pictureBox138 = new System.Windows.Forms.PictureBox();
-            this.P1R1_ptb = new System.Windows.Forms.PictureBox();
-            this.pictureBox139 = new System.Windows.Forms.PictureBox();
-            this.pictureBox140 = new System.Windows.Forms.PictureBox();
-            this.pictureBox142 = new System.Windows.Forms.PictureBox();
-            this.pictureBox143 = new System.Windows.Forms.PictureBox();
-            this.pictureBox144 = new System.Windows.Forms.PictureBox();
-            this.pictureBox145 = new System.Windows.Forms.PictureBox();
-            this.pictureBox146 = new System.Windows.Forms.PictureBox();
-            this.pictureBox147 = new System.Windows.Forms.PictureBox();
-            this.pictureBox148 = new System.Windows.Forms.PictureBox();
-            this.pictureBox149 = new System.Windows.Forms.PictureBox();
-            this.pictureBox150 = new System.Windows.Forms.PictureBox();
-            this.pictureBox151 = new System.Windows.Forms.PictureBox();
-            this.pictureBox131 = new System.Windows.Forms.PictureBox();
-            this.pictureBox132 = new System.Windows.Forms.PictureBox();
-            this.pictureBox133 = new System.Windows.Forms.PictureBox();
-            this.pictureBox134 = new System.Windows.Forms.PictureBox();
-            this.pictureBox135 = new System.Windows.Forms.PictureBox();
-            this.pictureBox152 = new System.Windows.Forms.PictureBox();
-            this.pictureBox153 = new System.Windows.Forms.PictureBox();
-            this.pictureBox154 = new System.Windows.Forms.PictureBox();
-            this.pictureBox155 = new System.Windows.Forms.PictureBox();
-            this.pictureBox156 = new System.Windows.Forms.PictureBox();
-            this.pictureBox157 = new System.Windows.Forms.PictureBox();
-            this.pictureBox158 = new System.Windows.Forms.PictureBox();
-            this.pictureBox159 = new System.Windows.Forms.PictureBox();
-            this.pictureBox160 = new System.Windows.Forms.PictureBox();
-            this.pictureBox161 = new System.Windows.Forms.PictureBox();
-            this.pictureBox162 = new System.Windows.Forms.PictureBox();
-            this.pictureBox163 = new System.Windows.Forms.PictureBox();
-            this.pictureBox164 = new System.Windows.Forms.PictureBox();
-            this.pictureBox165 = new System.Windows.Forms.PictureBox();
-            this.pictureBox166 = new System.Windows.Forms.PictureBox();
-            this.pictureBox167 = new System.Windows.Forms.PictureBox();
-            this.pictureBox168 = new System.Windows.Forms.PictureBox();
-            this.pictureBox169 = new System.Windows.Forms.PictureBox();
-            this.pictureBox170 = new System.Windows.Forms.PictureBox();
-            this.pictureBox171 = new System.Windows.Forms.PictureBox();
-            this.pictureBox172 = new System.Windows.Forms.PictureBox();
-            this.pictureBox173 = new System.Windows.Forms.PictureBox();
-            this.pictureBox174 = new System.Windows.Forms.PictureBox();
-            this.pictureBox175 = new System.Windows.Forms.PictureBox();
-            this.pictureBox176 = new System.Windows.Forms.PictureBox();
-            this.P4R1_ptb = new System.Windows.Forms.PictureBox();
-            this.P4R2_ptb = new System.Windows.Forms.PictureBox();
-            this.P4R3_ptb = new System.Windows.Forms.PictureBox();
-            this.P1R2_ptb = new System.Windows.Forms.PictureBox();
-            this.P1R3_ptb = new System.Windows.Forms.PictureBox();
-            this.P3R3_ptb = new System.Windows.Forms.PictureBox();
-            this.P3R2_ptb = new System.Windows.Forms.PictureBox();
-            this.P3R1_ptb = new System.Windows.Forms.PictureBox();
-            this.P2R1_ptb = new System.Windows.Forms.PictureBox();
-            this.P2R2_ptb = new System.Windows.Forms.PictureBox();
-            this.P2R3_ptb = new System.Windows.Forms.PictureBox();
             this.P1_GB.SuspendLayout();
             this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox126)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox121)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox122)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox123)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox124)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1R3_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1R2_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1R1_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r3g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r3g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r3g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r3g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r3g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r2g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r2g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r2g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r2g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r2g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r1g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r1g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r1g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r1g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r1g2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
@@ -355,6 +368,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.P3_GB.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P3R3_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3R2_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3R1_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r1g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r1g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r1g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r1g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r1g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r3g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r3g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r3g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r3g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r3g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r2g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r2g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r2g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r2g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r2g4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
@@ -362,6 +393,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.groupBox9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P2R1_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2R2_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2R3_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r3g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r3g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r3g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r3g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r3g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r2g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r2g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r2g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r2g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r2g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r1g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r1g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r1g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r1g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r1g1)).BeginInit();
             this.P2_GB.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -371,6 +420,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.P4_GB.SuspendLayout();
             this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P4R3_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4R2_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4R1_ptb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r3g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r3g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r3g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r3g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r3g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r2g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r2g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r2g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r2g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r2g3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r1g1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r1g4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r1g5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r1g2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r1g3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -481,73 +548,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox117)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox118)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox119)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox120)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox125)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox128)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox129)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox130)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox136)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox137)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox138)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P1R1_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox139)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox140)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox142)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox143)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox144)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox145)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox146)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox147)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox148)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox149)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox150)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox151)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox131)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox132)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox133)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox134)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox135)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox152)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox153)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox154)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox155)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox156)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox157)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox158)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox159)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox160)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox161)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox162)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox163)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox164)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox165)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox166)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox167)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox168)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox169)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox170)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox171)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox172)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox173)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox174)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox175)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox176)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P4R1_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P4R2_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P4R3_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P1R2_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P1R3_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P3R3_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P3R2_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P3R1_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P2R1_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P2R2_ptb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P2R3_ptb)).BeginInit();
             this.SuspendLayout();
             // 
             // P1_GB
@@ -586,23 +586,23 @@
             this.groupBox8.Controls.Add(this.P1R3_ptb);
             this.groupBox8.Controls.Add(this.P1R2_ptb);
             this.groupBox8.Controls.Add(this.P1R1_ptb);
-            this.groupBox8.Controls.Add(this.pictureBox125);
-            this.groupBox8.Controls.Add(this.pictureBox127);
-            this.groupBox8.Controls.Add(this.pictureBox128);
-            this.groupBox8.Controls.Add(this.pictureBox129);
-            this.groupBox8.Controls.Add(this.pictureBox130);
-            this.groupBox8.Controls.Add(this.pictureBox116);
-            this.groupBox8.Controls.Add(this.pictureBox117);
-            this.groupBox8.Controls.Add(this.pictureBox118);
-            this.groupBox8.Controls.Add(this.pictureBox119);
-            this.groupBox8.Controls.Add(this.pictureBox120);
-            this.groupBox8.Controls.Add(this.pictureBox126);
-            this.groupBox8.Controls.Add(this.pictureBox121);
-            this.groupBox8.Controls.Add(this.pictureBox122);
+            this.groupBox8.Controls.Add(this.P1_r3g1);
+            this.groupBox8.Controls.Add(this.P1_r3g5);
+            this.groupBox8.Controls.Add(this.P1_r3g4);
+            this.groupBox8.Controls.Add(this.P1_r3g3);
+            this.groupBox8.Controls.Add(this.P1_r3g2);
+            this.groupBox8.Controls.Add(this.P1_r2g1);
+            this.groupBox8.Controls.Add(this.P1_r2g5);
+            this.groupBox8.Controls.Add(this.P1_r2g4);
+            this.groupBox8.Controls.Add(this.P1_r2g3);
+            this.groupBox8.Controls.Add(this.P1_r2g2);
+            this.groupBox8.Controls.Add(this.P1_r1g1);
+            this.groupBox8.Controls.Add(this.P1_r1g5);
+            this.groupBox8.Controls.Add(this.P1_r1g4);
             this.groupBox8.Controls.Add(this.P1_reserved3);
-            this.groupBox8.Controls.Add(this.pictureBox123);
+            this.groupBox8.Controls.Add(this.P1_r1g3);
             this.groupBox8.Controls.Add(this.P1_reserved2);
-            this.groupBox8.Controls.Add(this.pictureBox124);
+            this.groupBox8.Controls.Add(this.P1_r1g2);
             this.groupBox8.Controls.Add(this.P1_reserved1);
             this.groupBox8.Location = new System.Drawing.Point(604, 10);
             this.groupBox8.Name = "groupBox8";
@@ -611,35 +611,162 @@
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "예약된 카드";
             // 
-            // pictureBox126
+            // P1R3_ptb
             // 
-            this.pictureBox126.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox126.Location = new System.Drawing.Point(43, 31);
-            this.pictureBox126.Name = "pictureBox126";
-            this.pictureBox126.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox126.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox126.TabIndex = 162;
-            this.pictureBox126.TabStop = false;
+            this.P1R3_ptb.Location = new System.Drawing.Point(336, 16);
+            this.P1R3_ptb.Name = "P1R3_ptb";
+            this.P1R3_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P1R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1R3_ptb.TabIndex = 231;
+            this.P1R3_ptb.TabStop = false;
             // 
-            // pictureBox121
+            // P1R2_ptb
             // 
-            this.pictureBox121.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox121.Location = new System.Drawing.Point(43, 80);
-            this.pictureBox121.Name = "pictureBox121";
-            this.pictureBox121.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox121.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox121.TabIndex = 161;
-            this.pictureBox121.TabStop = false;
+            this.P1R2_ptb.Location = new System.Drawing.Point(213, 14);
+            this.P1R2_ptb.Name = "P1R2_ptb";
+            this.P1R2_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P1R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1R2_ptb.TabIndex = 230;
+            this.P1R2_ptb.TabStop = false;
             // 
-            // pictureBox122
+            // P1R1_ptb
             // 
-            this.pictureBox122.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox122.Location = new System.Drawing.Point(43, 67);
-            this.pictureBox122.Name = "pictureBox122";
-            this.pictureBox122.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox122.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox122.TabIndex = 160;
-            this.pictureBox122.TabStop = false;
+            this.P1R1_ptb.Location = new System.Drawing.Point(90, 16);
+            this.P1R1_ptb.Name = "P1R1_ptb";
+            this.P1R1_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P1R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1R1_ptb.TabIndex = 183;
+            this.P1R1_ptb.TabStop = false;
+            // 
+            // P1_r3g1
+            // 
+            this.P1_r3g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P1_r3g1.Location = new System.Drawing.Point(289, 32);
+            this.P1_r3g1.Name = "P1_r3g1";
+            this.P1_r3g1.Size = new System.Drawing.Size(14, 13);
+            this.P1_r3g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r3g1.TabIndex = 172;
+            this.P1_r3g1.TabStop = false;
+            // 
+            // P1_r3g5
+            // 
+            this.P1_r3g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P1_r3g5.Location = new System.Drawing.Point(289, 80);
+            this.P1_r3g5.Name = "P1_r3g5";
+            this.P1_r3g5.Size = new System.Drawing.Size(14, 13);
+            this.P1_r3g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r3g5.TabIndex = 171;
+            this.P1_r3g5.TabStop = false;
+            // 
+            // P1_r3g4
+            // 
+            this.P1_r3g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P1_r3g4.Location = new System.Drawing.Point(289, 69);
+            this.P1_r3g4.Name = "P1_r3g4";
+            this.P1_r3g4.Size = new System.Drawing.Size(14, 13);
+            this.P1_r3g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r3g4.TabIndex = 170;
+            this.P1_r3g4.TabStop = false;
+            // 
+            // P1_r3g3
+            // 
+            this.P1_r3g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P1_r3g3.Location = new System.Drawing.Point(289, 58);
+            this.P1_r3g3.Name = "P1_r3g3";
+            this.P1_r3g3.Size = new System.Drawing.Size(14, 13);
+            this.P1_r3g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r3g3.TabIndex = 169;
+            this.P1_r3g3.TabStop = false;
+            // 
+            // P1_r3g2
+            // 
+            this.P1_r3g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P1_r3g2.Location = new System.Drawing.Point(289, 45);
+            this.P1_r3g2.Name = "P1_r3g2";
+            this.P1_r3g2.Size = new System.Drawing.Size(14, 13);
+            this.P1_r3g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r3g2.TabIndex = 168;
+            this.P1_r3g2.TabStop = false;
+            // 
+            // P1_r2g1
+            // 
+            this.P1_r2g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P1_r2g1.Location = new System.Drawing.Point(166, 32);
+            this.P1_r2g1.Name = "P1_r2g1";
+            this.P1_r2g1.Size = new System.Drawing.Size(14, 13);
+            this.P1_r2g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r2g1.TabIndex = 167;
+            this.P1_r2g1.TabStop = false;
+            // 
+            // P1_r2g5
+            // 
+            this.P1_r2g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P1_r2g5.Location = new System.Drawing.Point(166, 80);
+            this.P1_r2g5.Name = "P1_r2g5";
+            this.P1_r2g5.Size = new System.Drawing.Size(14, 13);
+            this.P1_r2g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r2g5.TabIndex = 166;
+            this.P1_r2g5.TabStop = false;
+            // 
+            // P1_r2g4
+            // 
+            this.P1_r2g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P1_r2g4.Location = new System.Drawing.Point(166, 69);
+            this.P1_r2g4.Name = "P1_r2g4";
+            this.P1_r2g4.Size = new System.Drawing.Size(14, 13);
+            this.P1_r2g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r2g4.TabIndex = 165;
+            this.P1_r2g4.TabStop = false;
+            // 
+            // P1_r2g3
+            // 
+            this.P1_r2g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P1_r2g3.Location = new System.Drawing.Point(166, 58);
+            this.P1_r2g3.Name = "P1_r2g3";
+            this.P1_r2g3.Size = new System.Drawing.Size(14, 13);
+            this.P1_r2g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r2g3.TabIndex = 164;
+            this.P1_r2g3.TabStop = false;
+            // 
+            // P1_r2g2
+            // 
+            this.P1_r2g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P1_r2g2.Location = new System.Drawing.Point(166, 45);
+            this.P1_r2g2.Name = "P1_r2g2";
+            this.P1_r2g2.Size = new System.Drawing.Size(14, 13);
+            this.P1_r2g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r2g2.TabIndex = 163;
+            this.P1_r2g2.TabStop = false;
+            // 
+            // P1_r1g1
+            // 
+            this.P1_r1g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P1_r1g1.Location = new System.Drawing.Point(43, 31);
+            this.P1_r1g1.Name = "P1_r1g1";
+            this.P1_r1g1.Size = new System.Drawing.Size(14, 13);
+            this.P1_r1g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r1g1.TabIndex = 162;
+            this.P1_r1g1.TabStop = false;
+            // 
+            // P1_r1g5
+            // 
+            this.P1_r1g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P1_r1g5.Location = new System.Drawing.Point(43, 80);
+            this.P1_r1g5.Name = "P1_r1g5";
+            this.P1_r1g5.Size = new System.Drawing.Size(14, 13);
+            this.P1_r1g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r1g5.TabIndex = 161;
+            this.P1_r1g5.TabStop = false;
+            // 
+            // P1_r1g4
+            // 
+            this.P1_r1g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P1_r1g4.Location = new System.Drawing.Point(43, 67);
+            this.P1_r1g4.Name = "P1_r1g4";
+            this.P1_r1g4.Size = new System.Drawing.Size(14, 13);
+            this.P1_r1g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r1g4.TabIndex = 160;
+            this.P1_r1g4.TabStop = false;
             // 
             // P1_reserved3
             // 
@@ -652,15 +779,15 @@
             this.P1_reserved3.Size = new System.Drawing.Size(70, 84);
             this.P1_reserved3.TabIndex = 41;
             // 
-            // pictureBox123
+            // P1_r1g3
             // 
-            this.pictureBox123.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox123.Location = new System.Drawing.Point(43, 57);
-            this.pictureBox123.Name = "pictureBox123";
-            this.pictureBox123.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox123.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox123.TabIndex = 159;
-            this.pictureBox123.TabStop = false;
+            this.P1_r1g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P1_r1g3.Location = new System.Drawing.Point(43, 57);
+            this.P1_r1g3.Name = "P1_r1g3";
+            this.P1_r1g3.Size = new System.Drawing.Size(14, 13);
+            this.P1_r1g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r1g3.TabIndex = 159;
+            this.P1_r1g3.TabStop = false;
             // 
             // P1_reserved2
             // 
@@ -673,15 +800,15 @@
             this.P1_reserved2.Size = new System.Drawing.Size(70, 84);
             this.P1_reserved2.TabIndex = 40;
             // 
-            // pictureBox124
+            // P1_r1g2
             // 
-            this.pictureBox124.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox124.Location = new System.Drawing.Point(43, 44);
-            this.pictureBox124.Name = "pictureBox124";
-            this.pictureBox124.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox124.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox124.TabIndex = 158;
-            this.pictureBox124.TabStop = false;
+            this.P1_r1g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P1_r1g2.Location = new System.Drawing.Point(43, 44);
+            this.P1_r1g2.Name = "P1_r1g2";
+            this.P1_r1g2.Size = new System.Drawing.Size(14, 13);
+            this.P1_r1g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1_r1g2.TabIndex = 158;
+            this.P1_r1g2.TabStop = false;
             // 
             // P1_reserved1
             // 
@@ -922,27 +1049,27 @@
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.P2R3_ptb);
-            this.groupBox6.Controls.Add(this.P2R2_ptb);
-            this.groupBox6.Controls.Add(this.P2R1_ptb);
-            this.groupBox6.Controls.Add(this.pictureBox147);
-            this.groupBox6.Controls.Add(this.pictureBox148);
-            this.groupBox6.Controls.Add(this.pictureBox149);
-            this.groupBox6.Controls.Add(this.pictureBox150);
-            this.groupBox6.Controls.Add(this.pictureBox151);
-            this.groupBox6.Controls.Add(this.pictureBox142);
-            this.groupBox6.Controls.Add(this.pictureBox143);
-            this.groupBox6.Controls.Add(this.pictureBox144);
-            this.groupBox6.Controls.Add(this.pictureBox145);
-            this.groupBox6.Controls.Add(this.pictureBox146);
-            this.groupBox6.Controls.Add(this.pictureBox140);
-            this.groupBox6.Controls.Add(this.pictureBox139);
-            this.groupBox6.Controls.Add(this.pictureBox136);
-            this.groupBox6.Controls.Add(this.P2_reserved3);
-            this.groupBox6.Controls.Add(this.pictureBox137);
-            this.groupBox6.Controls.Add(this.pictureBox138);
-            this.groupBox6.Controls.Add(this.P2_reserved2);
-            this.groupBox6.Controls.Add(this.P2_reserved1);
+            this.groupBox6.Controls.Add(this.P3R3_ptb);
+            this.groupBox6.Controls.Add(this.P3R2_ptb);
+            this.groupBox6.Controls.Add(this.P3R1_ptb);
+            this.groupBox6.Controls.Add(this.P3_r1g2);
+            this.groupBox6.Controls.Add(this.P3_r1g3);
+            this.groupBox6.Controls.Add(this.P3_r1g1);
+            this.groupBox6.Controls.Add(this.P3_r1g5);
+            this.groupBox6.Controls.Add(this.P3_r1g4);
+            this.groupBox6.Controls.Add(this.P3_r3g2);
+            this.groupBox6.Controls.Add(this.P3_r3g3);
+            this.groupBox6.Controls.Add(this.P3_r3g1);
+            this.groupBox6.Controls.Add(this.P3_r3g5);
+            this.groupBox6.Controls.Add(this.P3_r3g4);
+            this.groupBox6.Controls.Add(this.P3_r2g2);
+            this.groupBox6.Controls.Add(this.P3_r2g3);
+            this.groupBox6.Controls.Add(this.P3_r2g1);
+            this.groupBox6.Controls.Add(this.P3_reserved3);
+            this.groupBox6.Controls.Add(this.P3_r2g5);
+            this.groupBox6.Controls.Add(this.P3_r2g4);
+            this.groupBox6.Controls.Add(this.P3_reserved2);
+            this.groupBox6.Controls.Add(this.P3_reserved1);
             this.groupBox6.Location = new System.Drawing.Point(604, 10);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(378, 102);
@@ -950,38 +1077,215 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "예약된 카드";
             // 
-            // P2_reserved3
+            // P3R3_ptb
             // 
-            this.P2_reserved3.BackColor = System.Drawing.SystemColors.Window;
-            this.P2_reserved3.Location = new System.Drawing.Point(289, 16);
-            this.P2_reserved3.Multiline = true;
-            this.P2_reserved3.Name = "P2_reserved3";
-            this.P2_reserved3.ReadOnly = true;
-            this.P2_reserved3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P2_reserved3.Size = new System.Drawing.Size(70, 84);
-            this.P2_reserved3.TabIndex = 37;
+            this.P3R3_ptb.Location = new System.Drawing.Point(336, 16);
+            this.P3R3_ptb.Name = "P3R3_ptb";
+            this.P3R3_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P3R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3R3_ptb.TabIndex = 237;
+            this.P3R3_ptb.TabStop = false;
             // 
-            // P2_reserved2
+            // P3R2_ptb
             // 
-            this.P2_reserved2.BackColor = System.Drawing.SystemColors.Window;
-            this.P2_reserved2.Location = new System.Drawing.Point(166, 16);
-            this.P2_reserved2.Multiline = true;
-            this.P2_reserved2.Name = "P2_reserved2";
-            this.P2_reserved2.ReadOnly = true;
-            this.P2_reserved2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P2_reserved2.Size = new System.Drawing.Size(70, 84);
-            this.P2_reserved2.TabIndex = 34;
+            this.P3R2_ptb.Location = new System.Drawing.Point(213, 16);
+            this.P3R2_ptb.Name = "P3R2_ptb";
+            this.P3R2_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P3R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3R2_ptb.TabIndex = 236;
+            this.P3R2_ptb.TabStop = false;
             // 
-            // P2_reserved1
+            // P3R1_ptb
             // 
-            this.P2_reserved1.BackColor = System.Drawing.SystemColors.Window;
-            this.P2_reserved1.Location = new System.Drawing.Point(43, 16);
-            this.P2_reserved1.Multiline = true;
-            this.P2_reserved1.Name = "P2_reserved1";
-            this.P2_reserved1.ReadOnly = true;
-            this.P2_reserved1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P2_reserved1.Size = new System.Drawing.Size(70, 84);
-            this.P2_reserved1.TabIndex = 33;
+            this.P3R1_ptb.Location = new System.Drawing.Point(92, 16);
+            this.P3R1_ptb.Name = "P3R1_ptb";
+            this.P3R1_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P3R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3R1_ptb.TabIndex = 235;
+            this.P3R1_ptb.TabStop = false;
+            // 
+            // P3_r1g2
+            // 
+            this.P3_r1g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P3_r1g2.Location = new System.Drawing.Point(43, 49);
+            this.P3_r1g2.Name = "P3_r1g2";
+            this.P3_r1g2.Size = new System.Drawing.Size(14, 13);
+            this.P3_r1g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r1g2.TabIndex = 194;
+            this.P3_r1g2.TabStop = false;
+            // 
+            // P3_r1g3
+            // 
+            this.P3_r1g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P3_r1g3.Location = new System.Drawing.Point(43, 62);
+            this.P3_r1g3.Name = "P3_r1g3";
+            this.P3_r1g3.Size = new System.Drawing.Size(14, 13);
+            this.P3_r1g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r1g3.TabIndex = 193;
+            this.P3_r1g3.TabStop = false;
+            // 
+            // P3_r1g1
+            // 
+            this.P3_r1g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P3_r1g1.Location = new System.Drawing.Point(43, 35);
+            this.P3_r1g1.Name = "P3_r1g1";
+            this.P3_r1g1.Size = new System.Drawing.Size(14, 13);
+            this.P3_r1g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r1g1.TabIndex = 192;
+            this.P3_r1g1.TabStop = false;
+            // 
+            // P3_r1g5
+            // 
+            this.P3_r1g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P3_r1g5.Location = new System.Drawing.Point(43, 83);
+            this.P3_r1g5.Name = "P3_r1g5";
+            this.P3_r1g5.Size = new System.Drawing.Size(14, 13);
+            this.P3_r1g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r1g5.TabIndex = 191;
+            this.P3_r1g5.TabStop = false;
+            // 
+            // P3_r1g4
+            // 
+            this.P3_r1g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P3_r1g4.Location = new System.Drawing.Point(43, 72);
+            this.P3_r1g4.Name = "P3_r1g4";
+            this.P3_r1g4.Size = new System.Drawing.Size(14, 13);
+            this.P3_r1g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r1g4.TabIndex = 190;
+            this.P3_r1g4.TabStop = false;
+            // 
+            // P3_r3g2
+            // 
+            this.P3_r3g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P3_r3g2.Location = new System.Drawing.Point(289, 50);
+            this.P3_r3g2.Name = "P3_r3g2";
+            this.P3_r3g2.Size = new System.Drawing.Size(14, 13);
+            this.P3_r3g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r3g2.TabIndex = 189;
+            this.P3_r3g2.TabStop = false;
+            // 
+            // P3_r3g3
+            // 
+            this.P3_r3g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P3_r3g3.Location = new System.Drawing.Point(289, 63);
+            this.P3_r3g3.Name = "P3_r3g3";
+            this.P3_r3g3.Size = new System.Drawing.Size(14, 13);
+            this.P3_r3g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r3g3.TabIndex = 188;
+            this.P3_r3g3.TabStop = false;
+            // 
+            // P3_r3g1
+            // 
+            this.P3_r3g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P3_r3g1.Location = new System.Drawing.Point(289, 36);
+            this.P3_r3g1.Name = "P3_r3g1";
+            this.P3_r3g1.Size = new System.Drawing.Size(14, 13);
+            this.P3_r3g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r3g1.TabIndex = 187;
+            this.P3_r3g1.TabStop = false;
+            // 
+            // P3_r3g5
+            // 
+            this.P3_r3g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P3_r3g5.Location = new System.Drawing.Point(289, 84);
+            this.P3_r3g5.Name = "P3_r3g5";
+            this.P3_r3g5.Size = new System.Drawing.Size(14, 13);
+            this.P3_r3g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r3g5.TabIndex = 186;
+            this.P3_r3g5.TabStop = false;
+            // 
+            // P3_r3g4
+            // 
+            this.P3_r3g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P3_r3g4.Location = new System.Drawing.Point(289, 73);
+            this.P3_r3g4.Name = "P3_r3g4";
+            this.P3_r3g4.Size = new System.Drawing.Size(14, 13);
+            this.P3_r3g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r3g4.TabIndex = 185;
+            this.P3_r3g4.TabStop = false;
+            // 
+            // P3_r2g2
+            // 
+            this.P3_r2g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P3_r2g2.Location = new System.Drawing.Point(166, 49);
+            this.P3_r2g2.Name = "P3_r2g2";
+            this.P3_r2g2.Size = new System.Drawing.Size(14, 13);
+            this.P3_r2g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r2g2.TabIndex = 184;
+            this.P3_r2g2.TabStop = false;
+            // 
+            // P3_r2g3
+            // 
+            this.P3_r2g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P3_r2g3.Location = new System.Drawing.Point(166, 62);
+            this.P3_r2g3.Name = "P3_r2g3";
+            this.P3_r2g3.Size = new System.Drawing.Size(14, 13);
+            this.P3_r2g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r2g3.TabIndex = 183;
+            this.P3_r2g3.TabStop = false;
+            // 
+            // P3_r2g1
+            // 
+            this.P3_r2g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P3_r2g1.Location = new System.Drawing.Point(166, 35);
+            this.P3_r2g1.Name = "P3_r2g1";
+            this.P3_r2g1.Size = new System.Drawing.Size(14, 13);
+            this.P3_r2g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r2g1.TabIndex = 182;
+            this.P3_r2g1.TabStop = false;
+            // 
+            // P3_reserved3
+            // 
+            this.P3_reserved3.BackColor = System.Drawing.SystemColors.Window;
+            this.P3_reserved3.Location = new System.Drawing.Point(289, 16);
+            this.P3_reserved3.Multiline = true;
+            this.P3_reserved3.Name = "P3_reserved3";
+            this.P3_reserved3.ReadOnly = true;
+            this.P3_reserved3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P3_reserved3.Size = new System.Drawing.Size(70, 84);
+            this.P3_reserved3.TabIndex = 37;
+            // 
+            // P3_r2g5
+            // 
+            this.P3_r2g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P3_r2g5.Location = new System.Drawing.Point(166, 83);
+            this.P3_r2g5.Name = "P3_r2g5";
+            this.P3_r2g5.Size = new System.Drawing.Size(14, 13);
+            this.P3_r2g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r2g5.TabIndex = 181;
+            this.P3_r2g5.TabStop = false;
+            // 
+            // P3_r2g4
+            // 
+            this.P3_r2g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P3_r2g4.Location = new System.Drawing.Point(166, 72);
+            this.P3_r2g4.Name = "P3_r2g4";
+            this.P3_r2g4.Size = new System.Drawing.Size(14, 13);
+            this.P3_r2g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P3_r2g4.TabIndex = 180;
+            this.P3_r2g4.TabStop = false;
+            // 
+            // P3_reserved2
+            // 
+            this.P3_reserved2.BackColor = System.Drawing.SystemColors.Window;
+            this.P3_reserved2.Location = new System.Drawing.Point(166, 16);
+            this.P3_reserved2.Multiline = true;
+            this.P3_reserved2.Name = "P3_reserved2";
+            this.P3_reserved2.ReadOnly = true;
+            this.P3_reserved2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P3_reserved2.Size = new System.Drawing.Size(70, 84);
+            this.P3_reserved2.TabIndex = 34;
+            // 
+            // P3_reserved1
+            // 
+            this.P3_reserved1.BackColor = System.Drawing.SystemColors.Window;
+            this.P3_reserved1.Location = new System.Drawing.Point(43, 16);
+            this.P3_reserved1.Multiline = true;
+            this.P3_reserved1.Name = "P3_reserved1";
+            this.P3_reserved1.ReadOnly = true;
+            this.P3_reserved1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P3_reserved1.Size = new System.Drawing.Size(70, 84);
+            this.P3_reserved1.TabIndex = 33;
             // 
             // P3_card
             // 
@@ -1182,27 +1486,27 @@
             // 
             // groupBox9
             // 
-            this.groupBox9.Controls.Add(this.P3R1_ptb);
-            this.groupBox9.Controls.Add(this.P3R2_ptb);
-            this.groupBox9.Controls.Add(this.P3R3_ptb);
-            this.groupBox9.Controls.Add(this.pictureBox157);
-            this.groupBox9.Controls.Add(this.pictureBox158);
-            this.groupBox9.Controls.Add(this.pictureBox159);
-            this.groupBox9.Controls.Add(this.pictureBox160);
-            this.groupBox9.Controls.Add(this.pictureBox161);
-            this.groupBox9.Controls.Add(this.pictureBox152);
-            this.groupBox9.Controls.Add(this.pictureBox153);
-            this.groupBox9.Controls.Add(this.pictureBox154);
-            this.groupBox9.Controls.Add(this.pictureBox155);
-            this.groupBox9.Controls.Add(this.pictureBox156);
-            this.groupBox9.Controls.Add(this.pictureBox135);
-            this.groupBox9.Controls.Add(this.pictureBox134);
-            this.groupBox9.Controls.Add(this.pictureBox131);
-            this.groupBox9.Controls.Add(this.P3_reserved3);
-            this.groupBox9.Controls.Add(this.pictureBox132);
-            this.groupBox9.Controls.Add(this.P3_reserved2);
-            this.groupBox9.Controls.Add(this.pictureBox133);
-            this.groupBox9.Controls.Add(this.P3_reserved1);
+            this.groupBox9.Controls.Add(this.P2R1_ptb);
+            this.groupBox9.Controls.Add(this.P2R2_ptb);
+            this.groupBox9.Controls.Add(this.P2R3_ptb);
+            this.groupBox9.Controls.Add(this.P2_r3g4);
+            this.groupBox9.Controls.Add(this.P2_r3g5);
+            this.groupBox9.Controls.Add(this.P2_r3g2);
+            this.groupBox9.Controls.Add(this.P2_r3g3);
+            this.groupBox9.Controls.Add(this.P2_r3g1);
+            this.groupBox9.Controls.Add(this.P2_r2g4);
+            this.groupBox9.Controls.Add(this.P2_r2g5);
+            this.groupBox9.Controls.Add(this.P2_r2g2);
+            this.groupBox9.Controls.Add(this.P2_r2g3);
+            this.groupBox9.Controls.Add(this.P2_r2g1);
+            this.groupBox9.Controls.Add(this.P2_r1g4);
+            this.groupBox9.Controls.Add(this.P2_r1g5);
+            this.groupBox9.Controls.Add(this.P2_r1g2);
+            this.groupBox9.Controls.Add(this.P2_reserved3);
+            this.groupBox9.Controls.Add(this.P2_r1g3);
+            this.groupBox9.Controls.Add(this.P2_reserved2);
+            this.groupBox9.Controls.Add(this.P2_r1g1);
+            this.groupBox9.Controls.Add(this.P2_reserved1);
             this.groupBox9.Location = new System.Drawing.Point(6, 414);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(142, 277);
@@ -1210,38 +1514,215 @@
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "예약된 카드";
             // 
-            // P3_reserved3
+            // P2R1_ptb
             // 
-            this.P3_reserved3.BackColor = System.Drawing.SystemColors.Window;
-            this.P3_reserved3.Location = new System.Drawing.Point(38, 189);
-            this.P3_reserved3.Multiline = true;
-            this.P3_reserved3.Name = "P3_reserved3";
-            this.P3_reserved3.ReadOnly = true;
-            this.P3_reserved3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P3_reserved3.Size = new System.Drawing.Size(70, 84);
-            this.P3_reserved3.TabIndex = 41;
+            this.P2R1_ptb.Location = new System.Drawing.Point(85, 17);
+            this.P2R1_ptb.Name = "P2R1_ptb";
+            this.P2R1_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P2R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2R1_ptb.TabIndex = 234;
+            this.P2R1_ptb.TabStop = false;
             // 
-            // P3_reserved2
+            // P2R2_ptb
             // 
-            this.P3_reserved2.BackColor = System.Drawing.SystemColors.Window;
-            this.P3_reserved2.Location = new System.Drawing.Point(38, 103);
-            this.P3_reserved2.Multiline = true;
-            this.P3_reserved2.Name = "P3_reserved2";
-            this.P3_reserved2.ReadOnly = true;
-            this.P3_reserved2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P3_reserved2.Size = new System.Drawing.Size(70, 84);
-            this.P3_reserved2.TabIndex = 40;
+            this.P2R2_ptb.Location = new System.Drawing.Point(85, 103);
+            this.P2R2_ptb.Name = "P2R2_ptb";
+            this.P2R2_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P2R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2R2_ptb.TabIndex = 233;
+            this.P2R2_ptb.TabStop = false;
             // 
-            // P3_reserved1
+            // P2R3_ptb
             // 
-            this.P3_reserved1.BackColor = System.Drawing.SystemColors.Window;
-            this.P3_reserved1.Location = new System.Drawing.Point(38, 17);
-            this.P3_reserved1.Multiline = true;
-            this.P3_reserved1.Name = "P3_reserved1";
-            this.P3_reserved1.ReadOnly = true;
-            this.P3_reserved1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.P3_reserved1.Size = new System.Drawing.Size(70, 84);
-            this.P3_reserved1.TabIndex = 39;
+            this.P2R3_ptb.Location = new System.Drawing.Point(85, 189);
+            this.P2R3_ptb.Name = "P2R3_ptb";
+            this.P2R3_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P2R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2R3_ptb.TabIndex = 232;
+            this.P2R3_ptb.TabStop = false;
+            // 
+            // P2_r3g4
+            // 
+            this.P2_r3g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P2_r3g4.Location = new System.Drawing.Point(38, 246);
+            this.P2_r3g4.Name = "P2_r3g4";
+            this.P2_r3g4.Size = new System.Drawing.Size(14, 13);
+            this.P2_r3g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r3g4.TabIndex = 211;
+            this.P2_r3g4.TabStop = false;
+            // 
+            // P2_r3g5
+            // 
+            this.P2_r3g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P2_r3g5.Location = new System.Drawing.Point(38, 256);
+            this.P2_r3g5.Name = "P2_r3g5";
+            this.P2_r3g5.Size = new System.Drawing.Size(14, 13);
+            this.P2_r3g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r3g5.TabIndex = 210;
+            this.P2_r3g5.TabStop = false;
+            // 
+            // P2_r3g2
+            // 
+            this.P2_r3g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P2_r3g2.Location = new System.Drawing.Point(38, 220);
+            this.P2_r3g2.Name = "P2_r3g2";
+            this.P2_r3g2.Size = new System.Drawing.Size(14, 13);
+            this.P2_r3g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r3g2.TabIndex = 209;
+            this.P2_r3g2.TabStop = false;
+            // 
+            // P2_r3g3
+            // 
+            this.P2_r3g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P2_r3g3.Location = new System.Drawing.Point(38, 233);
+            this.P2_r3g3.Name = "P2_r3g3";
+            this.P2_r3g3.Size = new System.Drawing.Size(14, 13);
+            this.P2_r3g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r3g3.TabIndex = 208;
+            this.P2_r3g3.TabStop = false;
+            // 
+            // P2_r3g1
+            // 
+            this.P2_r3g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P2_r3g1.Location = new System.Drawing.Point(38, 206);
+            this.P2_r3g1.Name = "P2_r3g1";
+            this.P2_r3g1.Size = new System.Drawing.Size(14, 13);
+            this.P2_r3g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r3g1.TabIndex = 207;
+            this.P2_r3g1.TabStop = false;
+            // 
+            // P2_r2g4
+            // 
+            this.P2_r2g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P2_r2g4.Location = new System.Drawing.Point(38, 160);
+            this.P2_r2g4.Name = "P2_r2g4";
+            this.P2_r2g4.Size = new System.Drawing.Size(14, 13);
+            this.P2_r2g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r2g4.TabIndex = 206;
+            this.P2_r2g4.TabStop = false;
+            // 
+            // P2_r2g5
+            // 
+            this.P2_r2g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P2_r2g5.Location = new System.Drawing.Point(38, 170);
+            this.P2_r2g5.Name = "P2_r2g5";
+            this.P2_r2g5.Size = new System.Drawing.Size(14, 13);
+            this.P2_r2g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r2g5.TabIndex = 205;
+            this.P2_r2g5.TabStop = false;
+            // 
+            // P2_r2g2
+            // 
+            this.P2_r2g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P2_r2g2.Location = new System.Drawing.Point(38, 134);
+            this.P2_r2g2.Name = "P2_r2g2";
+            this.P2_r2g2.Size = new System.Drawing.Size(14, 13);
+            this.P2_r2g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r2g2.TabIndex = 204;
+            this.P2_r2g2.TabStop = false;
+            // 
+            // P2_r2g3
+            // 
+            this.P2_r2g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P2_r2g3.Location = new System.Drawing.Point(38, 147);
+            this.P2_r2g3.Name = "P2_r2g3";
+            this.P2_r2g3.Size = new System.Drawing.Size(14, 13);
+            this.P2_r2g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r2g3.TabIndex = 203;
+            this.P2_r2g3.TabStop = false;
+            // 
+            // P2_r2g1
+            // 
+            this.P2_r2g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P2_r2g1.Location = new System.Drawing.Point(38, 120);
+            this.P2_r2g1.Name = "P2_r2g1";
+            this.P2_r2g1.Size = new System.Drawing.Size(14, 13);
+            this.P2_r2g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r2g1.TabIndex = 202;
+            this.P2_r2g1.TabStop = false;
+            // 
+            // P2_r1g4
+            // 
+            this.P2_r1g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P2_r1g4.Location = new System.Drawing.Point(38, 74);
+            this.P2_r1g4.Name = "P2_r1g4";
+            this.P2_r1g4.Size = new System.Drawing.Size(14, 13);
+            this.P2_r1g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r1g4.TabIndex = 201;
+            this.P2_r1g4.TabStop = false;
+            // 
+            // P2_r1g5
+            // 
+            this.P2_r1g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P2_r1g5.Location = new System.Drawing.Point(38, 84);
+            this.P2_r1g5.Name = "P2_r1g5";
+            this.P2_r1g5.Size = new System.Drawing.Size(14, 13);
+            this.P2_r1g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r1g5.TabIndex = 200;
+            this.P2_r1g5.TabStop = false;
+            // 
+            // P2_r1g2
+            // 
+            this.P2_r1g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P2_r1g2.Location = new System.Drawing.Point(38, 48);
+            this.P2_r1g2.Name = "P2_r1g2";
+            this.P2_r1g2.Size = new System.Drawing.Size(14, 13);
+            this.P2_r1g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r1g2.TabIndex = 199;
+            this.P2_r1g2.TabStop = false;
+            // 
+            // P2_reserved3
+            // 
+            this.P2_reserved3.BackColor = System.Drawing.SystemColors.Window;
+            this.P2_reserved3.Location = new System.Drawing.Point(38, 189);
+            this.P2_reserved3.Multiline = true;
+            this.P2_reserved3.Name = "P2_reserved3";
+            this.P2_reserved3.ReadOnly = true;
+            this.P2_reserved3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P2_reserved3.Size = new System.Drawing.Size(70, 84);
+            this.P2_reserved3.TabIndex = 41;
+            // 
+            // P2_r1g3
+            // 
+            this.P2_r1g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P2_r1g3.Location = new System.Drawing.Point(38, 61);
+            this.P2_r1g3.Name = "P2_r1g3";
+            this.P2_r1g3.Size = new System.Drawing.Size(14, 13);
+            this.P2_r1g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r1g3.TabIndex = 198;
+            this.P2_r1g3.TabStop = false;
+            // 
+            // P2_reserved2
+            // 
+            this.P2_reserved2.BackColor = System.Drawing.SystemColors.Window;
+            this.P2_reserved2.Location = new System.Drawing.Point(38, 103);
+            this.P2_reserved2.Multiline = true;
+            this.P2_reserved2.Name = "P2_reserved2";
+            this.P2_reserved2.ReadOnly = true;
+            this.P2_reserved2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P2_reserved2.Size = new System.Drawing.Size(70, 84);
+            this.P2_reserved2.TabIndex = 40;
+            // 
+            // P2_r1g1
+            // 
+            this.P2_r1g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P2_r1g1.Location = new System.Drawing.Point(38, 34);
+            this.P2_r1g1.Name = "P2_r1g1";
+            this.P2_r1g1.Size = new System.Drawing.Size(14, 13);
+            this.P2_r1g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P2_r1g1.TabIndex = 197;
+            this.P2_r1g1.TabStop = false;
+            // 
+            // P2_reserved1
+            // 
+            this.P2_reserved1.BackColor = System.Drawing.SystemColors.Window;
+            this.P2_reserved1.Location = new System.Drawing.Point(38, 17);
+            this.P2_reserved1.Multiline = true;
+            this.P2_reserved1.Name = "P2_reserved1";
+            this.P2_reserved1.ReadOnly = true;
+            this.P2_reserved1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.P2_reserved1.Size = new System.Drawing.Size(70, 84);
+            this.P2_reserved1.TabIndex = 39;
             // 
             // P2_onyCard
             // 
@@ -1532,23 +2013,23 @@
             this.groupBox7.Controls.Add(this.P4R3_ptb);
             this.groupBox7.Controls.Add(this.P4R2_ptb);
             this.groupBox7.Controls.Add(this.P4R1_ptb);
-            this.groupBox7.Controls.Add(this.pictureBox172);
-            this.groupBox7.Controls.Add(this.pictureBox173);
-            this.groupBox7.Controls.Add(this.pictureBox174);
-            this.groupBox7.Controls.Add(this.pictureBox175);
-            this.groupBox7.Controls.Add(this.pictureBox176);
-            this.groupBox7.Controls.Add(this.pictureBox167);
-            this.groupBox7.Controls.Add(this.pictureBox168);
-            this.groupBox7.Controls.Add(this.pictureBox169);
-            this.groupBox7.Controls.Add(this.pictureBox170);
-            this.groupBox7.Controls.Add(this.pictureBox171);
-            this.groupBox7.Controls.Add(this.pictureBox166);
-            this.groupBox7.Controls.Add(this.pictureBox162);
+            this.groupBox7.Controls.Add(this.P4_r3g1);
+            this.groupBox7.Controls.Add(this.P4_r3g4);
+            this.groupBox7.Controls.Add(this.P4_r3g5);
+            this.groupBox7.Controls.Add(this.P4_r3g2);
+            this.groupBox7.Controls.Add(this.P4_r3g3);
+            this.groupBox7.Controls.Add(this.P4_r2g1);
+            this.groupBox7.Controls.Add(this.P4_r2g4);
+            this.groupBox7.Controls.Add(this.P4_r2g5);
+            this.groupBox7.Controls.Add(this.P4_r2g2);
+            this.groupBox7.Controls.Add(this.P4_r2g3);
+            this.groupBox7.Controls.Add(this.P4_r1g1);
+            this.groupBox7.Controls.Add(this.P4_r1g4);
             this.groupBox7.Controls.Add(this.P4_reserved3);
-            this.groupBox7.Controls.Add(this.pictureBox163);
-            this.groupBox7.Controls.Add(this.pictureBox164);
+            this.groupBox7.Controls.Add(this.P4_r1g5);
+            this.groupBox7.Controls.Add(this.P4_r1g2);
             this.groupBox7.Controls.Add(this.P4_reserved2);
-            this.groupBox7.Controls.Add(this.pictureBox165);
+            this.groupBox7.Controls.Add(this.P4_r1g3);
             this.groupBox7.Controls.Add(this.P4_reserved1);
             this.groupBox7.Location = new System.Drawing.Point(11, 414);
             this.groupBox7.Name = "groupBox7";
@@ -1556,6 +2037,153 @@
             this.groupBox7.TabIndex = 39;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "예약된 카드";
+            // 
+            // P4R3_ptb
+            // 
+            this.P4R3_ptb.Location = new System.Drawing.Point(83, 189);
+            this.P4R3_ptb.Name = "P4R3_ptb";
+            this.P4R3_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P4R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4R3_ptb.TabIndex = 229;
+            this.P4R3_ptb.TabStop = false;
+            // 
+            // P4R2_ptb
+            // 
+            this.P4R2_ptb.Location = new System.Drawing.Point(83, 103);
+            this.P4R2_ptb.Name = "P4R2_ptb";
+            this.P4R2_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P4R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4R2_ptb.TabIndex = 228;
+            this.P4R2_ptb.TabStop = false;
+            // 
+            // P4R1_ptb
+            // 
+            this.P4R1_ptb.Location = new System.Drawing.Point(83, 17);
+            this.P4R1_ptb.Name = "P4R1_ptb";
+            this.P4R1_ptb.Size = new System.Drawing.Size(22, 19);
+            this.P4R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4R1_ptb.TabIndex = 152;
+            this.P4R1_ptb.TabStop = false;
+            // 
+            // P4_r3g1
+            // 
+            this.P4_r3g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P4_r3g1.Location = new System.Drawing.Point(36, 207);
+            this.P4_r3g1.Name = "P4_r3g1";
+            this.P4_r3g1.Size = new System.Drawing.Size(14, 13);
+            this.P4_r3g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r3g1.TabIndex = 227;
+            this.P4_r3g1.TabStop = false;
+            // 
+            // P4_r3g4
+            // 
+            this.P4_r3g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P4_r3g4.Location = new System.Drawing.Point(36, 246);
+            this.P4_r3g4.Name = "P4_r3g4";
+            this.P4_r3g4.Size = new System.Drawing.Size(14, 13);
+            this.P4_r3g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r3g4.TabIndex = 226;
+            this.P4_r3g4.TabStop = false;
+            // 
+            // P4_r3g5
+            // 
+            this.P4_r3g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P4_r3g5.Location = new System.Drawing.Point(36, 256);
+            this.P4_r3g5.Name = "P4_r3g5";
+            this.P4_r3g5.Size = new System.Drawing.Size(14, 13);
+            this.P4_r3g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r3g5.TabIndex = 225;
+            this.P4_r3g5.TabStop = false;
+            // 
+            // P4_r3g2
+            // 
+            this.P4_r3g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P4_r3g2.Location = new System.Drawing.Point(36, 220);
+            this.P4_r3g2.Name = "P4_r3g2";
+            this.P4_r3g2.Size = new System.Drawing.Size(14, 13);
+            this.P4_r3g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r3g2.TabIndex = 224;
+            this.P4_r3g2.TabStop = false;
+            // 
+            // P4_r3g3
+            // 
+            this.P4_r3g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P4_r3g3.Location = new System.Drawing.Point(36, 233);
+            this.P4_r3g3.Name = "P4_r3g3";
+            this.P4_r3g3.Size = new System.Drawing.Size(14, 13);
+            this.P4_r3g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r3g3.TabIndex = 223;
+            this.P4_r3g3.TabStop = false;
+            // 
+            // P4_r2g1
+            // 
+            this.P4_r2g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P4_r2g1.Location = new System.Drawing.Point(36, 121);
+            this.P4_r2g1.Name = "P4_r2g1";
+            this.P4_r2g1.Size = new System.Drawing.Size(14, 13);
+            this.P4_r2g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r2g1.TabIndex = 222;
+            this.P4_r2g1.TabStop = false;
+            // 
+            // P4_r2g4
+            // 
+            this.P4_r2g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P4_r2g4.Location = new System.Drawing.Point(36, 160);
+            this.P4_r2g4.Name = "P4_r2g4";
+            this.P4_r2g4.Size = new System.Drawing.Size(14, 13);
+            this.P4_r2g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r2g4.TabIndex = 221;
+            this.P4_r2g4.TabStop = false;
+            // 
+            // P4_r2g5
+            // 
+            this.P4_r2g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P4_r2g5.Location = new System.Drawing.Point(36, 170);
+            this.P4_r2g5.Name = "P4_r2g5";
+            this.P4_r2g5.Size = new System.Drawing.Size(14, 13);
+            this.P4_r2g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r2g5.TabIndex = 220;
+            this.P4_r2g5.TabStop = false;
+            // 
+            // P4_r2g2
+            // 
+            this.P4_r2g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P4_r2g2.Location = new System.Drawing.Point(36, 134);
+            this.P4_r2g2.Name = "P4_r2g2";
+            this.P4_r2g2.Size = new System.Drawing.Size(14, 13);
+            this.P4_r2g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r2g2.TabIndex = 219;
+            this.P4_r2g2.TabStop = false;
+            // 
+            // P4_r2g3
+            // 
+            this.P4_r2g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P4_r2g3.Location = new System.Drawing.Point(36, 147);
+            this.P4_r2g3.Name = "P4_r2g3";
+            this.P4_r2g3.Size = new System.Drawing.Size(14, 13);
+            this.P4_r2g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r2g3.TabIndex = 218;
+            this.P4_r2g3.TabStop = false;
+            // 
+            // P4_r1g1
+            // 
+            this.P4_r1g1.Image = global::KWU_Splendor.Properties.Resources.dia;
+            this.P4_r1g1.Location = new System.Drawing.Point(36, 35);
+            this.P4_r1g1.Name = "P4_r1g1";
+            this.P4_r1g1.Size = new System.Drawing.Size(14, 13);
+            this.P4_r1g1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r1g1.TabIndex = 217;
+            this.P4_r1g1.TabStop = false;
+            // 
+            // P4_r1g4
+            // 
+            this.P4_r1g4.Image = global::KWU_Splendor.Properties.Resources.ruby;
+            this.P4_r1g4.Location = new System.Drawing.Point(36, 74);
+            this.P4_r1g4.Name = "P4_r1g4";
+            this.P4_r1g4.Size = new System.Drawing.Size(14, 13);
+            this.P4_r1g4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r1g4.TabIndex = 216;
+            this.P4_r1g4.TabStop = false;
             // 
             // P4_reserved3
             // 
@@ -1568,6 +2196,26 @@
             this.P4_reserved3.Size = new System.Drawing.Size(70, 84);
             this.P4_reserved3.TabIndex = 37;
             // 
+            // P4_r1g5
+            // 
+            this.P4_r1g5.Image = global::KWU_Splendor.Properties.Resources.onyx;
+            this.P4_r1g5.Location = new System.Drawing.Point(36, 84);
+            this.P4_r1g5.Name = "P4_r1g5";
+            this.P4_r1g5.Size = new System.Drawing.Size(14, 13);
+            this.P4_r1g5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r1g5.TabIndex = 215;
+            this.P4_r1g5.TabStop = false;
+            // 
+            // P4_r1g2
+            // 
+            this.P4_r1g2.Image = global::KWU_Splendor.Properties.Resources.sapphire;
+            this.P4_r1g2.Location = new System.Drawing.Point(36, 48);
+            this.P4_r1g2.Name = "P4_r1g2";
+            this.P4_r1g2.Size = new System.Drawing.Size(14, 13);
+            this.P4_r1g2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r1g2.TabIndex = 214;
+            this.P4_r1g2.TabStop = false;
+            // 
             // P4_reserved2
             // 
             this.P4_reserved2.BackColor = System.Drawing.SystemColors.Window;
@@ -1578,6 +2226,16 @@
             this.P4_reserved2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.P4_reserved2.Size = new System.Drawing.Size(70, 84);
             this.P4_reserved2.TabIndex = 34;
+            // 
+            // P4_r1g3
+            // 
+            this.P4_r1g3.Image = global::KWU_Splendor.Properties.Resources.emerald;
+            this.P4_r1g3.Location = new System.Drawing.Point(36, 61);
+            this.P4_r1g3.Name = "P4_r1g3";
+            this.P4_r1g3.Size = new System.Drawing.Size(14, 13);
+            this.P4_r1g3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P4_r1g3.TabIndex = 213;
+            this.P4_r1g3.TabStop = false;
             // 
             // P4_reserved1
             // 
@@ -1760,7 +2418,7 @@
             // 
             // btn_coin
             // 
-            this.btn_coin.Location = new System.Drawing.Point(475, 655);
+            this.btn_coin.Location = new System.Drawing.Point(607, 657);
             this.btn_coin.Name = "btn_coin";
             this.btn_coin.Size = new System.Drawing.Size(104, 23);
             this.btn_coin.TabIndex = 3;
@@ -1770,7 +2428,7 @@
             // 
             // btn_card
             // 
-            this.btn_card.Location = new System.Drawing.Point(679, 655);
+            this.btn_card.Location = new System.Drawing.Point(811, 657);
             this.btn_card.Name = "btn_card";
             this.btn_card.Size = new System.Drawing.Size(111, 23);
             this.btn_card.TabIndex = 4;
@@ -3245,7 +3903,7 @@
             // BtnConnect
             // 
             this.BtnConnect.Location = new System.Drawing.Point(158, 7);
-            this.BtnConnect.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnConnect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnConnect.Name = "BtnConnect";
             this.BtnConnect.Size = new System.Drawing.Size(72, 20);
             this.BtnConnect.TabIndex = 34;
@@ -3253,671 +3911,13 @@
             this.BtnConnect.UseVisualStyleBackColor = true;
             this.BtnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
-            // pictureBox116
-            // 
-            this.pictureBox116.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox116.Location = new System.Drawing.Point(166, 32);
-            this.pictureBox116.Name = "pictureBox116";
-            this.pictureBox116.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox116.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox116.TabIndex = 167;
-            this.pictureBox116.TabStop = false;
-            // 
-            // pictureBox117
-            // 
-            this.pictureBox117.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox117.Location = new System.Drawing.Point(166, 80);
-            this.pictureBox117.Name = "pictureBox117";
-            this.pictureBox117.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox117.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox117.TabIndex = 166;
-            this.pictureBox117.TabStop = false;
-            // 
-            // pictureBox118
-            // 
-            this.pictureBox118.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox118.Location = new System.Drawing.Point(166, 69);
-            this.pictureBox118.Name = "pictureBox118";
-            this.pictureBox118.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox118.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox118.TabIndex = 165;
-            this.pictureBox118.TabStop = false;
-            // 
-            // pictureBox119
-            // 
-            this.pictureBox119.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox119.Location = new System.Drawing.Point(166, 58);
-            this.pictureBox119.Name = "pictureBox119";
-            this.pictureBox119.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox119.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox119.TabIndex = 164;
-            this.pictureBox119.TabStop = false;
-            // 
-            // pictureBox120
-            // 
-            this.pictureBox120.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox120.Location = new System.Drawing.Point(166, 45);
-            this.pictureBox120.Name = "pictureBox120";
-            this.pictureBox120.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox120.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox120.TabIndex = 163;
-            this.pictureBox120.TabStop = false;
-            // 
-            // pictureBox125
-            // 
-            this.pictureBox125.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox125.Location = new System.Drawing.Point(289, 32);
-            this.pictureBox125.Name = "pictureBox125";
-            this.pictureBox125.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox125.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox125.TabIndex = 172;
-            this.pictureBox125.TabStop = false;
-            // 
-            // pictureBox127
-            // 
-            this.pictureBox127.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox127.Location = new System.Drawing.Point(289, 80);
-            this.pictureBox127.Name = "pictureBox127";
-            this.pictureBox127.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox127.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox127.TabIndex = 171;
-            this.pictureBox127.TabStop = false;
-            // 
-            // pictureBox128
-            // 
-            this.pictureBox128.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox128.Location = new System.Drawing.Point(289, 69);
-            this.pictureBox128.Name = "pictureBox128";
-            this.pictureBox128.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox128.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox128.TabIndex = 170;
-            this.pictureBox128.TabStop = false;
-            // 
-            // pictureBox129
-            // 
-            this.pictureBox129.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox129.Location = new System.Drawing.Point(289, 58);
-            this.pictureBox129.Name = "pictureBox129";
-            this.pictureBox129.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox129.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox129.TabIndex = 169;
-            this.pictureBox129.TabStop = false;
-            // 
-            // pictureBox130
-            // 
-            this.pictureBox130.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox130.Location = new System.Drawing.Point(289, 45);
-            this.pictureBox130.Name = "pictureBox130";
-            this.pictureBox130.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox130.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox130.TabIndex = 168;
-            this.pictureBox130.TabStop = false;
-            // 
-            // pictureBox136
-            // 
-            this.pictureBox136.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox136.Location = new System.Drawing.Point(166, 35);
-            this.pictureBox136.Name = "pictureBox136";
-            this.pictureBox136.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox136.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox136.TabIndex = 182;
-            this.pictureBox136.TabStop = false;
-            // 
-            // pictureBox137
-            // 
-            this.pictureBox137.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox137.Location = new System.Drawing.Point(166, 83);
-            this.pictureBox137.Name = "pictureBox137";
-            this.pictureBox137.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox137.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox137.TabIndex = 181;
-            this.pictureBox137.TabStop = false;
-            // 
-            // pictureBox138
-            // 
-            this.pictureBox138.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox138.Location = new System.Drawing.Point(166, 72);
-            this.pictureBox138.Name = "pictureBox138";
-            this.pictureBox138.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox138.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox138.TabIndex = 180;
-            this.pictureBox138.TabStop = false;
-            // 
-            // P1R1_ptb
-            // 
-            this.P1R1_ptb.Location = new System.Drawing.Point(91, 16);
-            this.P1R1_ptb.Name = "P1R1_ptb";
-            this.P1R1_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P1R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P1R1_ptb.TabIndex = 183;
-            this.P1R1_ptb.TabStop = false;
-            // 
-            // pictureBox139
-            // 
-            this.pictureBox139.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox139.Location = new System.Drawing.Point(166, 62);
-            this.pictureBox139.Name = "pictureBox139";
-            this.pictureBox139.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox139.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox139.TabIndex = 183;
-            this.pictureBox139.TabStop = false;
-            // 
-            // pictureBox140
-            // 
-            this.pictureBox140.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox140.Location = new System.Drawing.Point(166, 49);
-            this.pictureBox140.Name = "pictureBox140";
-            this.pictureBox140.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox140.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox140.TabIndex = 184;
-            this.pictureBox140.TabStop = false;
-            // 
-            // pictureBox142
-            // 
-            this.pictureBox142.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox142.Location = new System.Drawing.Point(289, 50);
-            this.pictureBox142.Name = "pictureBox142";
-            this.pictureBox142.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox142.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox142.TabIndex = 189;
-            this.pictureBox142.TabStop = false;
-            // 
-            // pictureBox143
-            // 
-            this.pictureBox143.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox143.Location = new System.Drawing.Point(289, 63);
-            this.pictureBox143.Name = "pictureBox143";
-            this.pictureBox143.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox143.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox143.TabIndex = 188;
-            this.pictureBox143.TabStop = false;
-            // 
-            // pictureBox144
-            // 
-            this.pictureBox144.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox144.Location = new System.Drawing.Point(289, 36);
-            this.pictureBox144.Name = "pictureBox144";
-            this.pictureBox144.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox144.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox144.TabIndex = 187;
-            this.pictureBox144.TabStop = false;
-            // 
-            // pictureBox145
-            // 
-            this.pictureBox145.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox145.Location = new System.Drawing.Point(289, 84);
-            this.pictureBox145.Name = "pictureBox145";
-            this.pictureBox145.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox145.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox145.TabIndex = 186;
-            this.pictureBox145.TabStop = false;
-            // 
-            // pictureBox146
-            // 
-            this.pictureBox146.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox146.Location = new System.Drawing.Point(289, 73);
-            this.pictureBox146.Name = "pictureBox146";
-            this.pictureBox146.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox146.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox146.TabIndex = 185;
-            this.pictureBox146.TabStop = false;
-            // 
-            // pictureBox147
-            // 
-            this.pictureBox147.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox147.Location = new System.Drawing.Point(43, 49);
-            this.pictureBox147.Name = "pictureBox147";
-            this.pictureBox147.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox147.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox147.TabIndex = 194;
-            this.pictureBox147.TabStop = false;
-            // 
-            // pictureBox148
-            // 
-            this.pictureBox148.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox148.Location = new System.Drawing.Point(43, 62);
-            this.pictureBox148.Name = "pictureBox148";
-            this.pictureBox148.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox148.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox148.TabIndex = 193;
-            this.pictureBox148.TabStop = false;
-            // 
-            // pictureBox149
-            // 
-            this.pictureBox149.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox149.Location = new System.Drawing.Point(43, 35);
-            this.pictureBox149.Name = "pictureBox149";
-            this.pictureBox149.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox149.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox149.TabIndex = 192;
-            this.pictureBox149.TabStop = false;
-            // 
-            // pictureBox150
-            // 
-            this.pictureBox150.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox150.Location = new System.Drawing.Point(43, 83);
-            this.pictureBox150.Name = "pictureBox150";
-            this.pictureBox150.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox150.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox150.TabIndex = 191;
-            this.pictureBox150.TabStop = false;
-            // 
-            // pictureBox151
-            // 
-            this.pictureBox151.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox151.Location = new System.Drawing.Point(43, 72);
-            this.pictureBox151.Name = "pictureBox151";
-            this.pictureBox151.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox151.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox151.TabIndex = 190;
-            this.pictureBox151.TabStop = false;
-            // 
-            // pictureBox131
-            // 
-            this.pictureBox131.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox131.Location = new System.Drawing.Point(38, 48);
-            this.pictureBox131.Name = "pictureBox131";
-            this.pictureBox131.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox131.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox131.TabIndex = 199;
-            this.pictureBox131.TabStop = false;
-            // 
-            // pictureBox132
-            // 
-            this.pictureBox132.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox132.Location = new System.Drawing.Point(38, 61);
-            this.pictureBox132.Name = "pictureBox132";
-            this.pictureBox132.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox132.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox132.TabIndex = 198;
-            this.pictureBox132.TabStop = false;
-            // 
-            // pictureBox133
-            // 
-            this.pictureBox133.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox133.Location = new System.Drawing.Point(38, 34);
-            this.pictureBox133.Name = "pictureBox133";
-            this.pictureBox133.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox133.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox133.TabIndex = 197;
-            this.pictureBox133.TabStop = false;
-            // 
-            // pictureBox134
-            // 
-            this.pictureBox134.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox134.Location = new System.Drawing.Point(38, 84);
-            this.pictureBox134.Name = "pictureBox134";
-            this.pictureBox134.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox134.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox134.TabIndex = 200;
-            this.pictureBox134.TabStop = false;
-            // 
-            // pictureBox135
-            // 
-            this.pictureBox135.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox135.Location = new System.Drawing.Point(38, 74);
-            this.pictureBox135.Name = "pictureBox135";
-            this.pictureBox135.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox135.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox135.TabIndex = 201;
-            this.pictureBox135.TabStop = false;
-            // 
-            // pictureBox152
-            // 
-            this.pictureBox152.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox152.Location = new System.Drawing.Point(38, 160);
-            this.pictureBox152.Name = "pictureBox152";
-            this.pictureBox152.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox152.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox152.TabIndex = 206;
-            this.pictureBox152.TabStop = false;
-            // 
-            // pictureBox153
-            // 
-            this.pictureBox153.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox153.Location = new System.Drawing.Point(38, 170);
-            this.pictureBox153.Name = "pictureBox153";
-            this.pictureBox153.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox153.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox153.TabIndex = 205;
-            this.pictureBox153.TabStop = false;
-            // 
-            // pictureBox154
-            // 
-            this.pictureBox154.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox154.Location = new System.Drawing.Point(38, 134);
-            this.pictureBox154.Name = "pictureBox154";
-            this.pictureBox154.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox154.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox154.TabIndex = 204;
-            this.pictureBox154.TabStop = false;
-            // 
-            // pictureBox155
-            // 
-            this.pictureBox155.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox155.Location = new System.Drawing.Point(38, 147);
-            this.pictureBox155.Name = "pictureBox155";
-            this.pictureBox155.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox155.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox155.TabIndex = 203;
-            this.pictureBox155.TabStop = false;
-            // 
-            // pictureBox156
-            // 
-            this.pictureBox156.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox156.Location = new System.Drawing.Point(38, 120);
-            this.pictureBox156.Name = "pictureBox156";
-            this.pictureBox156.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox156.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox156.TabIndex = 202;
-            this.pictureBox156.TabStop = false;
-            // 
-            // pictureBox157
-            // 
-            this.pictureBox157.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox157.Location = new System.Drawing.Point(38, 246);
-            this.pictureBox157.Name = "pictureBox157";
-            this.pictureBox157.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox157.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox157.TabIndex = 211;
-            this.pictureBox157.TabStop = false;
-            // 
-            // pictureBox158
-            // 
-            this.pictureBox158.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox158.Location = new System.Drawing.Point(38, 256);
-            this.pictureBox158.Name = "pictureBox158";
-            this.pictureBox158.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox158.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox158.TabIndex = 210;
-            this.pictureBox158.TabStop = false;
-            // 
-            // pictureBox159
-            // 
-            this.pictureBox159.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox159.Location = new System.Drawing.Point(38, 220);
-            this.pictureBox159.Name = "pictureBox159";
-            this.pictureBox159.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox159.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox159.TabIndex = 209;
-            this.pictureBox159.TabStop = false;
-            // 
-            // pictureBox160
-            // 
-            this.pictureBox160.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox160.Location = new System.Drawing.Point(38, 233);
-            this.pictureBox160.Name = "pictureBox160";
-            this.pictureBox160.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox160.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox160.TabIndex = 208;
-            this.pictureBox160.TabStop = false;
-            // 
-            // pictureBox161
-            // 
-            this.pictureBox161.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox161.Location = new System.Drawing.Point(38, 206);
-            this.pictureBox161.Name = "pictureBox161";
-            this.pictureBox161.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox161.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox161.TabIndex = 207;
-            this.pictureBox161.TabStop = false;
-            // 
-            // pictureBox162
-            // 
-            this.pictureBox162.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox162.Location = new System.Drawing.Point(36, 74);
-            this.pictureBox162.Name = "pictureBox162";
-            this.pictureBox162.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox162.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox162.TabIndex = 216;
-            this.pictureBox162.TabStop = false;
-            // 
-            // pictureBox163
-            // 
-            this.pictureBox163.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox163.Location = new System.Drawing.Point(36, 84);
-            this.pictureBox163.Name = "pictureBox163";
-            this.pictureBox163.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox163.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox163.TabIndex = 215;
-            this.pictureBox163.TabStop = false;
-            // 
-            // pictureBox164
-            // 
-            this.pictureBox164.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox164.Location = new System.Drawing.Point(36, 48);
-            this.pictureBox164.Name = "pictureBox164";
-            this.pictureBox164.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox164.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox164.TabIndex = 214;
-            this.pictureBox164.TabStop = false;
-            // 
-            // pictureBox165
-            // 
-            this.pictureBox165.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox165.Location = new System.Drawing.Point(36, 61);
-            this.pictureBox165.Name = "pictureBox165";
-            this.pictureBox165.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox165.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox165.TabIndex = 213;
-            this.pictureBox165.TabStop = false;
-            // 
-            // pictureBox166
-            // 
-            this.pictureBox166.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox166.Location = new System.Drawing.Point(36, 35);
-            this.pictureBox166.Name = "pictureBox166";
-            this.pictureBox166.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox166.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox166.TabIndex = 217;
-            this.pictureBox166.TabStop = false;
-            // 
-            // pictureBox167
-            // 
-            this.pictureBox167.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox167.Location = new System.Drawing.Point(36, 121);
-            this.pictureBox167.Name = "pictureBox167";
-            this.pictureBox167.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox167.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox167.TabIndex = 222;
-            this.pictureBox167.TabStop = false;
-            // 
-            // pictureBox168
-            // 
-            this.pictureBox168.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox168.Location = new System.Drawing.Point(36, 160);
-            this.pictureBox168.Name = "pictureBox168";
-            this.pictureBox168.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox168.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox168.TabIndex = 221;
-            this.pictureBox168.TabStop = false;
-            // 
-            // pictureBox169
-            // 
-            this.pictureBox169.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox169.Location = new System.Drawing.Point(36, 170);
-            this.pictureBox169.Name = "pictureBox169";
-            this.pictureBox169.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox169.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox169.TabIndex = 220;
-            this.pictureBox169.TabStop = false;
-            // 
-            // pictureBox170
-            // 
-            this.pictureBox170.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox170.Location = new System.Drawing.Point(36, 134);
-            this.pictureBox170.Name = "pictureBox170";
-            this.pictureBox170.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox170.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox170.TabIndex = 219;
-            this.pictureBox170.TabStop = false;
-            // 
-            // pictureBox171
-            // 
-            this.pictureBox171.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox171.Location = new System.Drawing.Point(36, 147);
-            this.pictureBox171.Name = "pictureBox171";
-            this.pictureBox171.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox171.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox171.TabIndex = 218;
-            this.pictureBox171.TabStop = false;
-            // 
-            // pictureBox172
-            // 
-            this.pictureBox172.Image = global::KWU_Splendor.Properties.Resources.dia;
-            this.pictureBox172.Location = new System.Drawing.Point(36, 207);
-            this.pictureBox172.Name = "pictureBox172";
-            this.pictureBox172.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox172.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox172.TabIndex = 227;
-            this.pictureBox172.TabStop = false;
-            // 
-            // pictureBox173
-            // 
-            this.pictureBox173.Image = global::KWU_Splendor.Properties.Resources.ruby;
-            this.pictureBox173.Location = new System.Drawing.Point(36, 246);
-            this.pictureBox173.Name = "pictureBox173";
-            this.pictureBox173.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox173.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox173.TabIndex = 226;
-            this.pictureBox173.TabStop = false;
-            // 
-            // pictureBox174
-            // 
-            this.pictureBox174.Image = global::KWU_Splendor.Properties.Resources.onyx;
-            this.pictureBox174.Location = new System.Drawing.Point(36, 256);
-            this.pictureBox174.Name = "pictureBox174";
-            this.pictureBox174.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox174.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox174.TabIndex = 225;
-            this.pictureBox174.TabStop = false;
-            // 
-            // pictureBox175
-            // 
-            this.pictureBox175.Image = global::KWU_Splendor.Properties.Resources.sapphire;
-            this.pictureBox175.Location = new System.Drawing.Point(36, 220);
-            this.pictureBox175.Name = "pictureBox175";
-            this.pictureBox175.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox175.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox175.TabIndex = 224;
-            this.pictureBox175.TabStop = false;
-            // 
-            // pictureBox176
-            // 
-            this.pictureBox176.Image = global::KWU_Splendor.Properties.Resources.emerald;
-            this.pictureBox176.Location = new System.Drawing.Point(36, 233);
-            this.pictureBox176.Name = "pictureBox176";
-            this.pictureBox176.Size = new System.Drawing.Size(14, 13);
-            this.pictureBox176.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox176.TabIndex = 223;
-            this.pictureBox176.TabStop = false;
-            // 
-            // P4R1_ptb
-            // 
-            this.P4R1_ptb.Location = new System.Drawing.Point(84, 17);
-            this.P4R1_ptb.Name = "P4R1_ptb";
-            this.P4R1_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P4R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P4R1_ptb.TabIndex = 152;
-            this.P4R1_ptb.TabStop = false;
-            // 
-            // P4R2_ptb
-            // 
-            this.P4R2_ptb.Location = new System.Drawing.Point(84, 103);
-            this.P4R2_ptb.Name = "P4R2_ptb";
-            this.P4R2_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P4R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P4R2_ptb.TabIndex = 228;
-            this.P4R2_ptb.TabStop = false;
-            // 
-            // P4R3_ptb
-            // 
-            this.P4R3_ptb.Location = new System.Drawing.Point(84, 189);
-            this.P4R3_ptb.Name = "P4R3_ptb";
-            this.P4R3_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P4R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P4R3_ptb.TabIndex = 229;
-            this.P4R3_ptb.TabStop = false;
-            // 
-            // P1R2_ptb
-            // 
-            this.P1R2_ptb.Location = new System.Drawing.Point(214, 14);
-            this.P1R2_ptb.Name = "P1R2_ptb";
-            this.P1R2_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P1R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P1R2_ptb.TabIndex = 230;
-            this.P1R2_ptb.TabStop = false;
-            // 
-            // P1R3_ptb
-            // 
-            this.P1R3_ptb.Location = new System.Drawing.Point(337, 16);
-            this.P1R3_ptb.Name = "P1R3_ptb";
-            this.P1R3_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P1R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P1R3_ptb.TabIndex = 231;
-            this.P1R3_ptb.TabStop = false;
-            // 
-            // P3R3_ptb
-            // 
-            this.P3R3_ptb.Location = new System.Drawing.Point(86, 189);
-            this.P3R3_ptb.Name = "P3R3_ptb";
-            this.P3R3_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P3R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P3R3_ptb.TabIndex = 232;
-            this.P3R3_ptb.TabStop = false;
-            // 
-            // P3R2_ptb
-            // 
-            this.P3R2_ptb.Location = new System.Drawing.Point(86, 103);
-            this.P3R2_ptb.Name = "P3R2_ptb";
-            this.P3R2_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P3R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P3R2_ptb.TabIndex = 233;
-            this.P3R2_ptb.TabStop = false;
-            // 
-            // P3R1_ptb
-            // 
-            this.P3R1_ptb.Location = new System.Drawing.Point(86, 17);
-            this.P3R1_ptb.Name = "P3R1_ptb";
-            this.P3R1_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P3R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P3R1_ptb.TabIndex = 234;
-            this.P3R1_ptb.TabStop = false;
-            // 
-            // P2R1_ptb
-            // 
-            this.P2R1_ptb.Location = new System.Drawing.Point(92, 16);
-            this.P2R1_ptb.Name = "P2R1_ptb";
-            this.P2R1_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P2R1_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P2R1_ptb.TabIndex = 235;
-            this.P2R1_ptb.TabStop = false;
-            // 
-            // P2R2_ptb
-            // 
-            this.P2R2_ptb.Location = new System.Drawing.Point(214, 16);
-            this.P2R2_ptb.Name = "P2R2_ptb";
-            this.P2R2_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P2R2_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P2R2_ptb.TabIndex = 236;
-            this.P2R2_ptb.TabStop = false;
-            // 
-            // P2R3_ptb
-            // 
-            this.P2R3_ptb.Location = new System.Drawing.Point(337, 16);
-            this.P2R3_ptb.Name = "P2R3_ptb";
-            this.P2R3_ptb.Size = new System.Drawing.Size(22, 19);
-            this.P2R3_ptb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P2R3_ptb.TabIndex = 237;
-            this.P2R3_ptb.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1459, 846);
 
+            this.ClientSize = new System.Drawing.Size(1459, 846);
             this.Controls.Add(this.BtnConnect);
             this.Controls.Add(this.turn);
             this.Controls.Add(this.round);
@@ -3935,11 +3935,24 @@
             this.P1_GB.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox126)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox121)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox122)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox123)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox124)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1R3_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1R2_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1R1_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r3g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r3g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r3g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r3g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r3g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r2g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r2g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r2g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r2g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r2g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r1g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r1g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r1g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r1g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1_r1g2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
@@ -3950,6 +3963,24 @@
             this.P3_GB.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P3R3_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3R2_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3R1_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r1g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r1g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r1g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r1g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r1g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r3g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r3g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r3g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r3g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r3g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r2g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r2g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r2g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r2g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P3_r2g4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
@@ -3958,6 +3989,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P2R1_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2R2_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2R3_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r3g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r3g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r3g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r3g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r3g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r2g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r2g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r2g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r2g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r2g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r1g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r1g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r1g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r1g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P2_r1g1)).EndInit();
             this.P2_GB.ResumeLayout(false);
             this.P2_GB.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -3970,6 +4019,24 @@
             this.P4_GB.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.P4R3_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4R2_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4R1_ptb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r3g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r3g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r3g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r3g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r3g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r2g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r2g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r2g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r2g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r2g3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r1g1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r1g4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r1g5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r1g2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P4_r1g3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -4081,73 +4148,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox117)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox118)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox119)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox120)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox125)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox128)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox129)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox130)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox136)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox137)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox138)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P1R1_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox139)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox140)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox142)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox143)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox144)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox145)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox146)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox147)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox148)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox149)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox150)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox151)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox131)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox132)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox133)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox134)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox135)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox152)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox153)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox154)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox155)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox156)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox157)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox158)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox159)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox160)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox161)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox162)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox163)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox164)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox165)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox166)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox167)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox168)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox169)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox170)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox171)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox172)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox173)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox174)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox175)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox176)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P4R1_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P4R2_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P4R3_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P1R2_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P1R3_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P3R3_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P3R2_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P3R1_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P2R1_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P2R2_ptb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.P2R3_ptb)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4266,9 +4266,9 @@
         private System.Windows.Forms.Label P2_emeCard;
         private System.Windows.Forms.Label P2_safCard;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.TextBox P2_reserved3;
-        private System.Windows.Forms.TextBox P2_reserved2;
-        private System.Windows.Forms.TextBox P2_reserved1;
+        private System.Windows.Forms.TextBox P3_reserved3;
+        private System.Windows.Forms.TextBox P3_reserved2;
+        private System.Windows.Forms.TextBox P3_reserved1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
@@ -4294,9 +4294,9 @@
         private System.Windows.Forms.TextBox P1_reserved2;
         private System.Windows.Forms.TextBox P1_reserved1;
         private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.TextBox P3_reserved3;
-        private System.Windows.Forms.TextBox P3_reserved2;
-        private System.Windows.Forms.TextBox P3_reserved1;
+        private System.Windows.Forms.TextBox P2_reserved3;
+        private System.Windows.Forms.TextBox P2_reserved2;
+        private System.Windows.Forms.TextBox P2_reserved1;
         private System.Windows.Forms.Button BtnConnect;
         private System.Windows.Forms.PictureBox L1C1_ptb;
         private System.Windows.Forms.PictureBox L2C1_ptb;
@@ -4395,78 +4395,78 @@
         private System.Windows.Forms.PictureBox pictureBox98;
         private System.Windows.Forms.PictureBox pictureBox99;
         private System.Windows.Forms.PictureBox pictureBox100;
-        private System.Windows.Forms.PictureBox pictureBox126;
-        private System.Windows.Forms.PictureBox pictureBox121;
-        private System.Windows.Forms.PictureBox pictureBox122;
-        private System.Windows.Forms.PictureBox pictureBox123;
-        private System.Windows.Forms.PictureBox pictureBox124;
-        private System.Windows.Forms.PictureBox pictureBox125;
-        private System.Windows.Forms.PictureBox pictureBox127;
-        private System.Windows.Forms.PictureBox pictureBox128;
-        private System.Windows.Forms.PictureBox pictureBox129;
-        private System.Windows.Forms.PictureBox pictureBox130;
-        private System.Windows.Forms.PictureBox pictureBox116;
-        private System.Windows.Forms.PictureBox pictureBox117;
-        private System.Windows.Forms.PictureBox pictureBox118;
-        private System.Windows.Forms.PictureBox pictureBox119;
-        private System.Windows.Forms.PictureBox pictureBox120;
+        private System.Windows.Forms.PictureBox P1_r1g4;
+        private System.Windows.Forms.PictureBox P1_r1g3;
+        private System.Windows.Forms.PictureBox P1_r1g2;
+        private System.Windows.Forms.PictureBox P1_r3g1;
+        private System.Windows.Forms.PictureBox P1_r3g5;
+        private System.Windows.Forms.PictureBox P1_r3g4;
+        private System.Windows.Forms.PictureBox P1_r3g3;
+        private System.Windows.Forms.PictureBox P1_r3g2;
+        private System.Windows.Forms.PictureBox P1_r2g1;
+        private System.Windows.Forms.PictureBox P1_r2g5;
+        private System.Windows.Forms.PictureBox P1_r2g4;
+        private System.Windows.Forms.PictureBox P1_r2g3;
+        private System.Windows.Forms.PictureBox P1_r2g2;
         private System.Windows.Forms.PictureBox P1R1_ptb;
-        private System.Windows.Forms.PictureBox pictureBox140;
-        private System.Windows.Forms.PictureBox pictureBox139;
-        private System.Windows.Forms.PictureBox pictureBox136;
-        private System.Windows.Forms.PictureBox pictureBox137;
-        private System.Windows.Forms.PictureBox pictureBox138;
+        private System.Windows.Forms.PictureBox P3_r2g2;
+        private System.Windows.Forms.PictureBox P3_r2g3;
+        private System.Windows.Forms.PictureBox P3_r2g1;
+        private System.Windows.Forms.PictureBox P3_r2g5;
+        private System.Windows.Forms.PictureBox P3_r2g4;
         private System.Windows.Forms.PictureBox P1R3_ptb;
         private System.Windows.Forms.PictureBox P1R2_ptb;
-        private System.Windows.Forms.PictureBox P2R3_ptb;
-        private System.Windows.Forms.PictureBox P2R2_ptb;
-        private System.Windows.Forms.PictureBox P2R1_ptb;
-        private System.Windows.Forms.PictureBox pictureBox147;
-        private System.Windows.Forms.PictureBox pictureBox148;
-        private System.Windows.Forms.PictureBox pictureBox149;
-        private System.Windows.Forms.PictureBox pictureBox150;
-        private System.Windows.Forms.PictureBox pictureBox151;
-        private System.Windows.Forms.PictureBox pictureBox142;
-        private System.Windows.Forms.PictureBox pictureBox143;
-        private System.Windows.Forms.PictureBox pictureBox144;
-        private System.Windows.Forms.PictureBox pictureBox145;
-        private System.Windows.Forms.PictureBox pictureBox146;
-        private System.Windows.Forms.PictureBox P3R1_ptb;
-        private System.Windows.Forms.PictureBox P3R2_ptb;
         private System.Windows.Forms.PictureBox P3R3_ptb;
-        private System.Windows.Forms.PictureBox pictureBox157;
-        private System.Windows.Forms.PictureBox pictureBox158;
-        private System.Windows.Forms.PictureBox pictureBox159;
-        private System.Windows.Forms.PictureBox pictureBox160;
-        private System.Windows.Forms.PictureBox pictureBox161;
-        private System.Windows.Forms.PictureBox pictureBox152;
-        private System.Windows.Forms.PictureBox pictureBox153;
-        private System.Windows.Forms.PictureBox pictureBox154;
-        private System.Windows.Forms.PictureBox pictureBox155;
-        private System.Windows.Forms.PictureBox pictureBox156;
-        private System.Windows.Forms.PictureBox pictureBox135;
-        private System.Windows.Forms.PictureBox pictureBox134;
-        private System.Windows.Forms.PictureBox pictureBox131;
-        private System.Windows.Forms.PictureBox pictureBox132;
-        private System.Windows.Forms.PictureBox pictureBox133;
+        private System.Windows.Forms.PictureBox P3R2_ptb;
+        private System.Windows.Forms.PictureBox P3R1_ptb;
+        private System.Windows.Forms.PictureBox P3_r1g2;
+        private System.Windows.Forms.PictureBox P3_r1g3;
+        private System.Windows.Forms.PictureBox P3_r1g1;
+        private System.Windows.Forms.PictureBox P3_r1g5;
+        private System.Windows.Forms.PictureBox P3_r1g4;
+        private System.Windows.Forms.PictureBox P3_r3g2;
+        private System.Windows.Forms.PictureBox P3_r3g3;
+        private System.Windows.Forms.PictureBox P3_r3g1;
+        private System.Windows.Forms.PictureBox P3_r3g5;
+        private System.Windows.Forms.PictureBox P3_r3g4;
+        private System.Windows.Forms.PictureBox P2R1_ptb;
+        private System.Windows.Forms.PictureBox P2R2_ptb;
+        private System.Windows.Forms.PictureBox P2R3_ptb;
+        private System.Windows.Forms.PictureBox P2_r3g4;
+        private System.Windows.Forms.PictureBox P2_r3g5;
+        private System.Windows.Forms.PictureBox P2_r3g2;
+        private System.Windows.Forms.PictureBox P2_r3g3;
+        private System.Windows.Forms.PictureBox P2_r3g1;
+        private System.Windows.Forms.PictureBox P2_r2g4;
+        private System.Windows.Forms.PictureBox P2_r2g5;
+        private System.Windows.Forms.PictureBox P2_r2g2;
+        private System.Windows.Forms.PictureBox P2_r2g3;
+        private System.Windows.Forms.PictureBox P2_r2g1;
+        private System.Windows.Forms.PictureBox P2_r1g4;
+        private System.Windows.Forms.PictureBox P2_r1g5;
+        private System.Windows.Forms.PictureBox P2_r1g2;
+        private System.Windows.Forms.PictureBox P2_r1g3;
+        private System.Windows.Forms.PictureBox P2_r1g1;
         private System.Windows.Forms.PictureBox P4R3_ptb;
         private System.Windows.Forms.PictureBox P4R2_ptb;
         private System.Windows.Forms.PictureBox P4R1_ptb;
-        private System.Windows.Forms.PictureBox pictureBox172;
-        private System.Windows.Forms.PictureBox pictureBox173;
-        private System.Windows.Forms.PictureBox pictureBox174;
-        private System.Windows.Forms.PictureBox pictureBox175;
-        private System.Windows.Forms.PictureBox pictureBox176;
-        private System.Windows.Forms.PictureBox pictureBox167;
-        private System.Windows.Forms.PictureBox pictureBox168;
-        private System.Windows.Forms.PictureBox pictureBox169;
-        private System.Windows.Forms.PictureBox pictureBox170;
-        private System.Windows.Forms.PictureBox pictureBox171;
-        private System.Windows.Forms.PictureBox pictureBox166;
-        private System.Windows.Forms.PictureBox pictureBox162;
-        private System.Windows.Forms.PictureBox pictureBox163;
-        private System.Windows.Forms.PictureBox pictureBox164;
-        private System.Windows.Forms.PictureBox pictureBox165;
+        private System.Windows.Forms.PictureBox P4_r3g1;
+        private System.Windows.Forms.PictureBox P4_r3g4;
+        private System.Windows.Forms.PictureBox P4_r3g5;
+        private System.Windows.Forms.PictureBox P4_r3g2;
+        private System.Windows.Forms.PictureBox P4_r3g3;
+        private System.Windows.Forms.PictureBox P4_r2g1;
+        private System.Windows.Forms.PictureBox P4_r2g4;
+        private System.Windows.Forms.PictureBox P4_r2g5;
+        private System.Windows.Forms.PictureBox P4_r2g2;
+        private System.Windows.Forms.PictureBox P4_r2g3;
+        private System.Windows.Forms.PictureBox P4_r1g1;
+        private System.Windows.Forms.PictureBox P4_r1g4;
+        private System.Windows.Forms.PictureBox P4_r1g5;
+        private System.Windows.Forms.PictureBox P4_r1g2;
+        private System.Windows.Forms.PictureBox P4_r1g3;
+        private System.Windows.Forms.PictureBox P1_r1g5;
+        private System.Windows.Forms.PictureBox P1_r1g1;
     }
 }
 

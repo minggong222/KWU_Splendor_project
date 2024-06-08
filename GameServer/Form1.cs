@@ -53,21 +53,9 @@ namespace GameServer
                     TE.turnPlayer++;
                     break;
                 case 4:
-                    for (int i = 0; i < TE.players.Length; i++)
-                    {
-                        if(TE.players[i].totalScore > 14)
-                        {
-                            TE.turnPlayer = 0;
-                            break;
-                        }
-                    }
                     TE.turnPlayer = 1;
                     TE.round++;
                     break;
-                default:
-                    _server.Stop();
-                    break;
-
             }
             _roomManager.SendToMyRoom(TE);
         }

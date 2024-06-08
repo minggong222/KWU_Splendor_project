@@ -54,13 +54,13 @@ namespace KWU_Splendor
             Debug.Print("{0}", myTurn);
             BoardSetting(GetTurn());
             gameState.turnPlayer = 1;
-            if (gameState.turnPlayer == 0)
+            /*if (gameState.turnPlayer == 0)
             {
                 turn.Text = "게임 종료!";
                 WinnerNotice();
             }               
-            else
-                turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
+            else*/
+            turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
 
         }
 
@@ -224,8 +224,17 @@ namespace KWU_Splendor
             P1_onyCard.Text = "+" + gameState.players[idx].gemSale[4].ToString();
             P1_GB.Text = "Player" + (idx + 1);
             P1_score.Text = gameState.players[idx].totalScore.ToString();
+            hideReserved();
+
             if (gameState.players[idx].reservedCards.Count == 1)
             {
+                P1_reserved1.Visible = true;
+                P1R1_ptb.Visible = true;
+                P1_r1g1.Visible = true;
+                P1_r1g2.Visible = true;
+                P1_r1g3.Visible = true;
+                P1_r1g4.Visible = true;
+                P1_r1g5.Visible = true;
                 P1_reserved1.Text = gameState.players[idx].reservedCards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[0].ToString() + "개" + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -236,6 +245,13 @@ namespace KWU_Splendor
             }
             else if (gameState.players[idx].reservedCards.Count == 2)
             {
+                P1_reserved2.Visible = true;
+                P1R2_ptb.Visible = true;
+                P1_r2g1.Visible = true;
+                P1_r2g2.Visible = true;
+                P1_r2g3.Visible = true;
+                P1_r2g4.Visible = true;
+                P1_r2g5.Visible = true;
                 P1_reserved2.Text = gameState.players[idx].reservedCards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[0].ToString() + "개" + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -246,6 +262,13 @@ namespace KWU_Splendor
             }
             else if (gameState.players[idx].reservedCards.Count == 3)
             {
+                P1_reserved3.Visible = true;
+                P1R3_ptb.Visible = true;
+                P1_r3g1.Visible = true;
+                P1_r3g2.Visible = true;
+                P1_r3g3.Visible = true;
+                P1_r3g4.Visible = true;
+                P1_r3g5.Visible = true;
                 P1_reserved3.Text = gameState.players[idx].reservedCards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                      + "      " + gameState.players[idx].reservedCards[2].cardCost[0].ToString() + "개" + Environment.NewLine
                      + "      " + gameState.players[idx].reservedCards[2].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -270,6 +293,13 @@ namespace KWU_Splendor
             P2_score.Text = gameState.players[idx].totalScore.ToString();
             if (gameState.players[idx].reservedCards.Count == 1)
             {
+                P2_reserved1.Visible = true;
+                P2R1_ptb.Visible = true;
+                P2_r1g1.Visible = true;
+                P2_r1g2.Visible = true;
+                P2_r1g3.Visible = true;
+                P2_r1g4.Visible = true;
+                P2_r1g5.Visible = true;
                 P2_reserved1.Text = gameState.players[idx].reservedCards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[0].ToString() + "개" + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -280,6 +310,13 @@ namespace KWU_Splendor
             }
             else if (gameState.players[idx].reservedCards.Count == 2)
             {
+                P2_reserved2.Visible = true;
+                P2R2_ptb.Visible = true;
+                P2_r2g1.Visible = true;
+                P2_r2g2.Visible = true;
+                P2_r2g3.Visible = true;
+                P2_r2g4.Visible = true;
+                P2_r2g5.Visible = true;
                 P2_reserved2.Text = gameState.players[idx].reservedCards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[0].ToString() + "개" + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -290,6 +327,13 @@ namespace KWU_Splendor
             }
             else if (gameState.players[idx].reservedCards.Count == 3)
             {
+                P2_reserved3.Visible = true;
+                P2R3_ptb.Visible = true;
+                P2_r3g1.Visible = true;
+                P2_r3g2.Visible = true;
+                P2_r3g3.Visible = true;
+                P2_r3g4.Visible = true;
+                P2_r3g5.Visible = true;
                 P2_reserved3.Text = gameState.players[idx].reservedCards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                      + "      " + gameState.players[idx].reservedCards[2].cardCost[0].ToString() + "개" + Environment.NewLine
                      + "      " + gameState.players[idx].reservedCards[2].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -314,6 +358,13 @@ namespace KWU_Splendor
             P3_score.Text = gameState.players[idx].totalScore.ToString();
             if (gameState.players[idx].reservedCards.Count == 1)
             {
+                P3_reserved1.Visible = true;
+                P3R1_ptb.Visible = true;
+                P3_r1g1.Visible = true;
+                P3_r1g2.Visible = true;
+                P3_r1g3.Visible = true;
+                P3_r1g4.Visible = true;
+                P3_r1g5.Visible = true;
                 P3_reserved1.Text = gameState.players[idx].reservedCards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[0].ToString() + "개" + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -324,6 +375,13 @@ namespace KWU_Splendor
             }
             else if (gameState.players[idx].reservedCards.Count == 2)
             {
+                P3_reserved2.Visible = true;
+                P3R2_ptb.Visible = true;
+                P3_r2g1.Visible = true;
+                P3_r2g2.Visible = true;
+                P3_r2g3.Visible = true;
+                P3_r2g4.Visible = true;
+                P3_r2g5.Visible = true;
                 P3_reserved2.Text = gameState.players[idx].reservedCards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[0].ToString() + "개" + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -334,6 +392,13 @@ namespace KWU_Splendor
             }
             else if (gameState.players[idx].reservedCards.Count == 3)
             {
+                P3_reserved3.Visible = true;
+                P3R3_ptb.Visible = true;
+                P3_r3g1.Visible = true;
+                P3_r3g2.Visible = true;
+                P3_r3g3.Visible = true;
+                P3_r3g4.Visible = true;
+                P3_r3g5.Visible = true;
                 P3_reserved3.Text = gameState.players[idx].reservedCards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                      + "      " + gameState.players[idx].reservedCards[2].cardCost[0].ToString() + "개" + Environment.NewLine
                      + "      " + gameState.players[idx].reservedCards[2].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -359,6 +424,13 @@ namespace KWU_Splendor
             round.Text = "Round" + gameState.round;
             if (gameState.players[idx].reservedCards.Count == 1)
             {
+                P4_reserved1.Visible = true;
+                P4R1_ptb.Visible = true;
+                P4_r1g1.Visible = true;
+                P4_r1g2.Visible = true;
+                P4_r1g3.Visible = true;
+                P4_r1g4.Visible = true;
+                P4_r1g5.Visible = true;
                 P4_reserved1.Text = gameState.players[idx].reservedCards[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[0].ToString() + "개" + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -369,6 +441,13 @@ namespace KWU_Splendor
             }
             else if (gameState.players[idx].reservedCards.Count == 2)
             {
+                P4_reserved2.Visible = true;
+                P4R2_ptb.Visible = true;
+                P4_r2g1.Visible = true;
+                P4_r2g2.Visible = true;
+                P4_r2g3.Visible = true;
+                P4_r2g4.Visible = true;
+                P4_r2g5.Visible = true;
                 P4_reserved2.Text = gameState.players[idx].reservedCards[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[0].ToString() + "개" + Environment.NewLine
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -379,6 +458,13 @@ namespace KWU_Splendor
             }
             else if (gameState.players[idx].reservedCards.Count == 3)
             {
+                P4_reserved3.Visible = true;
+                P4R3_ptb.Visible = true;
+                P4_r3g1.Visible = true;
+                P4_r3g2.Visible = true;
+                P4_r3g3.Visible = true;
+                P4_r3g4.Visible = true;
+                P4_r3g5.Visible = true;
                 P4_reserved3.Text = gameState.players[idx].reservedCards[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                      + "      " + gameState.players[idx].reservedCards[2].cardCost[0].ToString() + "개" + Environment.NewLine
                      + "      " + gameState.players[idx].reservedCards[2].cardCost[1].ToString() + "개" + Environment.NewLine
@@ -389,7 +475,97 @@ namespace KWU_Splendor
             }
             turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
         }
-       
+       public void hideReserved()
+        {
+            P1_reserved1.Visible = false;
+            P1_reserved2.Visible = false;
+            P1_reserved3.Visible = false;
+            P1R1_ptb.Visible = false;
+            P1R2_ptb.Visible = false;
+            P1R3_ptb.Visible = false;
+            P1_r1g1.Visible = false;
+            P1_r1g2.Visible = false;
+            P1_r1g3.Visible = false;
+            P1_r1g4.Visible = false;
+            P1_r1g5.Visible = false;
+            P1_r2g1.Visible = false;
+            P1_r2g2.Visible = false;
+            P1_r2g3.Visible = false;
+            P1_r2g4.Visible = false;
+            P1_r2g5.Visible = false;
+            P1_r3g1.Visible = false;
+            P1_r3g2.Visible = false;
+            P1_r3g3.Visible = false;
+            P1_r3g4.Visible = false;
+            P1_r3g5.Visible = false;
+
+            P3_reserved1.Visible = false;
+            P3_reserved2.Visible = false;
+            P3_reserved3.Visible = false;
+            P3R1_ptb.Visible = false;
+            P3R2_ptb.Visible = false;
+            P3R3_ptb.Visible = false;
+            P2_r1g1.Visible = false;
+            P2_r1g2.Visible = false;
+            P2_r1g3.Visible = false;
+            P2_r1g4.Visible = false;
+            P2_r1g5.Visible = false;
+            P2_r2g1.Visible = false;
+            P2_r2g2.Visible = false;
+            P2_r2g3.Visible = false;
+            P2_r2g4.Visible = false;
+            P2_r2g5.Visible = false;
+            P2_r3g1.Visible = false;
+            P2_r3g2.Visible = false;
+            P2_r3g3.Visible = false;
+            P2_r3g4.Visible = false;
+            P2_r3g5.Visible = false;
+
+            P2_reserved1.Visible = false;
+            P2_reserved2.Visible = false;
+            P2_reserved3.Visible = false;
+            P2R1_ptb.Visible = false;
+            P2R2_ptb.Visible = false;
+            P2R3_ptb.Visible = false;
+            P3_r1g1.Visible = false;
+            P3_r1g2.Visible = false;
+            P3_r1g3.Visible = false;
+            P3_r1g4.Visible = false;
+            P3_r1g5.Visible = false;
+            P3_r2g1.Visible = false;
+            P3_r2g2.Visible = false;
+            P3_r2g3.Visible = false;
+            P3_r2g4.Visible = false;
+            P3_r2g5.Visible = false;
+            P3_r3g1.Visible = false;
+            P3_r3g2.Visible = false;
+            P3_r3g3.Visible = false;
+            P3_r3g4.Visible = false;
+            P3_r3g5.Visible = false;
+
+            P4_reserved1.Visible = false;
+            P4_reserved2.Visible = false;
+            P4_reserved3.Visible = false;
+            P4R1_ptb.Visible = false;
+            P4R2_ptb.Visible = false;
+            P4R3_ptb.Visible = false;
+            P4_r1g1.Visible = false;
+            P4_r1g2.Visible = false;
+            P4_r1g3.Visible = false;
+            P4_r1g4.Visible = false;
+            P4_r1g5.Visible = false;
+            P4_r2g1.Visible = false;
+            P4_r2g2.Visible = false;
+            P4_r2g3.Visible = false;
+            P4_r2g4.Visible = false;
+            P4_r2g5.Visible = false;
+            P4_r3g1.Visible = false;
+            P4_r3g2.Visible = false;
+            P4_r3g3.Visible = false;
+            P4_r3g4.Visible = false;
+            P4_r3g5.Visible = false;
+        }
+
         /*
      * 0 : 다이아(흰)dia
      * 1 : 사파이어(파) saf
@@ -425,8 +601,9 @@ namespace KWU_Splendor
 
             if (gameState.turnPlayer == myTurn)
             {
-                Form2 form2 = new Form2(labelsData);
+                Form2 form2 = new Form2(labelsData, true);
                 form2.DataUpdated += Form2_DataUpdated;
+                form2.DataUpdated2 += Form2_DataUpdated2;
                 form2.Show();
             }
             else
@@ -436,6 +613,7 @@ namespace KWU_Splendor
         }
         private void Form2_DataUpdated(object sender, string[] newData)
         {
+            //보석 가져오기
             //form2에서 update된 값 label에 할당
             gameState.players[myTurn - 1].playerGems[0] += (Int32.Parse(dia.Text.Substring(0, 1)) - Int32.Parse(newData[0].Substring(0, 1)));
             gameState.players[myTurn - 1].playerGems[1] += (Int32.Parse(saf.Text.Substring(0, 1)) - Int32.Parse(newData[1].Substring(0, 1)));
@@ -447,9 +625,53 @@ namespace KWU_Splendor
             gameState.boardInfo.boardGems[2] = Int32.Parse(newData[2].Substring(0, 1));
             gameState.boardInfo.boardGems[3] = Int32.Parse(newData[3].Substring(0, 1));
             gameState.boardInfo.boardGems[4] = Int32.Parse(newData[4].Substring(0, 1));
+
+
+            //플레이어의 보석이 10개 이상일시
+            int total_gem = gameState.players[myTurn - 1].playerGems[0] + gameState.players[myTurn - 1].playerGems[1] +
+                gameState.players[myTurn - 1].playerGems[2] + gameState.players[myTurn - 1].playerGems[3]
+                + gameState.players[myTurn - 1].playerGems[4] + gameState.players[myTurn - 1].playerGems[5];
+            if (total_gem > 10)
+            {
+                MessageBox.Show("플레이어는 보석을 최대 10개까지 소지 할 수 있습니다!");
+                string[] labelsData = { gameState.players[myTurn - 1].playerGems[0].ToString() + "개",
+                    gameState.players[myTurn - 1].playerGems[1].ToString() + "개", 
+                    gameState.players[myTurn - 1].playerGems[2].ToString() + "개", 
+                    gameState.players[myTurn - 1].playerGems[3].ToString() + "개", 
+                    gameState.players[myTurn - 1].playerGems[4].ToString() + "개" };
+
+                Form2 form2 = new Form2(labelsData, false);
+                form2.DataUpdated += Form2_DataUpdated;
+                form2.DataUpdated2 += Form2_DataUpdated2;
+                form2.Show();
+            }
+            else
+            {
+                _clientHandler.Send(gameState);
+            }
+
+            
             //_clientHandler.Send(gameState);
+
         }
 
+        private void Form2_DataUpdated2(object sender, string[] newData)
+        {
+            //보석 버리기
+            //form2에서 update된 값 label에 할당
+            gameState.players[myTurn - 1].playerGems[0] -= Int32.Parse(newData[0].Substring(0, 1));
+            gameState.players[myTurn - 1].playerGems[1] -= Int32.Parse(newData[1].Substring(0, 1));
+            gameState.players[myTurn - 1].playerGems[2] -= Int32.Parse(newData[2].Substring(0, 1));
+            gameState.players[myTurn - 1].playerGems[3] -= Int32.Parse(newData[3].Substring(0, 1));
+            gameState.players[myTurn - 1].playerGems[4] -= Int32.Parse(newData[4].Substring(0, 1));
+            gameState.boardInfo.boardGems[0] += Int32.Parse(newData[0].Substring(0, 1));
+            gameState.boardInfo.boardGems[1] += Int32.Parse(newData[1].Substring(0, 1));
+            gameState.boardInfo.boardGems[2] += Int32.Parse(newData[2].Substring(0, 1));
+            gameState.boardInfo.boardGems[3] += Int32.Parse(newData[3].Substring(0, 1));
+            gameState.boardInfo.boardGems[4] += Int32.Parse(newData[4].Substring(0, 1));
+
+            _clientHandler.Send(gameState);
+        }
         private void btn_card_Click(object sender, EventArgs e)
         {
             if (gameState.turnPlayer == myTurn)
@@ -458,7 +680,8 @@ namespace KWU_Splendor
                 List<Card> level2cards = gameState.boardInfo.boardCards2;
                 List<Card> level3cards = gameState.boardInfo.boardCards3;
                 List<Noble> noblecards = gameState.boardInfo.boardNoble;
-                Form3 form3 = new Form3(level1cards, level2cards, level3cards, noblecards);
+                List<Card> Rcards = gameState.players[myTurn - 1].reservedCards;
+                Form3 form3 = new Form3(level1cards, level2cards, level3cards, noblecards, Rcards);
                 form3.CardBuy += Form3_CardBuy;
                 form3.NobleBuy += Form3_NobleBuy;
                 form3.Reserved += Form3_Reserved;
@@ -611,10 +834,10 @@ namespace KWU_Splendor
         }
         private void btn_sendRes_Click(object sender, EventArgs e)
         {
-            if(gameState.turnPlayer != myTurn)
-            {
-                MessageBox.Show("나의 턴이 아닙니다.");
-            }
+            //if(gameState.turnPlayer != myTurn)
+            //{
+            //    MessageBox.Show("나의 턴이 아닙니다.");
+            //}
             _clientHandler.Send(gameState);
         }
 
