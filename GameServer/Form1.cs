@@ -47,25 +47,22 @@ namespace GameServer
             TE = e.Hub;
             switch (TE.turnPlayer)
             {
+                case 0:
                 case 1:
                 case 2:
                 case 3:
                     TE.turnPlayer++;
                     break;
                 case 4:
-                    for (int i = 0; i < TE.players.Length; i++)
+                    if(TE.winner == 0)
                     {
-                        if(TE.players[i].totalScore > 14)
-                        {
-                            TE.turnPlayer = 0;
-                            break;
-                        }
+                        TE.turnPlayer = 1;
+                        TE.round++;
                     }
-                    TE.turnPlayer = 1;
-                    TE.round++;
-                    break;
-                default:
-                    _server.Stop();
+                    else
+                    {
+                        TE.turnPlayer = 0;
+                    }
                     break;
 
             }
@@ -105,5 +102,6 @@ namespace GameServer
         {
             _server.Stop();
         }
+
     }
 }

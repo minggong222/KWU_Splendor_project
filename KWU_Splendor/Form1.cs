@@ -50,17 +50,13 @@ namespace KWU_Splendor
         {
             gameState = e.Hub;
             myTurn = e.Hub.turnPlayer;
+            if (myTurn == 0)
+                WinnerNotice();
             gameState.Type = (int)PacketType.turnEnd;
             Debug.Print("{0}", myTurn);
             BoardSetting(GetTurn());
-            gameState.turnPlayer = 1;
-            if (gameState.turnPlayer == 0)
-            {
-                turn.Text = "게임 종료!";
-                WinnerNotice();
-            }               
-            else
-                turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
+            gameState.turnPlayer = 1;             
+            turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
 
         }
 
@@ -447,7 +443,7 @@ namespace KWU_Splendor
             gameState.boardInfo.boardGems[2] = Int32.Parse(newData[2].Substring(0, 1));
             gameState.boardInfo.boardGems[3] = Int32.Parse(newData[3].Substring(0, 1));
             gameState.boardInfo.boardGems[4] = Int32.Parse(newData[4].Substring(0, 1));
-            //_clientHandler.Send(gameState);
+            _clientHandler.Send(gameState);
         }
 
         private void btn_card_Click(object sender, EventArgs e)
@@ -538,7 +534,11 @@ namespace KWU_Splendor
                     gameState.boardInfo.deckCards3.Remove(gameState.boardInfo.deckCards3[num]);
 
                 }
-                //_clientHandler.Send(gameState);
+                if (gameState.players[myTurn - 1].totalScore > 14)
+                {
+                    gameState.winner = myTurn;
+                }
+                _clientHandler.Send(gameState);
             }
             else
             {
@@ -557,7 +557,11 @@ namespace KWU_Splendor
             {
                 gameState.players[myTurn - 1].totalScore += 3;
                 gameState.players[myTurn - 1].playerNoble.Add(noble);
-                //_clientHandler.Send(gameState);
+                if (gameState.players[myTurn - 1].totalScore > 14)
+                {
+                    gameState.winner = myTurn;
+                }
+                _clientHandler.Send(gameState);
             }
             else
             {
@@ -598,7 +602,7 @@ namespace KWU_Splendor
                     gameState.boardInfo.deckCards3.Remove(gameState.boardInfo.deckCards3[num]);
 
                 }
-                //_clientHandler.Send(gameState);
+                _clientHandler.Send(gameState);
             }
             else
             {
@@ -617,6 +621,7 @@ namespace KWU_Splendor
             }
             _clientHandler.Send(gameState);
         }
+
 
         public void WinnerNotice()
         {
