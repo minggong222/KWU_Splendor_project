@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D87D7F5-539C-4BFE-9960-59DEE4E67619}|GameRule\\GameDefine.csproj|c:\\users\\youngkyun\\source\\repos\\kwu_splendor_project1\\kwu_splendor\\gamerule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D87D7F5-539C-4BFE-9960-59DEE4E67619}|GameRule\\GameDefine.csproj|solutionrelative:gamerule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D87D7F5-539C-4BFE-9960-59DEE4E67619}|GameRule\\GameRule.csproj|C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\gamerule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D87D7F5-539C-4BFE-9960-59DEE4E67619}|GameRule\\GameRule.csproj|solutionrelative:gamerule\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\kwu_splendor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +26,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\GameRule\\Class1.cs",
-              "RelativeDocumentMoniker": "GameRule\\Class1.cs",
-              "ToolTip": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\GameRule\\Class1.cs",
-              "RelativeToolTip": "GameRule\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAACYBAAAAAAAAAAAAADMBAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T11:00:26.514Z",
+              "WhenOpened": "2024-06-08T08:01:48.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\KWU_Splendor\\Program.cs",
-              "RelativeDocumentMoniker": "KWU_Splendor\\Program.cs",
-              "ToolTip": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\KWU_Splendor\\Program.cs",
-              "RelativeToolTip": "KWU_Splendor\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAALIQAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T01:01:46.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\GameRule\\Class1.cs",
-              "RelativeDocumentMoniker": "GameRule\\Class1.cs",
-              "ToolTip": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\GameRule\\Class1.cs",
-              "RelativeToolTip": "GameRule\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T01:01:43.724Z"
+              "WhenOpened": "2024-06-08T08:01:42.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\KWU_Splendor\\Form1.cs",
-              "RelativeDocumentMoniker": "KWU_Splendor\\Form1.cs",
-              "ToolTip": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\KWU_Splendor\\Form1.cs",
-              "RelativeToolTip": "KWU_Splendor\\Form1.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAxwCsAAAAIAAAA",
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AQIAAAsBAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T01:05:58.373Z"
+              "WhenOpened": "2024-06-08T08:01:36.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\KWU_Splendor\\Form1.cs",
-              "RelativeDocumentMoniker": "KWU_Splendor\\Form1.cs",
-              "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\KWU_Splendor\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor\\KWU_Splendor\\Form1.cs [\uB514\uC790\uC778]",
+              "DocumentIndex": 3,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\youngkyun\\source\\repos\\KWU_Splendor_project1\\KWU_Splendor\\Form2.Designer.cs",
+              "RelativeToolTip": "Form2.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T01:03:10.671Z"
+              "WhenOpened": "2024-06-08T08:01:31.985Z",
+              "EditorCaption": ""
             }
           ]
         }

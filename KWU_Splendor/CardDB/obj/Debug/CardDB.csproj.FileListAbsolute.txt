@@ -10,3 +10,9 @@ C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor\CardDB\obj\Debug\CardDB
 C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor\CardDB\obj\Debug\CardDB.csproj.CoreCompileInputs.cache
 C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor\CardDB\obj\Debug\CardDB.dll
 C:\Users\mingg\Desktop\KWU_Splendor_project\KWU_Splendor\CardDB\obj\Debug\CardDB.pdb
+C:\Users\youngkyun\Source\Repos\KWU_Splendor_project1\KWU_Splendor\CardDB\bin\Debug\CardDB.dll
+C:\Users\youngkyun\Source\Repos\KWU_Splendor_project1\KWU_Splendor\CardDB\bin\Debug\CardDB.pdb
+C:\Users\youngkyun\Source\Repos\KWU_Splendor_project1\KWU_Splendor\CardDB\obj\Debug\CardDB.csproj.AssemblyReference.cache
+C:\Users\youngkyun\Source\Repos\KWU_Splendor_project1\KWU_Splendor\CardDB\obj\Debug\CardDB.csproj.CoreCompileInputs.cache
+C:\Users\youngkyun\Source\Repos\KWU_Splendor_project1\KWU_Splendor\CardDB\obj\Debug\CardDB.dll
+C:\Users\youngkyun\Source\Repos\KWU_Splendor_project1\KWU_Splendor\CardDB\obj\Debug\CardDB.pdb
