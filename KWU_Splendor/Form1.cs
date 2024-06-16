@@ -761,7 +761,7 @@ namespace KWU_Splendor
                     gameState.boardInfo.deckCards3.Remove(gameState.boardInfo.deckCards3[num]);
 
                 }
-                //_clientHandler.Send(gameState);
+                _clientHandler.Send(gameState);
             }
             else
             {
