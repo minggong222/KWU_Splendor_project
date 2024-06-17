@@ -44,8 +44,8 @@ namespace ServerLib.Models
     {
         public Player[] players = new Player[4];   // 플레이어 4명 정보
         public Board boardInfo;                    // 보드 정보
-        public int winner = 0;                     // 0 : 게임 진행 / 1 : Player1 승리 / 2 : Player2 승리 / 3 : Player3 승리 / 4 : Player4 승리
-        public int turnPlayer = 1;                 // 1 : Player1 / 2 : Player2 / 3 : Player3 / 4 : Player4
+        public int winner;                     // 0 : 게임 진행 / 1 : Player1 승리 / 2 : Player2 승리 / 3 : Player3 승리 / 4 : Player4 승리
+        public int turnPlayer;                 // 1 : Player1 / 2 : Player2 / 3 : Player3 / 4 : Player4
         public int round = 1;
         public TurnEnd()
         {
@@ -54,6 +54,8 @@ namespace ServerLib.Models
             players[1] = new Player();
             players[2] = new Player();
             players[3] = new Player();
+            winner = 1;
+            turnPlayer = 1;
         }
         public TurnEnd(Packet p)
         {
