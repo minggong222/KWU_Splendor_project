@@ -47,15 +47,25 @@ namespace GameServer
             TE = e.Hub;
             switch (TE.turnPlayer)
             {
+                case 0:
+                    break;
                 case 1:
                 case 2:
                 case 3:
                     TE.turnPlayer++;
                     break;
                 case 4:
-                    TE.turnPlayer = 1;
-                    TE.round++;
+                    if(TE.winner == 0)
+                    {
+                        TE.turnPlayer = 1;
+                        TE.round++;
+                    }
+                    else
+                    {
+                        TE.turnPlayer = 0;
+                    }
                     break;
+
             }
             _roomManager.SendToMyRoom(TE);
         }
@@ -93,5 +103,6 @@ namespace GameServer
         {
             _server.Stop();
         }
+
     }
 }
