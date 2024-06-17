@@ -757,13 +757,10 @@ namespace KWU_Splendor
                     gameState.boardInfo.deckCards3.Remove(gameState.boardInfo.deckCards3[num]);
 
                 }
-<<<<<<< HEAD
-=======
                 if (gameState.players[myTurn - 1].totalScore > 14)
                 {
                     gameState.winner = myTurn;
                 }
->>>>>>> test
                 _clientHandler.Send(gameState);
             }
             else
