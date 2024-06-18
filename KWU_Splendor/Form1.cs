@@ -221,7 +221,7 @@ namespace KWU_Splendor
             P1_GB.Text = "Player" + (idx + 1);
             P1_score.Text = gameState.players[idx].totalScore.ToString();
             hideReserved();
-
+            P1_card.Text = gameState.players[idx].playerCards.Count.ToString();
             if (gameState.players[idx].reservedCards.Count == 1)
             {
                 P1_reserved1.Visible = true;
@@ -287,6 +287,7 @@ namespace KWU_Splendor
             P2_onyCard.Text = "+" + gameState.players[idx].gemSale[4].ToString();
             P2_GB.Text = "Player" + (idx + 1);
             P2_score.Text = gameState.players[idx].totalScore.ToString();
+            P2_card.Text = gameState.players[idx].playerCards.Count.ToString();
             if (gameState.players[idx].reservedCards.Count == 1)
             {
                 P2_reserved1.Visible = true;
@@ -352,6 +353,7 @@ namespace KWU_Splendor
             P3_onyCard.Text = "+" + gameState.players[idx].gemSale[4].ToString();
             P3_GB.Text = "Player" + (idx + 1);
             P3_score.Text = gameState.players[idx].totalScore.ToString();
+            P3_card.Text = gameState.players[idx].playerCards.Count.ToString();
             if (gameState.players[idx].reservedCards.Count == 1)
             {
                 P3_reserved1.Visible = true;
@@ -417,6 +419,7 @@ namespace KWU_Splendor
             P4_onyCard.Text = "+" + gameState.players[idx].gemSale[4].ToString();
             P4_GB.Text = "Player" + (idx + 1);
             P4_score.Text = gameState.players[idx].totalScore.ToString();
+            P4_card.Text = gameState.players[idx].playerCards.Count.ToString();
             round.Text = "Round" + gameState.round;
             if (gameState.players[idx].reservedCards.Count == 1)
             {
@@ -732,6 +735,19 @@ namespace KWU_Splendor
                 gameState.players[myTurn - 1].totalScore += card.cardScore;
                 gameState.players[myTurn - 1].gemSale[card.cardGem]++;
                 gameState.players[myTurn - 1].playerCards.Add(card);
+                foreach(Noble noble in gameState.boardInfo.boardNoble)
+                {
+                    if (gameState.players[myTurn - 1].gemSale[0] >= noble.nobleCost[0] &&
+                        gameState.players[myTurn - 1].gemSale[1] >= noble.nobleCost[1] &&
+                        gameState.players[myTurn - 1].gemSale[2] >= noble.nobleCost[2] &&
+                        gameState.players[myTurn - 1].gemSale[3] >= noble.nobleCost[3] &&
+                        gameState.players[myTurn - 1].gemSale[4] >= noble.nobleCost[4] )
+                    {
+                        gameState.players[myTurn - 1].playerNoble.Add(noble);
+                        gameState.boardInfo.boardNoble.Remove(noble);
+                        gameState.players[myTurn - 1].totalScore += 3;
+                    }
+                }
                 int num;
                 if(card.cardID <= 40)
                 {
@@ -811,7 +827,7 @@ namespace KWU_Splendor
                 }
                 else if (card.cardID <= 70)
                 {
-                    num = rnd.Next(gameState.boardInfo.deckCards1.Count);
+                    num = rnd.Next(gameState.boardInfo.deckCards2.Count);
                     gameState.boardInfo.boardCards2.Remove(card);
                     gameState.boardInfo.boardCards2.Add(gameState.boardInfo.deckCards2[num]);
                     gameState.boardInfo.deckCards2.Remove(gameState.boardInfo.deckCards2[num]);
@@ -819,7 +835,7 @@ namespace KWU_Splendor
                 }
                 else
                 {
-                    num = rnd.Next(gameState.boardInfo.deckCards1.Count);
+                    num = rnd.Next(gameState.boardInfo.deckCards3.Count);
                     gameState.boardInfo.boardCards3.Remove(card);
                     gameState.boardInfo.boardCards3.Add(gameState.boardInfo.deckCards3[num]);
                     gameState.boardInfo.deckCards3.Remove(gameState.boardInfo.deckCards3[num]);
@@ -842,7 +858,8 @@ namespace KWU_Splendor
             {
                 MessageBox.Show("나의 턴이 아닙니다.");
             }
-            _clientHandler.Send(gameState);
+            else 
+                _clientHandler.Send(gameState);
         }
 
 
