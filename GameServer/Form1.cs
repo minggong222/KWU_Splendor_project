@@ -55,15 +55,7 @@ namespace GameServer
                     TE.turnPlayer++;
                     break;
                 case 4:
-                    if(TE.winner == 0)
-                    {
-                        TE.turnPlayer = 1;
-                        TE.round++;
-                    }
-                    else
-                    {
-                        TE.turnPlayer = 0;
-                    }
+                    TE.turnPlayer = 1;
                     break;
 
             }
