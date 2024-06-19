@@ -45,6 +45,11 @@ namespace KWU_Splendor
         {
             gameState = e.Hub;
             BoardSetting(GetTurn());
+            if (gameState.winner != 0)
+            {
+                MessageBox.Show("Player " + gameState.winner.ToString() + " 승리");
+                Close();
+            }
         }
         private void Setting(object sender, ServerLib.Events.ServerEventArgs e)
         {
@@ -53,7 +58,7 @@ namespace KWU_Splendor
             gameState.Type = (int)PacketType.turnEnd;
             Debug.Print("{0}", myTurn);
             BoardSetting(GetTurn());
-            gameState.turnPlayer = 1;             
+            gameState.turnPlayer = 1;
             turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
 
         }
@@ -79,7 +84,8 @@ namespace KWU_Splendor
             ony.Text = gameState.boardInfo.boardGems[4].ToString() + "개";
         }
         public void CardSetting()
-        {   if (gameState.boardInfo.boardCards1.Count > 0)
+        {
+            if (gameState.boardInfo.boardCards1.Count > 0)
             {
                 Level1Card1.Text = gameState.boardInfo.boardCards1[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                     + "      " + gameState.boardInfo.boardCards1[0].cardCost[0].ToString() + "개" + Environment.NewLine
@@ -518,7 +524,7 @@ namespace KWU_Splendor
             }
             turn.Text = "Player" + gameState.turnPlayer.ToString() + "차례";
         }
-       public void hideReserved()
+        public void hideReserved()
         {
             P1_reserved1.Visible = false;
             P1_reserved2.Visible = false;
@@ -626,7 +632,7 @@ namespace KWU_Splendor
             _client.Setting += Setting;
             _client.RunningStateChanged += RunningStateChanged;
         }
-        
+
         private void ptb_img(PictureBox ptb, int GemNumber)
         {
             if (GemNumber == 0) ptb.Load("Image\\dia.png");
@@ -678,9 +684,9 @@ namespace KWU_Splendor
             {
                 MessageBox.Show("플레이어는 보석을 최대 10개까지 소지 할 수 있습니다!");
                 string[] labelsData = { gameState.players[myTurn - 1].playerGems[0].ToString() + "개",
-                    gameState.players[myTurn - 1].playerGems[1].ToString() + "개", 
-                    gameState.players[myTurn - 1].playerGems[2].ToString() + "개", 
-                    gameState.players[myTurn - 1].playerGems[3].ToString() + "개", 
+                    gameState.players[myTurn - 1].playerGems[1].ToString() + "개",
+                    gameState.players[myTurn - 1].playerGems[2].ToString() + "개",
+                    gameState.players[myTurn - 1].playerGems[3].ToString() + "개",
                     gameState.players[myTurn - 1].playerGems[4].ToString() + "개" };
 
                 Form2 form2 = new Form2(labelsData, false);
@@ -693,7 +699,7 @@ namespace KWU_Splendor
                 _clientHandler.Send(gameState);
             }
 
-            
+
             //_clientHandler.Send(gameState);
 
         }
@@ -779,24 +785,24 @@ namespace KWU_Splendor
                 gameState.players[myTurn - 1].totalScore += card.cardScore;
                 gameState.players[myTurn - 1].gemSale[card.cardGem]++;
                 gameState.players[myTurn - 1].playerCards.Add(card);
-                foreach(Noble noble in gameState.boardInfo.boardNoble)
+                foreach (Noble noble in gameState.boardInfo.boardNoble)
                 {
                     if (gameState.players[myTurn - 1].gemSale[0] >= noble.nobleCost[0] &&
                         gameState.players[myTurn - 1].gemSale[1] >= noble.nobleCost[1] &&
                         gameState.players[myTurn - 1].gemSale[2] >= noble.nobleCost[2] &&
                         gameState.players[myTurn - 1].gemSale[3] >= noble.nobleCost[3] &&
-                        gameState.players[myTurn - 1].gemSale[4] >= noble.nobleCost[4] )
+                        gameState.players[myTurn - 1].gemSale[4] >= noble.nobleCost[4])
                     {
                         gameState.players[myTurn - 1].playerNoble.Add(noble);
                         gameState.players[myTurn - 1].totalScore += 3;
                     }
                 }
-                foreach(Noble noble in gameState.players[myTurn - 1].playerNoble)
+                foreach (Noble noble in gameState.players[myTurn - 1].playerNoble)
                 {
                     gameState.boardInfo.boardNoble.Remove(noble);
                 }
                 int num;
-                if(card.cardID <= 40)
+                if (card.cardID <= 40)
                 {
                     num = rnd.Next(gameState.boardInfo.deckCards1.Count);
                     gameState.boardInfo.boardCards1.Remove(card);
@@ -804,9 +810,9 @@ namespace KWU_Splendor
                     gameState.boardInfo.deckCards1.Remove(gameState.boardInfo.deckCards1[num]);
 
                 }
-                else if(card.cardID <= 70)
+                else if (card.cardID <= 70)
                 {
-                    num = rnd.Next(gameState.boardInfo.deckCards1.Count);
+                    num = rnd.Next(gameState.boardInfo.deckCards2.Count);
                     gameState.boardInfo.boardCards2.Remove(card);
                     gameState.boardInfo.boardCards2.Add(gameState.boardInfo.deckCards2[num]);
                     gameState.boardInfo.deckCards2.Remove(gameState.boardInfo.deckCards2[num]);
@@ -814,7 +820,7 @@ namespace KWU_Splendor
                 }
                 else
                 {
-                    num = rnd.Next(gameState.boardInfo.deckCards1.Count);
+                    num = rnd.Next(gameState.boardInfo.deckCards3.Count);
                     gameState.boardInfo.boardCards3.Remove(card);
                     gameState.boardInfo.boardCards3.Add(gameState.boardInfo.deckCards3[num]);
                     gameState.boardInfo.deckCards3.Remove(gameState.boardInfo.deckCards3[num]);
@@ -831,7 +837,7 @@ namespace KWU_Splendor
                 MessageBox.Show("보석이 부족합니다.");
                 Debug.Print(gameState.players[myTurn - 1].playerGems[0].ToString());
             }
-            
+
         }
         private void Form3_NobleBuy(object sender, Noble noble)
         {
@@ -906,34 +912,7 @@ namespace KWU_Splendor
                 MessageBox.Show("나의 턴이 아닙니다.");
             }
             else */
-                _clientHandler.Send(gameState);
+            _clientHandler.Send(gameState);
         }
-
-
-        public void WinnerNotice()
-        {
-            for (int i = 0; i < gameState.players.Length; i++)
-            {
-                int max = 14;
-                if (gameState.players[i].totalScore > max)
-                {
-                    max = gameState.players[i].totalScore;
-                    gameState.winner = i + 1;
-                }
-                //점수 동일한 경우
-                else if (gameState.players[i].totalScore == max)
-                {
-                    //카드 개수 비교
-                    if (gameState.players[i].playerCards.Count + gameState.players[i].playerNoble.Count < gameState.players[gameState.winner - 1].playerCards.Count + gameState.players[gameState.winner - 1].playerNoble.Count)
-                    {
-                        gameState.winner = i + 1;
-                    }
-                }
-            }
-            //결과 출력
-            MessageBox.Show("Player{0}가 승리하였습니다!", gameState.winner.ToString());
-            this.Close();
-        }
-
     }
 }

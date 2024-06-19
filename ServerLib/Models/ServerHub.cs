@@ -54,7 +54,7 @@ namespace ServerLib.Models
             players[1] = new Player();
             players[2] = new Player();
             players[3] = new Player();
-            winner = 1;
+            winner = 0;
             turnPlayer = 1;
         }
         public TurnEnd(Packet p)

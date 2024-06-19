@@ -55,10 +55,13 @@ namespace GameServer
                     TE.turnPlayer++;
                     break;
                 case 4:
+                    TE.round++;
                     TE.turnPlayer = 1;
+                    WinnerFind();
                     break;
 
             }
+            Debug.Print(TE.winner.ToString());
             _roomManager.SendToMyRoom(TE);
         }
 
@@ -95,6 +98,25 @@ namespace GameServer
         {
             _server.Stop();
         }
+        public void WinnerFind()
+        {
+            int cnt = 0;
+            int winner = 0;
+            for (int i = 0; i < 4; i++)
+            {
+                if (TE.players[i].totalScore >= 15)
+                {
+                    cnt++;
+                    if(winner != 0){
+                        if(TE.players[i].playerCards.Count <= TE.players[winner - 1].playerCards.Count)
+                        {
+                            winner = i + 1;
+                        }
+                    }
+                }
+            }
+        }
 
     }
 }
+
