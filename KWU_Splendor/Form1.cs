@@ -50,8 +50,6 @@ namespace KWU_Splendor
         {
             gameState = e.Hub;
             myTurn = e.Hub.turnPlayer;
-            if (myTurn == 0)
-                WinnerNotice();
             gameState.Type = (int)PacketType.turnEnd;
             Debug.Print("{0}", myTurn);
             BoardSetting(GetTurn());
@@ -81,125 +79,171 @@ namespace KWU_Splendor
             ony.Text = gameState.boardInfo.boardGems[4].ToString() + "개";
         }
         public void CardSetting()
-        {
-            Level1Card1.Text = gameState.boardInfo.boardCards1[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
-                + "      " + gameState.boardInfo.boardCards1[0].cardCost[0].ToString() + "개" + Environment.NewLine
-                + "      " + gameState.boardInfo.boardCards1[0].cardCost[1].ToString() + "개" + Environment.NewLine
-                + "      " + gameState.boardInfo.boardCards1[0].cardCost[2].ToString() + "개" + Environment.NewLine
-                + "      " + gameState.boardInfo.boardCards1[0].cardCost[3].ToString() + "개" + Environment.NewLine
-                + "      " + gameState.boardInfo.boardCards1[0].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L1C1_ptb, gameState.boardInfo.boardCards1[0].cardGem);
-            Level1Card2.Text = gameState.boardInfo.boardCards1[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+        {   if (gameState.boardInfo.boardCards1.Count > 0)
+            {
+                Level1Card1.Text = gameState.boardInfo.boardCards1[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                    + "      " + gameState.boardInfo.boardCards1[0].cardCost[0].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.boardInfo.boardCards1[0].cardCost[1].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.boardInfo.boardCards1[0].cardCost[2].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.boardInfo.boardCards1[0].cardCost[3].ToString() + "개" + Environment.NewLine
+                    + "      " + gameState.boardInfo.boardCards1[0].cardCost[4].ToString() + "개" + Environment.NewLine;
+                ptb_img(L1C1_ptb, gameState.boardInfo.boardCards1[0].cardGem);
+            }
+            if (gameState.boardInfo.boardCards1.Count > 1)
+            {
+                Level1Card2.Text = gameState.boardInfo.boardCards1[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[1].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[1].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[1].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[1].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[1].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L1C2_ptb, gameState.boardInfo.boardCards1[1].cardGem);
-            Level1Card3.Text = gameState.boardInfo.boardCards1[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L1C2_ptb, gameState.boardInfo.boardCards1[1].cardGem);
+            }
+            if (gameState.boardInfo.boardCards1.Count > 2)
+            {
+                Level1Card3.Text = gameState.boardInfo.boardCards1[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[2].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[2].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[2].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[2].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[2].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L1C3_ptb, gameState.boardInfo.boardCards1[2].cardGem);
-            Level1Card4.Text = gameState.boardInfo.boardCards1[3].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L1C3_ptb, gameState.boardInfo.boardCards1[2].cardGem);
+            }
+            if (gameState.boardInfo.boardCards1.Count > 3)
+            {
+                Level1Card4.Text = gameState.boardInfo.boardCards1[3].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[3].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[3].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[3].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[3].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards1[3].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L1C4_ptb, gameState.boardInfo.boardCards1[3].cardGem);
-
-            Level2Card1.Text = gameState.boardInfo.boardCards2[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L1C4_ptb, gameState.boardInfo.boardCards1[3].cardGem);
+            }
+            if (gameState.boardInfo.boardCards2.Count > 0)
+            {
+                Level2Card1.Text = gameState.boardInfo.boardCards2[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[0].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[0].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[0].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[0].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[0].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L2C1_ptb, gameState.boardInfo.boardCards2[0].cardGem);
-            Level2Card2.Text = gameState.boardInfo.boardCards2[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L2C1_ptb, gameState.boardInfo.boardCards2[0].cardGem);
+            }
+            if (gameState.boardInfo.boardCards2.Count > 1)
+            {
+                Level2Card2.Text = gameState.boardInfo.boardCards2[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[1].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[1].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[1].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[1].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[1].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L2C2_ptb, gameState.boardInfo.boardCards2[1].cardGem);
-            Level2Card3.Text = gameState.boardInfo.boardCards2[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L2C2_ptb, gameState.boardInfo.boardCards2[1].cardGem);
+            }
+            if (gameState.boardInfo.boardCards2.Count > 2)
+            {
+                Level2Card3.Text = gameState.boardInfo.boardCards2[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[2].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[2].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[2].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[2].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[2].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L2C3_ptb, gameState.boardInfo.boardCards2[2].cardGem);
-            Level2Card4.Text = gameState.boardInfo.boardCards2[3].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L2C3_ptb, gameState.boardInfo.boardCards2[2].cardGem);
+            }
+            if (gameState.boardInfo.boardCards2.Count > 3)
+            {
+                Level2Card4.Text = gameState.boardInfo.boardCards2[3].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[3].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[3].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[3].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[3].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards2[3].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L2C4_ptb, gameState.boardInfo.boardCards2[3].cardGem);
-
-            Level3Card1.Text = gameState.boardInfo.boardCards3[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L2C4_ptb, gameState.boardInfo.boardCards2[3].cardGem);
+            }
+            if (gameState.boardInfo.boardCards3.Count > 0)
+            {
+                Level3Card1.Text = gameState.boardInfo.boardCards3[0].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[0].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[0].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[0].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[0].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[0].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L3C1_ptb, gameState.boardInfo.boardCards3[0].cardGem);
-            Level3Card2.Text = gameState.boardInfo.boardCards3[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L3C1_ptb, gameState.boardInfo.boardCards3[0].cardGem);
+            }
+            if (gameState.boardInfo.boardCards3.Count > 1)
+            {
+                Level3Card2.Text = gameState.boardInfo.boardCards3[1].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[1].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[1].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[1].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[1].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[1].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L3C2_ptb, gameState.boardInfo.boardCards3[1].cardGem);
-            Level3Card3.Text = gameState.boardInfo.boardCards3[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L3C2_ptb, gameState.boardInfo.boardCards3[1].cardGem);
+            }
+            if (gameState.boardInfo.boardCards3.Count > 2)
+            {
+                Level3Card3.Text = gameState.boardInfo.boardCards3[2].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[2].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[2].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[2].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[2].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[2].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L3C3_ptb, gameState.boardInfo.boardCards3[2].cardGem);
-            Level3Card4.Text = gameState.boardInfo.boardCards3[3].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L3C3_ptb, gameState.boardInfo.boardCards3[2].cardGem);
+            }
+            if (gameState.boardInfo.boardCards3.Count > 3)
+            {
+                Level3Card4.Text = gameState.boardInfo.boardCards3[3].cardScore.ToString() + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[3].cardCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[3].cardCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[3].cardCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[3].cardCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardCards3[3].cardCost[4].ToString() + "개" + Environment.NewLine;
-            ptb_img(L3C4_ptb, gameState.boardInfo.boardCards3[3].cardGem);
-
-            NobleCard1.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
+                ptb_img(L3C4_ptb, gameState.boardInfo.boardCards3[3].cardGem);
+            }
+            if (gameState.boardInfo.boardNoble.Count > 0)
+            {
+                NobleCard1.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[0].nobleCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[0].nobleCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[0].nobleCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[0].nobleCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[0].nobleCost[4].ToString() + "개" + Environment.NewLine;
-            NobleCard2.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
+            }
+            if (gameState.boardInfo.boardNoble.Count > 1)
+            {
+                NobleCard2.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[1].nobleCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[1].nobleCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[1].nobleCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[1].nobleCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[1].nobleCost[4].ToString() + "개" + Environment.NewLine;
-            NobleCard3.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
+            }
+            if (gameState.boardInfo.boardNoble.Count > 2)
+            {
+                NobleCard3.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[2].nobleCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[2].nobleCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[2].nobleCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[2].nobleCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[2].nobleCost[4].ToString() + "개" + Environment.NewLine;
-            NobleCard4.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
+            }
+            if (gameState.boardInfo.boardNoble.Count > 3)
+            {
+                NobleCard4.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[3].nobleCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[3].nobleCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[3].nobleCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[3].nobleCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[3].nobleCost[4].ToString() + "개" + Environment.NewLine;
-            NobleCard5.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
+            }
+            if (gameState.boardInfo.boardNoble.Count > 4)
+            {
+                NobleCard5.Text = "3" + "점" + Environment.NewLine + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[4].nobleCost[0].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[4].nobleCost[1].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[4].nobleCost[2].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[4].nobleCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + gameState.boardInfo.boardNoble[4].nobleCost[4].ToString() + "개" + Environment.NewLine;
-
+            }
             Level1Card_Count.Text = Environment.NewLine + Environment.NewLine + "남은 갯수" + Environment.NewLine + Environment.NewLine + gameState.boardInfo.deckCards1.Count;
             Level2Card_Count.Text = Environment.NewLine + Environment.NewLine + "남은 갯수" + Environment.NewLine + Environment.NewLine + gameState.boardInfo.deckCards2.Count;
             Level3Card_Count.Text = Environment.NewLine + Environment.NewLine + "남은 갯수" + Environment.NewLine + Environment.NewLine + gameState.boardInfo.deckCards3.Count;
@@ -744,9 +788,12 @@ namespace KWU_Splendor
                         gameState.players[myTurn - 1].gemSale[4] >= noble.nobleCost[4] )
                     {
                         gameState.players[myTurn - 1].playerNoble.Add(noble);
-                        gameState.boardInfo.boardNoble.Remove(noble);
                         gameState.players[myTurn - 1].totalScore += 3;
                     }
+                }
+                foreach(Noble noble in gameState.players[myTurn - 1].playerNoble)
+                {
+                    gameState.boardInfo.boardNoble.Remove(noble);
                 }
                 int num;
                 if(card.cardID <= 40)
@@ -854,11 +901,11 @@ namespace KWU_Splendor
         }
         private void btn_sendRes_Click(object sender, EventArgs e)
         {
-            if(gameState.turnPlayer != myTurn)
+            /*if(gameState.turnPlayer != myTurn)
             {
                 MessageBox.Show("나의 턴이 아닙니다.");
             }
-            else 
+            else */
                 _clientHandler.Send(gameState);
         }
 

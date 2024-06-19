@@ -70,7 +70,7 @@ namespace GameDefine
             totalScore = 0;
             for (int i = 0; i < 5; i++)
             {
-                gemSale[i] = 0;
+                gemSale[i] = 5;
                 playerGems[i] = 0;
             }
             playerGems[5] = 0;
