@@ -273,6 +273,7 @@ namespace KWU_Splendor
             P1_score.Text = gameState.players[idx].totalScore.ToString();
             hideReserved();
             P1_card.Text = gameState.players[idx].playerCards.Count.ToString();
+            P1_nc.Text = gameState.players[idx].playerNoble.Count.ToString();
             if (gameState.players[idx].reservedCards.Count >= 1)
             {
                 P1_reserved1.Visible = true;
@@ -339,6 +340,7 @@ namespace KWU_Splendor
             P2_GB.Text = "Player" + (idx + 1);
             P2_score.Text = gameState.players[idx].totalScore.ToString();
             P2_card.Text = gameState.players[idx].playerCards.Count.ToString();
+            P2_nc.Text = gameState.players[idx].playerNoble.Count.ToString();
             if (gameState.players[idx].reservedCards.Count >= 1)
             {
                 P2_reserved1.Visible = true;
@@ -405,6 +407,7 @@ namespace KWU_Splendor
             P3_GB.Text = "Player" + (idx + 1);
             P3_score.Text = gameState.players[idx].totalScore.ToString();
             P3_card.Text = gameState.players[idx].playerCards.Count.ToString();
+            P3_nc.Text = gameState.players[idx].playerNoble.Count.ToString();
             if (gameState.players[idx].reservedCards.Count >= 1)
             {
                 P3_reserved1.Visible = true;
@@ -471,6 +474,7 @@ namespace KWU_Splendor
             P4_GB.Text = "Player" + (idx + 1);
             P4_score.Text = gameState.players[idx].totalScore.ToString();
             P4_card.Text = gameState.players[idx].playerCards.Count.ToString();
+            P4_nc.Text = gameState.players[idx].playerNoble.Count.ToString();
             round.Text = "Round" + gameState.round;
             if (gameState.players[idx].reservedCards.Count >= 1)
             {
