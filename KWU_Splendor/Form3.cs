@@ -227,7 +227,7 @@ namespace KWU_Splendor
                 + "      " + noblecards[4].nobleCost[3].ToString() + "개" + Environment.NewLine
                 + "      " + noblecards[4].nobleCost[4].ToString() + "개" + Environment.NewLine;
             }
-            if (Rcards.Count == 1)
+            if (Rcards.Count >= 1)
             {
                 reserved_card1.Visible = true;
                 RC1_ptb.Visible = true;
@@ -244,7 +244,7 @@ namespace KWU_Splendor
                     + "      " + Rcards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
                 ptb_img(RC1_ptb, Rcards[0].cardGem);
             }
-            else if (Rcards.Count == 2)
+            if (Rcards.Count >= 2)
             {
                 reserved_card2.Visible = true;
                 RC2_ptb.Visible = true;
@@ -261,7 +261,7 @@ namespace KWU_Splendor
                     + "      " + Rcards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
                 ptb_img(RC2_ptb, Rcards[1].cardGem);
             }
-            else if (Rcards.Count == 3)
+            if (Rcards.Count >= 3)
             {
                 reserved_card3.Visible = true;
                 RC3_ptb.Visible = true;

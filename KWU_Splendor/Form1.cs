@@ -339,7 +339,7 @@ namespace KWU_Splendor
             P2_GB.Text = "Player" + (idx + 1);
             P2_score.Text = gameState.players[idx].totalScore.ToString();
             P2_card.Text = gameState.players[idx].playerCards.Count.ToString();
-            if (gameState.players[idx].reservedCards.Count == 1)
+            if (gameState.players[idx].reservedCards.Count >= 1)
             {
                 P2_reserved1.Visible = true;
                 P2R1_ptb.Visible = true;
@@ -356,7 +356,7 @@ namespace KWU_Splendor
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
                 ptb_img(P2R1_ptb, gameState.players[idx].reservedCards[0].cardGem);
             }
-            else if (gameState.players[idx].reservedCards.Count == 2)
+            if (gameState.players[idx].reservedCards.Count >= 2)
             {
                 P2_reserved2.Visible = true;
                 P2R2_ptb.Visible = true;
@@ -373,7 +373,7 @@ namespace KWU_Splendor
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
                 ptb_img(P2R2_ptb, gameState.players[idx].reservedCards[1].cardGem);
             }
-            else if (gameState.players[idx].reservedCards.Count == 3)
+            if (gameState.players[idx].reservedCards.Count >= 3)
             {
                 P2_reserved3.Visible = true;
                 P2R3_ptb.Visible = true;
@@ -405,7 +405,7 @@ namespace KWU_Splendor
             P3_GB.Text = "Player" + (idx + 1);
             P3_score.Text = gameState.players[idx].totalScore.ToString();
             P3_card.Text = gameState.players[idx].playerCards.Count.ToString();
-            if (gameState.players[idx].reservedCards.Count == 1)
+            if (gameState.players[idx].reservedCards.Count >= 1)
             {
                 P3_reserved1.Visible = true;
                 P3R1_ptb.Visible = true;
@@ -422,7 +422,7 @@ namespace KWU_Splendor
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
                 ptb_img(P3R1_ptb, gameState.players[idx].reservedCards[0].cardGem);
             }
-            else if (gameState.players[idx].reservedCards.Count == 2)
+            if (gameState.players[idx].reservedCards.Count >= 2)
             {
                 P3_reserved2.Visible = true;
                 P3R2_ptb.Visible = true;
@@ -439,7 +439,7 @@ namespace KWU_Splendor
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
                 ptb_img(P3R2_ptb, gameState.players[idx].reservedCards[1].cardGem);
             }
-            else if (gameState.players[idx].reservedCards.Count == 3)
+            if (gameState.players[idx].reservedCards.Count >= 3)
             {
                 P3_reserved3.Visible = true;
                 P3R3_ptb.Visible = true;
@@ -472,7 +472,7 @@ namespace KWU_Splendor
             P4_score.Text = gameState.players[idx].totalScore.ToString();
             P4_card.Text = gameState.players[idx].playerCards.Count.ToString();
             round.Text = "Round" + gameState.round;
-            if (gameState.players[idx].reservedCards.Count == 1)
+            if (gameState.players[idx].reservedCards.Count >= 1)
             {
                 P4_reserved1.Visible = true;
                 P4R1_ptb.Visible = true;
@@ -489,7 +489,7 @@ namespace KWU_Splendor
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
                 ptb_img(P4R1_ptb, gameState.players[idx].reservedCards[0].cardGem);
             }
-            else if (gameState.players[idx].reservedCards.Count == 2)
+            if (gameState.players[idx].reservedCards.Count >= 2)
             {
                 P4_reserved2.Visible = true;
                 P4R2_ptb.Visible = true;
@@ -506,7 +506,7 @@ namespace KWU_Splendor
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
                 ptb_img(P4R2_ptb, gameState.players[idx].reservedCards[1].cardGem);
             }
-            else if (gameState.players[idx].reservedCards.Count == 3)
+            if (gameState.players[idx].reservedCards.Count >= 3)
             {
                 P4_reserved3.Visible = true;
                 P4R3_ptb.Visible = true;

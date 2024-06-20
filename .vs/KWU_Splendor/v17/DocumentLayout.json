@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor_project\\kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\kwu_splendor\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|c:\\users\\mingg\\desktop\\kwu_splendor_project\\kwu_splendor_project\\kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|solutionrelative:kwu_splendor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7012ED70-E1A5-45E4-B0F7-9C83A9A32D06}|KWU_Splendor\\KWU_Splendor.csproj|C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\kwu_splendor\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 341,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -102,18 +102,17 @@
               "RelativeToolTip": "GameRule\\Class1.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAQwEcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T08:17:10.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T08:17:10.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form1.cs",
               "RelativeDocumentMoniker": "KWU_Splendor\\Form1.cs",
               "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form1.cs",
               "RelativeToolTip": "KWU_Splendor\\Form1.cs",
-              "ViewState": "AQIAADMBAAAAAAAAAAAEwDUBAAA8AAAA",
+              "ViewState": "AQIAAFsCAAAAAAAAAAAMwPwBAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T00:23:11.287Z",
               "EditorCaption": ""
@@ -128,8 +127,7 @@
               "RelativeToolTip": "KWU_Splendor\\Form2.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:23:11.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T00:23:11.289Z"
             },
             {
               "$type": "Document",
@@ -140,8 +138,7 @@
               "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form1.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "KWU_Splendor\\Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:23:11.592Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2024-06-07T00:23:11.592Z"
             },
             {
               "$type": "Document",
@@ -169,13 +166,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form3.cs",
               "RelativeDocumentMoniker": "KWU_Splendor\\Form3.cs",
               "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form3.cs",
               "RelativeToolTip": "KWU_Splendor\\Form3.cs",
-              "ViewState": "AQIAAHABAAAAAAAAAADgv3UBAAAmAAAA",
+              "ViewState": "AQIAAPwAAAAAAAAAAAAtwAcBAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T00:23:11.599Z",
               "EditorCaption": ""
@@ -214,8 +211,7 @@
               "RelativeToolTip": "ServerLib\\Models\\ServerHub.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAlwBkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:23:11.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T00:23:11.603Z"
             },
             {
               "$type": "Document",
@@ -239,8 +235,7 @@
               "RelativeToolTip": "ServerLib\\Handlers\\ClientHandler.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAhwCkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:23:11.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T00:23:11.61Z"
             },
             {
               "$type": "Document",
@@ -252,8 +247,7 @@
               "RelativeToolTip": "ServerLib\\Handlers\\ClientRoomManager.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAIwBgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:23:11.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T00:23:11.612Z"
             },
             {
               "$type": "Document",
@@ -264,8 +258,7 @@
               "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\KWU_Splendor\\Form2.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "KWU_Splendor\\Form2.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:23:11.589Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2024-06-07T00:23:11.589Z"
             },
             {
               "$type": "Document",
@@ -276,8 +269,7 @@
               "ToolTip": "C:\\Users\\mingg\\Desktop\\KWU_Splendor_project\\KWU_Splendor_project\\GameServer\\Form1.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "GameServer\\Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:23:11.609Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2024-06-07T00:23:11.609Z"
             },
             {
               "$type": "Document",
@@ -289,8 +281,7 @@
               "RelativeToolTip": "GameServer\\Form1.cs",
               "ViewState": "AQIAAGMAAAAAAAAAAAAawHkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:23:11.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T00:23:11.25Z"
             },
             {
               "$type": "Document",
@@ -302,8 +293,7 @@
               "RelativeToolTip": "KWU_Splendor\\Form2.cs",
               "ViewState": "AQIAAPkAAAAAAAAAAAAIwA4BAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:23:11.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T00:23:11.286Z"
             },
             {
               "$type": "Document",
@@ -327,8 +317,7 @@
               "RelativeToolTip": "KWU_Splendor\\Form1.Designer.cs",
               "ViewState": "AQIAAEIPAAAAAAAAAAAAwFAPAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T00:23:11.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T00:23:11.608Z"
             },
             {
               "$type": "Document",
