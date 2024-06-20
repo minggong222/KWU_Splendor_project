@@ -918,12 +918,12 @@ namespace KWU_Splendor
         }
         private void btn_sendRes_Click(object sender, EventArgs e)
         {
-            /*if(gameState.turnPlayer != myTurn)
+            if (gameState.turnPlayer != myTurn)
             {
                 MessageBox.Show("나의 턴이 아닙니다.");
             }
-            else */
-            _clientHandler.Send(gameState);
+            else
+                _clientHandler.Send(gameState);
         }
     }
 }
