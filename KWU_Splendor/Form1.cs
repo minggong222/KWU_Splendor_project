@@ -82,6 +82,7 @@ namespace KWU_Splendor
             eme.Text = gameState.boardInfo.boardGems[2].ToString() + "개";
             rub.Text = gameState.boardInfo.boardGems[3].ToString() + "개";
             ony.Text = gameState.boardInfo.boardGems[4].ToString() + "개";
+            gol.Text = gameState.boardInfo.boardGems[5].ToString() + "개";
         }
         public void CardSetting()
         {
@@ -272,7 +273,7 @@ namespace KWU_Splendor
             P1_score.Text = gameState.players[idx].totalScore.ToString();
             hideReserved();
             P1_card.Text = gameState.players[idx].playerCards.Count.ToString();
-            if (gameState.players[idx].reservedCards.Count == 1)
+            if (gameState.players[idx].reservedCards.Count >= 1)
             {
                 P1_reserved1.Visible = true;
                 P1R1_ptb.Visible = true;
@@ -289,7 +290,7 @@ namespace KWU_Splendor
                     + "      " + gameState.players[idx].reservedCards[0].cardCost[4].ToString() + "개" + Environment.NewLine;
                 ptb_img(P1R1_ptb, gameState.players[idx].reservedCards[0].cardGem);
             }
-            else if (gameState.players[idx].reservedCards.Count == 2)
+            if (gameState.players[idx].reservedCards.Count >= 2)
             {
                 P1_reserved2.Visible = true;
                 P1R2_ptb.Visible = true;
@@ -306,7 +307,7 @@ namespace KWU_Splendor
                     + "      " + gameState.players[idx].reservedCards[1].cardCost[4].ToString() + "개" + Environment.NewLine;
                 ptb_img(P1R2_ptb, gameState.players[idx].reservedCards[1].cardGem);
             }
-            else if (gameState.players[idx].reservedCards.Count == 3)
+            if (gameState.players[idx].reservedCards.Count >= 3)
             {
                 P1_reserved3.Visible = true;
                 P1R3_ptb.Visible = true;
@@ -743,44 +744,46 @@ namespace KWU_Splendor
         }
         private void Form3_CardBuy(object sender, Card card)
         {
-            if (card.cardCost[0] <= gameState.players[myTurn - 1].playerGems[0] + gameState.players[myTurn - 1].gemSale[0] &&
-                card.cardCost[1] <= gameState.players[myTurn - 1].playerGems[1] + gameState.players[myTurn - 1].gemSale[1] &&
-                card.cardCost[2] <= gameState.players[myTurn - 1].playerGems[2] + gameState.players[myTurn - 1].gemSale[2] &&
-                card.cardCost[3] <= gameState.players[myTurn - 1].playerGems[3] + gameState.players[myTurn - 1].gemSale[3] &&
-                card.cardCost[4] <= gameState.players[myTurn - 1].playerGems[4] + gameState.players[myTurn - 1].gemSale[4])
+            int[] gems = new int[6];
+            int[] sale = new int[5];
+            int[] boardgems = new int[6];
+            gems = gameState.players[myTurn - 1].playerGems;
+            sale = gameState.players[myTurn - 1].gemSale;
+            boardgems = gameState.boardInfo.boardGems;
+            bool sw = true;
+            int cost;
+            for (int i = 0; i < 5; i++)
+            {
+                if (card.cardCost[i] <= gems[i] + sale[i]) {
+                    cost = card.cardCost[i] - sale[i];
+                    if (cost > 0)
+                    {
+                        boardgems[i] += cost;
+                        gems[i] -= cost;
+                    }
+                }
+                else if (card.cardCost[i] <= gems[i] + sale[i] + gems[5])
+                {
+                    gems[5] -= card.cardCost[i] - (gems[i] + sale[i]);
+                    cost = card.cardCost[0] - sale[i] - (card.cardCost[i] - (gems[i] + sale[i]));
+                    if (cost > 0)
+                    {
+                        boardgems[i] += cost;
+                        gems[i] -= cost;
+                    }
+                    boardgems[5] += card.cardCost[i] - (gems[i] + sale[i]);
+                }
+                else
+                {
+                    sw = false;
+                    break;
+                }
+            }
+            if (sw)
             {
                 Random rnd = new Random();
-                int cost;
-                cost = card.cardCost[0] - gameState.players[myTurn - 1].gemSale[0];
-                if (cost > 0)
-                {
-                    gameState.boardInfo.boardGems[0] += cost;
-                    gameState.players[myTurn - 1].playerGems[0] -= cost;
-                }
-                cost = card.cardCost[1] - gameState.players[myTurn - 1].gemSale[1];
-                if (cost > 0)
-                {
-                    gameState.boardInfo.boardGems[1] += cost;
-                    gameState.players[myTurn - 1].playerGems[1] -= cost;
-                }
-                cost = card.cardCost[2] - gameState.players[myTurn - 1].gemSale[2];
-                if (cost > 0)
-                {
-                    gameState.boardInfo.boardGems[2] += cost;
-                    gameState.players[myTurn - 1].playerGems[2] -= cost;
-                }
-                cost = card.cardCost[3] - gameState.players[myTurn - 1].gemSale[3];
-                if (cost > 0)
-                {
-                    gameState.boardInfo.boardGems[3] += cost;
-                    gameState.players[myTurn - 1].playerGems[3] -= cost;
-                }
-                cost = card.cardCost[4] - gameState.players[myTurn - 1].gemSale[4];
-                if (cost > 0)
-                {
-                    gameState.boardInfo.boardGems[4] += cost;
-                    gameState.players[myTurn - 1].playerGems[4] -= cost;
-                }
+                gameState.players[myTurn - 1].playerGems = gems;
+                gameState.boardInfo.boardGems = boardgems;
 
                 gameState.players[myTurn - 1].totalScore += card.cardScore;
                 gameState.players[myTurn - 1].gemSale[card.cardGem]++;
@@ -802,7 +805,15 @@ namespace KWU_Splendor
                     gameState.boardInfo.boardNoble.Remove(noble);
                 }
                 int num;
-                if (card.cardID <= 40)
+                if (gameState.players[myTurn - 1].reservedCards.Count > 0)
+                {
+                    for (int i = 0; i < gameState.players[myTurn - 1].reservedCards.Count; i++)
+                    {
+                        if (gameState.players[myTurn - 1].reservedCards[i] == card)
+                            gameState.players[myTurn - 1].reservedCards.Remove(card);
+                    }
+                }
+                else if (card.cardID <= 40)
                 {
                     num = rnd.Next(gameState.boardInfo.deckCards1.Count);
                     gameState.boardInfo.boardCards1.Remove(card);
@@ -826,10 +837,6 @@ namespace KWU_Splendor
                     gameState.boardInfo.deckCards3.Remove(gameState.boardInfo.deckCards3[num]);
 
                 }
-                if (gameState.players[myTurn - 1].totalScore > 14)
-                {
-                    gameState.winner = myTurn;
-                }
                 _clientHandler.Send(gameState);
             }
             else
@@ -849,10 +856,7 @@ namespace KWU_Splendor
             {
                 gameState.players[myTurn - 1].totalScore += 3;
                 gameState.players[myTurn - 1].playerNoble.Add(noble);
-                if (gameState.players[myTurn - 1].totalScore > 14)
-                {
-                    gameState.winner = myTurn;
-                }
+                
                 _clientHandler.Send(gameState);
             }
             else
@@ -865,9 +869,12 @@ namespace KWU_Splendor
             // 예약된 카드가 3장 이내 라면 조건
             if (gameState.players[myTurn - 1].reservedCards.Count < 3)
             {
-                gameState.players[myTurn - 1].playerGems[5] += 1;
+                if (gameState.boardInfo.boardGems[5] > 0)
+                {
+                    gameState.players[myTurn - 1].playerGems[5]++;
+                    gameState.boardInfo.boardGems[5]--;
+                }
                 gameState.players[myTurn - 1].reservedCards.Add(card);
-
                 Random rnd = new Random();
                 int num;
                 if (card.cardID <= 40)

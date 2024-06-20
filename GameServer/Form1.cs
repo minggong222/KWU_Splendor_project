@@ -113,8 +113,13 @@ namespace GameServer
                             winner = i + 1;
                         }
                     }
+                    else
+                    {
+                        winner = i + 1;
+                    }
                 }
             }
+            TE.winner = winner;
         }
 
     }

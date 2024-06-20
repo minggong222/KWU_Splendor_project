@@ -70,7 +70,6 @@ namespace GameDefine
             totalScore = 0;
             for (int i = 0; i < 5; i++)
             {
-                gemSale[i] = 5;
                 playerGems[i] = 0;
             }
             playerGems[5] = 0;
@@ -92,7 +91,7 @@ namespace GameDefine
         public List<Card> boardCards2 = new List<Card>();      // 보드에 있는 레벨2 카드 (4개)
         public List<Card> boardCards3 = new List<Card>();      // 보드에 있는 레벨3 카드 (4개)
         public List<Noble> boardNoble = new List<Noble>();    // 보드에 있는 귀족 (5개)
-        public int[] boardGems = new int[5];                   // 보드에 있는 보석
+        public int[] boardGems = new int[6];                   // 보드에 있는 보석
 
         public List<Card> deckCards1 = new List<Card>();      // 덱에 있는 레벨1 카드 (40장)
         public List<Card> deckCards2 = new List<Card>();      // 덱에 있는 레벨2 카드 (30장)
@@ -104,7 +103,7 @@ namespace GameDefine
         public Board()
         {
             boardGems[0] = boardGems[1] = boardGems[2] = boardGems[3] = boardGems[4] = 7;   // 보석 초기화
-            
+            boardGems[5] = 5;
             CardInit(); // 카드 생성 및 덱 리스트에 추가
             // 보드 카드 배치 
             for (int i = 0; i < 4; i++)

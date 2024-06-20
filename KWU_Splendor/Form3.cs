@@ -293,27 +293,19 @@ namespace KWU_Splendor
         {
             switch (CheckCard)
             {
-                case "n":
+                case "r":
                     switch (CardNumber)
                     {
                         case "1":
-                            nobleBuy(noblecards[0]);
+                            cardBuy(Rcards[0]);
                             break;
 
                         case "2":
-                            nobleBuy(noblecards[1]);
+                            cardBuy(Rcards[1]);
                             break;
 
                         case "3":
-                            nobleBuy(noblecards[2]);
-                            break;
-
-                        case "4":
-                            nobleBuy(noblecards[3]);
-                            break;
-
-                        case "5":
-                            nobleBuy(noblecards[4]);
+                            cardBuy(Rcards[2]);
                             break;
                     }
                     break;
